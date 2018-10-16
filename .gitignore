@@ -1,0 +1,8 @@
+# Emacs backup files
+*~
+# Python byte code files
+*.pyc
+# ejfnotefiles 
+ejf*
+# temp files
+temp*
