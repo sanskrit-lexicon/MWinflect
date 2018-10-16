@@ -1,6 +1,7 @@
 
 ### lexnorm-all2.txt
 
+### lexnorm-all2.txt
 
 Begin with a copy of [lexnorm-all2.txt](https://github.com/funderburkjim/MWlexnorm/blob/master/step2/lexnorm-all2.txt).
 
@@ -14,38 +15,10 @@ Fields:
   * 2: m:f#X:n   gender information, along with stem hints  
 
 
-### stem-model files
-```
-python stem_model.py lexnorm-all2.txt 
-```
-Separates  the declension information into files with names of two forms:
+### removals from lexnorm-all2
 
-* X.txt for type 1 lexnorm, with X = pron, card, etc.
-* ind.txt for type 2 lexnorm, for indeclineables
-* X_Y.txt for type 2 lexnorm, where
-  * X is gender (m,f,n) 
-  * Y is model specification.  This varies.
-The information 
-
-### edit_lexnorm-all2.txt
-
-These are the changes (shown as old/new pairs) made to the original
-lexnorm-all2.txt.
-
-
-# add pada information ('-') to cardinal stems when present in key2
-cp lexnorm-all2.txt lexnorm-all2-20181004.txt
-python card-stem.py lexnorm-all2-20181004.txt lexnorm-all2.txt card-stem-log.txt
-# now redo stem_model
-(197653, 'read from', 'lexnorm-all2-20181004.txt')
-(114, 'records changed')
-
-temporary program:
-python card-merge.py card.txt m_card.txt f_card.txt n_card.txt
-
-note: eka appears as both a cardinal and an 'mfn' in lexnorm-all2.txt
-   The lgtab1b data has both declensions.
-   This needs examination.
+Declensions for these records require special logic; also, the
+identification of stem,models is simplified by this separation.
 
 #### lexnorm-all2-part.txt
 A list of headwords which should be declined as participles.
@@ -62,3 +35,38 @@ This includes words already marked as LEXID=prap and LEXID=fap.
    In these cases, the citation form in MW is a nominative dual or plural.
    How to generate the declensions and to identify the model?
    
+
+### edit_lexnorm-all2.txt
+
+These are the changes (shown as old/new pairs) made to the original
+lexnorm-all2.txt.
+
+### stem-model files
+```
+python stem_model.py lexnorm-all2.txt 
+```
+Separates  the declension information into files with names of two forms:
+
+* X.txt for type 1 lexnorm, with X = pron, card, etc.
+* ind.txt for type 2 lexnorm, for indeclineables
+* X_Y.txt for type 2 lexnorm, where
+  * X is gender (m,f,n) 
+  * Y is model specification.  This varies.
+The information 
+
+
+
+# add pada information ('-') to cardinal stems when present in key2
+cp lexnorm-all2.txt lexnorm-all2-20181004.txt
+python card-stem.py lexnorm-all2-20181004.txt lexnorm-all2.txt card-stem-log.txt
+# now redo stem_model
+(197653, 'read from', 'lexnorm-all2-20181004.txt')
+(114, 'records changed')
+
+temporary program:
+python card-merge.py card.txt m_card.txt f_card.txt n_card.txt
+
+note: eka appears as both a cardinal and an 'mfn' in lexnorm-all2.txt
+   The lgtab1b data has both declensions.
+   This needs examination.
+

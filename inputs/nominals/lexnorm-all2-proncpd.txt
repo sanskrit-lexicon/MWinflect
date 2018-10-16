@@ -1,0 +1,4 @@
+3502	atraBavat	atra-Bavat	m:f:n,LEXID=pron,STEM=Bavat
+81806	tatoBavat	tato-Bavat	m,LEXID=pron,STEM=Bavat
+81983	tatraBavat	tatra-Bavat	m,LEXID=pron,STEM=Bavat
+203708	vIraBavat	vIra-Bavat	m,LEXID=pron,STEM=Bavat
