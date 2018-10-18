@@ -1,0 +1,67 @@
+
+
+Scripts and programs to generate inflection tables and check the results.
+
+The idea is to use 'inputs' directory to guide the process.
+and to put the inflection tables into parallel locations of the
+'outputs' directory. The decline_file program does this:
+
+python decline_file.py ../inputs/nominals/<file> ../outputs/nominals/<file>
+
+Recall #3 that the input file has three tab-delimited fields:
+1) <model>   the model name
+2) key2  the word to inflect, with '-' to delimit padas
+3) MW source records, specified as a colon-delimited sequence of 'L,key1' pairs
+
+The output file similarly has three tab-delimited fields:
+1) <model>  copied from input file
+2) key2     copied from input file
+3) inflect  inflection table
+
+
+* model = ind
+python decline_file.py ../inputs/nominals/ind.txt ../outputs/nominals/ind.txt 
+
+* inflection table format 
+For nominals, the inflection table format in the output of decline_file is
+a csv string with ':' delimiter, with 24 fields.
+   for cases 1s,1d,1p,...8s,8d,8p  (8 = vocative).
+   Each of the 24 fields allows the possibility of multiple values, separated
+   by '/' character.
+
+* model = m_a
+python decline_file.py ../inputs/nominals/m_a.txt ../outputs/nominals/m_a.txt 
+
+* test of impact of 'pada' logic for m_a
+python decline_file_nopada.py ../inputs/nominals/m_a.txt temp_m_a_nopada.txt
+
+* m_a declensions
+timing:
+python decline_file.py ../inputs/nominals/m_a.txt ../outputs/nominals/m_a.txt 
+87364 records: 2m 20sec = 140 sec.
+
+* comp_fflex2.py discuss
+  compare inflections with fflex2
+We can access lgtab1b declensions from the sqlite files in fflex2.
+This is available at /c/xampp/htdocs/cologne/fflex2/sqlite/lgtab1b.sqlite.
+
+fields are
+ inflinfo  (primary key).   Sample formats rAma,m_a   anu-zwuB,f_B  
+ infltab   declension table, in x1:...:x24 format
+
+Since fflex2 was based on prior work, the key2 and model parameters of fflex2 will 
+sometimes differ from those used in this version.  We'll take this into account
+as instances emerge.  We'll put comparisons into compfflex2 directory.
+For convenience, we'll use a copy of the sqlite file:
+ cp /c/xampp/htdocs/cologne/fflex2/sqlite/lgtab1b.sqlite compfflex2/
+
+* m_a declension compare fflex2
+python comp_fflex2.py ../outputs/nominals/m_a.txt  compfflex2/lgtab1b.sqlite compfflex2/temp_m_a_ok.txt  compfflex2/m_a_notfound.txt compfflex2/m_a_diff.txt
+
+
+Mon, Oct 01, 2018  4:06:19 PM
+(72067, 'written to', 'compfflex2/temp_m_a_ok.txt')
+(15115, 'written to', 'compfflex2/m_a_notfound.txt')
+(182, 'written to', 'compfflex2/m_a_diff.txt')
+
+The differences probably are due to 'nR-sandhi' implementation.
