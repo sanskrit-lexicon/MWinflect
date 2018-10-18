@@ -1,0 +1,22 @@
+; Deshpande p. 35
+$ python decline_one.py m_a kUpa
+Declension of m_a kUpa
+Case 1:  kUpaH kUpO kUpAH
+Case 2:  kUpam kUpO kUpAn
+Case 3:  kUpena kUpAByAm kUpEH
+Case 4:  kUpAya kUpAByAm kUpeByaH
+Case 5:  kUpAt kUpAByAm kUpeByaH
+Case 6:  kUpasya kUpayoH kUpAnAm
+Case 7:  kUpe kUpayoH kUpezu
+Case 8:  kUpa kUpO kUpAH
+; Kale p.35, section 61
+$ python decline_one.py m_a rAma
+Declension of m_a rAma
+Case 1:  rAmaH rAmO rAmAH
+Case 2:  rAmam rAmO rAmAn
+Case 3:  rAmeRa rAmAByAm rAmEH
+Case 4:  rAmAya rAmAByAm rAmeByaH
+Case 5:  rAmAt rAmAByAm rAmeByaH
+Case 6:  rAmasya rAmayoH rAmARAm
+Case 7:  rAme rAmayoH rAmezu
+Case 8:  rAma rAmO rAmAH
