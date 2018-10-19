@@ -20,3 +20,25 @@ Case 5:  rAmAt rAmAByAm rAmeByaH
 Case 6:  rAmasya rAmayoH rAmARAm
 Case 7:  rAme rAmayoH rAmezu
 Case 8:  rAma rAmO rAmAH
+; check Huet -- intervening 'M' allowed in 3s nR sandhi
+ python decline_one.py m_a taraMga
+Declension of m_a taraMga
+Case 1:  taraMgaH taraMgO taraMgAH
+Case 2:  taraMgam taraMgO taraMgAn
+Case 3:  taraMgeRa taraMgAByAm taraMgEH
+Case 4:  taraMgAya taraMgAByAm taraMgeByaH
+Case 5:  taraMgAt taraMgAByAm taraMgeByaH
+Case 6:  taraMgasya taraMgayoH taraMgARAm
+Case 7:  taraMge taraMgayoH taraMgezu
+Case 8:  taraMga taraMgO taraMgAH
+; Check Huet - intervening 'H' NOT allowed in nR sandhi in 3s
+python decline_one.py m_a duruHPa
+Declension of m_a duruHPa
+Case 1:  duruHPaH duruHPO duruHPAH
+Case 2:  duruHPam duruHPO duruHPAn
+Case 3:  duruHPena duruHPAByAm duruHPEH
+Case 4:  duruHPAya duruHPAByAm duruHPeByaH
+Case 5:  duruHPAt duruHPAByAm duruHPeByaH
+Case 6:  duruHPasya duruHPayoH duruHPAnAm
+Case 7:  duruHPe duruHPayoH duruHPezu
+Case 8:  duruHPa duruHPO duruHPAH

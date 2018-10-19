@@ -2,7 +2,7 @@
   Sandhi rule for for changing 'n' to 'R'.
   Separated out from sandhi.py for pedagogical 
 """
-import init
+#import init
 ## only the constants vowel_set, guttural_set, and labial_set are used from 
 ## init.py
 def sandhi_nR(xin,nR_parm=None):
@@ -19,8 +19,10 @@ def sandhi_nR(xin,nR_parm=None):
   spelling is returned.
  """
  vowel_set = 'aiufxAIUFXeEoO'
- guttural_set = 'kKgGNhH'
- labial_set = 'pPbBmvH'
+ #guttural_set = 'kKgGNhH'
+ #labial_set = 'pPbBmvH'
+ guttural_set = 'kKgGN'
+ labial_set = 'pPbBm'
  ifirst = nR_parm
  if not ifirst:
   ifirst = 0
@@ -50,7 +52,12 @@ def sandhi_nR(xin,nR_parm=None):
     ok = True
     while ok and (i < i2):
      y = tokar[i]
-     if (y in vowel_set) or (y in guttural_set) or (y in labial_set) or (y in 'yvhM'):
+     #if (y in vowel_set) or (y in guttural_set) or (y in labial_set) or (y in 'yvhM'):
+     # current version
+     # See https://github.com/sanskrit-lexicon/MWinflect/issues/5#issuecomment-431489929
+     if (y in vowel_set) or (y in guttural_set) or (y in labial_set) or (y in 'yvhM'):  
+     # test version - remove MH
+     #if (y in vowel_set) or (y in guttural_set) or (y in labial_set) or (y in 'yvh'): 
       i = i + 1
      else:
       ok = False # breaks while loop
