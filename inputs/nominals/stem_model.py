@@ -96,6 +96,30 @@ def model_m_a(recs,flog):
    d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_m_a',d,flog)
 
+def model_n_a(recs,flog):
+ endchar = 'a'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['n']
+  lexparts = rec.lexnorm.split(':')
+  if not lexparts == knownparts:
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   mstem = stem
+   model = 'n_a'
+   rec.model = Model(rec,model,mstem)
+   if rec.lexnorm not in d:
+    d[rec.lexnorm] = 0
+   d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_n_a',d,flog)
+
 def model_mfn_a(recs,flog):
  endchar = 'a'
  nparsed = 0
@@ -1119,6 +1143,7 @@ if __name__ == "__main__":
  recs = init_lexnorm(filein)
  model_ind(recs,flog)
  model_m_a(recs,flog)
+ model_n_a(recs,flog)
  #model_mfn_a(recs,flog)
  #model_mfn_a1(recs,flog)
  #model_mfn_u(recs,flog)

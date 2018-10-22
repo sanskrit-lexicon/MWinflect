@@ -42,3 +42,25 @@ Case 5:  duruHPAt duruHPAByAm duruHPeByaH
 Case 6:  duruHPasya duruHPayoH duruHPAnAm
 Case 7:  duruHPe duruHPayoH duruHPezu
 Case 8:  duruHPa duruHPO duruHPAH
+; Check Deshpande, p. 36.
+ python decline_one.py n_a vana
+Declension of n_a vana
+Case 1:  vanam vane vanAni
+Case 2:  vanam vane vanAni
+Case 3:  vanena vanAByAm vanEH
+Case 4:  vanAya vanAByAm vaneByaH
+Case 5:  vanAt vanAByAm vaneByaH
+Case 6:  vanasya vanayoH vanAnAm
+Case 7:  vane vanayoH vanezu
+Case 8:  vana vane vanAni
+; Check Huet
+python decline_one.py n_a Bara
+Declension of n_a Bara
+Case 1:  Baram Bare BarARi
+Case 2:  Baram Bare BarARi
+Case 3:  BareRa BarAByAm BarEH
+Case 4:  BarAya BarAByAm BareByaH
+Case 5:  BarAt BarAByAm BareByaH
+Case 6:  Barasya BarayoH BarARAm
+Case 7:  Bare BarayoH Barezu
+Case 8:  Bara Bare BarARi
