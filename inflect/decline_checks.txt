@@ -64,3 +64,25 @@ Case 5:  BarAt BarAByAm BareByaH
 Case 6:  Barasya BarayoH BarARAm
 Case 7:  Bare BarayoH Barezu
 Case 8:  Bara Bare BarARi
+; Check Deshpande, p. 73
+python decline_one.py f_A latA
+Declension of f_A latA
+Case 1:  latA late latAH
+Case 2:  latAm late latAH
+Case 3:  latayA latAByAm latABiH
+Case 4:  latAyE latAByAm latAByaH
+Case 5:  latAyAH latAByAm latAByaH
+Case 6:  latAyAH latayoH latAnAm
+Case 7:  latAyAm latayoH latAsu
+Case 8:  late late latAH
+; check Huet
+$ python decline_one.py f_A rAmA
+Declension of f_A rAmA
+Case 1:  rAmA rAme rAmAH
+Case 2:  rAmAm rAme rAmAH
+Case 3:  rAmayA rAmAByAm rAmABiH
+Case 4:  rAmAyE rAmAByAm rAmAByaH
+Case 5:  rAmAyAH rAmAByAm rAmAByaH
+Case 6:  rAmAyAH rAmayoH rAmARAm
+Case 7:  rAmAyAm rAmayoH rAmAsu
+Case 8:  rAme rAme rAmAH

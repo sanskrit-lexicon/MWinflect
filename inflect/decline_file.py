@@ -14,6 +14,7 @@ class DeclRec(object):
   (self.model,self.key2,self.refs) = line.split('\t')
   self.key1 = self.key2.replace('-','')
   self.inflection = None
+  self.sups = None
   self.inflect()
  def inflect(self):
   if self.model == 'ind':
@@ -86,10 +87,10 @@ class DeclRec(object):
    decl = decline_1stem.Decline_1stem('n',self.key1,self.key2)
   elif self.model == 'f_1stem':
    decl = decline_1stem.Decline_1stem('f',self.key1,self.key2)
-
   else:
    print('DeclRec unimplemented model',self.model,self.key2)
    exit(1)
+  self.sups = decl.getsups()
   if not decl.status:
    print('DeclRec error',self.model,self.key2)
    inflection = ['' for x in range(0,24)]
