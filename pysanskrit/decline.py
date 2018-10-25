@@ -319,6 +319,40 @@ sup-n-i=i:inI:Ini:i:inI:Ini:inA:iByAm:iBiH:ine:iByAm:iByaH:inaH:iByAm:iByaH:inaH
    b.append(y)
   return b
 
+class Decline_m_u(object):
+ """ declension table for masculine nouns ending in 'u'
+sup-m-u=uH:U:avaH:um:U:Un:unA:uByAm:uBiH:ave:uByAm:uByaH:oH:uByAm:uByaH:oH:voH:UnAm:O:voH:uzu:o:U:avaH
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'uH:U:avaH:um:U:Un:unA:uByAm:uBiH:ave:uByAm:uByaH:oH:uByAm:uByaH:oH:voH:UnAm:O:voH:uzu:o:U:avaH'
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  #print('Decline_m_a. init.',key1,key2)
+  # for m_a, our sups assume final 'a' is removed from the base
+  base1 = base[0:-1]
+  #print('  head,base,base1 =',head,base,base1)
+  # join key2base and all the endings
+  base_infls = [declension_join_simple(base1,sup) for sup in sups]
+  self.table = [head+infl for infl in base_infls]
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

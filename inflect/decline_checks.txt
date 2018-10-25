@@ -208,3 +208,25 @@ Case 5:  asTinaH asTiByAm asTiByaH
 Case 6:  asTinaH asTinoH asTInAm
 Case 7:  asTini asTinoH asTizu
 Case 8:  asTi/asTe asTinI asTIni
+; check Deshpande, p. 79
+$ python decline_one.py m_u taru
+Declension of m_u taru
+Case 1:  taruH tarU taravaH
+Case 2:  tarum tarU tarUn
+Case 3:  taruRA taruByAm taruBiH
+Case 4:  tarave taruByAm taruByaH
+Case 5:  taroH taruByAm taruByaH
+Case 6:  taroH tarvoH tarURAm
+Case 7:  tarO tarvoH taruzu
+Case 8:  taro tarU taravaH
+; check Huet
+$ python decline_one.py m_u paSu
+Declension of m_u paSu
+Case 1:  paSuH paSU paSavaH
+Case 2:  paSum paSU paSUn
+Case 3:  paSunA paSuByAm paSuBiH
+Case 4:  paSave paSuByAm paSuByaH
+Case 5:  paSoH paSuByAm paSuByaH
+Case 6:  paSoH paSvoH paSUnAm
+Case 7:  paSO paSvoH paSuzu
+Case 8:  paSo paSU paSavaH
