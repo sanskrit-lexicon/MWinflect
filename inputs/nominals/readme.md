@@ -1,8 +1,6 @@
 
 ### lexnorm-all2.txt
 
-### lexnorm-all2.txt
-
 Begin with a copy of [lexnorm-all2.txt](https://github.com/funderburkjim/MWlexnorm/blob/master/step2/lexnorm-all2.txt).
 
 This is a csv format file (separator the tab character).
