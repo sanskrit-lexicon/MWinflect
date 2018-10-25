@@ -81,8 +81,9 @@ def md1_explain(x,base,sup):
 def test_md1(model,key2):
  # generate a markdown table with explanations
  # This is implemented with only certain models
- if not model in ['m_a','n_a','f_A']:
-  print('md1 not implemented for model=',md1)
+ if not model in ['m_a','n_a','f_A','f_I','f_U',
+        'm_i','f_i','n_i', 'm_u','f_u','n_u']:
+  print('md1 not implemented for model=',model)
   return
  
  key1 = key2.replace('-','')

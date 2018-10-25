@@ -86,3 +86,69 @@ Case 5:  rAmAyAH rAmAByAm rAmAByaH
 Case 6:  rAmAyAH rAmayoH rAmARAm
 Case 7:  rAmAyAm rAmayoH rAmAsu
 Case 8:  rAme rAme rAmAH
+; check Deshpande
+$ python decline_one.py f_I nadI
+Declension of f_I nadI
+Case 1:  nadI nadyO nadyaH
+Case 2:  nadIm nadyO nadIH
+Case 3:  nadyA nadIByAm nadIBiH
+Case 4:  nadyE nadIByAm nadIByaH
+Case 5:  nadyAH nadIByAm nadIByaH
+Case 6:  nadyAH nadyoH nadInAm
+Case 7:  nadyAm nadyoH nadIzu
+Case 8:  nadi nadyO nadyaH
+; check Huet
+$ python decline_one.py f_I puruzI
+Declension of f_I puruzI
+Case 1:  puruzI puruzyO puruzyaH
+Case 2:  puruzIm puruzyO puruzIH
+Case 3:  puruzyA puruzIByAm puruzIBiH
+Case 4:  puruzyE puruzIByAm puruzIByaH
+Case 5:  puruzyAH puruzIByAm puruzIByaH
+Case 6:  puruzyAH puruzyoH puruzIRAm
+Case 7:  puruzyAm puruzyoH puruzIzu
+Case 8:  puruzi puruzyO puruzyaH
+; check Deshpande
+$ python decline_one.py f_U vaDU
+Declension of f_U vaDU
+Case 1:  vaDUH vaDvO vaDvaH
+Case 2:  vaDUm vaDvO vaDUH
+Case 3:  vaDvA vaDUByAm vaDUBiH
+Case 4:  vaDvE vaDUByAm vaDUByaH
+Case 5:  vaDvAH vaDUByAm vaDUByaH
+Case 6:  vaDvAH vaDvoH vaDUnAm
+Case 7:  vaDvAm vaDvoH vaDUzu
+Case 8:  vaDu vaDvO vaDvaH
+; check Huet
+$ python decline_one.py f_U karzU
+Declension of f_U karzU
+Case 1:  karzUH karzvO karzvaH
+Case 2:  karzUm karzvO karzUH
+Case 3:  karzvA karzUByAm karzUBiH
+Case 4:  karzvE karzUByAm karzUByaH
+Case 5:  karzvAH karzUByAm karzUByaH
+Case 6:  karzvAH karzvoH karzURAm
+Case 7:  karzvAm karzvoH karzUzu
+Case 8:  karzu karzvO karzvaH
+; check Deshpande, p. 79
+$ python decline_one.py m_i muni
+Declension of m_i muni
+Case 1:  muniH munI munayaH
+Case 2:  munim munI munIn
+Case 3:  muninA muniByAm muniBiH
+Case 4:  munaye muniByAm muniByaH
+Case 5:  muneH muniByAm muniByaH
+Case 6:  muneH munyoH munInAm
+Case 7:  munO munyoH munizu
+Case 8:  mune munI munayaH
+; check Huet
+$ python decline_one.py m_i atri
+Declension of m_i atri
+Case 1:  atriH atrI atrayaH
+Case 2:  atrim atrI atrIn
+Case 3:  atriRA atriByAm atriBiH
+Case 4:  atraye atriByAm atriByaH
+Case 5:  atreH atriByAm atriByaH
+Case 6:  atreH atryoH atrIRAm
+Case 7:  atrO atryoH atrizu
+Case 8:  atre atrI atrayaH
