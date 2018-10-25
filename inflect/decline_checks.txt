@@ -185,3 +185,26 @@ Case 5:  atryAH/atreH atriByAm atriByaH
 Case 6:  atryAH/atreH atryoH atrIRAm
 Case 7:  atryAm/atrO atryoH atrizu
 Case 8:  atre atrI atrayaH
+; Note: Kale has additional alternates for some neuter forms. section 70, p. 39
+; check Deshpande, p. 113
+$ python decline_one.py n_i vAri
+Declension of n_i vAri
+Case 1:  vAri vAriRI vArIRi
+Case 2:  vAri vAriRI vArIRi
+Case 3:  vAriRA vAriByAm vAriBiH
+Case 4:  vAriRe vAriByAm vAriByaH
+Case 5:  vAriRaH vAriByAm vAriByaH
+Case 6:  vAriRaH vAriRoH vArIRAm
+Case 7:  vAriRi vAriRoH vArizu
+Case 8:  vAri/vAre vAriRI vArIRi
+; Check Huet. Note Huet has only asTi for 8s
+$ python decline_one.py n_i asTi
+Declension of n_i asTi
+Case 1:  asTi asTinI asTIni
+Case 2:  asTi asTinI asTIni
+Case 3:  asTinA asTiByAm asTiBiH
+Case 4:  asTine asTiByAm asTiByaH
+Case 5:  asTinaH asTiByAm asTiByaH
+Case 6:  asTinaH asTinoH asTInAm
+Case 7:  asTini asTinoH asTizu
+Case 8:  asTi/asTe asTinI asTIni
