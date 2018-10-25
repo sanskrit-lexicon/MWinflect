@@ -66,3 +66,6 @@ python decline_file.py ../inputs/nominals/n_a.txt ../outputs/nominals/n_a.txt
 * model = f_A
 python decline_file.py ../inputs/nominals/f_a1.txt ../outputs/nominals/f_a1.txt 
 
+* model = f_I
+python decline_file.py ../inputs/nominals/f_i1.txt ../outputs/nominals/f_i1.txt 
+
