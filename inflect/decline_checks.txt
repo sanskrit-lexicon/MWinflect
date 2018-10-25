@@ -152,3 +152,36 @@ Case 5:  atreH atriByAm atriByaH
 Case 6:  atreH atryoH atrIRAm
 Case 7:  atrO atryoH atrizu
 Case 8:  atre atrI atrayaH
+; check Huet
+$ python decline_one.py f_i citi
+Declension of f_i citi
+Case 1:  citiH citI citayaH
+Case 2:  citim citI citIH
+Case 3:  cityA citiByAm citiBiH
+Case 4:  cityE/citaye citiByAm citiByaH
+Case 5:  cityAH/citeH citiByAm citiByaH
+Case 6:  cityAH/citeH cityoH citInAm
+Case 7:  cityAm/citO cityoH citizu
+Case 8:  cite citI citayaH
+; check Deshpande, p. 80
+$ python decline_one.py f_i mati
+Declension of f_i mati
+Case 1:  matiH matI matayaH
+Case 2:  matim matI matIH
+Case 3:  matyA matiByAm matiBiH
+Case 4:  matyE/mataye matiByAm matiByaH
+Case 5:  matyAH/mateH matiByAm matiByaH
+Case 6:  matyAH/mateH matyoH matInAm
+Case 7:  matyAm/matO matyoH matizu
+Case 8:  mate matI matayaH
+; check Huet
+$ python decline_one.py f_i atri
+Declension of f_i atri
+Case 1:  atriH atrI atrayaH
+Case 2:  atrim atrI atrIH
+Case 3:  atryA atriByAm atriBiH
+Case 4:  atryE/atraye atriByAm atriByaH
+Case 5:  atryAH/atreH atriByAm atriByaH
+Case 6:  atryAH/atreH atryoH atrIRAm
+Case 7:  atryAm/atrO atryoH atrizu
+Case 8:  atre atrI atrayaH

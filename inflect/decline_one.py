@@ -78,6 +78,19 @@ def md1_explain(x,base,sup):
   ans = "%s + %s = %s -> **%s**" %(base,sup,cat,x)
  return ans
 
+def md1_explain_alts(x,base,supstr):
+ """ returns a string. x is the declined form
+  assumes supstr contains alternates, separated by '/'
+ """
+ sups = supstr.split('/')
+ cats = [base + sup for sup in sups]
+ cat = '/'.join(cats)
+ if x == cat:
+  ans = "%s + %s = **%s**" %(base,supstr,x)
+ else:
+  ans = "%s + %s = %s -> **%s**" %(base,supstr,cat,x)
+ return ans
+
 def test_md1(model,key2):
  # generate a markdown table with explanations
  # This is implemented with only certain models
@@ -112,7 +125,10 @@ def test_md1(model,key2):
   for i in range(0,3):
    x = table[icell+i]
    sup=sups[icell+i]
-   explain = md1_explain(x,base,sup)
+   if '/' not in sup:
+    explain = md1_explain(x,base,sup)
+   else:
+    explain = md1_explain_alts(x,base,sup)
    a.append(explain)
   out = '|'.join(a)
   out = '|' + out + '|'
