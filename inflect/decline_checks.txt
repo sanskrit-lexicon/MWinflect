@@ -230,3 +230,25 @@ Case 5:  paSoH paSuByAm paSuByaH
 Case 6:  paSoH paSvoH paSUnAm
 Case 7:  paSO paSvoH paSuzu
 Case 8:  paSo paSU paSavaH
+; check Deshpande, p. 80
+$ python decline_one.py f_u Denu
+Declension of f_u Denu
+Case 1:  DenuH DenU DenavaH
+Case 2:  Denum DenU DenUH
+Case 3:  DenvA DenuByAm DenuBiH
+Case 4:  DenvE/Denave DenuByAm DenuByaH
+Case 5:  DenvAH/DenoH DenuByAm DenuByaH
+Case 6:  DenvAH/DenoH DenvoH DenUnAm
+Case 7:  DenvAm/DenO DenvoH Denuzu
+Case 8:  Deno DenU DenavaH
+; check Huet
+$ python decline_one.py f_u dru
+Declension of f_u dru
+Case 1:  druH drU dravaH
+Case 2:  drum drU drUH
+Case 3:  drvA druByAm druBiH
+Case 4:  drvE/drave druByAm druByaH
+Case 5:  drvAH/droH druByAm druByaH
+Case 6:  drvAH/droH drvoH drURAm
+Case 7:  drvAm/drO drvoH druzu
+Case 8:  dro drU dravaH

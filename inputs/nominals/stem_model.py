@@ -1368,7 +1368,7 @@ if __name__ == "__main__":
  model_n_i(recs,flog)
 
  model_m_u(recs,flog)
- #model_f_u(recs,flog)
+ model_f_u(recs,flog)
  #model_n_u(recs,flog)
  #model_mfn_a(recs,flog)
  #model_mfn_a1(recs,flog)
