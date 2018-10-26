@@ -252,3 +252,25 @@ Case 5:  drvAH/droH druByAm druByaH
 Case 6:  drvAH/droH drvoH drURAm
 Case 7:  drvAm/drO drvoH druzu
 Case 8:  dro drU dravaH
+; check Deshpande, p. 113. Huet has only 'maDu' for Vocative singular.
+$ python decline_one.py n_u maDu
+Declension of n_u maDu
+Case 1:  maDu maDunI maDUni
+Case 2:  maDu maDunI maDUni
+Case 3:  maDunA maDuByAm maDuBiH
+Case 4:  maDune maDuByAm maDuByaH
+Case 5:  maDunaH maDuByAm maDuByaH
+Case 6:  maDunaH maDunoH maDUnAm
+Case 7:  maDuni maDunoH maDuzu
+Case 8:  maDu/maDo maDunI maDUni
+; check Huet. Huet has only 'jatru' for Vocative singular
+$ python decline_one.py n_u jatru
+Declension of n_u jatru
+Case 1:  jatru jatruRI jatrURi
+Case 2:  jatru jatruRI jatrURi
+Case 3:  jatruRA jatruByAm jatruBiH
+Case 4:  jatruRe jatruByAm jatruByaH
+Case 5:  jatruRaH jatruByAm jatruByaH
+Case 6:  jatruRaH jatruRoH jatrURAm
+Case 7:  jatruRi jatruRoH jatruzu
+Case 8:  jatru/jatro jatruRI jatrURi
