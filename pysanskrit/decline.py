@@ -16,6 +16,9 @@ class Decline_ind(object):
   self.sup = ''
   self.status = True
   self.table = [self.key1]
+  sups = self.getsups()
+ def getsups(self):
+  return self.sup.split(':') 
 
 class Decline_m_a(object):
  """ declension table for masculine nouns ending in 'a'

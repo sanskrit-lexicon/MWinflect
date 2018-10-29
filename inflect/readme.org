@@ -9,7 +9,7 @@ and to put the inflection tables into parallel locations of the
 python decline_file.py ../inputs/nominals/<file> ../outputs/nominals/<file>
 
 Recall #3 that the input file has three tab-delimited fields:
-1) <model>   the model name
+1) <model>   the model name1
 2) key2  the word to inflect, with '-' to delimit padas
 3) MW source records, specified as a colon-delimited sequence of 'L,key1' pairs
 

@@ -22,6 +22,7 @@ class Lexnorm(object):
   line = line.rstrip('\r\n')
   (self.L,self.key1,self.key2,self.lexnorm) = line.split('\t')
   self.parsed = False
+  self.models = []
 
  def toString(self):
   s = '\t'.join([self.L,self.key1,self.key2,self.lexnorm])
@@ -66,7 +67,7 @@ def model_ind(recs,flog):
   rec.parsed = True
   model = 'ind'
   stem = rec.key2
-  rec.model = Model(rec,model,stem)
+  rec.models.append(Model(rec,model,stem))
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -90,7 +91,7 @@ def model_m_a(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'm_a'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -114,7 +115,7 @@ def model_n_a(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'n_a'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -138,7 +139,7 @@ def model_f_A(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'f_A'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -162,7 +163,7 @@ def model_f_I(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'f_I'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -186,7 +187,7 @@ def model_f_U(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'f_U'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -210,7 +211,7 @@ def model_m_i(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'm_i'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -234,7 +235,7 @@ def model_f_i(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'f_i'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -258,7 +259,7 @@ def model_n_i(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'n_i'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -282,7 +283,7 @@ def model_m_u(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'm_u'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -306,7 +307,7 @@ def model_f_u(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'f_u'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -330,7 +331,7 @@ def model_n_u(recs,flog):
   for part in lexparts:
    mstem = stem
    model = 'n_u'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
    if rec.lexnorm not in d:
     d[rec.lexnorm] = 0
    d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -338,7 +339,7 @@ def model_n_u(recs,flog):
 
 def model_mfn_a(recs,flog):
  endchar = 'a'
- nparsed = 0
+ d = {}
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(endchar):
@@ -348,10 +349,9 @@ def model_mfn_a(recs,flog):
    continue
   knownparts = ['m','f','n']
   lexparts = rec.lexnorm.split(':')
-  if not lexparts == knownparts:
+  if not set(lexparts).issubset(set(knownparts)):
    continue
   rec.parsed = True
-  nparsed = nparsed + 1
   for part in lexparts:
    if part in ['m','n']:
     # stem is unchanged
@@ -364,8 +364,11 @@ def model_mfn_a(recs,flog):
    else:
     print('mfn_a Internal error',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
- print(nparsed,"records parsed in model_mfn_a")
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_a',d,flog)
 
 def model_mfn_a1(recs,flog):
  endchar = 'a'
@@ -534,7 +537,7 @@ def model_mfn_a1(recs,flog):
    else:
     print('mfn_a Internal error',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_mfn_i(recs,flog):
  endchar = 'i'
@@ -599,7 +602,7 @@ def model_mfn_i(recs,flog):
    else:
     print('mfn_i internal ERROR',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_mfn_u(recs,flog):
  endchar = 'u'
@@ -660,7 +663,7 @@ def model_mfn_u(recs,flog):
    else:
     print('mfn_u. Internal error',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_f_AIU(recs,flog):
  endchars = ['A','I','U']
@@ -676,7 +679,7 @@ def model_f_AIU(recs,flog):
   mstem = stem
   mpart = 'f'
   model = '%s_%s' %(mpart,endchar)  
-  rec.model = Model(rec,model,mstem)
+  rec.models.append(Model(rec,model,mstem))
 
 def model_mfn_in(recs,flog):
  ending = 'in'
@@ -715,7 +718,7 @@ def model_mfn_in(recs,flog):
     # print('chk:',stem,"->",mstem)
     # model is f_in_I  (which is same as f_I)
     model = 'f_in_I'
-    #rec.model = Model(rec,model,mstem)
+    #rec.models.append(Model(rec,model,mstem))
    elif part in ['f#inI','f#iRI']:
     ending1 = part[2:] # inI or iRI
     mstem = stem[0:-2] + ending1  # replace ending 'in' 
@@ -724,7 +727,7 @@ def model_mfn_in(recs,flog):
    else:
     print('model_in Internal error',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 endings_Iyas = ('Iyas', 'jyAyas','Sreyas','preyas','BUyas')
 
@@ -751,7 +754,7 @@ def model_Iyas(recs,flog):
     # the weak stem is just stem
     mstem = stem + 'I'
     model = 'f_Iyas_I'
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_vat(recs,flog):
  # key2 ends with '-vat'
@@ -778,20 +781,20 @@ def model_vat(recs,flog):
     # add 'I' to stem
     mstem = stem + 'I'
     model = 'f_I'  # normal feminine ending in 'I'
-    rec.model = Model(rec,model,mstem)
+    rec.models.append(Model(rec,model,mstem))
    elif part == 'f#atI':
     mstem = stem + 'I'
     model = 'f_I'  # normal feminine ending in 'I'
-    rec.model = Model(rec,model,mstem)
+    rec.models.append(Model(rec,model,mstem))
    elif part == 'f#antI':
     mstem = stem[0:-2]+'antI'  # replace ending 'at' with 'antI'
     model = 'f_I'  # normal feminine ending in 'I'
-    rec.model = Model(rec,model,mstem)
+    rec.models.append(Model(rec,model,mstem))
    elif part == 'f#atnI':
     assert stem in ['antar-vat']
     mstem = stem[0:-2]+'atnI'  # replace ending 'at' with 'atnI'
     model = 'f_I'  # normal feminine ending in 'I'
-    rec.model = Model(rec,model,mstem)
+    rec.models.append(Model(rec,model,mstem))
    elif part in ['ind']:
     if stem not in ['harza-vat']:
      print 'mfn_a  unexpected "ind"',stem
@@ -800,7 +803,7 @@ def model_vat(recs,flog):
    else:
     print('mfn_vat Internal error',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_mat(recs,flog):
  # key2 ends with '-mat'
@@ -823,8 +826,8 @@ def model_mat(recs,flog):
     # add 'I' to stem
     mstem = stem + 'I'
     model = 'f_I'  # normal feminine ending in 'I'
-    rec.model = Model(rec,model,mstem)
-   rec.model = Model(rec,model,mstem)
+    rec.models.append(Model(rec,model,mstem))
+   rec.models.append(Model(rec,model,mstem))
 
 def model_an(recs,flog):
  # key2 ends with 'an'
@@ -916,7 +919,7 @@ def model_an(recs,flog):
    else:
     print('model_an internal ERROR',part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_pron(recs,flog):
  for rec in recs:
@@ -944,7 +947,7 @@ def model_pron(recs,flog):
    else:
     print('model_pron internal ERROR')
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_card(recs,flog):
  for rec in recs:
@@ -972,7 +975,7 @@ def model_card(recs,flog):
    else:
     print('model_card internal ERROR')
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def model_mfn_f(recs,flog):
  endchar = 'f'
@@ -1020,7 +1023,7 @@ def model_mfn_f(recs,flog):
    else:
     print('model_mfn_f internal ERROR',stem,part)
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 known_1stems_list = [
  # palatal final from Deshpande
@@ -1260,7 +1263,7 @@ def model_1stem(recs,flog):
    else:
     print('model_1stem internal ERROR')
     exit(1)
-   rec.model = Model(rec,model,mstem)
+   rec.models.append(Model(rec,model,mstem))
 
 def lexnorm_todo(recs,flog):
  """ not yet parsed """
@@ -1370,7 +1373,7 @@ if __name__ == "__main__":
  model_m_u(recs,flog)
  model_f_u(recs,flog)
  model_n_u(recs,flog)
- #model_mfn_a(recs,flog)
+ model_mfn_a(recs,flog)
  #model_mfn_a1(recs,flog)
  #model_mfn_u(recs,flog)
  #model_mfn_i(recs,flog)

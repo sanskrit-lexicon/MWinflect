@@ -13,3 +13,8 @@
 02215 m model_m_u
 00241 f model_f_u
 00251 n model_n_u
+00007 f model_mfn_a
+00040 f:n model_mfn_a
+00066 m:f model_mfn_a
+36587 m:f:n model_mfn_a
+01923 m:n model_mfn_a
