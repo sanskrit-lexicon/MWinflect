@@ -17,3 +17,7 @@
 00066 m:f model_mfn_a
 36587 m:f:n model_mfn_a
 01923 m:n model_mfn_a
+00003 f:n model_mfn_i
+00122 m:f model_mfn_i
+01689 m:f:n model_mfn_i
+00011 m:n model_mfn_i
