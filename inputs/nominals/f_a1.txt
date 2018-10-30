@@ -13922,7 +13922,7 @@ f_A	gAhanIyA	65050,gAhanIya
 f_A	gAhA	65046,gAha
 f_A	gAhitA	65051,gAhita
 f_A	gAhyA	65059,gAhya
-f_A	girA	65073,gira:65098,gira
+f_A	girA	65098,gira
 f_A	giri-karRA	65123,girikarRA
 f_A	giri-karRikA	65124,girikarRikA
 f_A	giri-kARA	65129,girikARa
@@ -14729,7 +14729,6 @@ f_A	GozaRIyA	69901,GozaRIya
 f_A	GozA	69875,GozA
 f_A	GOzakA	70231,GOzaka
 f_A	GOzasTalakA	70232,GOzasTalaka
-f_A	GnA	70238,Gna
 f_A	GrARa-jA	70254,GrARaja
 f_A	GrARa-tarpaRA	70255,GrARatarpaRa
 f_A	GrARa-duHKa-dA	70257,GrARaduHKadA
@@ -15994,7 +15993,6 @@ f_A	jaya-dA	77393,jayada:77394,jayadA
 f_A	jaya-durgA	77400,jayadurgA
 f_A	jaya-patAkA	77414,jayapatAkA
 f_A	jaya-priyA	77430,jayapriyA
-f_A	jaya-maNgalA	77439,jayamaNgala
 f_A	jaya-vahA	77460,jayavaha
 f_A	jaya-SeKarA	77470.1,jayaSeKarA
 f_A	jaya-sIlA	77468,jayasIla
@@ -17798,7 +17796,7 @@ f_A	tri-paYcakA	87870,tripaYcaka
 f_A	tri-paYcASat-tamA	87874,tripaYcASattama
 f_A	tri-patAkA	87877,tripatAka
 f_A	tri-paTa-gA	87884.3,tripaTagA
-f_A	tri-padA	87897,tripada:87899,tripada:87903,tripadA
+f_A	tri-padA	87897,tripada:87903,tripadA
 f_A	tri-padikA	87906,tripadikA
 f_A	tri-parikrAntA	87909,triparikrAnta
 f_A	tri-parivartA	87910,triparivarta
@@ -23558,7 +23556,6 @@ f_A	pattrAmlA	114954,pattrAmlA
 f_A	pattrArUQA	114955,pattrArUQa
 f_A	pattrikA	114971.3,pattrikA:114980,pattrikA
 f_A	pattritA	114973.1,pattrita
-f_A	pattrorRA	114969,pattrorRa
 f_A	patnI-SAlA	115076,patnISAlA
 f_A	patnIkA	115082,patnIka
 f_A	paTa-kalpanA	115106,paTakalpanA
@@ -35882,7 +35879,7 @@ f_A	vanizWA	186110,vanizWa
 f_A	vanIvAhitA	186176,vanIvAhita
 f_A	vane-kzudrA	186129,vanekzudrA
 f_A	vane-SayA	186136,vaneSaya
-f_A	vanodBavA	186046,vanodBava:186048,vanodBava
+f_A	vanodBavA	186046,vanodBava:186048,vanodBavA
 f_A	vanopetA	186053,vanopeta
 f_A	vandana-mAlA	186202,vandanamAlA
 f_A	vandana-mAlikA	186203,vandanamAlikA
@@ -41345,7 +41342,6 @@ f_A	SAsana-vAhakA	216318,SAsanavAhaka
 f_A	SAsana-SilA	216319,SAsanaSilA
 f_A	SAsana-harA	216320,SAsanahara
 f_A	SAsana-hArakA	216321,SAsanahAraka
-f_A	SAsanA	216303,SAsana
 f_A	SAsanIyA	216324,SAsanIya
 f_A	SAsitavyA	216329,SAsitavya
 f_A	SAsitA	216326,SAsita

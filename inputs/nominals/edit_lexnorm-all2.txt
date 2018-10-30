@@ -792,3 +792,20 @@ old 98464	dvitrayastriMSat	dvi-trayas-triMSat	f
 new 98464	dvitrayastriMSat	dvi-trayas-triMSat	LEXID=card,STEM=dvi-trayas-triMSat
 old 243940	siMhAsanadvAtriMSat	siMhAsana-dvAtriMSat	f
 new 243940	siMhAsanadvAtriMSat	siMhAsana-dvAtriMSat	LEXID=card,STEM=siMhAsana-dvAtriMSat
+; errors. word ends in 'a', lexnorm == 'f'.
+; These need to be corrected in MW
+old 65073	gira	gira	f
+new 65073	gira	gira	f#A
+old 70238	Gna	Gna	f
+new 70238	GnI	GnI	f
+old 77439	jayamaNgala	jaya-maNgala	f
+new 77439	jayamaNgala	jaya-maNgala	f#A
+old 87899	tripada	tri-pada	f
+new 87899	tripada	tri-pada	f#A
+old 114969	pattrorRa	pattrorRa	f
+new 114969	pattrorRa	pattrorRa	f#A
+old 186048	vanodBava	vanodBava	f
+new 186048	vanodBavA	vanodBavA	f
+old 216303	SAsana	SAsana	f
+new 216303	SAsana	SAsana	f#A
+

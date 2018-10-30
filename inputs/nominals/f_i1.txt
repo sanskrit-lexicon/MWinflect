@@ -2078,7 +2078,7 @@ f_I	Goza-vatI	69887,GozavatI
 f_I	Goza-sTalI	69891,GozasTalI
 f_I	GozAtakI	69905,GozAtakI
 f_I	GoziRI	69910,GoziRI
-f_I	GnI	70241,GnI
+f_I	GnI	70238,GnI:70241,GnI
 f_I	cakorI	70315,cakorI
 f_I	cakra-grahaRI	70374,cakragrahaRI
 f_I	cakra-RadI	70384,cakraRadI
