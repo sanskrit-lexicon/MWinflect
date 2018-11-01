@@ -274,3 +274,99 @@ Case 5:  jatruRaH jatruByAm jatruByaH
 Case 6:  jatruRaH jatruRoH jatrURAm
 Case 7:  jatruRi jatruRoH jatruzu
 Case 8:  jatru/jatro jatruRI jatrURi
+; check Deshpande p. 107
+; for voc. sing, Kale (p. 50) shows 'pitaH (r)'
+$ python decline_one.py m_f pitf
+Declension of m_f pitf
+Case 1:  pitA pitarO pitaraH
+Case 2:  pitaram pitarO pitFn
+Case 3:  pitrA pitfByAm pitfBiH
+Case 4:  pitre pitfByAm pitfByaH
+Case 5:  pituH pitfByAm pitfByaH
+Case 6:  pituH pitroH pitFRAm
+Case 7:  pitari pitroH pitfzu
+Case 8:  pitar pitarO pitaraH
+; check Deshpande, p. 107
+$ python decline_one.py m_f netf
+Declension of m_f netf
+Case 1:  netA netArO netAraH
+Case 2:  netAram netArO netFn
+Case 3:  netrA netfByAm netfBiH
+Case 4:  netre netfByAm netfByaH
+Case 5:  netuH netfByAm netfByaH
+Case 6:  netuH netroH netFRAm
+Case 7:  netari netroH netfzu
+Case 8:  netar netArO netAraH
+; see Deshpande, p. 107. Bartf is relation noun, but declined as agent
+; Confirm Huet, excpet Huet shows vocative with final 'H' instead of 'r'
+; Huet does this also for pitf, and all the m. f. of nouns ending in 'f'
+$ python decline_one.py m_f Bartf
+Declension of m_f Bartf
+Case 1:  BartA BartArO BartAraH
+Case 2:  BartAram BartArO BartFn
+Case 3:  BartrA BartfByAm BartfBiH
+Case 4:  Bartre BartfByAm BartfByaH
+Case 5:  BartuH BartfByAm BartfByaH
+Case 6:  BartuH BartroH BartFRAm
+Case 7:  Bartari BartroH Bartfzu
+Case 8:  Bartar BartArO BartAraH
+; compare Deshpande p. 107. naptf is relation noun, but declined like agent.
+; check Huet, exceptive voc. sing. is naptaH.
+$ python decline_one.py m_f naptf
+Declension of m_f naptf
+Case 1:  naptA naptArO naptAraH
+Case 2:  naptAram naptArO naptFn
+Case 3:  naptrA naptfByAm naptfBiH
+Case 4:  naptre naptfByAm naptfByaH
+Case 5:  naptuH naptfByAm naptfByaH
+Case 6:  naptuH naptroH naptFRAm
+Case 7:  naptari naptroH naptfzu
+Case 8:  naptar naptArO naptAraH
+; check Huet.  Huet has empty (no) forms for singular of cases 2-6 and 8.
+$ python decline_one.py m_f nf
+Declension of m_f nf
+Case 1:  nA narO naraH
+Case 2:  naram narO nFn
+Case 3:  nrA nfByAm nfBiH
+Case 4:  nre nfByAm nfByaH
+Case 5:  nuH nfByAm nfByaH
+Case 6:  nuH nroH nFRAm/nfRAm
+Case 7:  nari nroH nfzu
+Case 8:  nar narO naraH
+; Agrees with partial (nom, acc., voc.) with Kale, Antoine
+; Huet agrees in all except:
+;   acc. plural shows two forms, mAtFH and also mAtaraH. 
+;   voc. sing.  mAtaH instead of mAtar.
+$ python decline_one.py f_f mAtf
+Declension of f_f mAtf
+Case 1:  mAtA mAtarO mAtaraH
+Case 2:  mAtaram mAtarO mAtFH
+Case 3:  mAtrA mAtfByAm mAtfBiH
+Case 4:  mAtre mAtfByAm mAtfByaH
+Case 5:  mAtuH mAtfByAm mAtfByaH
+Case 6:  mAtuH mAtroH mAtFRAm
+Case 7:  mAtari mAtroH mAtfzu
+Case 8:  mAtar mAtarO mAtaraH
+; check Huet
+; agrees except for usual voc. sing. which Huet shows as svasaH
+$ python decline_one.py f_f svasf
+Declension of f_f svasf
+Case 1:  svasA svasArO svasAraH
+Case 2:  svasAram svasArO svasFH
+Case 3:  svasrA svasfByAm svasfBiH
+Case 4:  svasre svasfByAm svasfByaH
+Case 5:  svasuH svasfByAm svasfByaH
+Case 6:  svasuH svasroH svasFRAm
+Case 7:  svasari svasroH svasfzu
+Case 8:  svasar svasArO svasAraH
+; Check Deshpande
+$ python decline_one.py n_f gantf
+Declension of n_f gantf
+Case 1:  gantf gantfRI gantFRi
+Case 2:  gantf gantfRI gantFRi
+Case 3:  gantfRA gantfByAm gantfBiH
+Case 4:  gantfRe gantfByAm gantfByaH
+Case 5:  gantfRaH gantfByAm gantfByaH
+Case 6:  gantfRaH gantfRoH gantFRAm
+Case 7:  gantfRi gantfRoH gantfzu
+Case 8:  gantf/gantar gantfRI gantFRi

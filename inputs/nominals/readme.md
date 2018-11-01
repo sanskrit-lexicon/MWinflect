@@ -68,3 +68,8 @@ note: eka appears as both a cardinal and an 'mfn' in lexnorm-all2.txt
    The lgtab1b data has both declensions.
    This needs examination.
 
+Utility program: analyze_f
+ python analyze_f.py slp1 lexnorm-all2.txt analyze_f.txt 
+ python analyze_f.py roman lexnorm-all2.txt analyze_f_iast.txt 
+
+ 

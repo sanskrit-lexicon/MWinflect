@@ -25,3 +25,9 @@
 00047 m:f model_mfn_u
 01407 m:f:n model_mfn_u
 00051 m:n model_mfn_u
+00745 m model_m_f
+00091 f model_f_f
+00002 n model_n_f
+00001 m:f model_mfn_f
+00552 m:f:n model_mfn_f
+00001 m:n model_mfn_f

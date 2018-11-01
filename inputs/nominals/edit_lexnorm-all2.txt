@@ -808,4 +808,6 @@ old 186048	vanodBava	vanodBava	f
 new 186048	vanodBavA	vanodBavA	f
 old 216303	SAsana	SAsana	f
 new 216303	SAsana	SAsana	f#A
-
+; 10-30-2018  remove pada structure, so recognized as relation noun
+old 239711	savyezWf	savye-zWf	m
+new 239711	savyezWf	savyezWf	m

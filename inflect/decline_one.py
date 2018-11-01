@@ -95,7 +95,7 @@ def test_md1(model,key2):
  # generate a markdown table with explanations
  # This is implemented with only certain models
  if not model in ['m_a','n_a','f_A','f_I','f_U',
-        'm_i','f_i','n_i', 'm_u','f_u','n_u']:
+        'm_i','f_i','n_i', 'm_u','f_u','n_u', 'm_f','f_f','n_f']:
   print('md1 not implemented for model=',model)
   return
  

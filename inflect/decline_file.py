@@ -3,7 +3,7 @@
 import sys,re,codecs
 sys.path.append('../pysanskrit')
 import decline # from pysanskrit
-#import decline_f # from pysanskrit
+import decline_f # from pysanskrit
 #import decline_pco # from pysanskrit
 #import decline_2stem # from pysanskrit
 #import decline_3stem # from pysanskrit

@@ -337,6 +337,78 @@ def model_n_u(recs,flog):
    d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_n_u',d,flog)
 
+def model_m_f(recs,flog):
+ endchar = 'f'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m']
+  lexparts = rec.lexnorm.split(':')
+  if set(lexparts) != set(knownparts):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   mstem = stem
+   model = 'm_f'
+   rec.models.append(Model(rec,model,mstem))
+   if rec.lexnorm not in d:
+    d[rec.lexnorm] = 0
+   d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_m_f',d,flog)
+
+def model_f_f(recs,flog):
+ endchar = 'f'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['f']
+  lexparts = rec.lexnorm.split(':')
+  if set(lexparts) != set(knownparts):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   mstem = stem
+   model = 'f_f'
+   rec.models.append(Model(rec,model,mstem))
+   if rec.lexnorm not in d:
+    d[rec.lexnorm] = 0
+   d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_f_f',d,flog)
+
+def model_n_f(recs,flog):
+ endchar = 'f'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['n']
+  lexparts = rec.lexnorm.split(':')
+  if set(lexparts) != set(knownparts):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   mstem = stem
+   model = 'n_f'
+   rec.models.append(Model(rec,model,mstem))
+   if rec.lexnorm not in d:
+    d[rec.lexnorm] = 0
+   d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_n_f',d,flog)
+
 def model_mfn_a(recs,flog):
  endchar = 'a'
  d = {}
@@ -427,6 +499,35 @@ def model_mfn_u(recs,flog):
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_u',d,flog)
+
+def model_mfn_f(recs,flog):
+ endchar = 'f'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_f, n_f, f_f
+   else:
+    print('mfn_u Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_f',d,flog)
 
 def model_mfn_a1(recs,flog):
  endchar = 'a'
@@ -1035,7 +1136,7 @@ def model_card(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
-def model_mfn_f(recs,flog):
+def model_mfn_f1(recs,flog):
  endchar = 'f'
  for rec in recs:
   stem = rec.key2
@@ -1434,6 +1535,12 @@ if __name__ == "__main__":
  model_mfn_a(recs,flog)
  model_mfn_i(recs,flog)
  model_mfn_u(recs,flog)
+
+ model_m_f(recs,flog)
+ model_f_f(recs,flog)
+ model_n_f(recs,flog)
+ model_mfn_f(recs,flog)
+
  #model_mfn_a1(recs,flog)
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
