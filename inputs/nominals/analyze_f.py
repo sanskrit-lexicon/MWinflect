@@ -128,7 +128,7 @@ def write_d(d,f,rel_agent_type,tranout='slp1'):
  keys = sorted(keys,cmp=slp_cmp)
 
  def dcmp(rec1,rec2):
-  return slp_cmp(rec1.pada1,rec2.pada2)
+  return slp_cmp(rec1.pada1,rec2.pada1)
 
  for ikey,key in enumerate(keys):
   drecs = d[key]
