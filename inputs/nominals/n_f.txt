@@ -186,7 +186,6 @@ n_f	tApayitf	83922,tApayitf
 n_f	tArayitf	84345,tArayitf
 n_f	tAritf	84404,tAritf
 n_f	tisf	85382,tisf
-n_f	tf	86521,tf
 n_f	tozayitf	87277,tozayitf
 n_f	tyaktf	87352,tyaktf
 n_f	tri-mAtf	88108,trimAtf

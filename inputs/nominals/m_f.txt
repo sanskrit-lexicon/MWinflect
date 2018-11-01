@@ -390,6 +390,7 @@ m_f	tApayitf	83922,tApayitf
 m_f	tArayitf	84345,tArayitf
 m_f	tAritf	84404,tAritf
 m_f	tisf	85382,tisf
+m_f	tf	86521,tf
 m_f	tozayitf	87277,tozayitf
 m_f	tyaktf	87352,tyaktf
 m_f	trARa-kartf	87533,trARakartf

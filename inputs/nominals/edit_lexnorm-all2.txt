@@ -811,3 +811,7 @@ new 216303	SAsana	SAsana	f#A
 ; 10-30-2018  remove pada structure, so recognized as relation noun
 old 239711	savyezWf	savye-zWf	m
 new 239711	savyezWf	savyezWf	m
+; 11-01-2018 change 'n' to 'm' in lexnorm; implied by reference to 'stf'
+; should correct in mw
+old 86521	tf	tf	n
+new 86521	tf	tf	m
