@@ -1451,7 +1451,14 @@ def model_stem_string(mrecs):
  Larr = [(mrec.lexrec.L,mrec.lexrec.key1) for mrec in mrecs]
  Larr = sorted(Larr,key = lambda x : float(x[0]))  # in L order
  Larr1 = ['%s,%s'%mrec for mrec in Larr]
- Larrstr = ':'.join(Larr1)
+ # remove duplicates, if any. 
+ Larr2 = []
+ prev = None
+ for x in Larr1:
+  if x != prev:
+   Larr2.append(x)
+  prev = x
+ Larrstr = ':'.join(Larr2)
  outarr.append(Larrstr)
  out = '\t'.join(outarr)
  return out
@@ -1488,18 +1495,35 @@ def write_model_instances(modelname,instances):
   mrecs = e[stem]  
   ntot = ntot + len(mrecs)
   # each item in mrecs is a Model instance
-  # All items in mrecs has same value for (a)(model) name and (b) stem
-  out = model_stem_string(mrecs)
-  nout = nout + 1
-  f.write(out + '\n')
+  # All items in mrecs have same value for stem
+  model_names = list(set([mrec.name for mrec in mrecs]))
+  for model_name in model_names:
+   # All items in mrecs1 have same value for stem and model-name
+   mrecs1 = [mrec for mrec in mrecs if mrec.name == model_name]
+   out = model_stem_string(mrecs1)
+   nout = nout + 1
+   f.write(out + '\n')
  f.close()
  print(nout,"written to",fileout," (%s)"%ntot)
 
-def write_models():
+def write_normal_models():
  d = Model.d
  models = d.keys()
+ # for 'normal' models, write model
  for model in models:
-  write_model_instances(model,d[model])
+  if not model.endswith(('card','pron')):
+   write_model_instances(model,d[model])
+
+def write_special_models(sfx):
+ d = Model.d
+ models = d.keys()
+ instances = []  # aggregate over genders
+ for model in models:
+  if not model.endswith(sfx):
+   continue
+  instances = instances + d[model]
+   
+ write_model_instances(sfx,instances)
 
 def lexnorm_todo(recs,flog):
  fileout = 'temp_lexnorm_todo.txt'
@@ -1540,19 +1564,20 @@ if __name__ == "__main__":
  model_f_f(recs,flog)
  model_n_f(recs,flog)
  model_mfn_f(recs,flog)
+ model_card(recs,flog)
 
  #model_mfn_a1(recs,flog)
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)
  #model_pron(recs,flog)
- #model_card(recs,flog)
  #model_vat(recs,flog)  #  -vat
  #model_mat(recs,flog)  #  -mat
  #model_an(recs,flog)
  #model_Iyas(recs,flog)
  #model_1stem(recs,flog)
- write_models()
+ write_normal_models()
+ write_special_models('card')
  lexnorm_todo(recs,flog)
  exit(1)
  vas_1stems = [

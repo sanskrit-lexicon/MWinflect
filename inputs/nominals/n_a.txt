@@ -1335,7 +1335,7 @@ n_a	a-yugapad-grahaRa	14904,ayugapadgrahaRa
 n_a	a-yugma-pAdayamaka	14912,ayugmapAdayamaka
 n_a	a-yuNga	14915,ayuNga
 n_a	a-yuja	14926,ayuja
-n_a	a-yuta	14949,ayuta
+n_a	a-yuta	14949,ayuta:14953,ayuta
 n_a	a-yuta-DAra	14955.2,ayutaDAra
 n_a	a-yuta-sidDa	14951,ayutasidDa
 n_a	a-yudDa	14965,ayudDa:14966,ayudDa
@@ -6118,7 +6118,7 @@ n_a	arpima	16348.1,arpima
 n_a	arpiSa	16348.2,arpiSa
 n_a	arpiza	16348.3,arpiza
 n_a	arpya	16350,arpya
-n_a	arbuda	16356,arbuda:16357,arbuda
+n_a	arbuda	16356,arbuda:16357,arbuda:16359,arbuda
 n_a	arbuda-mAhAtmya	16362.1,arbudamAhAtmya
 n_a	arbudAraRya	16365,arbudAraRya
 n_a	arBa	16370,arBa
@@ -11644,6 +11644,7 @@ n_a	ekANga	39760,ekANga:39769,ekANga
 n_a	ekANga-rUpaka	39770,ekANgarUpaka
 n_a	ekAtapatra	39773,ekAtapatra
 n_a	ekAtmya	39778,ekAtmya
+n_a	ekAdaSa	39786,ekAdaSa
 n_a	ekAdaSa-kapAla	39787.05,ekAdaSakapAla
 n_a	ekAdaSa-tva	39787.20,ekAdaSatva
 n_a	ekAdaSa-dvAra	39787.25,ekAdaSadvAra
@@ -16112,7 +16113,7 @@ n_a	KarparI-rasaka	61557,KarparIrasaka
 n_a	KarbUja	61560,KarbUja
 n_a	Karma	61561,Karma
 n_a	Karya	61489,Karya
-n_a	Karva	61566,Karva
+n_a	Karva	61566,Karva:61568,Karva
 n_a	Karva-SAKa	61573,KarvaSAKa
 n_a	Karvawa	61578,Karvawa
 n_a	Karvita	61576,Karvita
@@ -26357,7 +26358,7 @@ n_a	ni-kzepita	107993,nikzepita
 n_a	ni-kzepya	107996,nikzepya
 n_a	ni-Kanana	108002,niKanana
 n_a	ni-Kara	108008,niKara
-n_a	ni-Karva	108009,niKarva
+n_a	ni-Karva	108009,niKarva:108010,niKarva
 n_a	ni-Karvaka	108011,niKarvaka
 n_a	ni-KarvAda	108013,niKarvAda
 n_a	ni-KAta	108003,niKAta
@@ -33490,7 +33491,7 @@ n_a	pra-yukta	136274,prayukta:136288,prayukta
 n_a	pra-yukta-tama	136289,prayuktatama
 n_a	pra-yukta-saMskAra	136290,prayuktasaMskAra
 n_a	pra-yuga	136292,prayuga
-n_a	pra-yuta	136264,prayuta:136270,prayuta
+n_a	pra-yuta	136264,prayuta:136264.1,prayuta:136270,prayuta
 n_a	pra-yuteSvara-tIrTa	136270.4,prayuteSvaratIrTa
 n_a	pra-yudDa	136424,prayudDa:136425,prayudDa
 n_a	pra-yudDArTa	136426,prayudDArTa
@@ -40353,6 +40354,7 @@ n_a	mahAyuDa	160517,mahAyuDa
 n_a	mahAraRya	160538,mahAraRya
 n_a	mahArGa	160657,mahArGa
 n_a	mahArdraka	160661,mahArdraka
+n_a	mahArbuda	160663,mahArbuda
 n_a	mahArha	160666,mahArha
 n_a	mahAvakASa	160700,mahAvakASa
 n_a	mahAsana	161038,mahAsana
@@ -44646,7 +44648,7 @@ n_a	laka	180317,laka
 n_a	lakaca	180319.1,lakaca
 n_a	lakuca	180320.1,lakuca
 n_a	laktaka	180328,laktaka
-n_a	lakza	180332,lakza
+n_a	lakza	180332,lakza:180336,lakza
 n_a	lakza-tulasI-vratodyApana	180338,lakzatulasIvratodyApana
 n_a	lakza-dIpa-vratodyApana	180342,lakzadIpavratodyApana
 n_a	lakza-namaskAra-vrata	180344,lakzanamaskAravrata
@@ -51974,6 +51976,7 @@ n_a	SaRa-Sulba	211788,SaRaSulba
 n_a	SaRa-sUtra	211789,SaRasUtra
 n_a	SaRIra	211797,SaRIra
 n_a	SaRWa	211799,SaRWa
+n_a	Sata	211813,Sata
 n_a	Sata-M-hima	211815,SataMhima
 n_a	Sata-kARqa	211820,SatakARqa
 n_a	Sata-kumBa	211829,SatakumBa
@@ -59509,6 +59512,7 @@ n_a	sahamAna	240007,sahamAna
 n_a	sahas-kfta	240016,sahaskfta
 n_a	sahasAna	240021,sahasAna
 n_a	sahasya	240028,sahasya
+n_a	sahasra	240499,sahasra
 n_a	sahasra-ka	240503,sahasraka
 n_a	sahasra-kaMDara-rAmAyaRa	240504,sahasrakaMDararAmAyaRa
 n_a	sahasra-kara-pan-netra	240506,sahasrakarapannetra

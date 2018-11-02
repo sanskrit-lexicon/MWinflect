@@ -1423,7 +1423,7 @@ m_a	a-yugma-locana	14913,ayugmalocana
 m_a	a-yugma-Sara	14914,ayugmaSara
 m_a	a-yuNga	14915,ayuNga
 m_a	a-yuja	14926,ayuja
-m_a	a-yuta	14949,ayuta
+m_a	a-yuta	14949,ayuta:14953,ayuta
 m_a	a-yuta-DAra	14955.2,ayutaDAra
 m_a	a-yuta-sidDa	14951,ayutasidDa
 m_a	a-yuta-homa	14958,ayutahoma
@@ -6789,7 +6789,7 @@ m_a	arpitopta	16348,arpitopta
 m_a	arpisa	16351,arpisa
 m_a	arpya	16350,arpya
 m_a	arbuka	16353,arbuka
-m_a	arbuda	16354,arbuda:16355,arbuda:16357,arbuda:16360,arbuda:16361,arbuda
+m_a	arbuda	16354,arbuda:16355,arbuda:16357,arbuda:16359,arbuda:16360,arbuda:16361,arbuda
 m_a	arbuda-parvata	16362,arbudaparvata
 m_a	arbuda-SiKara	16363,arbudaSiKara
 m_a	arbudAkAra	16364,arbudAkAra
@@ -19627,7 +19627,7 @@ m_a	Karjya	61543,Karjya
 m_a	Karpara	61545,Karpara
 m_a	KarparAla	61558,KarparAla
 m_a	Karya	61489,Karya
-m_a	Karva	61566,Karva:61569,Karva
+m_a	Karva	61566,Karva:61568,Karva:61569,Karva
 m_a	Karva-SAKa	61573,KarvaSAKa
 m_a	Karvawa	61578,Karvawa
 m_a	Karvita	61576,Karvita
@@ -41711,7 +41711,7 @@ m_a	pra-yAsa	136211,prayAsa
 m_a	pra-yukta	136274,prayukta
 m_a	pra-yukta-tama	136289,prayuktatama
 m_a	pra-yukta-saMskAra	136290,prayuktasaMskAra
-m_a	pra-yuta	136264,prayuta:136270,prayuta:136270.3,prayuta
+m_a	pra-yuta	136264,prayuta:136264.1,prayuta:136270,prayuta:136270.3,prayuta
 m_a	pra-yudDa	136424,prayudDa
 m_a	pra-yudDArTa	136426,prayudDArTa
 m_a	pra-yoktavya	136294,prayoktavya
@@ -56573,7 +56573,7 @@ m_a	lakuwa	180321,lakuwa
 m_a	lakkaka	180325,lakkaka
 m_a	lakta	180326,lakta
 m_a	lakvana-candra	180330,lakvanacandra
-m_a	lakza	180332,lakza
+m_a	lakza	180332,lakza:180336,lakza
 m_a	lakza-datta	180340,lakzadatta
 m_a	lakza-dIpa-kalpa	180341,lakzadIpakalpa
 m_a	lakza-BUta	180356,lakzaBUta
@@ -66030,6 +66030,7 @@ m_a	SaRWa	211799,SaRWa:211800,SaRWa
 m_a	SaRqa	211802,SaRqa
 m_a	SaRqika	211806,SaRqika
 m_a	SaRqila	211809,SaRqila
+m_a	Sata	211813,Sata
 m_a	Sata-M-hima	211815,SataMhima
 m_a	Sata-kaRwaka	211816,SatakaRwaka
 m_a	Sata-kapAleSa	211817,SatakapAleSa
@@ -74955,6 +74956,7 @@ m_a	sahasAna	240021,sahasAna:240022,sahasAna
 m_a	sahasodgata	240020,sahasodgata
 m_a	sahasya	240028,sahasya:240029,sahasya
 m_a	sahasya-candra	240030,sahasyacandra
+m_a	sahasra	240499,sahasra
 m_a	sahasra-ka	240503,sahasraka
 m_a	sahasra-kara	240505,sahasrakara
 m_a	sahasra-kara-pan-netra	240506,sahasrakarapannetra

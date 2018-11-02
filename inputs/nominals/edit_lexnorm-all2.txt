@@ -749,7 +749,8 @@ old 156076	maDuvidviz	maDu-vidviz	m
 new 156076	maDuvidviz	maDu-vi-dviz	m
 old 204025	vftravidviz	vftra-vidviz	m
 new 204025	vftravidviz	vftra-vi-dviz	m
-; these are declined like cardinal number zaz
+; these are declined like cardinal number zaz, although mw shows as m:f:n,
+;  we decline only in m., like zaz
 old 88424	trizaz	tri-zaz	m:f:n
 new 88424	trizaz	tri-zaz	LEXID=card,STEM=tri-zaz
 old 98731	dvizaz	dvi-zaz	m:f:n
@@ -791,7 +792,7 @@ new 20190	azwatriMSata	zwa-triMSat	LEXID=card,STEM=azwa-triMSat
 old 98464	dvitrayastriMSat	dvi-trayas-triMSat	f
 new 98464	dvitrayastriMSat	dvi-trayas-triMSat	LEXID=card,STEM=dvi-trayas-triMSat
 old 243940	siMhAsanadvAtriMSat	siMhAsana-dvAtriMSat	f
-new 243940	siMhAsanadvAtriMSat	siMhAsana-dvAtriMSat	LEXID=card,STEM=siMhAsana-dvAtriMSat
+new 243940	siMhAsanadvAtriMSat	siMhAsana-dvAtriMSat	LEXID=card,STEM=siMhAsana-dvA-triMSat
 ; errors. word ends in 'a', lexnorm == 'f'.
 ; These need to be corrected in MW
 old 65073	gira	gira	f
@@ -815,3 +816,69 @@ new 239711	savyezWf	savyezWf	m
 ; should correct in mw
 old 86521	tf	tf	n
 new 86521	tf	tf	m
+; Nov 2, 2018  remove 'LEXID=card' from: 
+; arbuda, mahArbuda
+; ayuta, prayuta
+; Karva, niKarva
+; sahasra
+; Sata
+;  Consider the declensions to be normal m_a or n_a models
+old 16359	arbuda	arbuda	LEXID=card,STEM=arbuda
+new 16359	arbuda	arbuda	m:n
+old 160663	mahArbuda	mahArbuda	LEXID=card,STEM=mahArbuda
+new 160663	mahArbuda	mahArbuda	n
+old 14953	ayuta	a-yuta	LEXID=card,STEM=a-yuta
+new 14953	ayuta	a-yuta	m:n
+old 180336	lakza	lakza	LEXID=card,STEM=lakza
+new 180336	lakza	lakza	m:f:n
+old 136264.1	prayuta	pra-yuta	LEXID=card,STEM=pra-yuta
+new 136264.1	prayuta	pra-yuta	m:n
+old 61568	Karva	Karva	LEXID=card,STEM=Karva
+new 61568	Karva	Karva	m:n
+old 108010	niKarva	ni-Karva	LEXID=card,STEM=ni-Karva
+new 108010	niKarva	ni-Karva	n
+old 211813	Sata	Sata	LEXID=card,STEM=Sata
+new 211813	Sata	Sata	m:n
+old 240499	sahasra	sahasra	LEXID=card,STEM=sahasra
+new 240499	sahasra	sahasra	m:n
+; examples of 'viMSat' being used instead of viMSati.
+; Presume these decline likt triMSat; change stem to viMSat
+old 39594	ekaviMSat	eka-viMSat	LEXID=card,STEM=eka-viMSati
+new 39594	ekaviMSat	eka-viMSat	LEXID=card,STEM=eka-viMSat
+old 71305	caturviMSat	catur-viMSat	LEXID=card,STEM=catur-viMSati
+new 71305	caturviMSat	catur-viMSat	LEXID=card,STEM=catur-viMSat
+old 113918	paYcaviMSat	paYca-viMSat	LEXID=card,STEM=paYca-viMSati
+new 113918	paYcaviMSat	paYca-viMSat	LEXID=card,STEM=paYca-viMSat
+old 193774	viMSat	viMSat	LEXID=card,STEM=viMSati
+new 193774	viMSat	viMSat	LEXID=card,STEM=viMSat
+old 225251	zaqviMSat	zaq-viMSat	LEXID=card,STEM=zaq-viMSati
+new 225251	zaqviMSat	zaq-viMSat	LEXID=card,STEM=zaq-viMSat
+old 232615	saptaviMSat	sapta-viMSat	LEXID=card,STEM=sapta-viMSati
+new 232615	saptaviMSat	sapta-viMSat	LEXID=card,STEM=sapta-viMSat
+; more changes re cardinals
+old 39786	ekAdaSa	ekAdaSa	LEXID=card,STEM=ekA-daSan
+new 39786	ekAdaSa	ekAdaSa	n
+; change stem
+old 71484	catvAriMSati	catvAriMSati	LEXID=card,STEM=catvAriMSat
+new 71484	catvAriMSati	catvAriMSati	LEXID=card,STEM=catvAriMSati
+; change stem
+old 87477	trayastriMSati	trayas-triMSati	LEXID=card,STEM=trayas-triMSat
+new 87477	trayastriMSati	trayas-triMSati	LEXID=card,STEM=trayas-triMSati
+; remove tra as alternate to tri. 
+old 87410	tra	tra	LEXID=card,STEM=tri
+[delete]
+; change stem
+old 88537	triMSati	triMSati	LEXID=card,STEM=triMSat
+new 88537	triMSati	triMSati	LEXID=card,STEM=triMSati
+; change stem
+old 98158.1	dvAcatvAriMSati	dvA-catvAriMSati	LEXID=card,STEM=dvA-catvAriMSat
+new 98158.1	dvAcatvAriMSati	dvA-catvAriMSati	LEXID=card,STEM=dvA-catvAriMSati
+; change stem
+old 114210	paYcASati	paYcASati	LEXID=card,STEM=paYcASat
+new 114210	paYcASati	paYcASati	LEXID=card,STEM=paYcASati
+; change stem
+old 224998	zawtriMSati	zaw-triMSati	LEXID=card,STEM=zaw-triMSat
+new 224998	zawtriMSati	zaw-triMSati	LEXID=card,STEM=zaw-triMSati
+; change stem
+old 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSat
+new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati

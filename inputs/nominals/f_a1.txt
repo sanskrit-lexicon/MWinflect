@@ -4874,7 +4874,7 @@ f_A	aBy-aYjyA	13169,aByaYjya
 f_A	aBy-atitA	13172,aByatita
 f_A	aBy-atItA	13179,aByatIta
 f_A	aBy-aDikADikA	13186.1,aByaDikADika
-f_A	aBy-anujYA	13189,aByanujYA:13189,aByanujYA
+f_A	aBy-anujYA	13189,aByanujYA
 f_A	aBy-anujYAtA	13192,aByanujYAta
 f_A	aBy-anujYeyA	13199.1,aByanujYeya
 f_A	aBy-anUktA	13204,aByanUkta
@@ -6250,7 +6250,7 @@ f_A	A-Ku-karRa-parRikA	22452,AKukarRaparRikA
 f_A	A-Ku-parRikA	22457,AKuparRikA
 f_A	A-Ku-viza-hA	22462,AKuvizahA
 f_A	A-Ku-vizApahA	22463,AKuvizApahA
-f_A	A-KyA	22501,AKyA:22501,AKyA
+f_A	A-KyA	22501,AKyA
 f_A	A-KyAtavyA	22509,AKyAtavya
 f_A	A-KyAtA	22505,AKyAta
 f_A	A-KyAtottarA	22508.1,AKyAtottara
@@ -14132,7 +14132,7 @@ f_A	guha-priyA	66276,guhapriyA
 f_A	guha-hatA	66284,guhahata
 f_A	guhad-avadyA	66287,guhadavadya
 f_A	guharA	66288,guhara
-f_A	guhA	66267,guhA:66267,guhA
+f_A	guhA	66267,guhA
 f_A	guhA-carA	66294,guhAcara
 f_A	guhA-muKA	66295,guhAmuKa
 f_A	guhA-SayA	66298,guhASaya
@@ -14347,7 +14347,7 @@ f_A	go-yutA	67448,goyuta
 f_A	go-rakza-taRqulA	67469,gorakzataRqula
 f_A	go-rakza-dugDA	67472,gorakzadugDA
 f_A	go-rakzakA	67478,gorakzaka
-f_A	go-rakzA	67452,gorakza:67460,gorakzA:67460,gorakzA
+f_A	go-rakzA	67452,gorakza:67460,gorakzA
 f_A	go-raBasA	67493,goraBasa
 f_A	go-rAwikA	67502,gorAwikA
 f_A	go-rUpA	67507,gorUpa
@@ -14556,7 +14556,7 @@ f_A	grAhya-rUpA	68815,grAhyarUpa
 f_A	grAhyA	68791,grAhya:68812,grAhyA
 f_A	grIva-daGnA	69089,grIvadaGna
 f_A	grIva-badDA	69089.1,grIvabadDa
-f_A	grIvA	69083,grIvA:69083,grIvA:69091,grIvA
+f_A	grIvA	69083,grIvA:69091,grIvA
 f_A	grIvA-GaRwA	69092,grIvAGaRwA
 f_A	grIvAlikA	69094,grIvAlikA
 f_A	grIzma-jA	69102,grIzmajA
@@ -14595,7 +14595,7 @@ f_A	Gawwa-gA	69351,GawwagA
 f_A	GawwanA	69356,GawwanA
 f_A	GawwA	69348,GawwA
 f_A	GawwitA	69357,Gawwita:69360,GawwitA
-f_A	GaRwA	69367,GaRwA:69367,GaRwA:69375,GaRwA
+f_A	GaRwA	69367,GaRwA:69375,GaRwA
 f_A	GaRwA-tAqA	69382,GaRwAtAqa
 f_A	GaRwA-mudrA	69394,GaRwAmudrA
 f_A	GaRwA-ravA	69397,GaRwAravA
@@ -14706,7 +14706,7 @@ f_A	GfzwA	70125,Gfzwa
 f_A	GfzWilA	70134,GfzWilA
 f_A	GeYculikA	70136,GeYculikA
 f_A	GowikA	70144,GowikA
-f_A	GoRA	70157,GoRA:70157,GoRA
+f_A	GoRA	70157,GoRA
 f_A	GoRwA	70163,GoRwA
 f_A	Gora-GoratarA	70186,GoraGoratara
 f_A	Gora-tarA	70188,Goratara
@@ -15023,7 +15023,7 @@ f_A	candra-vadanA	71812,candravadanA
 f_A	candra-varRA	71816,candravarRa
 f_A	candra-vaSA	71824,candravaSA
 f_A	candra-vasA	71825,candravasA
-f_A	candra-SAlA	71834,candraSAlA:71834,candraSAlA
+f_A	candra-SAlA	71834,candraSAlA
 f_A	candra-SAlikA	71835,candraSAlikA
 f_A	candra-SilA	71836,candraSilA
 f_A	candra-SItA	71838,candraSItA
@@ -15592,7 +15592,7 @@ f_A	cetaH-pIqA	74037,cetaHpIqA
 f_A	cetakA	74038,cetaka
 f_A	cetana-tA	74049,cetanatA
 f_A	cetanakA	74055,cetanakA
-f_A	cetanA	74048,cetanA:74048,cetanA
+f_A	cetanA	74048,cetanA
 f_A	cetanikA	74057,cetanikA
 f_A	cetanIyA	74061,cetanIyA
 f_A	cetayA	74062,cetaya
@@ -15862,7 +15862,7 @@ f_A	jaNGilA	76499,jaNGila
 f_A	jajjA	76504,jajja
 f_A	jajYanA	76508,jajYana
 f_A	jaYjapUkA	76517,jaYjapUka
-f_A	jawA	76519,jawa:76521,jawA:76521,jawA:76530,jawA
+f_A	jawA	76519,jawa:76521,jawA:76530,jawA
 f_A	jawA-karA	76531,jawAkara
 f_A	jawA-DarA	76540,jawADara
 f_A	jawA-mUlA	76558,jawAmUlA
@@ -15880,7 +15880,7 @@ f_A	jaWara-sTitA	76641,jaWarasTita
 f_A	jaWarI-kftA	76646,jaWarIkfta
 f_A	jaqa-kriyA	76663,jaqakriya
 f_A	jaqa-tA	76664,jaqatA
-f_A	jaqA	76662,jaqA:76662,jaqA
+f_A	jaqA	76662,jaqA
 f_A	jaqAtmakA	76682,jaqAtmaka
 f_A	jaqASayA	76685,jaqASaya
 f_A	jaqitA	76689,jaqita
@@ -16361,7 +16361,7 @@ f_A	jihmI-karA	79481,jihmIkara
 f_A	jihmI-kftA	79484,jihmIkfta
 f_A	jihmetarA	79476,jihmetara
 f_A	jihvalA	79498,jihvala
-f_A	jihvA	79488,jihva:79490,jihvA:79490,jihvA:79499,jihvA
+f_A	jihvA	79488,jihva:79490,jihvA:79499,jihvA
 f_A	jihvA-mUlIyA	79516,jihvAmUlIya
 f_A	jihvA-latA	79518,jihvAlatA
 f_A	jihvikA	79497.2,jihvikA
@@ -16990,7 +16990,7 @@ f_A	tarasaga-dattA	83252.1,tarasagadattA
 f_A	tarA	83023,tara
 f_A	tarikA	83151,tarikA
 f_A	taritA	83155,taritA
-f_A	taru-cCAyA	83263,tarucCAyA:83263,tarucCAyA
+f_A	taru-cCAyA	83263,tarucCAyA
 f_A	taru-jA	83265,taruja
 f_A	taru-tA	83268,tarutA
 f_A	taru-tUlikA	83269,tarutUlikA
@@ -17141,12 +17141,12 @@ f_A	tAra-tamA	84265,tAratama
 f_A	tAra-dIrGA	84267,tAradIrGa
 f_A	tAra-vimalA	84276,tAravimalA
 f_A	tAra-svarA	84281,tArasvara
-f_A	tArakA	84298,tArakA:84298,tArakA:84320,tArakA
+f_A	tArakA	84298,tArakA:84320,tArakA
 f_A	tArakA-mayA	84323,tArakAmaya
 f_A	tArakAkzA	84321,tArakAkza
 f_A	tArakitA	84333,tArakita
 f_A	tAralA	84418,tArala
-f_A	tArA	84228,tAra:84248,tArA:84248,tArA:84346,tArA
+f_A	tArA	84228,tAra:84248,tArA:84346,tArA
 f_A	tArA-cCAyA	84357,tArAcCAya
 f_A	tArA-paj-JawikA	84363,tArApajJawikA
 f_A	tArA-BUzA	84374,tArABUzA
@@ -17691,7 +17691,7 @@ f_A	tyAjitA	87389,tyAjita
 f_A	tyAjyA	87394,tyAjya
 f_A	tyAdfSA	87406,tyAdfSa
 f_A	traNgA	87414,traNga:87415,traNga
-f_A	trapA	87423,trapA:87423,trapA
+f_A	trapA	87423,trapA
 f_A	trapA-yuktA	87428,trapAyukta
 f_A	trapA-raRqA	87429,trapAraRqA
 f_A	trapA-hInA	87431,trapAhIna
@@ -21378,7 +21378,7 @@ f_A	nASitA	106212,nASita
 f_A	nASyA	106218,nASya
 f_A	nAzwrA	106221,nAzwrA
 f_A	nAsatyA	106296,nAsatya:106298,nAsatyA
-f_A	nAsA	106225,nAsA:106225,nAsA
+f_A	nAsA	106225,nAsA
 f_A	nAsA-puwa-maryAdA	106240.1,nAsApuwamaryAdA
 f_A	nAsAntikA	106236,nAsAntika
 f_A	nAsika-M-DamA	106267,nAsikaMDama
@@ -21752,7 +21752,7 @@ f_A	ni-zevitavyA	110781,nizevitavya
 f_A	ni-zevitA	110780,nizevita
 f_A	ni-zevyA	110784,nizevya
 f_A	ni-zwAnakA	110903,nizwAnaka
-f_A	ni-zWA	110920,nizWa:110924,nizWA:110924,nizWA
+f_A	ni-zWA	110920,nizWa:110924,nizWA
 f_A	ni-zWA-gatA	110934,nizWAgata
 f_A	ni-zWA-vA	110937,nizWAva
 f_A	ni-zWA-SUnyA	110939,nizWASUnya
@@ -23503,7 +23503,7 @@ f_A	patanIyA	114784,patanIya
 f_A	patayizRukA	114792,patayizRuka
 f_A	patarA	114793,patara
 f_A	patA	115002,pata
-f_A	patAkA	114798,patAkA:114799,patAkA:114799,patAkA
+f_A	patAkA	114798,patAkA:114799,patAkA
 f_A	patAkikA	114812,patAkika
 f_A	patApatA	114822,patApata
 f_A	pati-M-varA	115020,patiMvarA
@@ -23547,7 +23547,7 @@ f_A	pattra-BadrA	114904,pattraBadrA
 f_A	pattra-mUlakA	114907,pattramUlaka
 f_A	pattra-reKA	114915,pattrareKA
 f_A	pattra-latA	114916,pattralatA
-f_A	pattra-leKA	114920,pattraleKA:114920,pattraleKA
+f_A	pattra-leKA	114920,pattraleKA
 f_A	pattra-vAjA	114925,pattravAja
 f_A	pattra-sirA	114938,pattrasirA
 f_A	pattraRA	114972,pattraRA
@@ -26780,7 +26780,7 @@ f_A	pra-mIQA	135925,pramIQa
 f_A	pra-mIta-patikA	135953,pramItapatikA
 f_A	pra-mItA	135950,pramIta
 f_A	pra-mIyA	135955,pramIya
-f_A	pra-mIlA	135961,pramIlA:135961,pramIlA
+f_A	pra-mIlA	135961,pramIlA
 f_A	pra-mIlikA	135960,pramIlikA
 f_A	pra-mIlitA	135964,pramIlita
 f_A	pra-muktA	135985,pramukta
@@ -27269,7 +27269,7 @@ f_A	pracura-ratna-DanAgamA	130747,pracuraratnaDanAgama
 f_A	pracura-lomA	130748,pracuraloma
 f_A	pracurI-kftA	130751,pracurIkfta
 f_A	pracCanA	130825,pracCana
-f_A	prajA	130857,prajA:130857,prajA
+f_A	prajA	130857,prajA
 f_A	prajA-kAmA	130865,prajAkAma
 f_A	prajA-dA	130872,prajAdA
 f_A	prajA-DarA	130876,prajADara
@@ -27591,7 +27591,7 @@ f_A	prati-zeDArTIyA	133227,pratizeDArTIya
 f_A	prati-zeDopamA	133229,pratizeDopamA
 f_A	prati-zeDyA	133237,pratizeDya
 f_A	prati-zwabDA	133249,pratizwabDa
-f_A	prati-zWA	133261,pratizWA:133263,pratizWA:133263,pratizWA
+f_A	prati-zWA	133261,pratizWA:133263,pratizWA
 f_A	prati-zWA-kalpalatA	133279.1,pratizWAkalpalatA
 f_A	prati-zWA-kAmA	133280,pratizWAkAma
 f_A	prati-zWAnvitA	133284,pratizWAnvita
@@ -30313,7 +30313,7 @@ f_A	Bujaga-latA	151282,BujagalatA
 f_A	Bujaga-SiSu-sftA	151285,BujagaSiSusftA
 f_A	BujagAtmajA	151286,BujagAtmajA
 f_A	BujA	151235,BujA:151337,BujA
-f_A	BujA-latA	151344,BujAlatA:151344,BujAlatA
+f_A	BujA-latA	151344,BujAlatA
 f_A	Bujizya-tA	151401.1,BujizyatA
 f_A	BujizyA	151392,Bujizya:151400,BujizyA
 f_A	ButopasfzwA	152033,Butopasfzwa
@@ -31753,7 +31753,7 @@ f_A	mahA-rajanA	160533,mahArajana
 f_A	mahA-ratna-mayA	160541,mahAratnamaya
 f_A	mahA-ratna-varzA	160543,mahAratnavarzA
 f_A	mahA-raTA	160552,mahAraTa
-f_A	mahA-raTyA	160555,mahAraTyA:160555,mahAraTyA
+f_A	mahA-raTyA	160555,mahAraTyA
 f_A	mahA-ramBA	160556.1,mahAramBa
 f_A	mahA-rasA	160566,mahArasa:160570,mahArasA
 f_A	mahA-rAja-kulInA	160586,mahArAjakulIna
@@ -34080,7 +34080,7 @@ f_A	ratna-parIkzA	174327,ratnaparIkzA
 f_A	ratna-pIWA	174333,ratnapIWA
 f_A	ratna-praBA	174342,ratnapraBA
 f_A	ratna-BUtA	174353,ratnaBUta
-f_A	ratna-mAlA	174362,ratnamAlA:174362,ratnamAlA
+f_A	ratna-mAlA	174362,ratnamAlA
 f_A	ratna-mAlikA	174366,ratnamAlikA
 f_A	ratna-mudrA	174372,ratnamudrA
 f_A	ratna-reKA	174383,ratnareKA
@@ -34911,6 +34911,7 @@ f_A	lakzaRAnvitA	180427,lakzaRAnvita
 f_A	lakzaRIyA	180445,lakzaRIya
 f_A	lakzaRottamA	180431,lakzaRottamA
 f_A	lakzaRyA	180447,lakzaRya
+f_A	lakzA	180336,lakza
 f_A	lakzita-lakzaRA	180463,lakzitalakzaRa
 f_A	lakzitavyA	180464,lakzitavya
 f_A	lakzitA	180450,lakzita
@@ -36508,7 +36509,7 @@ f_A	vAjeDyA	190360,vAjeDyA
 f_A	vAjreyA	190459,vAjreya
 f_A	vAYCakA	190462,vAYCaka
 f_A	vAYCanIyA	190465,vAYCanIya
-f_A	vAYCA	190466,vAYCA:190466,vAYCA
+f_A	vAYCA	190466,vAYCA
 f_A	vAYCA-kalpa-latA	190469,vAYCAkalpalatA
 f_A	vAYCitavyA	190481,vAYCitavya
 f_A	vAYCitA	190478,vAYCita
@@ -36753,7 +36754,7 @@ f_A	vAri-jAkzA	191463,vArijAkza
 f_A	vAri-jIvakA	191467,vArijIvaka
 f_A	vAri-trA	191472,vAritrA
 f_A	vAri-dA	191473,vArida
-f_A	vAri-DArA	191486,vAriDArA:191486,vAriDArA
+f_A	vAri-DArA	191486,vAriDArA
 f_A	vAri-paTikA	191500,vAripaTika
 f_A	vAri-pA	191495,vAripa:191496,vAripa
 f_A	vAri-pAlikA	191502,vAripAlikA
@@ -40581,7 +40582,7 @@ f_A	SakvarA	211166,SakvarA
 f_A	SakvarI-pfzWA	211177,SakvarIpfzWa
 f_A	SaNkanIyA	211432,SaNkanIya
 f_A	SaNkavyA	211524,SaNkavya
-f_A	SaNkA	211429,SaNkA:211434,SaNkA:211434,SaNkA
+f_A	SaNkA	211429,SaNkA:211434,SaNkA
 f_A	SaNkA-SIlA	211445,SaNkASIla
 f_A	SaNkA-spfzwA	211447,SaNkAspfzwa
 f_A	SaNkA-hInA	211448,SaNkAhIna
@@ -40727,7 +40728,7 @@ f_A	Sata-sAhasrikA	212227,SatasAhasrika
 f_A	Sata-hastA	212239,Satahasta
 f_A	Sata-hAyanA	212240,SatahAyana
 f_A	Sata-hutA	212242,Satahuta
-f_A	Sata-hradA	212244,SatahradA:212244,SatahradA
+f_A	Sata-hradA	212244,SatahradA
 f_A	Sata-hrAdA	212248,SatahrAdA
 f_A	Sataka-wIkA	212363,SatakawIkA
 f_A	Sataka-vyAKyA	212364,SatakavyAKyA
@@ -40913,7 +40914,7 @@ f_A	SayAnakA	213407,SayAnaka
 f_A	SayAnA	213405,SayAna
 f_A	SayitavyA	213418,Sayitavya
 f_A	SayitA	213414,Sayita
-f_A	SayyA	213428,SayyA:213428,SayyA
+f_A	SayyA	213428,SayyA
 f_A	SayyA-gatA	213433,SayyAgata
 f_A	SayyA-sana-sTA	213450.3,SayyAsanasTa
 f_A	Sara-kuRqe-SayA	213467,SarakuRqeSaya
@@ -40974,7 +40975,7 @@ f_A	SarEzIkA	213584,SarEzIkA
 f_A	Saro-gfhItA	213607.1,SarogfhIta
 f_A	Sarkara-jA	213947,SarkarajA
 f_A	SarkarakA	213950,Sarkaraka
-f_A	SarkarA	213953,SarkarA:213953,SarkarA
+f_A	SarkarA	213953,SarkarA
 f_A	SarkarA-praBA	213964,SarkarApraBA
 f_A	SarkarAlA	213973,SarkarAla
 f_A	SarkarAvartA	213968,SarkarAvartA
@@ -41468,7 +41469,7 @@ f_A	SirIza-pattrikA	217242,SirIzapattrikA
 f_A	SirIzikA	217249,SirIzikA:217250,SirIzika
 f_A	Siro-gatA	217155,Sirogata
 f_A	Siro-DaraRIyA	217171,SiroDaraRIya
-f_A	Siro-DarA	217170,SiroDarA:217170,SiroDarA
+f_A	Siro-DarA	217170,SiroDarA
 f_A	Siro-DAryA	217173,SiroDArya
 f_A	Siro-maRi-tA	217191.01,SiromaRitA
 f_A	Siro-maRi-vyAKyA	217193.1,SiromaRivyAKyA
@@ -42233,7 +42234,7 @@ f_A	SoPitA	221593,SoPita
 f_A	SoBana-vAhA	221630,SoBanavAha
 f_A	SoBanA	221618,SoBanA
 f_A	SoBanIyA	221635,SoBanIya
-f_A	SoBA	221595,SoBa:221639,SoBA:221639,SoBA
+f_A	SoBA	221595,SoBa:221639,SoBA
 f_A	SoBA-karA	221646,SoBAkara
 f_A	SoBitA	221656,SoBita
 f_A	SoBizWA	221659,SoBizWa
@@ -43725,7 +43726,7 @@ f_A	saM-kawa-nASanA	227937,saMkawanASana
 f_A	saM-kawa-muKA	227938,saMkawamuKa
 f_A	saM-kawa-sTA	227941,saMkawasTa
 f_A	saM-kawA	227934,saMkawA
-f_A	saM-kaTA	227954,saMkaTA:227954,saMkaTA
+f_A	saM-kaTA	227954,saMkaTA
 f_A	saM-kaTitA	227956,saMkaTita
 f_A	saM-kara-jA	228102,saMkaraja
 f_A	saM-kara-jAtA	228103,saMkarajAta
@@ -43912,7 +43913,7 @@ f_A	saM-jYa-tA	229370.1,saMjYatA
 f_A	saM-jYananA	229425,saMjYananA
 f_A	saM-jYapitA	229375,saMjYapita
 f_A	saM-jYaptA	229376,saMjYapta
-f_A	saM-jYA	229365,saMjYa:229368,saMjYa:229369,saMjYA:229381,saMjYA:229381,saMjYA
+f_A	saM-jYA	229365,saMjYa:229368,saMjYa:229369,saMjYA:229381,saMjYA
 f_A	saM-jYA-pariBAzA	229399,saMjYApariBAzA
 f_A	saM-jYA-pAda-vyAKyA	229401,saMjYApAdavyAKyA
 f_A	saM-jYA-prakriyA	229403,saMjYAprakriyA
@@ -44419,7 +44420,7 @@ f_A	saM-stutakA	227144,saMstutaka
 f_A	saM-stutA	227137,saMstuta
 f_A	saM-stftA	227167,saMstfta
 f_A	saM-styAnA	227168,saMstyAna
-f_A	saM-sTA	227185,saMsTA:227186,saMsTA:227186,saMsTA
+f_A	saM-sTA	227185,saMsTA:227186,saMsTA
 f_A	saM-sTA-kftA	227202,saMsTAkfta
 f_A	saM-sTAnA	227208,saMsTAna
 f_A	saM-sTApakA	227232,saMsTApaka
@@ -44588,7 +44589,7 @@ f_A	sawwaka-wIkA	229467,sawwakawIkA
 f_A	sawwaya-vyAKyA	229469,sawwayavyAKyA
 f_A	sawvA	229470,sawvA
 f_A	saRQikA	229489,saRQikA
-f_A	sat-kaTA	229505,satkaTA:229505,satkaTA
+f_A	sat-kaTA	229505,satkaTA
 f_A	sat-kartavyA	229509,satkartavya
 f_A	sat-karma-candrikA	229519.1,satkarmacandrikA
 f_A	sat-karma-dIpikA	229519.4,satkarmadIpikA
@@ -47550,7 +47551,7 @@ f_A	sItA-rAma-candrA	245066,sItArAmacandra
 f_A	sItyA	245093,sItya
 f_A	sIbalA	245119,sIbalA
 f_A	sImantitA	245157,sImantita
-f_A	sImA	245162,sImA:245162,sImA:245187,sImA
+f_A	sImA	245162,sImA:245187,sImA
 f_A	sImA-kfzARA	245165,sImAkfzARa
 f_A	sImA-nta-leKA	245171.6,sImAntaleKA
 f_A	sImikA	245191,sImikA
@@ -48733,7 +48734,7 @@ f_A	suta-m-BarA	245251,sutamBara
 f_A	suta-vatsalA	245306,sutavatsala
 f_A	suta-vaskarA	245309,sutavaskarA
 f_A	suta-somA	245257,sutasoma:245257.4,sutasomA
-f_A	sutA	245238,suta:245243,suta:245289,suta:245294,sutA:245318,sutA:245318,sutA
+f_A	sutA	245238,suta:245243,suta:245289,suta:245294,sutA:245318,sutA
 f_A	sutAtmajA	245314,sutAtmajA
 f_A	sutI-BUtA	245328,sutIBUta
 f_A	sute-karA	245263,sutekara
@@ -49944,7 +49945,7 @@ f_A	spfhaRIyA	256718,spfhaRIya
 f_A	spfhayad-varRA	256723,spfhayadvarRa
 f_A	spfhayAyyA	256724,spfhayAyya
 f_A	spfhayAlu-tA	256728,spfhayAlutA
-f_A	spfhA	256730,spfhA:256730,spfhA
+f_A	spfhA	256730,spfhA
 f_A	spfhitA	256734,spfhita
 f_A	spfhyA	256735,spfhya
 f_A	sprazwavyA	256707,sprazwavya
@@ -51466,7 +51467,7 @@ f_A	hemnA	264352,hemnA
 f_A	heyA	262506,heya:262622,heya:264071,heya
 f_A	herukA	264382,herukA
 f_A	helanIyA	264386,helanIya
-f_A	helA	264387,helA:264387,helA
+f_A	helA	264387,helA
 f_A	helihilA	264399,helihila
 f_A	hevAkasA	264413,hevAkasa
 f_A	hevAki-tA	264414.1,hevAkitA
