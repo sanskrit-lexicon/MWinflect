@@ -1464,6 +1464,7 @@ ind	om	40704,om
 ind	ozam	40728,ozam
 ind	O	40791,O
 ind	Om	41158,Om
+ind	ka	41360,ka
 ind	kacA-kaci	41731,kacAkaci
 ind	kaw	42163.1,kaw
 ind	kawakawA	42164,kawakawA
@@ -2008,6 +2009,7 @@ ind	tiryag-grIvam	85148,tiryaggrIvam
 ind	tila-Sas	85284,tilaSas
 ind	tizWad-gu	85362,tizWadgu
 ind	tisras-kAram	85385,tisraskAram
+ind	tIra	85533,tIra
 ind	tIvram	85663,tIvram
 ind	tu	85706,tu
 ind	tura-M-gI-BUya	86026,turaMgIBUya
@@ -2022,6 +2024,7 @@ ind	tUrA	86410.2,tUrA
 ind	tUrRa-taram	86416,tUrRataram
 ind	tUrRam	86414,tUrRam
 ind	tUrBis	86410.3,tUrBis
+ind	tUla	86446,tUla
 ind	tUla-dAham	86463,tUladAham
 ind	tUzRIM-BAvam	86510,tUzRIMBAvam
 ind	tUzRIM-BUya	86512,tUzRIMBUya
@@ -2302,6 +2305,7 @@ ind	naktayA	102807,naktayA
 ind	naKA-naKi	102987,naKAnaKi
 ind	nagara-dEvata-vat	103075,nagaradEvatavat
 ind	naY	103165,naY
+ind	nadam	103311,nada
 ind	naBas-tas	103764,naBastas
 ind	naBas-vat	103771,naBasvat
 ind	naBAka-vat	103818.1,naBAkavat
@@ -2699,6 +2703,7 @@ ind	paSu-pAla-vat	120602.1,paSupAlavat
 ind	paSu-mAram	120632.1,paSumAram
 ind	paSu-mAreRa	120632.2,paSumAreRa
 ind	paSu-vat	120647,paSuvat
+ind	paSca	120693,paSca
 ind	paScA	120701,paScA
 ind	paScA-tAt	120725,paScAtAt
 ind	paScAt	120709,paScAt
@@ -3674,6 +3679,7 @@ ind	muKa-taH-kAram	164880.2,muKataHkAram
 ind	muKa-tas	164880,muKatas
 ind	muKa-bAhUru-pAdatas	164912,muKabAhUrupAdatas
 ind	muKa-mAtre	164927.1,muKamAtre
+ind	muKam	164838,muKa
 ind	muKena	164857.1,muKena
 ind	muKya-tas	165062,muKyatas
 ind	muKya-Sas	165069,muKyaSas
@@ -5166,6 +5172,7 @@ ind	sAkUtam	240991,sAkUtam
 ind	sAkzatam	241066,sAkzatam
 ind	sAkzAt	241015,sAkzAt
 ind	sAkzi-vat	241053,sAkzivat
+ind	sAkzikam	241054,sAkzika
 ind	sAkziptam	241070,sAkziptam
 ind	sAkzepam	241072.1,sAkzepam
 ind	sAgara-vat	241134,sAgaravat

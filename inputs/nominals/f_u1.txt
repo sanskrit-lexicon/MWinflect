@@ -301,6 +301,7 @@ f_U	srU	257687,srU
 f_U	sva-pU	259059,svapU
 f_U	sva-BU	258067,svaBU
 f_U	sva-sU	258269,svasU
+f_U	svanU	258911,svana
 f_U	svayaM-vara-vaDU	258518,svayaMvaravaDU
 f_U	svar-vaDU	259156,svarvaDU
 f_U	svarga-vaDU	259209,svargavaDU

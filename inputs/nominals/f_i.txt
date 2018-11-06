@@ -1197,6 +1197,7 @@ f_i	kubji	52259.1,kubji
 f_i	kumBa-yoni	52554,kumBayoni
 f_i	kumBaka-padDati	52592,kumBakapadDati
 f_i	kula-tiTi	52863,kulatiTi
+f_i	kula-devi	52872,kuladeva
 f_i	kula-pAli	52905,kulapAli
 f_i	kula-yukti	52943,kulayukti
 f_i	kula-vfdDi	52959,kulavfdDi
@@ -1605,6 +1606,7 @@ f_i	cIt-kfti	74422,cItkfti
 f_i	cIti	73357,cIti
 f_i	cIri	74485,cIri
 f_i	cuYculi	74554,cuYculi
+f_i	cuti	74572,cuta
 f_i	culli	74711,culli
 f_i	culhi	74712,culhi
 f_i	cUti	74797,cUti
@@ -2312,6 +2314,7 @@ f_i	nArAyaRa-Sruti	105960,nArAyaRaSruti
 f_i	nArAyaRa-smfti	105969,nArAyaRasmfti
 f_i	nArASaMsa-paNkti	106100,nArASaMsapaNkti
 f_i	nAri	105995,nAri
+f_i	nArikeli	106103,nArikela
 f_i	nAlakini	106139,nAlakini
 f_i	nAli	106142.1,nAli:106143.1,nAli
 f_i	nAsti-mUrti	102690.3,nAstimUrti
@@ -2805,6 +2808,7 @@ f_i	puruzAkfti	126564,puruzAkfti
 f_i	puruzArTa-sUtra-vftti	126593.5,puruzArTasUtravftti
 f_i	puruzAhuti	126598,puruzAhuti
 f_i	puruzokti	126602,puruzokti
+f_i	puro-gavi	126047,purogava
 f_i	puro-granTi	126052,purogranTi
 f_i	puro-jiti	126059,purojiti
 f_i	puro-vAta-sani	126122,purovAtasani
@@ -3138,6 +3142,7 @@ f_i	prOQokti	141385,prOQokti
 f_i	pluta-gati	141555,plutagati
 f_i	pluti	141560,pluti
 f_i	ploti	141582,ploti
+f_i	PaRiti	141686,PaRita
 f_i	Pala-grahi	141764,Palagrahi
 f_i	Pala-nirvftti	141789,Palanirvftti
 f_i	Pala-nivftti	141791,Palanivftti
@@ -3186,6 +3191,7 @@ f_i	bala-kfti	143100,balakfti
 f_i	bala-sTiti	143213,balasTiti
 f_i	balAbala-sUtra-bfhad-vftti	143239.1,balAbalasUtrabfhadvftti
 f_i	bali-dAna-padDati	143356,balidAnapadDati
+f_i	baliSi	143414,baliSa
 f_i	ballava-yuvati	143441,ballavayuvati
 f_i	basta-ganDAkfti	143463,bastaganDAkfti
 f_i	bahir-yUti	144158,bahiryUti
@@ -3546,7 +3552,7 @@ f_i	malla-BUmi	158914,mallaBUmi
 f_i	malli	158861,malli
 f_i	malli-ganDi	158864,malliganDi
 f_i	maSaka-kuwi	159016,maSakakuwi
-f_i	masUri	159128,masUri
+f_i	masUri	159112,masUra:159128,masUri
 f_i	masti	159081,masti
 f_i	maha-rdDi	159179,mahardDi:159180,mahardDi
 f_i	mahanIya-kIrti	159267,mahanIyakIrti
@@ -3972,7 +3978,7 @@ f_i	rUpa-hAni	179193,rUpahAni
 f_i	reKA-pratIti	179356,reKApratIti
 f_i	rewi	179368,rewi
 f_i	reBawi	179473,reBawi
-f_i	revati	179554,revati
+f_i	revati	179507,revata:179554,revati
 f_i	roga-SAnti	179685,rogaSAnti
 f_i	roci	179788,roci
 f_i	ropi	179844,ropi

@@ -531,6 +531,378 @@ def model_mfn_f(recs,flog):
 
 def model_mfn_a1(recs,flog):
  endchar = 'a'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+ 
+  knownlexnorms = [ 'f#A', 'm:f#I', 'm:f#A:f#I:n', 'f#A:n', 'm:f#ikA:n', 
+                'm:f#A', 'm:f#I:n', 'm:f#A:n']
+  if not rec.lexnorm in knownlexnorms:
+   continue
+  """
+  knownparts = []
+  for lexnorm in knownlexnorms:
+   lexparts = rec.lexnorm.split(':')
+   for lexpart in lexparts:
+    if lexpart not in knownparts:
+     knownparts.append(lexpart)
+  """
+  lexparts = rec.lexnorm.split(':')
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_a, n_a
+   elif part == 'f#A':
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#I':
+    mstem = stem[0:-1] + 'I'  # deva -> devI
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'I')
+   elif part == 'f#ikA':
+    newend = part[2:] # 'ikA'
+    if not stem.endswith(('aka','ika')):
+     mstem = stem[0:-1] + newend  #  replace final a with ikA
+     print("model mfn_a1: unusual stem:",stem,part,mstem)
+    else:
+     mstem = stem[0:-3] + newend  #  replace final aka/ika with akA or ikA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   else:
+    print('mfn_a1 Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_a1',d,flog)
+
+def model_mfn_a2(recs,flog):
+ endchar = 'a'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  
+  """
+  knownlexnorms = [ 'f#A', 'm:f#I', 'm:f#A:f#I:n', 'f#A:n', 'm:f#ikA:n', 
+                'm:f#A', 'm:f#I:n', 'm:f#A:n']
+  if not rec.lexnorm in knownlexnorms:
+   continue
+  """
+  """
+  knownparts = []
+  for lexnorm in knownlexnorms:
+   lexparts = rec.lexnorm.split(':')
+   for lexpart in lexparts:
+    if lexpart not in knownparts:
+     knownparts.append(lexpart)
+  """
+  knownparts = ['m','f','n','f#A','f#I','f#ikA','f#akA']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  lexparts = rec.lexnorm.split(':')
+  # also require that either 'm' or 'n' be one of the lexparts
+  if (not 'm' in lexparts) and (not 'n' in lexparts):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_a, n_a
+   elif part == 'f':
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#A':
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#I':
+    mstem = stem[0:-1] + 'I'  # deva -> devI
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'I')
+   elif part in ['f#ikA','f#akA']:
+    newend = part[2:] # ikA or akA
+    if not stem.endswith(('aka','ika')):
+     mstem = stem[0:-1] + newend  #  replace final a with ikA or akA
+     print("model mfn_a2: unusual stem:",stem,part,mstem)
+    else:
+     mstem = stem[0:-3] + newend  #  replace final aka/ika with akA or ikA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   else:
+    print('mfn_a2 Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_a2',d,flog)
+
+def model_mfn_a3(recs,flog,fileout):
+ """ This also writes records to a temporary file for further examination"""
+ fout = codecs.open(fileout,"w","utf-8")
+ nout = 0
+ endchar = 'a'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  
+  knownparts = ['f','f#A','f#I','f#ikA','f#akA']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  lexparts = rec.lexnorm.split(':')
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n']:  # not needed, but does no harm
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_a, n_a
+   elif part == 'f':
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#A':
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#I':
+    mstem = stem[0:-1] + 'I'  # deva -> devI
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'I')
+   elif part in ['f#ikA','f#akA']:
+    newend = part[2:] # ikA or akA
+    if not stem.endswith(('aka','ika')):
+     mstem = stem[0:-1] + newend  #  replace final a with ikA or akA
+     print("model mfn_a3: unusual stem:",stem,part,mstem)
+    else:
+     mstem = stem[0:-3] + newend  #  replace final aka/ika with akA or ikA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   else:
+    print('mfn_a2 Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+   if not (part in ['m','n']):
+    # write record to temp file for feminine stem
+    out = rec.toString() + '\t' + mstem
+    out = "%s\t%s\t%s" %(rec.toString(),part,mstem)
+    fout.write(out + '\n')
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_a3',d,flog)
+ fout.close()
+ print(nout,"lexnorm records written to",fileout)
+
+def model_mfn_a4(recs,flog,fileout):
+ """ This also writes records to a temporary file for further examination"""
+ fout = codecs.open(fileout,"w","utf-8")
+ nout = 0
+ endchar = 'a'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n','f#A','f#I','f#akA','f#ikA',
+                'f#enI','f#apI','f#apyA', 'f#sI',
+                'f#iknI','f#ArI','f#AvI','f#enikA','f#vI',
+                'f#padI','f#i','f#u','f#IkA', 'f#tyA','f#yanI',
+                'f#iRI','f#inI','f#inikA','f#arI','f#rI',
+                'f#sOrI','f#U', 'f#stI',
+                'ind#am','ind']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  lexparts = rec.lexnorm.split(':')
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n']:  # not needed, but does no harm
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_a, n_a
+   elif part in ['f','f#A']:
+    mstem = stem[0:-1] + 'A'  # deva -> devA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part == 'f#I':
+    mstem = stem[0:-1] + 'I'  # deva -> devI
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'I')
+   elif part in ['f#ikA','f#akA']:
+    newend = part[2:] # ikA or akA
+    if not stem.endswith(('aka','ika')):
+     mstem = stem[0:-1] + newend  #  replace final a with ikA or akA
+     print("model mfn_a4: unusual stem:",stem,part,mstem)
+    else:
+     mstem = stem[0:-3] + newend  #  replace final aka/ika with akA or ikA
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'A')
+   elif part in ['f#enI']:
+    ending = part[2:]
+    assert stem.endswith('eta')
+    mstem = stem[0:-3] + ending
+    model = 'f_I'
+   elif part in ['f#apI','f#apyA']:
+    ending = part[2:]
+    assert stem.endswith('apya')
+    mstem = ending
+    model = 'f_%s' %ending[-1]
+   elif part in ['f#sI']:
+    ending = part[2:]
+    assert stem == 'apasya'
+    mstem = stem[0:-3] + ending
+    model = 'f_I'
+   elif part in ['f#iknI']:
+    ending = part[2:]
+    assert stem in ['asita','palita']
+    mstem = stem[0:-3] + ending # replace 'ita' with 'iknI'
+    model = 'f_I'
+   elif part in ['f#ArI']:
+    ending = part[2:]
+    assert stem == 'Arya'
+    mstem = ending
+    model = 'f_I'
+   elif part in ['f#AvI']:
+    ending = part[2:]
+    assert stem == 'Avya'
+    mstem = ending
+    model = 'f_I'
+   elif part in ['f#enikA']:
+    ending = part[2:]
+    assert stem == 'etaka'
+    mstem = ending
+    model = 'f_A'
+   elif part in ['f#vI']:
+    ending = part[2:]
+    assert stem == 'Ekalavya'
+    mstem = stem[0:-3] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#padI']:
+    ending = part[2:]
+    assert stem in ['kumBa-pAda','dru-pAda']
+    mstem = stem[0:-4] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#i']:
+    ending = part[2:]
+    mstem = stem[0:-1] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#u']:
+    ending = part[2:]
+    mstem = stem[0:-1] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#U']:
+    assert stem == 'svana'
+    ending = part[2:]
+    mstem = stem[0:-1] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#IkA']:
+    assert stem == 'KuqqAka'
+    ending = part[2:]
+    mstem = stem[0:-3] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#tyA']:
+    assert stem in ['cEkayata','bElvayata']
+    ending = part[2:]
+    mstem = stem[0:-2] + ending
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#yanI']:
+    assert stem in ['brADnAyanya']
+    ending = part[2:]
+    mstem = stem[0:-5] + ending # replace yanya with yanI
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#iRI']:
+    assert stem in ['Barita','rohita','Sukla-harita','harita']
+    ending = part[2:]
+    mstem = stem[0:-3] + ending # replace ita with iRI
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#inI']:
+    # what about compounds ending with lohita ?
+    assert stem in ['lohita']
+    ending = part[2:]
+    mstem = stem[0:-3] + ending # replace ita with inI
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#inikA']:
+    # what about compounds ending with lohita ?
+    assert stem in ['lohitaka']
+    ending = part[2:]
+    mstem = stem[0:-5] + ending # replace itaka with inikA
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#arI']:
+    assert stem in ['vi-BAva']
+    ending = part[2:]
+    mstem = stem[0:-1] + ending # replace final 'a' with arI
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#rI']:
+    assert stem in ['vEdUrya']
+    ending = part[2:]
+    mstem = stem[0:-3] + ending # replace final 'rya' with rI
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#sOrI']:
+    assert stem in ['sOrya']
+    ending = part[2:]
+    mstem = ending 
+    model = 'f_%s' % ending[-1]
+   elif part in ['f#stI']:
+    assert stem in ['Agastya']
+    ending = part[2:]
+    mstem = stem[0:-4] + ending # replace final 'stya' with stI
+    model = 'f_%s' % ending[-1]
+   elif part in ['ind#am']:
+    assert stem in ['nada','muKa','sAkzika']
+    ending = part[4:]  # am
+    mstem = stem[0:-1] + ending # replace final 'a' with 'am'
+    model = 'ind'
+   elif part in ['ind']:
+    if stem not in ['ka','tIra','tUla','paSca']:
+     print 'mfn_a  unexpected "ind"',stem
+    mstem = stem
+    model = 'ind'
+   else:
+    print('mfn_a4 Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+   if not (part in ['m','n']):
+    # write record to temp file for feminine stem
+    out = rec.toString() + '\t' + mstem
+    out = "%s\t%s\t%s" %(rec.toString(),part,mstem)
+    fout.write(out + '\n')
+   nout = nout + 1
+
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_a4',d,flog)
+ fout.close()
+ print(nout,"lexnorm records written to",fileout)
+
+def prev_model_mfn_a1(recs,flog):
+ endchar = 'a'
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(endchar):
@@ -1565,8 +1937,11 @@ if __name__ == "__main__":
  model_n_f(recs,flog)
  model_mfn_f(recs,flog)
  model_card(recs,flog)
-
- #model_mfn_a1(recs,flog)
+ if True:
+  model_mfn_a1(recs,flog)
+  model_mfn_a2(recs,flog)
+  model_mfn_a3(recs,flog,'model_mfn_a3.txt')  # cases written to file
+  model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

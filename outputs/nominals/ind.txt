@@ -1464,6 +1464,7 @@ ind	om	om
 ind	ozam	ozam
 ind	O	O
 ind	Om	Om
+ind	ka	ka
 ind	kacA-kaci	kacAkaci
 ind	kaw	kaw
 ind	kawakawA	kawakawA
@@ -2008,6 +2009,7 @@ ind	tiryag-grIvam	tiryaggrIvam
 ind	tila-Sas	tilaSas
 ind	tizWad-gu	tizWadgu
 ind	tisras-kAram	tisraskAram
+ind	tIra	tIra
 ind	tIvram	tIvram
 ind	tu	tu
 ind	tura-M-gI-BUya	turaMgIBUya
@@ -2022,6 +2024,7 @@ ind	tUrA	tUrA
 ind	tUrRa-taram	tUrRataram
 ind	tUrRam	tUrRam
 ind	tUrBis	tUrBis
+ind	tUla	tUla
 ind	tUla-dAham	tUladAham
 ind	tUzRIM-BAvam	tUzRIMBAvam
 ind	tUzRIM-BUya	tUzRIMBUya
@@ -2302,6 +2305,7 @@ ind	naktayA	naktayA
 ind	naKA-naKi	naKAnaKi
 ind	nagara-dEvata-vat	nagaradEvatavat
 ind	naY	naY
+ind	nadam	nadam
 ind	naBas-tas	naBastas
 ind	naBas-vat	naBasvat
 ind	naBAka-vat	naBAkavat
@@ -2699,6 +2703,7 @@ ind	paSu-pAla-vat	paSupAlavat
 ind	paSu-mAram	paSumAram
 ind	paSu-mAreRa	paSumAreRa
 ind	paSu-vat	paSuvat
+ind	paSca	paSca
 ind	paScA	paScA
 ind	paScA-tAt	paScAtAt
 ind	paScAt	paScAt
@@ -3674,6 +3679,7 @@ ind	muKa-taH-kAram	muKataHkAram
 ind	muKa-tas	muKatas
 ind	muKa-bAhUru-pAdatas	muKabAhUrupAdatas
 ind	muKa-mAtre	muKamAtre
+ind	muKam	muKam
 ind	muKena	muKena
 ind	muKya-tas	muKyatas
 ind	muKya-Sas	muKyaSas
@@ -5166,6 +5172,7 @@ ind	sAkUtam	sAkUtam
 ind	sAkzatam	sAkzatam
 ind	sAkzAt	sAkzAt
 ind	sAkzi-vat	sAkzivat
+ind	sAkzikam	sAkzikam
 ind	sAkziptam	sAkziptam
 ind	sAkzepam	sAkzepam
 ind	sAgara-vat	sAgaravat

@@ -1186,6 +1186,7 @@ f_u	vAmana-tanu	191133,vAmanatanu
 f_u	vAmoru	191029,vAmoru
 f_u	vAya-rajju	191185,vAyarajju
 f_u	vAyu	191393,vAyu:191394,vAyu
+f_u	vArtAku	191873,vArtAka
 f_u	vAstu	192600,vAstu
 f_u	vi-kuja-ravIndu	192907,vikujaravIndu
 f_u	vi-ketu	192921,viketu
