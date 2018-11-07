@@ -755,7 +755,9 @@ f_i	Arti	25998,Arti
 f_i	Ardra-pavi	26491,Ardrapavi
 f_i	AryA-gIti	26607,AryAgIti
 f_i	Ali	26793,Ali:26794,Ali:26799,Ali
+f_i	Avali	27013,Avali
 f_i	AvaSyaka-bfhad-vftti	27026,AvaSyakabfhadvftti
+f_i	Avi	27072,Avi
 f_i	Avir-BUti	27150,AvirBUti
 f_i	ASi	27358,ASi
 f_i	ASIr-ukti	27466,ASIrukti
@@ -1028,7 +1030,7 @@ f_i	kaTA-saMDi	42745.1,kaTAsaMDi
 f_i	kad-arTI-kfti	42827,kadarTIkfti
 f_i	kanIci	43166,kanIci
 f_i	kanti	43172,kanti:43765,kanti
-f_i	kapi	43442,kapi
+f_i	kapi	43441,kapi:43442,kapi
 f_i	kapota-pAli	43650,kapotapAli
 f_i	kapotANGri	43665,kapotANGri
 f_i	kapola-pAli	43687,kapolapAli
@@ -2199,6 +2201,7 @@ f_i	DUmA-vatI-pUjA-padDati	101607.2,DUmAvatIpUjApadDati
 f_i	DUmAvali	101609,DUmAvali
 f_i	DUrRi	101760.1,DUrRi
 f_i	DUrti	101793,DUrti
+f_i	DUli	101703,DUli
 f_i	Dfta-heti	101877,Dftaheti
 f_i	Dfti	101886,Dfti
 f_i	DftezuDi	101881,DftezuDi
@@ -2303,7 +2306,7 @@ f_i	nAnA-praBfti	105552,nAnApraBfti
 f_i	nAnA-varRAkfti	105578,nAnAvarRAkfti
 f_i	nAnA-viDa-SAnti	105581,nAnAviDaSAnti
 f_i	nAndI-muKa-SrAdDa-padDati	105633.1,nAndImuKaSrAdDapadDati
-f_i	nABi	105661,nABi
+f_i	nABi	105656,nABi:105661,nABi
 f_i	nAma-vismfti	105801,nAmavismfti
 f_i	nAmAvali	105820,nAmAvali
 f_i	nAra-candra-padDati	105899,nAracandrapadDati
@@ -2364,6 +2367,7 @@ f_i	ni-zatti	110676,nizatti
 f_i	ni-zidDi	110746,nizidDi
 f_i	ni-zWyUti	110956,nizWyUti
 f_i	ni-hnuti	111177,nihnuti
+f_i	niH-SreRi	106376,niHSreRi
 f_i	niH-zUti	107772,niHzUti
 f_i	niH-saMtati	106420,niHsaMtati
 f_i	niH-saMDi	106426,niHsaMDi
@@ -2619,6 +2623,7 @@ f_i	pari-tuzwi	117658,parituzwi
 f_i	pari-tfpti	117676,paritfpti
 f_i	pari-nirvfti	117838,parinirvfti
 f_i	pari-nizpatti	117856,parinizpatti
+f_i	pari-pAwi	117938,paripAwi
 f_i	pari-pUti	117986,paripUti
 f_i	pari-pUrti	118016,paripUrti
 f_i	pari-prApti	118041,pariprApti
@@ -2739,7 +2744,9 @@ f_i	pArvaRaSrAdDa-padDati	122946,pArvaRaSrAdDapadDati
 f_i	pArSva-nATa-stuti	123027.7,pArSvanATastuti
 f_i	pArSvArti	123053,pArSvArti
 f_i	pArzada-vftti	123095,pArzadavftti
+f_i	pArzRi	123107,pArzRi
 f_i	pAlana-vftti	123165.2,pAlanavftti
+f_i	pAli	123207,pAli
 f_i	pi-hiti	124272,pihiti
 f_i	piNgala-cCando-vftti	123644,piNgalacCandovftti
 f_i	piNgala-vftti	123656,piNgalavftti
@@ -3093,6 +3100,7 @@ f_i	prAcya-pada-vftti	139472,prAcyapadavftti
 f_i	prAcya-vftti	139476,prAcyavftti
 f_i	prAjApatyezwi	139170,prAjApatyezwi
 f_i	prAjya-vfzwi	139187,prAjyavfzwi
+f_i	prAYjali	139489,prAYjali
 f_i	prARa-citi	139532,prARaciti
 f_i	prARa-pratizWA-padDati	139596,prARapratizWApadDati
 f_i	prARa-budDi	139608,prARabudDi
@@ -3468,6 +3476,7 @@ f_i	maNgalArcana-padDati	154251,maNgalArcanapadDati
 f_i	maYji	154459,maYji
 f_i	maYju-gIti	154490,maYjugIti
 f_i	maWa-sTiti	154565,maWasTiti
+f_i	maRi	154592,maRi
 f_i	maRi-tulA-kowi	154655,maRitulAkowi
 f_i	maRi-dIDiti	154662,maRidIDiti
 f_i	maRi-prakASaka-dIpti	154700,maRiprakASakadIpti
@@ -3552,6 +3561,7 @@ f_i	malla-BUmi	158914,mallaBUmi
 f_i	malli	158861,malli
 f_i	malli-ganDi	158864,malliganDi
 f_i	maSaka-kuwi	159016,maSakakuwi
+f_i	mazi	159032,mazi
 f_i	masUri	159112,masUra:159128,masUri
 f_i	masti	159081,masti
 f_i	maha-rdDi	159179,mahardDi:159180,mahardDi
@@ -3760,7 +3770,7 @@ f_i	yajYopavIta-nirmARa-padDati	169500.20,yajYopavItanirmARapadDati
 f_i	yajYopavIta-padDati	169500.25,yajYopavItapadDati
 f_i	yata-raSmi	170271,yataraSmi
 f_i	yatAkzAsu-mano-budDi	170276,yatAkzAsumanobudDi
-f_i	yati	170280,yati
+f_i	yati	170280,yati:170283,yati
 f_i	yati-kartavya-gaNgA-stuti	169564,yatikartavyagaNgAstuti
 f_i	yati-rAja-viMSati	169580.1,yatirAjaviMSati
 f_i	yati-rAja-saptati	169580.5,yatirAjasaptati
@@ -3825,6 +3835,7 @@ f_i	yogAnuSAsana-sUtra-vftti	172602.1,yogAnuSAsanasUtravftti
 f_i	yogApatti	172605,yogApatti
 f_i	yogAvali	172617,yogAvali
 f_i	yogeSvara-padDati	172647,yogeSvarapadDati
+f_i	yoni	172830,yoni
 f_i	yoni-saMvfti	172877,yonisaMvfti
 f_i	raMhati	173031,raMhati
 f_i	raMhi	173037,raMhi
@@ -3920,6 +3931,7 @@ f_i	rAjyABizeka-dIDiti	176938,rAjyABizekadIDiti
 f_i	rAjyABizeka-padDati	176938.1,rAjyABizekapadDati
 f_i	rAwi	177011,rAwi
 f_i	rAti	176044,rAti:176045,rAti
+f_i	rAtri	177050,rAtri
 f_i	rAtri-tiTi	177068,rAtritiTi
 f_i	rAdDi	177163,rAdDi
 f_i	rADA-padDati	177209,rADApadDati
@@ -3939,6 +3951,7 @@ f_i	rAmArcana-padDati	177592.2,rAmArcanapadDati
 f_i	rAmArcA-padDati	177594,rAmArcApadDati
 f_i	rAmArya-vijYapti	177597,rAmAryavijYapti
 f_i	rAyas-poza-vani	179543,rAyaspozavani
+f_i	rASi	177751,rASi
 f_i	rAzwra-gupti	177797,rAzwragupti
 f_i	rAzwra-Bfti	177818,rAzwraBfti
 f_i	rAzwra-vivfdDi	177827,rAzwravivfdDi
@@ -4048,6 +4061,7 @@ f_i	livi	182663,livi
 f_i	lInAli	182800,lInAli
 f_i	lIlA-rati	182848,lIlArati
 f_i	luRWi	182945,luRWi
+f_i	lumbini	183056,lumbini
 f_i	lUni	183153,lUni
 f_i	leKa-pratileKa-lipi	182368,leKapratileKalipi
 f_i	leKana-vasti	182405,leKanavasti
@@ -4092,6 +4106,7 @@ f_i	vakri	184460,vakri
 f_i	vakrokti	184453,vakrokti
 f_i	vakzaRi	184534,vakzaRi
 f_i	vagalA-muKI-padDati	184564.3,vagalAmuKIpadDati
+f_i	vaNkri	184500,vaNkri
 f_i	vaNga-lipi	184594,vaNgalipi
 f_i	vacana-vyakti	184740,vacanavyakti
 f_i	vajra-pARi	184937,vajrapARi
@@ -4161,6 +4176,7 @@ f_i	varza-Pala-padDati	187911,varzaPalapadDati
 f_i	varza-vfdDi	187932,varzavfdDi
 f_i	varzaRi	187970,varzaRi
 f_i	varzA-rAtri	188003,varzArAtri
+f_i	valaBi	188097,valaBi
 f_i	valayI-kftAhi	188122,valayIkftAhi
 f_i	vali	188125,vali
 f_i	vallaBAzwaka-vivfti	188321,vallaBAzwakavivfti
@@ -4168,6 +4184,7 @@ f_i	vallari	188327,vallari
 f_i	valli	188342,valli
 f_i	vaSi	188455,vaSi
 f_i	vaSI-kfti	188492,vaSIkfti
+f_i	vazaw-kfti	188554,vazawkfti
 f_i	vazwi	188520,vazwi
 f_i	vasati	189102,vasati:189107,vasati
 f_i	vasAti	188668,vasAti
@@ -4191,6 +4208,7 @@ f_i	vastra-yoni	189064,vastrayoni
 f_i	vasya-izwi	188980,vasyaizwi
 f_i	vasyazwi	188981,vasyazwi
 f_i	vAk-keli	189817,vAkkeli
+f_i	vAk-pati	189838,vAkpati
 f_i	vAk-pAwava-nirukti	189850,vAkpAwavanirukti
 f_i	vAkya-padDati	189919,vAkyapadDati
 f_i	vAkya-vftti	189944,vAkyavftti
@@ -4234,6 +4252,7 @@ f_i	vAyu-marul-lipi	191328,vAyumarullipi
 f_i	vAyu-SAnti	191356,vAyuSAnti
 f_i	vAyu-stuti	191370,vAyustuti
 f_i	vAra-yuvati	191601,vArayuvati
+f_i	vAra-vARi	191613,vAravARi
 f_i	vAri	191673,vAri
 f_i	vAri-masi	191522,vArimasi
 f_i	vAri-Sukti	191557,vAriSukti
@@ -4468,6 +4487,7 @@ f_i	viyad-BUti	198985,viyadBUti
 f_i	virala-Bakti	199172,viralaBakti
 f_i	viralANguli	199175,viralANguli
 f_i	viralAtapa-cohavi	199176,viralAtapacohavi
+f_i	virudAvali	199361,virudAvali
 f_i	viSva-kfzwi	201029,viSvakfzwi
 f_i	viSva-kziti	201034,viSvakziti
 f_i	viSva-gUrti	201046,viSvagUrti
@@ -4710,6 +4730,7 @@ f_i	Saka-kArakotpatti	211209,SakakArakotpatti
 f_i	Sakawi	211270,Sakawi
 f_i	SakalI-kfti	211307,SakalIkfti
 f_i	SakAri-lipi	211232,SakArilipi
+f_i	Sakuni	211364,Sakuni
 f_i	Sakfd-rIti	211412.2,SakfdrIti
 f_i	Sakti	210902,Sakti
 f_i	Sakti-vijaya-stuti	211005,Saktivijayastuti
@@ -4821,6 +4842,7 @@ f_i	SArNga-Dara-padDati	215865,SArNgaDarapadDati
 f_i	SAlA-karma-padDati	215998,SAlAkarmapadDati
 f_i	SAlAYji	216095,SAlAYji
 f_i	SAli	216107,SAli
+f_i	SAlmali	216202,SAlmali
 f_i	SAsanAtivftti	216323,SAsanAtivftti
 f_i	SAsti	216338,SAsti
 f_i	SAstra-dfzwi	216391,SAstradfzwi:216392,SAstradfzwi
@@ -4909,7 +4931,7 @@ f_i	Sukra-SAnti	218994,SukraSAnti
 f_i	Sukra-Soci	218997,SukraSoci
 f_i	SukreSvara-stuti	219009.2,SukreSvarastuti
 f_i	Sukla-vftti	219120,Suklavftti
-f_i	Suci	219196,Suci
+f_i	Suci	219196,Suci:219231,Suci
 f_i	SuRWi	219328,SuRWi
 f_i	SuRQi	219363.1,SuRQi
 f_i	SudDa-kowi	219394,SudDakowi
@@ -5013,6 +5035,7 @@ f_i	Sruti-stuti	223640,Srutistuti
 f_i	Sruti-smfti	223642,Srutismfti
 f_i	Sruzwi	223679,Sruzwi:223682,Sruzwi
 f_i	SreRi	223691,SreRi
+f_i	SroRi	223809,SroRi
 f_i	Srotu-rAti	223843,SroturAti
 f_i	Srotra-pAli	223863,SrotrapAli
 f_i	SrOta-padDati	223915,SrOtapadDati
@@ -5637,6 +5660,7 @@ f_i	su-rata-glAni	248615,surataglAni
 f_i	su-rata-nivftti	248619,suratanivftti
 f_i	su-rata-vAra-rAtri	248632,suratavArarAtri
 f_i	su-rati	248642,surati
+f_i	su-raBi	249623,suraBi
 f_i	su-raBi-ganDi	249637,suraBiganDi
 f_i	su-rAti	248708,surAti
 f_i	su-rAtri	248709,surAtri
@@ -5885,7 +5909,7 @@ f_i	sva-BUti	258070,svaBUti:258071,svaBUti
 f_i	sva-BUmi	258073,svaBUmi
 f_i	sva-yukti	258093,svayukti:258093.1,svayukti
 f_i	sva-yuti	258096,svayuti
-f_i	sva-yoni	258098,svayoni:258103,svayoni
+f_i	sva-yoni	258098,svayoni:258101,svayoni:258103,svayoni
 f_i	sva-ruci	258136,svaruci:258137,svaruci
 f_i	sva-rUpa-samboDana-paYca-viMSati-vftti	258167.2,svarUpasamboDanapaYcaviMSativftti
 f_i	sva-rUpAsidDi	258170,svarUpAsidDi
@@ -5979,6 +6003,7 @@ f_i	hastANguli	262254,hastANguli
 f_i	hasti-koli	262313,hastikoli
 f_i	hAdi	260294,hAdi
 f_i	hAni	262519,hAni
+f_i	hAra-yazwi	260828,hArayazwi
 f_i	hAri	260860,hAri
 f_i	hArIta-smfti	261597,hArItasmfti
 f_i	hArzRi	261756,hArzRi

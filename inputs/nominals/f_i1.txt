@@ -1,4 +1,5 @@
 f_I	a-kalmAzI	213.2,akalmAza
+f_I	a-kavArI	221,akavAri
 f_I	a-kArRavezwakikI	246,akArRavezwakika
 f_I	a-kAla-kOmudI	264.1,akAlakOmudI
 f_I	a-keSI	368,akeSa
@@ -176,6 +177,7 @@ f_I	ati-SakvarI	3219.1,atiSakvarI
 f_I	ati-SayanI	3239,atiSayana:3241,atiSayanI
 f_I	ati-SvI	3256,atiSva
 f_I	ati-sarasvatI	2833.1,atisarasvatI
+f_I	ati-strI	3300,atistri
 f_I	atItvarI	3326,atItvarI
 f_I	aty-amla-parRI	2873,atyamlaparRI
 f_I	aty-azwi-sAmagrI	3455,atyazwisAmagrI
@@ -373,6 +375,7 @@ f_I	arDa-sama-muktAvalI	16276,arDasamamuktAvalI
 f_I	arDikI	16327,arDika
 f_I	arpaRI	16337,arpaRa
 f_I	arbu-dodAsarpiRI	16365.1,arbudodAsarpiRI
+f_I	arya-patnI	16383,aryapati
 f_I	aryARI	16406,aryARI
 f_I	aryI	16385.2,aryI
 f_I	arvatI	16414.1,arvatI
@@ -448,7 +451,9 @@ f_I	aSvABiDAnI	20071,aSvABiDAnI
 f_I	aSvikI	20132,aSvika
 f_I	aSvinI	20141,aSvinI
 f_I	azwa-karRI	20171,azwakarRI
+f_I	azwa-patnI	20205,azwapati
 f_I	azwa-mUlI	20225,azwamUlI
+f_I	azwa-yonI	20226,azwayoni
 f_I	azwa-vArzikI	20233.1,azwavArzika
 f_I	azwa-SatI	20239,azwaSatI
 f_I	azwamI	20331,azwama:20334,azwamI
@@ -524,6 +529,8 @@ f_I	A-rakta-puzpI	26033,AraktapuzpI
 f_I	A-raBawI	26105,AraBawI
 f_I	A-rAjYI	26158,ArAjYI
 f_I	A-rohaRI	26339,ArohaRa
+f_I	A-lakzI	26673,Alakzi
+f_I	A-lambI	26751,Alambi
 f_I	A-leKanI	26814,AleKanI
 f_I	A-loka-gadADarI	26912,AlokagadADarI
 f_I	A-vapanI	26977,AvapanI
@@ -545,6 +552,7 @@ f_I	A-hlAda-laharI	28478.1,AhlAdalaharI
 f_I	AkarzikI	22261,Akarzika
 f_I	AkasmikI	22080,Akasmika
 f_I	AkAlikI	22098,AkAlikI:22099,AkAlikI:22100,AkAlika
+f_I	AkidantI	22159,Akidanti
 f_I	AkrandikI	22313,Akrandika
 f_I	AkzakI	22365,AkzakI
 f_I	AkzikI	22375,AkzikI
@@ -617,6 +625,7 @@ f_I	ADyAtmikI	4649,ADyAtmika:24277,ADyAtmika
 f_I	ADvanikI	24304,ADvanika
 f_I	ADvarikI	24307,ADvarika
 f_I	ADvaryavI	24310,ADvaryava
+f_I	Anaka-dunduBI	24329,AnakadunduBi
 f_I	Anaka-sTalI	24331,AnakasTalI
 f_I	AnaquhI	24334,Anaquha
 f_I	Anana-carI	24343.1,Ananacara
@@ -684,7 +693,9 @@ f_I	AyatAkzI	25776,AyatAkza
 f_I	AyatApANgI	25777,AyatApANga
 f_I	AyasI	25831,Ayasa:25834,AyasI
 f_I	Ayu-patnI	25872,AyupatnI
+f_I	AyuH-patnI	25875,AyuHpati
 f_I	AyuDa-piSAcI	25954.2,AyuDapiSAcI
+f_I	Ayuz-patnI	25903,Ayuzpati
 f_I	AyogavI	25978,AyogavI
 f_I	Ara-bya-yAminI	26097.2,ArabyayAminI
 f_I	ArawI	26058,Arawa
@@ -719,6 +730,7 @@ f_I	ArzI	26630,Arza:26632,ArzI
 f_I	ArzeyI	26638,Arzeya
 f_I	ArhatI	26658,Arhata
 f_I	ArhAyaRI	26663,ArhAyaRa
+f_I	AlajI	26681,Alaji
 f_I	AlambAyanI	26747,AlambAyana
 f_I	AlApinI	26703,AlApinI
 f_I	AligavyAyanI	26824.1,AligavyAyanI
@@ -728,12 +740,12 @@ f_I	AlukI	26876,AlukI
 f_I	Ava-sAnI	27044,AvasAna
 f_I	AvantI	26960,AvantI
 f_I	AvartinI	27254,AvartinI
-f_I	AvalI	27013.5,AvalI
+f_I	AvalI	27013,Avali:27013.5,AvalI
 f_I	AvasaTikI	27035,AvasaTika
 f_I	AvasAnikI	27045,AvasAnika
 f_I	AvikI	27073,Avika
 f_I	Avir-muKI	27153,AvirmuKI
-f_I	AvI	27072.1,AvI:27312,Avya
+f_I	AvI	27072,Avi:27072.1,AvI:27312,Avya
 f_I	AveRikI	27296,AveRika
 f_I	AvyADinI	27339,AvyADinI
 f_I	ASAvarI	27452.1,ASAvarI
@@ -745,7 +757,7 @@ f_I	ASokeyI	27580,ASokeya
 f_I	AScarya-maYjarI	27591.1,AScaryamaYjarI
 f_I	ASmaraTI	27608,ASmaraTa
 f_I	ASvatTikI	27755,ASvatTika
-f_I	ASvatTI	27745,ASvatTa
+f_I	ASvatTI	27745,ASvatTa:27750,ASvatTi
 f_I	ASvabalI	27764,ASvabala
 f_I	ASvameDikI	27768.2,ASvameDikI
 f_I	ASvayujI	27770,ASvayuja:27773,ASvayujI
@@ -758,7 +770,7 @@ f_I	AsaNginI	27937.1,AsaNginI
 f_I	AsanI	27854.40,AsanI
 f_I	AsandI	27988,AsandI
 f_I	AsItakI	28026,AsItakI
-f_I	AsurI	28046,Asura:28054,AsurI
+f_I	AsurI	28046,Asura:28054,AsurI:28064,Asuri
 f_I	AstikI	28119,Astika
 f_I	AsneyI	28186,Asneya
 f_I	AsmAkI	28234,AsmAka
@@ -1111,6 +1123,7 @@ f_I	OpasTAnikI	41130,OpasTAnika
 f_I	OpasTAnI	41129,OpasTAna
 f_I	OpasTikI	41131,OpasTika
 f_I	OpasvastI	41134,OpasvastI
+f_I	OpoditI	41154,Opoditi
 f_I	OmikI	41161,Omika
 f_I	OmI	41159,Oma
 f_I	OrasI	41179,Orasa:41183,OrasI
@@ -1146,6 +1159,7 @@ f_I	kaNkaRI	41651,kaNkaRI
 f_I	kaNkatI	41669,kaNkatI
 f_I	kaNkAlinI	41687,kaNkAlinI
 f_I	kaNkI	41614,kaNka
+f_I	kaNkellI	41695,kaNkelli
 f_I	kaNgunI	41705,kaNgunI
 f_I	kacCa-pI	41778,kacCapI
 f_I	kacCAwI	41798,kacCAwI
@@ -1253,6 +1267,7 @@ f_I	kapitTinI	43520,kapitTinI
 f_I	kapilA-zazWI	43587,kapilAzazWI
 f_I	kapilAkzI	43576,kapilAkzI
 f_I	kapiSI	43600,kapiSa
+f_I	kapI	43441,kapi
 f_I	kapI-vatI	43504,kapIvatI
 f_I	kapota-pAkI	43648,kapotapAkI
 f_I	kapota-pAlI	43652,kapotapAlI
@@ -1385,6 +1400,7 @@ f_I	kali-hArI	45969,kalihArI
 f_I	kalinI	45997,kalinI
 f_I	kalinda-nandinI	46007,kalindanandinI
 f_I	kalindI	46004,kalindI
+f_I	kalI	45936,kali
 f_I	kaluza-maYjarI	46033,kaluzamaYjarI
 f_I	kalpa-pAlI	46120,kalpapAla
 f_I	kalpa-vallI	46138,kalpavallI
@@ -1410,6 +1426,7 @@ f_I	kavarI	46456,kavara:46460,kavarI:46464,kavarI
 f_I	kavazI	46489,kavaza
 f_I	kavAwI	46498,kavAwa
 f_I	kavi-karpawI	46544,kavikarpawI
+f_I	kavI	46538,kavi
 f_I	kaSmalI	46685,kaSmala
 f_I	kazwa-karI	46837,kazwakara
 f_I	kastUrikA-mfgI	46887,kastUrikAmfgI
@@ -1505,7 +1522,7 @@ f_I	kAntAra-vAsinI	47798,kAntAravAsinI
 f_I	kAntArI	47790.1,kAntArI
 f_I	kAnti-purI	47773,kAntipurI
 f_I	kAnti-matI	47775,kAntimatI
-f_I	kAntI	47782,kAntI
+f_I	kAntI	47760,kAnti:47782,kAntI
 f_I	kAntI-nagarI	47783,kAntInagarI
 f_I	kAnTakyAyanI	47807,kAnTakyAyanI
 f_I	kAnyakubjI	47825,kAnyakubja:47826,kAnyakubjI
@@ -2103,6 +2120,7 @@ f_I	kzAra-nadI	59180,kzAranadI
 f_I	kziti-badarI	59342,kzitibadarI
 f_I	kziti-SiYjinI	59360,kzitiSiYjinI
 f_I	kzitvarI	59498.1,kzitvarI
+f_I	kzipaRI	59518,kzipaRi
 f_I	kzipta-BezajI	59534,kziptaBezaja
 f_I	kzIra-kAkolI	59676,kzIrakAkolI
 f_I	kzIra-taraMgiRI	59691,kzIrataraMgiRI
@@ -3347,6 +3365,7 @@ f_I	tura-gI	85984,turagI
 f_I	turI	86049,turI
 f_I	tula-sAriRI	86211,tulasAriRI
 f_I	tulasI	86214,tulasI
+f_I	tulA-kowI	86119,tulAkowi
 f_I	tulA-BavAnI	86146,tulABavAnI
 f_I	tURI	86360,tURI:86373,tURI
 f_I	tUdI	86397,tUdI
@@ -3501,6 +3520,7 @@ f_I	try-akza-patnI	88815,tryakzapatnI
 f_I	try-akzI	88812,tryakza
 f_I	try-ambakeSvara-purI	88858,tryambakeSvarapurI
 f_I	try-aruzI	88864,tryaruza
+f_I	try-avI	88871,tryavi
 f_I	try-aSItI	88873,tryaSIta
 f_I	try-eRI	88916,tryeRI
 f_I	try-enI	88917,tryenI
@@ -3864,6 +3884,7 @@ f_I	dEva-janI	96857,dEvajana
 f_I	dEva-dattikI	96864,dEvadattika
 f_I	dEva-dattI	96860,dEvadatta
 f_I	dEva-dAravI	96866,dEvadArava
+f_I	dEva-yajYI	96870,dEvayajYi
 f_I	dEva-yAtavakI	96872,dEvayAtavaka
 f_I	dEva-rAjikI	96878,dEvarAjika
 f_I	dEva-lOkikI	96827,dEvalOkika
@@ -4177,6 +4198,7 @@ f_I	DUminI	101633,DUminI
 f_I	DUmrAkzI	101686,DUmrAkza
 f_I	DUrvI	101798,DUrvI
 f_I	DUli-mayI	101713,DUlimaya
+f_I	DUlI	101703,DUli
 f_I	DUlI-mayI	101720,DUlImaya
 f_I	DUsarI	101808,DUsarI
 f_I	Dfta-devI	101844,DftadevI
@@ -4391,6 +4413,7 @@ f_I	nABasI	105706,nABasa
 f_I	nABAkI	105709,nABAka
 f_I	nABi-nAqI	105683,nABinAqI
 f_I	nABi-mAtrI	105687,nABimAtra
+f_I	nABI	105656,nABi:105657,nABi
 f_I	nAma-kOmudI	105736,nAmakOmudI
 f_I	nAma-dvAdaSI	105753,nAmadvAdaSI
 f_I	nAma-ratnAvalI	105789,nAmaratnAvalI
@@ -4468,6 +4491,7 @@ f_I	ni-zAda-strI	110706,nizAdastrI
 f_I	ni-zAdI	110698,nizAdI
 f_I	ni-sarga-padvI	111047,nisargapadva
 f_I	ni-stanI	111076,nistanI
+f_I	niH-SreRI	106376,niHSreRi
 f_I	niH-SreyaRI	106381,niHSreyaRI
 f_I	niH-SreyasI	106382,niHSreyasa
 f_I	nicikI	108223,nicikI
@@ -4836,6 +4860,7 @@ f_I	pari-cAriRI	117385.1,paricAriRI
 f_I	pari-jYAna-mayI	117503,parijYAnamaya
 f_I	pari-nEzWikI	117854,parinEzWika
 f_I	pari-pAkinI	117885,paripAkinI
+f_I	pari-pAwI	117938,paripAwi
 f_I	pari-pUrRa-muKI	118010,paripUrRamuKa
 f_I	pari-pUrRa-sahasra-candra-vatI	118011,paripUrRasahasracandravatI
 f_I	pari-BAvukI	118172,pariBAvuka
@@ -5052,8 +5077,10 @@ f_I	pAri-grAmikI	122693,pArigrAmika
 f_I	pAri-jAta-mayI	122706,pArijAtamaya
 f_I	pAri-RAmikI	122714,pAriRAmika
 f_I	pAri-tozikI	122720,pAritozika
+f_I	pAri-dfQI	122722,pAridfQi
 f_I	pAri-BAzikI	122763,pAriBAzika
 f_I	pAri-muKikI	122769,pArimuKika
+f_I	pAri-vfQI	122779,pArivfQi
 f_I	pAri-vrAjakI	122784,pArivrAjaka
 f_I	pAri-zadakI	122795,pArizadaka
 f_I	pAri-zadI	122791,pArizada
@@ -5079,6 +5106,7 @@ f_I	pArSvEkAdaSI	123058,pArSvEkAdaSI
 f_I	pArzatI	123076,pArzata:123078,pArzatI
 f_I	pArzI	123103,pArzI
 f_I	pArzweyI	123105,pArzweya
+f_I	pArzRI	123107,pArzRi
 f_I	pAlaNkI	123187.2,pAlaNka:123187.3,pAlaNkI
 f_I	pAlanI	123162,pAlana
 f_I	pAlalI	123192,pAlala
@@ -5088,7 +5116,7 @@ f_I	pAlASI	123197,pAlASa
 f_I	pAlinI	123177,pAlinI
 f_I	pAlindI	123233,pAlindI
 f_I	pAlinDI	123235,pAlinDI
-f_I	pAlI	123142,pAlI
+f_I	pAlI	123142,pAlI:123207,pAli
 f_I	pAlvalI	123242,pAlvala
 f_I	pAvakI	123258,pAvakI
 f_I	pAvanI	123275,pAvana:123286,pAvanI
@@ -5181,6 +5209,7 @@ f_I	puMs-kawI	125019,puMskawI
 f_I	puMsI	125109,puMsI
 f_I	pukkasI	125131,pukkasI
 f_I	puNgI	125141,puNgI
+f_I	pucCawI	125169,pucCawi
 f_I	pucCI	125144,pucCa
 f_I	puYjika-sTalI	125181,puYjikasTalI
 f_I	puwakinI	125234,puwakinI
@@ -5499,7 +5528,7 @@ f_I	pra-vahaRI	136862,pravahaRa
 f_I	pra-vahlI	136899.2,pravahlI
 f_I	pra-vARI	137353,pravARI
 f_I	pra-vAhaRI	136882,pravAhaRI
-f_I	pra-vAhaReyI	136885,pravAhaReya
+f_I	pra-vAhaReyI	136885,pravAhaReya:136886,pravAhaReyi
 f_I	pra-vAhI	136876,pravAhI
 f_I	pra-vftti-parANmuKI	137315,pravfttiparANmuKa
 f_I	pra-veRI	137359,praveRI
@@ -5559,6 +5588,7 @@ f_I	prati-patti-parANmuKI	132529,pratipattiparANmuKa
 f_I	prati-pad-darSinI	131585.1,pratipaddarSinI
 f_I	prati-padI	132551,pratipadI
 f_I	prati-pAdukI	132589,pratipAduka
+f_I	prati-pratinI	131631,pratiprati
 f_I	prati-BI	131685,pratiBI
 f_I	prati-muKarI	131728,pratimuKarI
 f_I	prati-muKI	131723,pratimuKa:131725,pratimuKa:131726,pratimuKI
@@ -5671,6 +5701,7 @@ f_I	prAjApatI	139144,prAjApata:139145,prAjApatI
 f_I	prAjAvatI	139172,prAjAvata
 f_I	prAjeSI	139173,prAjeSa
 f_I	prAjeSvarI	139175,prAjeSvara
+f_I	prAYjalI	139489,prAYjali
 f_I	prARa-karI	139521,prARakara
 f_I	prARa-GAtakI	139528,prARaGAtaka
 f_I	prARa-GnI	139529,prARaGna
@@ -5855,6 +5886,7 @@ f_I	bahu-vallI	143855,bahuvallI
 f_I	bahu-vArzikI	143860,bahuvArzika
 f_I	bahu-sAhasrI	143932,bahusAhasra:143934,bahusAhasrI
 f_I	bahu-sUvarI	143948,bahusUvarI
+f_I	bahv-agnI	144046,bahvagni
 f_I	bahv-AScarya-mayI	144075,bahvAScaryamaya
 f_I	bahv-fcI	144081,bahvfca
 f_I	bARa-mayI	144265,bARamaya
@@ -6323,6 +6355,7 @@ f_I	BOmikI	153422,BOmika
 f_I	BOmI	153389,BOma:153401,BOmI
 f_I	BOrikikI	153431,BOrikika
 f_I	BOrikI	153427,BOrikI
+f_I	BOlikI	153434,BOliki
 f_I	BOliNgikI	153439,BOliNgika
 f_I	BOliNgI	153438,BOliNgI
 f_I	BOlI	153440,BOlI
@@ -6385,6 +6418,7 @@ f_I	maRi-mayI	154758,maRimaya
 f_I	maRi-mayI-purI	154759,maRimayIpurI
 f_I	maRi-ratna-mayI	154777,maRiratnamaya
 f_I	maRi-rocanI	154793,maRirocanI
+f_I	maRI	154592,maRi
 f_I	maRIvatI	154843,maRIvatI
 f_I	maRwapI	154848,maRwapI
 f_I	maRqa-pI	154872,maRqapa
@@ -6558,7 +6592,7 @@ f_I	marakata-pattrI	158149,marakatapattrI
 f_I	marakata-mayI	158151,marakatamaya
 f_I	marAlakI	158172,marAlaka
 f_I	marAlI	158168,marAla
-f_I	marIcI	158225.1,marIcI
+f_I	marIcI	158192,marIci:158225.1,marIcI
 f_I	maru-mahI	158279,marumahI
 f_I	maru-sTalI	158284,marusTalI
 f_I	marut-taruRI	158317,maruttaruRI
@@ -6600,6 +6634,7 @@ f_I	maSaka-harI	159020,maSakaharI
 f_I	maSakA-vatI	159022,maSakAvatI
 f_I	mazi-kUpI	159033,mazikUpI
 f_I	mazi-GawI	159034,maziGawI
+f_I	mazI	159032,mazi
 f_I	mazI-DanI	159047,mazIDanI
 f_I	masAra-galvarka-mayI	159097,masAragalvarkamaya
 f_I	masI	159098.1,masI
@@ -7072,7 +7107,7 @@ f_I	meWI	167755.11,meWI
 f_I	meQI	167759,meQI
 f_I	meQra-SfNgI	167767,meQraSfNgI
 f_I	meTinI	167790,meTinI
-f_I	meTI	167791,meTI:167791.1,meTI:167791.2,meTI
+f_I	meTI	167784,meTi:167791,meTI:167791.1,meTI:167791.2,meTI
 f_I	medinI	167828,medinI:167829,medinI
 f_I	medI	167798,medI
 f_I	medo-vatI	167865,medovatI
@@ -7171,6 +7206,7 @@ f_I	yati-BUzaRI	169577,yatiBUzaRI
 f_I	yati-vandana-Sata-dUzaRI	169584,yativandanaSatadUzaRI
 f_I	yatiTI	169629,yatiTa
 f_I	yatinI	169603,yatinI
+f_I	yatI	170283,yati
 f_I	yatIndra-mata-dUzaRI	169594.1,yatIndramatadUzaRI
 f_I	yaTA-rTa-maYjarI	169913.55,yaTArTamaYjarI
 f_I	yaTA-smfti-mayI	170066,yaTAsmftimaya
@@ -7274,7 +7310,7 @@ f_I	yogISvarI	172677,yogISvarI
 f_I	yogeSvarI	172639,yogeSvarI
 f_I	yojana-parRI	172759,yojanaparRI
 f_I	yojana-vallI	172763,yojanavallI
-f_I	yonI	172842,yonI
+f_I	yonI	172830,yoni:172842,yonI
 f_I	yozin-mayI	172903,yozinmaya
 f_I	yOgikI	172926,yOgika
 f_I	yOjanaSatikI	172932,yOjanaSatika
@@ -7488,6 +7524,7 @@ f_I	rARI	177041,rARI
 f_I	rAtnI	177048,rAtna
 f_I	rAtri-carI	177055,rAtricara
 f_I	rAtri-mayI	177090,rAtrimaya
+f_I	rAtrI	177050,rAtri
 f_I	rATa-M-tarI	177144,rATaMtara:177144.2,rATaMtarI
 f_I	rATa-kArikI	177141,rATakArika
 f_I	rATa-jiteyI	177152,rATajiteyI
@@ -7526,6 +7563,7 @@ f_I	rAmI	177288,rAmI
 f_I	rAyaRendra-sarasvatI	177712,rAyaRendrasarasvatI
 f_I	rAyaBAwI	177713,rAyaBAwI
 f_I	rAvaRI	177727,rAvaRI
+f_I	rASI	177751,rASi
 f_I	rAzwra-devI	177802,rAzwradevI
 f_I	rAzwra-pAlI	177808,rAzwrapAlI
 f_I	rAzwrI	177840,rAzwrI
@@ -7761,6 +7799,7 @@ f_I	lIlopavatI	182879,lIlopavatI
 f_I	luRWa-nadI	182937,luRWanadI
 f_I	luRWI	182947,luRWI
 f_I	luRqI	182952,luRqI
+f_I	lumbinI	183056,lumbini
 f_I	leKanI	182392,leKana:182395,leKanI
 f_I	leKiRI	182431,leKiRI
 f_I	leKya-mayI	182458,leKyamaya
@@ -7842,6 +7881,7 @@ f_I	vakzaRI	184526,vakzaRa
 f_I	vakzI	184553,vakzI
 f_I	vagalA-muKI	184563,vagalAmuKI
 f_I	vaNkiRI	184495,vaNkiRI
+f_I	vaNkrI	184500,vaNkri
 f_I	vaNgAlI	184608,vaNgAlI
 f_I	vacaRqI	184708,vacaRqI
 f_I	vacana-karI	184724,vacanakara
@@ -7910,7 +7950,7 @@ f_I	vana-mallI	185876,vanamallI
 f_I	vana-mAnuzI	185879.1,vanamAnuzI
 f_I	vana-mAlinI	185897,vanamAlinI
 f_I	vana-yamAnI	185912,vanayamAnI
-f_I	vana-rAjI	185918,vanarAjI
+f_I	vana-rAjI	185917,vanarAji:185918,vanarAjI
 f_I	vana-lakzmI	185924,vanalakzmI
 f_I	vana-vallarI	185933,vanavallarI
 f_I	vana-vAsI	185946,vanavAsI
@@ -8018,6 +8058,7 @@ f_I	varzA-nadI	187990,varzAnadI
 f_I	varzA-BvI	187999,varzABvI:188000.1,varzABvI
 f_I	varzA-SAwI	188011,varzASAwI
 f_I	varzANgI	187949,varzANgI
+f_I	valaBI	188097,valaBi
 f_I	valitApANgI	188140,valitApANga
 f_I	valI	188145,valI
 f_I	valgulI	188240,valgulI
@@ -8076,6 +8117,7 @@ f_I	vahni-rohiRI	189381,vahnirohiRI
 f_I	vahnISvarI	189415,vahnISvarI
 f_I	vAMSI	189750,vAMSa:189752,vAMSI
 f_I	vAk-kelI	189818,vAkkelI
+f_I	vAk-patnI	189838,vAkpati
 f_I	vAk-puzwAwavI	189854,vAkpuzwAwavI
 f_I	vAkinI	189763,vAkinI
 f_I	vAkucI	189766,vAkucI
@@ -8158,6 +8200,7 @@ f_I	vAyoyAnI	191399,vAyoyAnI
 f_I	vAr-DanI	191416,vArDanI
 f_I	vAr-vatI	191426,vArvatI
 f_I	vAra-nArI	191592,vAranArI
+f_I	vAra-vARI	191613,vAravARi
 f_I	vAra-vilAsinI	191618,vAravilAsinI
 f_I	vAra-sundarI	191619,vArasundarI
 f_I	vAra-strI	191621,vArastrI
@@ -8308,12 +8351,14 @@ f_I	vi-nAyaka-snapana-caturTI	197261,vinAyakasnapanacaturTI
 f_I	vi-nASanI	196880,vinASana
 f_I	vi-nirdahanI	197049,vinirdahanI
 f_I	vi-pakza-ramaRI	197513,vipakzaramaRI
+f_I	vi-paRI	197563,vipaRi
 f_I	vi-pat-karI	197591.1,vipatkara:197591.2,vipatkarI
 f_I	vi-padI	197609,vipadI
 f_I	vi-parivartanI	197660,viparivartana:197661,viparivartanI
 f_I	vi-parItAKyAnakI	197695,viparItAKyAnakI
 f_I	vi-pAw-CutudrI	197765,vipAwCutudrI
 f_I	vi-puMsI	193267,vipuMsI
+f_I	vi-pula-SroRI	197800,vipulaSroRi
 f_I	vi-pravrAjinI	198005,vipravrAjinI
 f_I	vi-buDa-tawinI	198140,vibuDatawinI
 f_I	vi-buDa-nadI	198142,vibuDanadI
@@ -8463,6 +8508,7 @@ f_I	vinDyAvalI	197388,vinDyAvalI
 f_I	vibAlI	198123,vibAlI
 f_I	viBItakI	198387,viBItaka
 f_I	viyan-mayI	198990,viyanmaya
+f_I	virudAvalI	199361,virudAvali
 f_I	viligI	199728,viligI
 f_I	viS-patnI	200397,viSpatnI
 f_I	viSAla-netrI	200540,viSAlanetrI
@@ -8530,6 +8576,7 @@ f_I	vizRu-zawpadI	202617,vizRuzawpadI
 f_I	vizRu-sidDAnta-lIlA-vatI	202629,vizRusidDAntalIlAvatI
 f_I	vI	203404,vI
 f_I	vI-vaDikI	199983,vIvaDika
+f_I	vIcI	203445,vIci
 f_I	vIwI	203468,vIwI
 f_I	vITI	203524.8,vITI
 f_I	vIra-kAwI	203605,vIrakAwI
@@ -8884,7 +8931,7 @@ f_I	SakADipa-rAjaDAnI	211225,SakADiparAjaDAnI
 f_I	Sakuna-ratnAvalI	211335,SakunaratnAvalI
 f_I	SakunADizWAtrI	211341,SakunADizWAtrI
 f_I	SakunAvalI	211343,SakunAvalI
-f_I	SakunI	211322,SakunI:211372,SakunI
+f_I	SakunI	211322,SakunI:211364,Sakuni:211372,SakunI
 f_I	SakulAkzI	211396,SakulAkzI
 f_I	SakulAdanI	211398,SakulAdanI
 f_I	SakulI	211393,SakulI
@@ -8940,6 +8987,7 @@ f_I	Sata-dvayI	211939,SatadvayI
 f_I	Sata-pattrI	211974,SatapattrI
 f_I	Sata-paTikI	211991,SatapaTika
 f_I	Sata-pAdI	211995.3,SatapAdI:212027,SatapAdI
+f_I	Sata-BujI	212076,SataBuji
 f_I	Sata-muKI	212096,SatamuKI
 f_I	Sata-mUlI	212102.3,SatamUlI
 f_I	Sata-yoga-maYjarI	212115,SatayogamaYjarI
@@ -9144,7 +9192,7 @@ f_I	SAlI	216044,SAlI:216167,SAlI:216168,SAlI
 f_I	SAlUkinI	216190,SAlUkinI
 f_I	SAleyI	216159,SAleya
 f_I	SAlmalinI	216215.1,SAlmalinI
-f_I	SAlmalI	216207,SAlmalI:216216,SAlmalI
+f_I	SAlmalI	216202,SAlmali:216207,SAlmalI:216216,SAlmalI
 f_I	SAlvakinI	216241,SAlvakinI
 f_I	SAlvakI	216240,SAlvakI
 f_I	SAvirI	216260,SAvirI
@@ -9268,6 +9316,7 @@ f_I	Suci-padI	219248,SucipadI
 f_I	Suci-praRI	219251,SucipraRI
 f_I	Suci-muKI	219260,SucimuKI
 f_I	Suciz-matI	219290,SucizmatI
+f_I	SucI	219231,Suci
 f_I	SucIvatI	219295,SucIvatI
 f_I	Sucy-akzI	219297,Sucyakza
 f_I	SucyadakzI	219300,Sucyadakza
@@ -9326,6 +9375,7 @@ f_I	SUrpa-KArI	220351,SUrpaKArI
 f_I	SUrpa-grAhI	220352,SUrpagrAha
 f_I	SUrpa-parRI	220359,SUrpaparRI
 f_I	SUrpI	220344,SUrpI
+f_I	SUrmI	220374,SUrmi
 f_I	SUla-GnI	220398,SUlaGnI
 f_I	SUla-doza-harI	220399,SUladozaharI
 f_I	SUla-DAriRI	220405,SUlaDAriRI
@@ -9402,6 +9452,7 @@ f_I	SozaRI	221676,SozaRa
 f_I	SoziRI	221691,SoziRI
 f_I	SOkrI	221713,SOkra
 f_I	SONgI	221727,SONga
+f_I	SOcivfkzI	221758,SOcivfkzi
 f_I	SORqikI	221796,SORqikI
 f_I	SORqinI	221800,SORqinI
 f_I	SORqI	221780,SORqa:221787,SORqI
@@ -9500,7 +9551,7 @@ f_I	SreDI	223715,SreDI
 f_I	Sreyas-karI	223738,Sreyaskara
 f_I	SreyasI	223730,SreyasI
 f_I	Sreyo-mayI	223753,Sreyomaya
-f_I	SroRI	223830,SroRI
+f_I	SroRI	223809,SroRi:223830,SroRI
 f_I	Srotra-netra-mayI	223856,Srotranetramaya
 f_I	Srotra-padavI	223859,SrotrapadavI
 f_I	Srotra-mayI	223868,Srotramaya
@@ -9818,6 +9869,7 @@ f_I	sam-AhvI	234781,samAhvI
 f_I	sam-IcI	237304,samIcI
 f_I	sam-IzantI	235026,samIzantI
 f_I	sam-udra-kAYcI	235239,samudrakAYcI
+f_I	sam-udra-nemI	235270,samudranemi
 f_I	sam-udra-patnI	235273,samudrapatnI
 f_I	sam-udra-mahizI	235284,samudramahizI
 f_I	sam-udra-SrI	235314,samudraSrI
@@ -9847,6 +9899,7 @@ f_I	sama-mayI	233132,samamaya
 f_I	sama-lepanI	233155,samalepanI
 f_I	sama-sTalI	233217,samasTalI
 f_I	samAna-jYAtitva-mayI	234264,samAnajYAtitvamaya
+f_I	samAna-rzI	234309,samAnarzi
 f_I	samAnI	234226,samAna:234237,samAnI
 f_I	samIcI	237317,samIcI
 f_I	samIpa-saptamI	234995,samIpasaptamI
@@ -9936,6 +9989,7 @@ f_I	sarva-sAra-saMgrahaRI	238871,sarvasArasaMgrahaRI
 f_I	sarva-svarRa-mayI	238909,sarvasvarRamaya
 f_I	sarva-hema-mayI	238939,sarvahemamaya
 f_I	sarvato-muKI	239233,sarvatomuKa
+f_I	sarvatrApI	239246,sarvatrApi
 f_I	sarvalI	239259.1,sarvalI
 f_I	sarvANga-sundarI	238963,sarvANgasundarI
 f_I	sarvANgI	238952,sarvANga:238955,sarvANga
@@ -9984,6 +10038,7 @@ f_I	sahasrI	240502,sahasra
 f_I	sahodarI	240396,sahodara:240399,sahodara
 f_I	sahya-vAsinI	240081,sahyavAsinI
 f_I	sAMkalpikI	241195,sAMkalpika
+f_I	sAMkucI	241201,sAMkuci
 f_I	sAMkftI	241206,sAMkftI
 f_I	sAMkftyAyanI	241212,sAMkftyAyanI
 f_I	sAMKya-kOmudI	241228,sAMKyakOmudI
@@ -10013,6 +10068,7 @@ f_I	sAgarikI	241166,sAgarika
 f_I	sAgarI	241095,sAgara
 f_I	sANmuKI	241317,sANmuKI
 f_I	sAttvikI	241401,sAttvika:241407,sAttvikI
+f_I	sAtya-m-ugrI	241436,sAtyamugri
 f_I	sAtrAjitI	241449.1,sAtrAjitI
 f_I	sAtvatI	241455,sAtvata:241462,sAtvatI:241467,sAtvatI
 f_I	sAda-mayI	230647,sAdamaya
@@ -10256,6 +10312,7 @@ f_I	su-BAzita-suDAnanda-laharI	248064.4,suBAzitasuDAnandalaharI
 f_I	su-BEravI	248110,suBErava
 f_I	su-magaDI	248186,sumagaDI
 f_I	su-maNgalI	248187,sumaNgala:248195,sumaNgalI
+f_I	su-matI	248225,sumati:248226,sumati:248227,sumati
 f_I	su-manA-muKI	248285,sumanAmuKa
 f_I	su-mano-mayI	248291.40,sumanomaya
 f_I	su-mano-raYjinI	248291.55,sumanoraYjinI
@@ -10270,6 +10327,7 @@ f_I	su-rajanI	248597,surajanI
 f_I	su-rata-tAlI	248617,suratatAlI
 f_I	su-rata-maYjarI	248628,suratamaYjarI
 f_I	su-raBi-matI	249661,suraBimatI
+f_I	su-raBI	249612,suraBi:249623,suraBi
 f_I	su-rasI	248688,surasI
 f_I	su-rAjYI	248703,surAjYI
 f_I	su-rohiRI	248771,surohiRI
@@ -10292,7 +10350,7 @@ f_I	su-vallI	248927,suvallI
 f_I	su-vAsinI	248994,suvAsinI
 f_I	su-viBaktAnavadyANgI	249084,suviBaktAnavadyANgI
 f_I	su-venI	249204,suvena
-f_I	su-SroRI	250173,suSroRI
+f_I	su-SroRI	250172,suSroRi:250173,suSroRI
 f_I	su-zamI	250212,suzamI
 f_I	su-zeRI	250278,suzeRI
 f_I	su-sadfSI	250414,susadfSa
@@ -10429,6 +10487,7 @@ f_I	sevA-vilAsinI	252300,sevAvilAsinI
 f_I	sEMhalI	252386,sEMhala:252387,sEMhalI
 f_I	sEMhI	252382,sEMha
 f_I	sEkatI	252398,sEkata
+f_I	sEkAvalI	252397,sEkAvali
 f_I	sEtavAhinI	252419,sEtavAhinI
 f_I	sEdDAntikI	252420,sEdDAntika
 f_I	sEDrika-mayI	252425,sEDrikamaya
@@ -10651,6 +10710,7 @@ f_I	sva-kuSala-mayI	257806,svakuSalamaya
 f_I	sva-cCanda-cAriRI	257848,svacCandacAriRI
 f_I	sva-DA-mayI	258500,svaDAmaya
 f_I	sva-pati-BrAntimatI	257987.2,svapatiBrAntimatI
+f_I	sva-yonI	258101,svayoni
 f_I	sva-vaSinI	258204,svavaSinI
 f_I	sva-vAsinI	258213,svavAsinI
 f_I	sva-hasta-svastika-stanI	258303,svahastasvastikastanI
@@ -10806,6 +10866,7 @@ f_I	hAqI	262647,hAqI
 f_I	hAputrI	262658,hAputrI
 f_I	hAmbIrI	262663,hAmbIrI
 f_I	hAyanI	262535,hAyana:262666,hAyana:262669,hAyanI
+f_I	hAra-yazwI	260828,hArayazwi
 f_I	hArAvalI	260838,hArAvalI
 f_I	hArikeyI	261551,hArikeyI
 f_I	hAritI	261561,hAritI

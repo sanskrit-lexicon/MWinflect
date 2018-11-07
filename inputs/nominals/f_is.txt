@@ -1,0 +1,4 @@
+f_is	ati-stris	3300,atistri
+f_is	kalis	45936,kali
+f_is	kavis	46538,kavi
+f_is	su-raBis	249612,suraBi

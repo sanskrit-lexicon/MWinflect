@@ -8096,6 +8096,7 @@ f_A	indra-vAruRikA	29105,indravAruRikA
 f_A	indra-vfdDA	29115,indravfdDA
 f_A	indra-SrezWA	29125,indraSrezWa
 f_A	indra-saMDA	29128,indrasaMDA
+f_A	indra-saKA	29126,indrasaKi
 f_A	indra-saBA	29128.2,indrasaBA
 f_A	indra-surA	29138,indrasurA
 f_A	indra-sena-dvitIyA	29147,indrasenadvitIya
@@ -20796,6 +20797,7 @@ f_A	dEva-nirmitA	96812,dEvanirmita
 f_A	dEva-parA	96813,dEvapara
 f_A	dEva-parIkzA	96815,dEvaparIkzA
 f_A	dEva-mAnuzakA	96869,dEvamAnuzaka
+f_A	dEva-yajYyA	96870,dEvayajYi
 f_A	dEva-yutA	96820,dEvayuta
 f_A	dEva-rakzitA	96823,dEvarakzita
 f_A	dEva-rAjakA	96877,dEvarAjaka
@@ -27754,6 +27756,7 @@ f_A	pOMScalIya-vidyA	129375,pOMScalIyavidyA
 f_A	pOMScalIyA	129374,pOMScalIya
 f_A	pOMsyA	129382,pOMsya
 f_A	pOcCA	129386,pOcCa
+f_A	pORikyA	129393,pORiki
 f_A	pORqarIka-kArikA	129399,pORqarIkakArikA
 f_A	pORqra-nAgarA	129417,pORqranAgara
 f_A	pORqrakA	129425,pORqraka
@@ -33300,7 +33303,7 @@ f_A	marut-kriyA	158312,marutkriyA
 f_A	marut-tamA	158316,maruttama
 f_A	marut-vatIyA	158328,marutvatIya
 f_A	marut-vatyA	158329,marutvatya
-f_A	marut-saKA	158330,marutsaKa
+f_A	marut-saKA	158330,marutsaKa:158333,marutsaKi
 f_A	marut-sahAyA	158334,marutsahAya
 f_A	marut-stotrA	158337,marutstotra
 f_A	marud-evA	158352,marudeva
@@ -35561,6 +35564,7 @@ f_A	yAjurvedikA	171339,yAjurvedika
 f_A	yAjurvEdikA	171339.1,yAjurvEdika
 f_A	yAjYa-dattakA	171295,yAjYadattaka
 f_A	yAjYa-dattA	171294,yAjYadatta
+f_A	yAjYa-dattyA	171296,yAjYadatti
 f_A	yAjYa-patA	171298,yAjYapata
 f_A	yAjYa-valkA	171299,yAjYavalka
 f_A	yAjYa-valkIyA	171300,yAjYavalkIya
@@ -35872,6 +35876,7 @@ f_A	yOga-M-DarAyaRIyA	172919,yOgaMDarAyaRIya
 f_A	yOgakA	172925,yOgaka
 f_A	yOgika-rUQA	172930,yOgikarUQa
 f_A	yOjanikA	172934,yOjanika
+f_A	yOtakyA	172939,yOtaki
 f_A	yOTyA	172944,yOTya
 f_A	yOpyA	172966,yOpya
 f_A	yOvana-daSA	172976,yOvanadaSA
@@ -43800,6 +43805,7 @@ f_A	SAlUkikA	216188,SAlUkikA
 f_A	SAlUkikIyA	216189,SAlUkikIya
 f_A	SAleyA	216160,SAleya
 f_A	SAlmalikA	216212,SAlmalika
+f_A	SAlmalyA	216204,SAlmali
 f_A	SAlvA	216230,SAlvA
 f_A	SAlvAyanA	216243,SAlvAyana
 f_A	SAlvikA	216239,SAlvaka
@@ -44540,6 +44546,7 @@ f_A	SUrpa-RaKA	220353,SUrpaRaKA
 f_A	SUrpa-RAyIyA	220355,SUrpaRAyIya
 f_A	SUrpa-viRA	220362,SUrpaviRA
 f_A	SUrpAkArA	220364,SUrpAkAra
+f_A	SUrmikA	220374,SUrmi
 f_A	SUla-GnA	220396,SUlaGna
 f_A	SUla-DarA	220402,SUlaDara:220403,SUlaDarA
 f_A	SUla-protA	220420,SUlaprota
@@ -44799,6 +44806,7 @@ f_A	SONgA	221727,SONga
 f_A	SONgIyA	221731,SONgIya
 f_A	SOcakA	221751,SOcaka
 f_A	SOcikarRikA	221756,SOcikarRika
+f_A	SOcivfkzyA	221758,SOcivfkzi
 f_A	SOwIra-tA	221770,SOwIratA
 f_A	SOwIrA	221765,SOwIra
 f_A	SORqa-tA	221789.1,SORqatA
@@ -49784,6 +49792,7 @@ f_A	sAtmArpaRA	241419,sAtmArpaRa
 f_A	sAtmI-kftA	241423,sAtmIkfta
 f_A	sAtmyA	241426,sAtmya
 f_A	sAtya-dUtA	241434,sAtyadUta
+f_A	sAtya-m-ugryA	241436,sAtyamugri
 f_A	sAtyA	241430,sAtya
 f_A	sAtrAsAhakA	241453,sAtrAsAhaka
 f_A	sAtvata-saMhitA	241463,sAtvatasaMhitA

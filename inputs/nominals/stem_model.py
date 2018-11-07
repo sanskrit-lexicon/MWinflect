@@ -701,7 +701,7 @@ def model_mfn_a3(recs,flog,fileout):
     mpart = 'f'
     model = '%s_%s' %(mpart,'A')
    else:
-    print('mfn_a2 Internal error',part)
+    print('mfn_a3 Internal error',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
    if not (part in ['m','n']):
@@ -709,6 +709,7 @@ def model_mfn_a3(recs,flog,fileout):
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s" %(rec.toString(),part,mstem)
     fout.write(out + '\n')
+    nout = nout + 1
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
@@ -901,176 +902,92 @@ def model_mfn_a4(recs,flog,fileout):
  fout.close()
  print(nout,"lexnorm records written to",fileout)
 
-def prev_model_mfn_a1(recs,flog):
- endchar = 'a'
+def model_mfn_i1(recs,flog,fileout):
+ """ This also writes records to a temporary file for further examination"""
+ fout = codecs.open(fileout,"w","utf-8")
+ nout = 0
+ endchar = 'i'
+ d = {}
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(endchar):
    continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n','f#I',
+                'f#i', # redundant. Could replace with 'f'
+                'f#is','f#tnI','f#yA','f#A','f#ikA','ind','f#tinI']
   lexparts = rec.lexnorm.split(':')
-  knownparts = ['m','f','n','f#A','f#I','f#akA','f#ikA',
-                'f#enI','f#apI','f#apyA', 'f#sI',
-                'f#iknI','f#ArI','f#AvI','f#enikA','f#vI',
-                'f#padI','f#i','f#u','f#IkA', 'f#tyA','f#yanI',
-                'f#iRI','f#inI','f#inikA','f#arI','f#rI',
-                'f#sOrI','f#U', 'f#stI',
-                'ind#am','ind']
   if not set(lexparts).issubset(set(knownparts)):
+   print('model_mfn_i1: unexpected lexnorm:',rec.toString())
    continue
-  if lexparts == ['ind']:
-   # these are handled in model_ind
-   continue
+  lexparts = rec.lexnorm.split(':')
   rec.parsed = True
   for part in lexparts:
-   if part in ['m','n']:
+   if part in ['m','n','f']:
     # stem is unchanged
     mstem = stem
-    model = '%s_%s' %(part,endchar)   #m_a, n_a
-   elif part in ['f','f#A']:
-    mstem = stem[0:-1] + 'A'  # deva -> devA
-    mpart = 'f'
-    model = '%s_%s' %(mpart,'A')
+    model = '%s_%s' %(part,endchar)  
    elif part in ['f#I']:
-    mstem = stem[0:-1] + 'I'  # akeSa -> akeSI
-    mpart = 'f'
-    model = '%s_%s' %(mpart,'I')
-   elif part in ['f#akA','f#ikA']:
-    newend = part[2:]
-    if stem.endswith(('aka','ika')):
-     mstem = stem[0:-3] + newend  #  replace final aka/ika with akA or ikA
-     mpart = 'f'
-     model = '%s_%s' %(mpart,'A')
-    else:
-     mstem = stem[0:-1] + newend # replace final a with akA or ikA
-     print('mfn_a warning:',rec.key1,rec.lexnorm,mstem)
-     mpart = 'f'
-     model = '%s_%s' %(mpart,'A')
-   elif part in ['f#enI']:
     ending = part[2:]
-    assert stem.endswith('eta')
-    mstem = stem[0:-3] + ending
-    model = 'f_I'
-   elif part in ['f#apI','f#apyA']:
-    ending = part[2:]
-    assert stem.endswith('apya')
-    mstem = ending
-    model = 'f_%s' %ending[-1]
-   elif part in ['f#sI']:
-    ending = part[2:]
-    assert stem == 'apasya'
-    mstem = stem[0:-3] + ending
-    model = 'f_I'
-   elif part in ['f#iknI']:
-    ending = part[2:]
-    assert stem in ['asita','palita']
-    mstem = stem[0:-3] + ending # replace 'ita' with 'iknI'
-    model = 'f_I'
-   elif part in ['f#ArI']:
-    ending = part[2:]
-    assert stem == 'Arya'
-    mstem = ending
-    model = 'f_I'
-   elif part in ['f#AvI']:
-    ending = part[2:]
-    assert stem == 'Avya'
-    mstem = ending
-    model = 'f_I'
-   elif part in ['f#enikA']:
-    ending = part[2:]
-    assert stem == 'etaka'
-    mstem = ending
-    model = 'f_A'
-   elif part in ['f#vI']:
-    ending = part[2:]
-    assert stem == 'Ekalavya'
-    mstem = stem[0:-3] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#padI']:
-    ending = part[2:]
-    assert stem in ['kumBa-pAda','dru-pAda']
-    mstem = stem[0:-4] + ending
-    model = 'f_%s' % ending[-1]
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'I'
+    model = 'f_%s' %ending
    elif part in ['f#i']:
     ending = part[2:]
-    mstem = stem[0:-1] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#u']:
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'i'  (same as 'f')
+    model = 'f_%s' %ending
+   elif part in ['f#is']:
     ending = part[2:]
-    mstem = stem[0:-1] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#U']:
-    assert stem == 'svana'
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'is'
+    model = 'f_%s' %ending
+   elif part in ['f#A']:
     ending = part[2:]
-    mstem = stem[0:-1] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#IkA']:
-    assert stem == 'KuqqAka'
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'A'
+    model = 'f_%s' %ending
+   elif part in ['f#ikA']:
     ending = part[2:]
-    mstem = stem[0:-3] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#tyA']:
-    assert stem in ['cEkayata','bElvayata']
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'ikA'
+    model = 'f_%s' %ending[-1]
+   elif part in ['f#tnI']:
     ending = part[2:]
-    mstem = stem[0:-2] + ending
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#yanI']:
-    assert stem in ['brADnAyanya']
+    assert stem.endswith('pati')
+    mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tnI'
+    model = 'f_%s' %ending[-1]
+   elif part in ['f#tinI']:
     ending = part[2:]
-    mstem = stem[0:-5] + ending # replace yanya with yanI
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#iRI']:
-    assert stem in ['Barita','rohita','Sukla-harita','harita']
-    ending = part[2:]
-    mstem = stem[0:-3] + ending # replace ita with iRI
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#inI']:
-    # what about compounds ending with lohita ?
-    assert stem in ['lohita']
-    ending = part[2:]
-    mstem = stem[0:-3] + ending # replace ita with inI
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#inikA']:
-    # what about compounds ending with lohita ?
-    assert stem in ['lohitaka']
-    ending = part[2:]
-    mstem = stem[0:-5] + ending # replace itaka with inikA
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#arI']:
-    assert stem in ['vi-BAva']
-    ending = part[2:]
-    mstem = stem[0:-1] + ending # replace final 'a' with arI
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#rI']:
-    assert stem in ['vEdUrya']
-    ending = part[2:]
-    mstem = stem[0:-3] + ending # replace final 'rya' with rI
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#sOrI']:
-    assert stem in ['sOrya']
-    ending = part[2:]
-    mstem = ending 
-    model = 'f_%s' % ending[-1]
-   elif part in ['f#stI']:
-    assert stem in ['Agastya']
-    ending = part[2:]
-    mstem = stem[0:-4] + ending # replace final 'stya' with stI
-    model = 'f_%s' % ending[-1]
-   elif part in ['ind#am']:
-    assert stem in ['nada','muKa','sAkzika']
-    ending = part[4:]  # am
-    mstem = stem[0:-1] + ending # replace final 'a' with 'am'
-    model = 'ind'
+    assert stem == 'prati-prati'
+    mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tinI'
+    model = 'f_%s' %ending[-1]
    elif part in ['ind']:
-    if stem not in ['ka','tIra','tUla','paSca']:
-     print 'mfn_a  unexpected "ind"',stem
+    assert stem in ['vazaw-kfti']
     mstem = stem
     model = 'ind'
+   elif part in ['f#yA']:
+    ending = part[2:]
+    # question this in dEva-yajYi. WOuld give dEva-yajYyA Right? Yes acc. to pwg
+    mstem = stem[0:-1] + ending  # replace ending 'i' with 'yA'
+    model = 'f_%s' %ending[-1]
    else:
-    print('mfn_a Internal error',part)
+    print('mfn_i1 internal ERROR',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
+   if not (part in ['m','n']):
+    # write record to temp file for feminine stem
+    out = rec.toString() + '\t' + mstem
+    out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
+    fout.write(out + '\n')
+    nout = nout + 1
 
-def model_mfn_i1(recs,flog):
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_i1',d,flog)
+ fout.close()
+ print(nout,"lexnorm records written to",fileout)
+
+
+def prev_model_mfn_i1(recs,flog):
  endchar = 'i'
  for rec in recs:
   stem = rec.key2
@@ -1094,42 +1011,42 @@ def model_mfn_i1(recs,flog):
    elif part in ['f#I']:
     ending = part[2:]
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'I'
-    mpart = 'f_%s' %ending
+    model = 'f_%s' %ending
    elif part in ['f#i']:
     ending = part[2:]
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'i'  (same as 'f')
-    mpart = 'f_%s' %ending
+    model = 'f_%s' %ending
    elif part in ['f#is']:
     ending = part[2:]
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'is'
-    mpart = 'f_%s' %ending
+    model = 'f_%s' %ending
    elif part in ['f#A']:
     ending = part[2:]
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'A'
-    mpart = 'f_%s' %ending
+    model = 'f_%s' %ending
    elif part in ['f#ikA']:
     ending = part[2:]
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'ikA'
-    mpart = 'f_%s' %ending[-1]
+    model = 'f_%s' %ending[-1]
    elif part in ['f#tnI']:
     ending = part[2:]
     assert stem.endswith('pati')
     mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tnI'
-    mpart = 'f_%s' %ending[-1]
+    model = 'f_%s' %ending[-1]
    elif part in ['f#tinI']:
     ending = part[2:]
     assert stem == 'prati-prati'
     mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tinI'
-    mpart = 'f_%s' %ending[-1]
+    model = 'f_%s' %ending[-1]
    elif part in ['ind']:
     assert stem in ['vazaw-kfti']
     mstem = stem
-    mpart = 'ind'
+    model = 'ind'
    elif part in ['f#yA']:
     ending = part[2:]
     # question this in dEva-yajYi. WOuld give dEva-yajYyA Right? Yes acc. to pwg
     mstem = stem[0:-1] + ending  # replace ending 'i' with 'yA'
-    mpart = 'f_%s' %ending[-1]
+    model = 'f_%s' %ending[-1]
    else:
     print('mfn_i internal ERROR',part)
     exit(1)
@@ -1937,11 +1854,11 @@ if __name__ == "__main__":
  model_n_f(recs,flog)
  model_mfn_f(recs,flog)
  model_card(recs,flog)
- if True:
-  model_mfn_a1(recs,flog)
-  model_mfn_a2(recs,flog)
-  model_mfn_a3(recs,flog,'model_mfn_a3.txt')  # cases written to file
-  model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
+ model_mfn_a1(recs,flog)
+ model_mfn_a2(recs,flog)
+ model_mfn_a3(recs,flog,'model_mfn_a3.txt')  # cases written to file
+ model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
+ model_mfn_i1(recs,flog,'model_mfn_i1.txt')  # cases written to file
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

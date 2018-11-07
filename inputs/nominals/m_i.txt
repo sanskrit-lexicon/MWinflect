@@ -1,4 +1,5 @@
 m_i	a-kali	203.1,akali
+m_i	a-kavAri	221,akavAri
 m_i	a-kavi	223,akavi
 m_i	a-kfta-budDi	333,akftabudDi
 m_i	a-kfSa-kIrti	354.1,akfSakIrti
@@ -179,6 +180,7 @@ m_i	ati-manuzya-budDi	3126,atimanuzyabudDi
 m_i	ati-rAjakumAri	3151,atirAjakumAri
 m_i	ati-Sakti	2814,atiSakti
 m_i	ati-Sreyasi	3254,atiSreyasi
+m_i	ati-stri	3300,atistri
 m_i	atiTi	2993,atiTi
 m_i	atiTi-pati	3004,atiTipati
 m_i	attali	3378,attali
@@ -381,6 +383,7 @@ m_i	arDa-rcAdi	16244.3,arDarcAdi
 m_i	arDa-lakzmI-hari	16246,arDalakzmIhari
 m_i	arDendu-mOli	16312,arDendumOli
 m_i	arbudi	16366,arbudi
+m_i	arya-pati	16383,aryapati
 m_i	aryama-gfhapati	16395,aryamagfhapati
 m_i	aryama-BUti	16399,aryamaBUti
 m_i	arharizvaRi	16509,arharizvaRi
@@ -425,7 +428,9 @@ m_i	aSva-sani	20039,aSvasani
 m_i	aSvAri	20076,aSvAri
 m_i	az-wAratni	20291.1,azwAratni
 m_i	az-wASvasamADi	20300.1,azwASvasamADi
+m_i	azwa-pati	20205,azwapati
 m_i	azwa-mUrti	20223,azwamUrti
+m_i	azwa-yoni	20226,azwayoni
 m_i	azwa-ratni	20227.1,azwaratni
 m_i	azwASri	20319,azwASri
 m_i	azwAsri	20320,azwAsri
@@ -490,7 +495,8 @@ m_i	A-BUti	25351,ABUti
 m_i	A-yaji	25720,Ayaji
 m_i	A-yAti	25847,AyAti
 m_i	A-ramBa-ruci	26120,AramBaruci
-m_i	A-lambi	26752,Alambi
+m_i	A-lakzi	26673,Alakzi
+m_i	A-lambi	26751,Alambi:26752,Alambi
 m_i	A-leKani	26815,AleKani
 m_i	A-vartana-maRi	27244,AvartanamaRi
 m_i	A-SuSukzaRi	27570,ASuSukzaRi:27571,ASuSukzaRi
@@ -498,6 +504,7 @@ m_i	A-huti	28358,Ahuti
 m_i	A-hutI-zahi	28363.1,AhutIzahi
 m_i	A-hvfti	28494,Ahvfti:28495,Ahvfti
 m_i	AM-kfti	22824,AMkfti
+m_i	Akidanti	22159,Akidanti
 m_i	Akuli	22183,Akuli
 m_i	AgniveSi	22677,AgniveSi
 m_i	AgniSarmi	22683,AgniSarmi
@@ -532,7 +539,7 @@ m_i	Ady-Adi	23887,AdyAdi
 m_i	Adya-kavi	23900,Adyakavi
 m_i	ADiraTi	24183,ADiraTi
 m_i	ADyaSvi	24274,ADyaSvi
-m_i	Anaka-dunduBi	24328,AnakadunduBi
+m_i	Anaka-dunduBi	24328,AnakadunduBi:24329,AnakadunduBi
 m_i	AnakadunduBi	4790,AnakadunduBi
 m_i	Anantarya-samADi	24346.1,AnantaryasamADi
 m_i	Analavi	24486,Analavi
@@ -559,7 +566,9 @@ m_i	Amra-kavi	25652.2,Amrakavi
 m_i	Amra-guptAyani	25656.1,AmraguptAyani
 m_i	Amra-gupti	25656.2,Amragupti
 m_i	AyaskAri	25842,AyaskAri
+m_i	AyuH-pati	25875,AyuHpati
 m_i	Ayur-mahodaDi	25887,AyurmahodaDi
+m_i	Ayuz-pati	25903,Ayuzpati
 m_i	Ar-tAyani	25997.2,ArtAyani
 m_i	AraRi	26069,AraRi
 m_i	AraRya-rASi	26082,AraRyarASi
@@ -577,6 +586,7 @@ m_i	Ardra-pavi	26491,Ardrapavi
 m_i	ArdrEDAgni	26502,ArdrEDAgni
 m_i	Arbudi	26530,Arbudi
 m_i	ArzaBi	26649,ArzaBi
+m_i	Alaji	26681,Alaji
 m_i	Ali	26790,Ali:26799,Ali
 m_i	ASayAgni	27513,ASayAgni
 m_i	ASA-pati	27442,ASApati
@@ -584,12 +594,14 @@ m_i	ASu-kavi	27521.1,ASukavi
 m_i	ASu-vrIhi	27551,ASuvrIhi
 m_i	ASocani	27572.1,ASocani
 m_i	ASvatarAsvi	27744.1,ASvatarAsvi
+m_i	ASvatTi	27750,ASvatTi
 m_i	ASvasUkti	27781,ASvasUkti
 m_i	AzAQa-BUti	27833,AzAQaBUti
 m_i	AzAQi	27840,AzAQi
 m_i	Asana-viDi	27857,AsanaviDi
 m_i	Asanapawwi	27854.51,Asanapawwi
 m_i	AsinAsi	28021,AsinAsi
+m_i	Asuri	28064,Asuri
 m_i	AhiMsi	28329,AhiMsi
 m_i	AhitAgni	24160,AhitAgni:24161,AhitAgni
 m_i	AhitAgny-Adi	24162,AhitAgnyAdi
@@ -614,6 +626,7 @@ m_i	indra-pramati	29052,indrapramati
 m_i	indra-BUti	29064,indraBUti
 m_i	indra-yazwi	29079,indrayazwi
 m_i	indra-vasti	29101,indravasti
+m_i	indra-saKi	29126,indrasaKi
 m_i	indra-sAraTi	29130,indrasAraTi
 m_i	indra-sAvarRi	29131,indrasAvarRi
 m_i	indrA-bfhaspati	29170,indrAbfhaspati
@@ -885,7 +898,7 @@ m_i	Opabindavi	41065,Opabindavi
 m_i	OpaveSi	41107,OpaveSi
 m_i	OpaSivi	41113,OpaSivi
 m_i	OpAvi	41148,OpAvi
-m_i	Opoditi	41155,Opoditi
+m_i	Opoditi	41154,Opoditi:41155,Opoditi
 m_i	OrasAyani	41184,OrasAyani
 m_i	Orasi	41186,Orasi
 m_i	OrvAgni	41234,OrvAgni
@@ -901,6 +914,7 @@ m_i	kakzAgni	41550,kakzAgni
 m_i	kakzApuwi	41555,kakzApuwi
 m_i	kaNka-trowi	41618,kaNkatrowi
 m_i	kaNkeli	41693,kaNkeli
+m_i	kaNkelli	41695,kaNkelli
 m_i	kacCapAri	41781.1,kacCapAri
 m_i	kacCAdi	41790,kacCAdi
 m_i	kawa-kuwi	41917,kawakuwi
@@ -2124,6 +2138,7 @@ m_i	trESAni	88777,trESAni
 m_i	try-aYjali	88833,tryaYjali:88834,tryaYjali
 m_i	try-aDipati	88835,tryaDipati
 m_i	try-aratni	88861,tryaratni
+m_i	try-avi	88871,tryavi
 m_i	try-udDi	88909,tryudDi
 m_i	tvag-dozAri	89043,tvagdozAri
 m_i	tvacAyani	89078,tvacAyani
@@ -2416,6 +2431,7 @@ m_i	dEva-jYa-sanmuni	96804,dEvajYasanmuni
 m_i	dEva-datti	96863,dEvadatti
 m_i	dEva-mati	96867,dEvamati
 m_i	dEva-mitri	96868,dEvamitri
+m_i	dEva-yajYi	96870,dEvayajYi
 m_i	dEva-raTAyani	96875,dEvaraTAyani
 m_i	dEva-rAti	96879,dEvarAti
 m_i	dEva-viDi	96833,dEvaviDi
@@ -2567,6 +2583,7 @@ m_i	DUmozRa-yoni	101617,DUmozRayoni
 m_i	DUmra-giri	101660,DUmragiri
 m_i	DUmrAkzi	101690,DUmrAkzi
 m_i	DUr-jawi	101744,DUrjawi
+m_i	DUli	101703,DUli
 m_i	DUli-muzwi	101714,DUlimuzwi
 m_i	Dfta-dIDiti	101842,DftadIDiti
 m_i	Dfta-saMDi	101874,DftasaMDi
@@ -2692,7 +2709,7 @@ m_i	nAnA-varRAkfti	105578,nAnAvarRAkfti
 m_i	nAnOzaDa-viDi	105596.1,nAnOzaDaviDi
 m_i	nApitAyani	105649,nApitAyani
 m_i	nABAgi	105723,nABAgi
-m_i	nABi	105659,nABi:105661,nABi:105662,nABi
+m_i	nABi	105656,nABi:105657,nABi:105659,nABi:105661,nABi:105662,nABi
 m_i	nAma-cintAmaRi	105747,nAmacintAmaRi
 m_i	nAma-viDi	105800,nAmaviDi
 m_i	nAmAhuti-viDi	105821,nAmAhutiviDi
@@ -3062,8 +3079,10 @@ m_i	pArAyaRa-viDi	122447.2,pArAyaRaviDi
 m_i	pArAvati	122658,pArAvati
 m_i	pArASari	122670,pArASari
 m_i	pAri-kzi	122682,pArikzi
+m_i	pAri-dfQi	122722,pAridfQi
 m_i	pAri-plava-dfzwi	122743,pAriplavadfzwi
 m_i	pAri-plava-mati	122745,pAriplavamati
+m_i	pAri-vfQi	122779,pArivfQi
 m_i	pArucCepi	122840,pArucCepi
 m_i	pArRa-valki	122867,pArRavalki
 m_i	pArTa-sAraTi	122882,pArTasAraTi
@@ -3077,6 +3096,7 @@ m_i	pArvaRaSrAdDa-viDi	122946.2,pArvaRaSrAdDaviDi
 m_i	pArvati	122954,pArvati
 m_i	pArvatI-pati	122973,pArvatIpati
 m_i	pArzaki	123075,pArzaki
+m_i	pArzRi	123107,pArzRi
 m_i	pArzRi-sAraTi	123130,pArzRisAraTi
 m_i	pArzRuvi	123133,pArzRuvi
 m_i	pAlahAri	123194,pAlahAri
@@ -3236,6 +3256,7 @@ m_i	pElu-SIrzi	129202,pEluSIrzi
 m_i	pota-SAli	129275,potaSAli
 m_i	pOwali	129389,pOwali
 m_i	pORaki	129392,pORaki
+m_i	pORiki	129393,pORiki
 m_i	pOyamAni	129487,pOyamAni
 m_i	pOru-kutsi	129549,pOrukutsi
 m_i	pOru-Sizwi	129554,pOruSizwi
@@ -3282,6 +3303,7 @@ m_i	pra-vara-BUpati	136791,pravaraBUpati
 m_i	pra-vAsa-gamana-viDi	136827,pravAsagamanaviDi
 m_i	pra-vAsa-viDi	136829.1,pravAsaviDi
 m_i	pra-vAsopasTAna-viDi	136831.2,pravAsopasTAnaviDi
+m_i	pra-vAhaReyi	136886,pravAhaReyi
 m_i	pra-viBakta-raSmi	137021,praviBaktaraSmi
 m_i	pra-SamitAri	137508,praSamitAri
 m_i	pra-SAnta-cAritra-mati	137515,praSAntacAritramati
@@ -3318,6 +3340,7 @@ m_i	prati-Dvani	132426,pratiDvani
 m_i	prati-niDi	132454,pratiniDi
 m_i	prati-nfpati	131556,pratinfpati
 m_i	prati-paTa-gati	131583,pratipaTagati
+m_i	prati-prati	131631,pratiprati
 m_i	prati-banDi	132732,pratibanDi
 m_i	prati-mA-pratizWA-viDi	132869.1,pratimApratizWAviDi
 m_i	prati-mA-rodanAdi-prAyaScitta-viDi	132869.2,pratimArodanAdiprAyaScittaviDi
@@ -3385,7 +3408,7 @@ m_i	prAcI-pati	139397,prAcIpati
 m_i	prAcIna-raSmi	139439,prAcInaraSmi
 m_i	prAcIna-SAli	139442.1,prAcInaSAli
 m_i	prAjya-vfzwi	139187,prAjyavfzwi
-m_i	prAYjali	139490,prAYjali
+m_i	prAYjali	139489,prAYjali:139490,prAYjali
 m_i	prAqAhati	139496,prAqAhati
 m_i	prARa-pati	139585,prARapati
 m_i	prARAgnihotra-viDi	139682.1,prARAgnihotraviDi
@@ -3495,6 +3518,7 @@ m_i	bahu-vi	143861,bahuvi
 m_i	bahu-vrIhi	143884,bahuvrIhi:143885,bahuvrIhi
 m_i	bahu-Sakti	143887,bahuSakti:143888,bahuSakti
 m_i	bahu-saMtati	143917,bahusaMtati:143918,bahusaMtati
+m_i	bahv-agni	144046,bahvagni
 m_i	bARa-Di	144249,bARaDi
 m_i	bARa-pARi	144257,bARapARi
 m_i	bARAri	144284,bARAri
@@ -3760,6 +3784,7 @@ m_i	BOma-vrata-pUjA-viDi	153414.1,BOmavratapUjAviDi
 m_i	BOrikAyaRi	153428,BOrikAyaRi
 m_i	BOriki	153429,BOriki
 m_i	BOlikAyani	153433,BOlikAyani
+m_i	BOliki	153434,BOliki
 m_i	BOliNgi	153437,BOliNgi
 m_i	BramarAtiTi	153588,BramarAtiTi
 m_i	BramarAri	153595,BramarAri
@@ -3788,6 +3813,7 @@ m_i	maYju-maRi	154514,maYjumaRi
 m_i	mawusPawi	154551,mawusPawi
 m_i	maWa-sTiti	154565,maWasTiti
 m_i	maWADipati	154566,maWADipati
+m_i	maRi	154592,maRi
 m_i	maRi-pUra-pati	154695,maRipUrapati
 m_i	maRwi	154849,maRwi
 m_i	maRqa-pa-pUjA-viDi	154877.2,maRqapapUjAviDi
@@ -3866,6 +3892,7 @@ m_i	marakata-maRi	158150,marakatamaRi
 m_i	marIci	158190,marIci:158194,marIci
 m_i	maru-BUti	158271,maruBUti
 m_i	marut-pati	158319,marutpati
+m_i	marut-saKi	158333,marutsaKi
 m_i	maroli	158405,maroli
 m_i	markawa-pati	158426,markawapati
 m_i	mardala-Dvani	158514,mardalaDvani
@@ -3881,6 +3908,7 @@ m_i	mallAri	158932,mallAri
 m_i	malli	158859,malli
 m_i	malli-ganDi	158864,malliganDi
 m_i	malli-zeRa-sUri	158871,mallizeRasUri
+m_i	mazi	159032,mazi
 m_i	mazi-maRi	159041,mazimaRi
 m_i	maha-fzi	159175,mahafzi
 m_i	maha-rdDi	159179,mahardDi:159180,mahardDi
@@ -4209,6 +4237,7 @@ m_i	yaSo-nandi	170927,yaSonandi
 m_i	yaSo-niDi	170928,yaSoniDi
 m_i	yaSo-rASi	170944,yaSorASi
 m_i	yAji	171287,yAji
+m_i	yAjYa-datti	171296,yAjYadatti
 m_i	yAjYAyani	171312,yAjYAyani
 m_i	yAtrA-SiromaRi	171091,yAtrASiromaRi
 m_i	yAdaH-pati	171387,yAdaHpati
@@ -4247,7 +4276,9 @@ m_i	yoga-samADi	172552,yogasamADi
 m_i	yoga-suDA-niDi	172567,yogasuDAniDi
 m_i	yoginI-daSA-cintAmaRi	172704.1,yoginIdaSAcintAmaRi
 m_i	yoginy-Adi-pUjana-viDi	172713,yoginyAdipUjanaviDi
+m_i	yoni	172830,yoni
 m_i	yOga-M-Dari	172920,yOgaMDari
+m_i	yOtaki	172939,yOtaki
 m_i	yODizWiri	172950,yODizWiri
 m_i	yOyuDAni	172967,yOyuDAni
 m_i	yOvanASvi	172998,yOvanASvi
@@ -4413,6 +4444,7 @@ m_i	rAyas-poza-vani	179543,rAyaspozavani
 m_i	rAli	177719.2,rAli
 m_i	rAvaRAri	177738,rAvaRAri
 m_i	rAvaRi	177740,rAvaRi
+m_i	rASi	177751,rASi
 m_i	rAzwra-pati	177804,rAzwrapati
 m_i	rAhakzati	177894,rAhakzati
 m_i	rAhavi	177931,rAhavi
@@ -4598,6 +4630,7 @@ m_i	vaDri	185656,vaDri
 m_i	vana-kapi	185740,vanakapi
 m_i	vana-dAhAgni	185820,vanadAhAgni
 m_i	vana-Bojana-viDi	185873,vanaBojanaviDi
+m_i	vana-rAji	185917,vanarAji
 m_i	vana-vahni	185934,vanavahni
 m_i	vana-vrIhi	185955,vanavrIhi
 m_i	vana-Sakuni	185955.1,vanaSakuni
@@ -4688,7 +4721,7 @@ m_i	vahati	189274,vahati
 m_i	vahi	189299,vahi
 m_i	vahni	189309,vahni
 m_i	vAH-kiwi	191429,vAHkiwi
-m_i	vAk-pati	189833,vAkpati
+m_i	vAk-pati	189833,vAkpati:189838,vAkpati
 m_i	vAkala-rASi	189760,vAkalarASi
 m_i	vAkinakAyani	189764,vAkinakAyani
 m_i	vAkini	189765,vAkini
@@ -4858,6 +4891,7 @@ m_i	vi-parIta-mati	197689.2,viparItamati
 m_i	vi-parIta-vftti	197694,viparItavftti
 m_i	vi-pula-budDi	197795.1,vipulabudDi
 m_i	vi-pula-mati	197796,vipulamati:197797,vipulamati
+m_i	vi-pula-SroRi	197800,vipulaSroRi
 m_i	vi-pratipanna-budDi	197896,vipratipannabudDi
 m_i	vi-bARa-Di	193308,vibARaDi
 m_i	vi-budDi	193312,vibudDi
@@ -5013,6 +5047,7 @@ m_i	visra-ganDi	203042,visraganDi
 m_i	visri	203076,visri
 m_i	viha-M-gArAti	203155,vihaMgArAti
 m_i	viha-ga-pati	203139,vihagapati
+m_i	vIci	203445,vIci
 m_i	vIqu-pavi	203479,vIqupavi
 m_i	vIqu-pARi	203480,vIqupARi
 m_i	vIRA-pARi	203499,vIRApARi
@@ -5243,6 +5278,7 @@ m_i	Sata-pattra-yoni	211978,Satapattrayoni
 m_i	Sata-prasUti	212050,SataprasUti
 m_i	Sata-bali	212060,Satabali
 m_i	Sata-budDi	212065,SatabudDi:212066,SatabudDi
+m_i	Sata-Buji	212076,SataBuji
 m_i	Sata-Bfzwi	212077,SataBfzwi
 m_i	Sata-manyu-kaRWi	212080.5,SatamanyukaRWi
 m_i	Sata-mAna-dAna-viDi	212084.5,SatamAnadAnaviDi
@@ -5368,6 +5404,7 @@ m_i	SAli	216107,SAli
 m_i	SAli-maYjari	216133,SAlimaYjari
 m_i	SAlIki	216172,SAlIki
 m_i	SAlIhotra-muni	216174,SAlIhotramuni
+m_i	SAlmali	216202,SAlmali
 m_i	SAlya-pati	216227,SAlyapati
 m_i	SAlva-pati	216233,SAlvapati
 m_i	SAlva-seni	216236,SAlvaseni
@@ -5500,6 +5537,7 @@ m_i	SUrpa-Sruti	220363,SUrpaSruti
 m_i	SUrpakArAti	220367,SUrpakArAti
 m_i	SUrpakAri	220368,SUrpakAri
 m_i	SUrpAdri	220365,SUrpAdri
+m_i	SUrmi	220374,SUrmi
 m_i	SUla-granTi	220392,SUlagranTi
 m_i	SUla-pARi	220414,SUlapARi:220415,SUlapARi
 m_i	SUlAri	220442,SUlAri
@@ -5545,6 +5583,7 @@ m_i	SONgAyani	221728,SONgAyani
 m_i	SONgi	221729,SONgi
 m_i	SOca-viDi	221745,SOcaviDi
 m_i	SOcAcamana-viDi	221747,SOcAcamanaviDi
+m_i	SOcivfkzi	221758,SOcivfkzi
 m_i	SORqi	221793,SORqi
 m_i	SOdDodani	221805,SOdDodani
 m_i	SOnaHSepi	221817,SOnaHSepi
@@ -5600,6 +5639,7 @@ m_i	Sruta-Di	223448,SrutaDi
 m_i	Sruta-rzi	223472,Srutarzi:223472.1,Srutarzi
 m_i	Sruzwi	223682,Sruzwi:223683,Sruzwi
 m_i	SreRi	223691,SreRi
+m_i	SroRi	223809,SroRi
 m_i	Srotu-rAti	223843,SroturAti
 m_i	Srotra-pati	223857,Srotrapati
 m_i	SrOta-fzi	223907,SrOtafzi
@@ -5861,6 +5901,7 @@ m_i	sam-Asa-cUqAmaRi	233963,samAsacUqAmaRi
 m_i	sam-Asa-viDi	233980,samAsaviDi
 m_i	sam-Ahita-mati	234215,samAhitamati
 m_i	sam-Ahita-mano-budDi	234217,samAhitamanobudDi
+m_i	sam-udra-nemi	235270,samudranemi
 m_i	sam-udra-nemI-pati	235272,samudranemIpati
 m_i	sam-udra-vahni	235302,samudravahni
 m_i	sam-udra-sUri	235318,samudrasUri
@@ -5890,6 +5931,7 @@ m_i	samAna-praBfti	234286,samAnapraBfti
 m_i	samAna-prasidDi	234289,samAnaprasidDi
 m_i	samAna-yoni	234304,samAnayoni
 m_i	samAna-ruci	234305,samAnaruci
+m_i	samAna-rzi	234309,samAnarzi
 m_i	samit-pARi	234904,samitpARi:234904.1,samitpARi
 m_i	samidDAgni	234923,samidDAgni
 m_i	samyak-samADi	237345,samyaksamADi
@@ -5938,6 +5980,7 @@ m_i	sarva-senA-pati	238890.6,sarvasenApati
 m_i	sarva-hari	238922,sarvahari
 m_i	sarvataH-sarvendriya-Sakti	239191,sarvataHsarvendriyaSakti
 m_i	sarvati	239195,sarvati
+m_i	sarvatrApi	239246,sarvatrApi
 m_i	sarvAtiTi	238971,sarvAtiTi
 m_i	sarvAdi	238988,sarvAdi:238989,sarvAdi
 m_i	sarvAnuBUti	239023,sarvAnuBUti
@@ -5995,6 +6038,7 @@ m_i	sahuri	240053,sahuri:240054,sahuri
 m_i	saheti	240378,saheti
 m_i	saho-Bari	240063,sahoBari
 m_i	sahyAdri	240083,sahyAdri
+m_i	sAMkuci	241201,sAMkuci
 m_i	sAMkfti	241207,sAMkfti
 m_i	sAMkrandani	241215,sAMkrandani
 m_i	sAMjYAyani	241355,sAMjYAyani
@@ -6013,6 +6057,7 @@ m_i	sAqi	241369,sAqi
 m_i	sAtA-giri	241384,sAtAgiri
 m_i	sAttvaki	241400,sAttvaki
 m_i	sAtya-kAmi	241432,sAtyakAmi
+m_i	sAtya-m-ugri	241436,sAtyamugri
 m_i	sAtya-muni	241438,sAtyamuni
 m_i	sAtya-yajYi	241440,sAtyayajYi
 m_i	sAtya-raTi	241441,sAtyaraTi
@@ -6190,7 +6235,7 @@ m_i	su-muzwi	248438,sumuzwi
 m_i	su-mUrti	248441,sumUrti
 m_i	su-yAti	248546,suyAti
 m_i	su-rata-viDi	248633,surataviDi
-m_i	su-raBi	249618,suraBi:249629,suraBi
+m_i	su-raBi	249612,suraBi:249618,suraBi:249629,suraBi
 m_i	su-raBi-ganDi	249637,suraBiganDi
 m_i	su-rAji	248705,surAji
 m_i	su-rAti	248708,surAti
@@ -6215,6 +6260,7 @@ m_i	su-Sasti	250056,suSasti
 m_i	su-SAnti	250064,suSAnti
 m_i	su-SiSvi	250087,suSiSvi
 m_i	su-Sukvani	250125,suSukvani
+m_i	su-SroRi	250172,suSroRi
 m_i	su-Slizwa-saMDi	250181,suSlizwasaMDi:250182,suSlizwasaMDi
 m_i	su-zaMDi	250202,suzaMDi
 m_i	su-zaKi	250195,suzaKi
@@ -6303,6 +6349,7 @@ m_i	senADipati	252166,senADipati
 m_i	sendra-Dfti	252231,sendraDfti
 m_i	sevAYjali	252288,sevAYjali
 m_i	sezwi	252372,sezwi
+m_i	sEkAvali	252397,sEkAvali
 m_i	sEnDavAyani	252477,sEnDavAyani
 m_i	sEnya-pati	252445,sEnyapati
 m_i	sEnyADipati	252454,sEnyADipati
@@ -6487,6 +6534,7 @@ m_i	sva-pratiniDi	258010,svapratiniDi
 m_i	sva-BUti	258071,svaBUti
 m_i	sva-BUmi	258076,svaBUmi
 m_i	sva-yukti	258093.1,svayukti
+m_i	sva-yoni	258101,svayoni
 m_i	sva-ruci	258137,svaruci
 m_i	sva-viDi	258218,svaviDi
 m_i	sva-vfkti	258227.1,svavfkti

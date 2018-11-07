@@ -4342,6 +4342,7 @@ ind	valmIka-SfNga-vat	valmIkaSfNgavat
 ind	vaSa-tas	vaSatas
 ind	vaSmasA	vaSmasA
 ind	vazaw	vazaw
+ind	vazaw-kfti	vazawkfti
 ind	vasantA	vasantA
 ind	vasizWa-vat	vasizWavat
 ind	vasUyA	vasUyA

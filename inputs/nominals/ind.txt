@@ -4342,6 +4342,7 @@ ind	valmIka-SfNga-vat	188267,valmIkaSfNgavat
 ind	vaSa-tas	188428,vaSatas
 ind	vaSmasA	188500,vaSmasA:188544,vaSmasA
 ind	vazaw	188546,vazaw
+ind	vazaw-kfti	188554,vazawkfti
 ind	vasantA	188644,vasantA
 ind	vasizWa-vat	188691,vasizWavat
 ind	vasUyA	188966,vasUyA
