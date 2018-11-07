@@ -151,3 +151,17 @@
 00001 m:f:f#U model_mfn_u1
 00002 m:f:f#vI:n model_mfn_u1
 00001 m:f:n:ind model_mfn_u1
+00004 f#trI model_mfn_f1
+00001 f#yantrI model_mfn_f1
+00002 m:f#A model_mfn_f1
+00001 m:f#I model_mfn_f1
+00001 m:f#attrI model_mfn_f1
+00001 m:f#f:n model_mfn_f1
+00001 m:f#metA model_mfn_f1
+00002 m:f#rI:n model_mfn_f1
+00003 m:f#trI model_mfn_f1
+00026 m:f#trI:n model_mfn_f1
+00001 m:f#wrI:n model_mfn_f1
+00001 m:f#zwrI:n model_mfn_f1
+00001 m:f:f#sanutrI:n model_mfn_f1
+00001 m:f:f#trI:n model_mfn_f1

@@ -1067,66 +1067,73 @@ def model_mfn_u1(recs,flog,fileout):
  fout.close()
  print(nout,"lexnorm records written to",fileout)
 
-def prev_model_mfn_u1(recs,flog):
- endchar = 'u'
+def model_mfn_f1(recs,flog,fileout):
+ """ This also writes records to a temporary file for further examination"""
+ fout = codecs.open(fileout,"w","utf-8")
+ nout = 0
+ endchar = 'f'
+ d = {}
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(endchar):
    continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n','f#trI','f#attrI','f#zwrI','f#rI','f#wrI',
+            'f#yantrI','f#sanutrI','f#A','f#metA','f#I','f#f']
   lexparts = rec.lexnorm.split(':')
-  knownparts = ['m','f','n','f#U','f#u','f#vI',
-                'f#pUrvI','f#I','f#us','f#Us','ind']
   if not set(lexparts).issubset(set(knownparts)):
+   print('model_mfn_f1: unexpected lexnorm:',rec.toString())
    continue
-  if lexparts == ['ind']:
-   # these are handled in model_ind
-   continue
+  lexparts = rec.lexnorm.split(':')
   rec.parsed = True
   for part in lexparts:
    if part in ['m','n','f']:
     # stem is unchanged
     mstem = stem
     model = '%s_%s' %(part,endchar)  
-   elif part in ['f#U']:
-    mstem = stem[0:-1] + 'U'  # replace ending 'u' with 'U'
-    mpart = 'f'
-    model = '%s_%s' %(mpart,'U')
-   elif part in ['f#u']:
-    mstem = stem
-    mpart = 'f'
-    model = '%s_%s' %(mpart,'u')
-   elif part in ['f#vI']:
-    mstem = stem[0:-1] + 'vI'  # replace final 'u' with 'vI'
+   elif part in ['f#trI','f#attrI','f#zwrI','f#rI','f#wrI','f#yantrI','f#sanutrI','f#I']:
+    # remove final 'f' and replace with 'rI'
+    mstem = stem[0:-1] + 'rI'
     model = 'f_I'
-   elif part in ['f#pUrvI']:
-    assert stem == 'puru'
-    ending = part[2:]
-    mstem = ending
-    model = 'f_%s' %ending[-1]
-   elif part in ['f#I']:
-    assert stem == 'SASabindu'
-    ending = part[2:]
-    mstem = stem[0:-1]+ending  # replace final 'u' with 'I'
-    model = 'f_%s' %ending[-1]
-   elif part in ['f#us']:
-    assert stem in ['an-uru','kawu','cAru','tanu']
-    ending = part[2:]
-    mstem = stem[0:-1]+ending  # replace final 'u' with 'us'
-    model = 'f_us'  # how to decline? 10-10-2018
-   elif part in ['f#Us']:
-    assert stem in ['asita-jYu','kamaRqalu','kaSeru','guggulu','guNgu',
-                   'jatu','tanu']
-    ending = part[2:]
-    mstem = stem[0:-1]+ending  # replace final 'u' with 'Us'
-    model = 'f_Us'  # how to decline? 10-10-2018
-   elif part in ['ind']:
-    assert stem in ['yuvAku']
+   elif part == 'f#I':
+    assert stem in ['varDayitf']
+    # Not sure. Assume replace final 'f' with 'rI'
+    mstem = stem[0:-1] + 'rI'
+    model = 'f_I'
+   elif part == 'f#A':
+    assert stem in ['manotf','su-ketf']
+    # replace final 'f' with 'A'
+    mstem = stem[0:-1] + 'A'
+    model = 'f_A'
+   elif part == 'f#metA':
+    assert stem in ['metf']
+    # replace final 'f' with 'A'
+    mstem = stem[0:-1] + 'A'
+    model = 'f_A'
+   elif part == 'f#f':
+    if stem not in ['sapta-svasf']:
+     print('model_mfn_f ERROR "f#f"',stem,rec.lexnorm)
     mstem = stem
-    model = 'ind'
+    model = 'f_f'
    else:
-    print('mfn_u. Internal error',part)
+    print('mfn_f1 internal ERROR',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
+   if not (part in ['m','n']):
+    # write record to temp file for feminine stem
+    out = rec.toString() + '\t' + mstem
+    out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
+    fout.write(out + '\n')
+    nout = nout + 1
+
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_f1',d,flog)
+ fout.close()
+ print(nout,"lexnorm records written to",fileout)
 
 def model_f_AIU(recs,flog):
  endchars = ['A','I','U']
@@ -1440,7 +1447,7 @@ def model_card(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
-def model_mfn_f1(recs,flog):
+def prevmodel_mfn_f1(recs,flog):
  endchar = 'f'
  for rec in recs:
   stem = rec.key2
@@ -1875,6 +1882,7 @@ if __name__ == "__main__":
  model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
  model_mfn_i1(recs,flog,'model_mfn_i1.txt')  # cases written to file
  model_mfn_u1(recs,flog,'model_mfn_u1.txt')  # cases written to file
+ model_mfn_f1(recs,flog,'model_mfn_f1.txt')  # cases written to file
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

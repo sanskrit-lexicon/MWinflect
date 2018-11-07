@@ -522,6 +522,7 @@ f_f	saM-drazwf	231571,saMdrazwf
 f_f	saM-DAtf	231606,saMDAtf
 f_f	saM-DAna-kartf	231630,saMDAnakartf
 f_f	saM-DyAtf	231887,saMDyAtf
+f_f	saM-niDAtf	231990,saMniDAtf
 f_f	saM-niyantf	232067,saMniyantf
 f_f	saM-yantf	225656,saMyantf
 f_f	saM-rAjitf	225850,saMrAjitf
@@ -541,7 +542,9 @@ f_f	sattf	230508,sattf
 f_f	satya-vaktf	229993,satyavaktf
 f_f	san-mAtf	230359,sanmAtf
 f_f	sanitf	231039,sanitf
+f_f	sanutf	231048,sanutf
 f_f	sapta-mAtf	232569,saptamAtf:232569.1,saptamAtf
+f_f	sapta-svasf	232693,saptasvasf
 f_f	sapta-hotf	232699,saptahotf
 f_f	sam-aByarTayitf	233713,samaByarTayitf
 f_f	sam-arpayitf	235855,samarpayitf

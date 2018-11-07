@@ -33118,7 +33118,7 @@ f_A	mano-hara-tarA	157195,manoharatara
 f_A	mano-harA	157180,manohara:157185,manoharA
 f_A	mano-harAkArA	157200,manoharAkAra
 f_A	mano-hArikA	157202,manohArikA
-f_A	manotA	157211,manotA:157212,manotA
+f_A	manotA	157211,manotA:157212,manotA:157214,manotf
 f_A	mantavyA	157219,mantavya
 f_A	mantra-kalpa-latA	157249,mantrakalpalatA
 f_A	mantra-kuSalA	157254,mantrakuSala
@@ -34941,6 +34941,7 @@ f_A	mecakitA	167744,mecakita
 f_A	mecawikA	167747,mecawika
 f_A	mewulA	167752,mewulA
 f_A	meQI-BUtA	167760,meQIBUta
+f_A	metA	167779,metf
 f_A	metTitA	167780,metTita
 f_A	meTi-zWA	167786,meTizWa
 f_A	meTikA	167788,meTikA:167789,meTikA
@@ -50641,7 +50642,7 @@ f_A	su-kftocCrayA	245516,sukftocCraya
 f_A	su-kftyA	245533,sukftya:245536,sukftyA
 f_A	su-kfzwA	245538,sukfzwa
 f_A	su-kfzRA	245539,sukfzRa
-f_A	su-ketA	245540,suketa
+f_A	su-ketA	245540,suketa:245547,suketf
 f_A	su-ketu-sutA	245546,suketusutA
 f_A	su-keSA	245548,sukeSa
 f_A	su-keSAntA	245554,sukeSAnta

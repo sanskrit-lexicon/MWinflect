@@ -25,6 +25,7 @@ n_f	aDi-zWAtf	4441,aDizWAtf
 n_f	an-apacAyitf	5073.1,anapacAyitf
 n_f	anu-kartf	6114,anukartf
 n_f	anu-prazwf	6833.1,anuprazwf
+n_f	anu-Bartf	6946,anuBartf
 n_f	anu-BAzitf	6909,anuBAzitf
 n_f	anu-mantf	6965,anumantf
 n_f	anu-mAtf	6976.1,anumAtf
@@ -38,6 +39,7 @@ n_f	anv-ezwf	8913,anvezwf:8913.1,anvezwf
 n_f	apa-kartf	8979,apakartf
 n_f	apa-Bartf	9353,apaBartf
 n_f	apa-rAdDf	9516,aparAdDf
+n_f	apa-hantf	9896,apahantf
 n_f	apa-hnotf	9940,apahnotf
 n_f	aBi-goptf	11287,aBigoptf
 n_f	aBi-grahItf	11311,aBigrahItf
@@ -94,6 +96,7 @@ n_f	ud-vejayitf	33674,udvejayitf
 n_f	udaka-dAtf	32161,udakadAtf
 n_f	un-netf	33864,unnetf
 n_f	un-mAdayitf	33946,unmAdayitf
+n_f	upa-kartf	34133,upakartf
 n_f	upa-krantf	34220,upakrantf
 n_f	upa-krozwf	34260,upakrozwf
 n_f	upa-kzapayitf	34273,upakzapayitf
@@ -102,6 +105,7 @@ n_f	upa-jIvitf	34579.1,upajIvitf
 n_f	upa-taptf	34622,upataptf
 n_f	upa-dAtf	34674,upadAtf:34736,upadAtf
 n_f	upa-niDAtf	34919,upaniDAtf
+n_f	upa-netf	35020,upanetf
 n_f	upa-Boktf	35243,upaBoktf
 n_f	upa-manTitf	35281,upamanTitf
 n_f	upa-mAtf	35312,upamAtf
@@ -132,6 +136,7 @@ n_f	kAmAvasAyitf	48265,kAmAvasAyitf
 n_f	kArayitf	48578,kArayitf
 n_f	kuwitf	51552,kuwitf
 n_f	kfmi-hantf	54990,kfmihantf
+n_f	ketayitf	55630,ketayitf
 n_f	knUyitf	57610,knUyitf
 n_f	kranditf	57746,kranditf
 n_f	kramitf	57859,kramitf
@@ -150,6 +155,7 @@ n_f	guRa-grahItf	65550,guRagrahItf
 n_f	guRa-Boktf	65603,guRaBoktf
 n_f	gfhItf	66755,gfhItf
 n_f	go-mAtf	67383,gomAtf
+n_f	goptf	67971,goptf:67972,goptf
 n_f	graBItf	68595,graBItf
 n_f	grahItf	68755,grahItf
 n_f	glAtf	69173,glAtf
@@ -162,10 +168,12 @@ n_f	cAyitf	73040,cAyitf
 n_f	cetayitf	74065,cetayitf
 n_f	cettf	74086,cettf
 n_f	cezwayitf	74987,cezwayitf
+n_f	codayitf	74589,codayitf
 n_f	coditf	74601,coditf
 n_f	Cettf	76014,Cettf
 n_f	jani-kartf	76938,janikartf
 n_f	jabDf	77184,jabDf
+n_f	jayitf	77585,jayitf
 n_f	jarayitf	77660,jarayitf
 n_f	jalpitf	78310,jalpitf
 n_f	jAgaritf	78444,jAgaritf
@@ -173,6 +181,7 @@ n_f	jIva-pitf	79702,jIvapitf
 n_f	jIvat-pitf	79806,jIvatpitf
 n_f	jetf	80165,jetf
 n_f	jozayitf	80298,jozayitf
+n_f	jozwf	80300,jozwf
 n_f	jYAtf	80373,jYAtf
 n_f	jvalitf	80925,jvalitf
 n_f	takzitf	81634,takzitf
@@ -182,9 +191,11 @@ n_f	tarutf	83177,tarutf
 n_f	tarUtf	83191,tarUtf
 n_f	tarPitf	83477,tarPitf
 n_f	tAqayitf	83733,tAqayitf
+n_f	tARqavayitf	83750,tARqavayitf
 n_f	tApayitf	83922,tApayitf
 n_f	tArayitf	84345,tArayitf
 n_f	tAritf	84404,tAritf
+n_f	tiro-Bavitf	85100,tiroBavitf
 n_f	tisf	85382,tisf
 n_f	tozayitf	87277,tozayitf
 n_f	tyaktf	87352,tyaktf
@@ -200,6 +211,7 @@ n_f	dvi-mAtf	98601,dvimAtf
 n_f	dvezwf	98993,dvezwf
 n_f	Dana-goptf	99279,Danagoptf
 n_f	Danutf	99640,Danutf
+n_f	Darma-hantf	100357,Darmahantf
 n_f	DmAtf	102164,DmAtf
 n_f	naMzwf	102730,naMzwf
 n_f	nantf	103417,nantf
@@ -207,6 +219,7 @@ n_f	nandayitf	103539,nandayitf
 n_f	namas-kartf	103850,namaskartf
 n_f	nartayitf	104298,nartayitf
 n_f	naSitf	104765,naSitf
+n_f	nASayitf	106211,nASayitf
 n_f	ni-bodDf	108861,nibodDf
 n_f	ni-zedDf	110748,nizedDf
 n_f	nitya-hotf	108420,nityahotf
@@ -235,6 +248,7 @@ n_f	pari-pAcayitf	117889,paripAcayitf
 n_f	pari-pAlayitf	117932,paripAlayitf
 n_f	pari-Boktf	118148,pariBoktf
 n_f	pari-rakzitf	118378,parirakzitf
+n_f	pari-vezwf	118593,parivezwf
 n_f	pari-srazwf	119041,parisrazwf
 n_f	pary-ava-sTAtf	119710,paryavasTAtf
 n_f	pary-upAsitf	119904,paryupAsitf
@@ -270,6 +284,7 @@ n_f	pra-mApayitf	135939,pramApayitf
 n_f	pra-yantf	136201,prayantf
 n_f	pra-yodDf	136428,prayodDf
 n_f	pra-labDf	136531,pralabDf
+n_f	pra-lavitf	136660,pralavitf
 n_f	pra-vaktf	136677,pravaktf
 n_f	pra-vaditf	136744,pravaditf
 n_f	pra-vApayitf	136766,pravApayitf
@@ -312,6 +327,7 @@ n_f	BaRitf	148194,BaRitf
 n_f	Baya-M-kartf	148595,BayaMkartf
 n_f	Baya-kartf	148586,Bayakartf
 n_f	Baya-hartf	148632,Bayahartf
+n_f	Bavitf	149196,Bavitf
 n_f	Bavizyad-vaktf	149237,Bavizyadvaktf
 n_f	BAvayitavyitf	150394,BAvayitavyitf
 n_f	BAzitf	150519,BAzitf
@@ -322,6 +338,7 @@ n_f	majjayitf	154375,majjayitf
 n_f	maRqitf	154907,maRqitf
 n_f	maTitf	155208,maTitf
 n_f	madayitf	155604,madayitf
+n_f	manayitf	156772,manayitf
 n_f	mAMsa-Bettf	161834,mAMsaBettf
 n_f	mAnayitf	162803,mAnayitf
 n_f	mita-BAzitf	164118,mitaBAzitf
@@ -332,7 +349,9 @@ n_f	mokzayitf	168402,mokzayitf
 n_f	mocayitf	168455,mocayitf
 n_f	mohayitf	168641,mohayitf
 n_f	yantf	170294,yantf
+n_f	yazwf	169540,yazwf
 n_f	yAtf	171063,yAtf
+n_f	yAvayitf	171696,yAvayitf
 n_f	yoktf	171992,yoktf
 n_f	yoga-kzema-samarpitf	172378.1,yogakzemasamarpitf
 n_f	yojayitf	172774,yojayitf
@@ -341,6 +360,7 @@ n_f	rakzitf	173138,rakzitf
 n_f	raRitf	174184,raRitf
 n_f	raDitf	174814,raDitf
 n_f	rantf	175084,rantf
+n_f	rabDf	174873,rabDf
 n_f	ravitf	175334,ravitf
 n_f	rasayitf	175838,rasayitf
 n_f	rasitf	175484,rasitf:175912,rasitf
@@ -385,9 +405,10 @@ n_f	vi-jYAtf	195265,vijYAtf
 n_f	vi-tanitf	195498,vitanitf
 n_f	vi-drazwf	196184,vidrazwf
 n_f	vi-dvezwf	196451,vidvezwf
+n_f	vi-DAtf	196502,viDAtf
 n_f	vi-DArayitf	196764,viDArayitf
 n_f	vi-nASayitf	196883,vinASayitf
-n_f	vi-niyoktf	197016,viniyoktf
+n_f	vi-niyoktf	197016,viniyoktf:197018,viniyoktf
 n_f	vi-parIta-kartf	197679.1,viparItakartf
 n_f	vi-prakartf	197835,viprakartf
 n_f	vi-pralabDf	197963,vipralabDf
@@ -395,6 +416,7 @@ n_f	vi-prekzitf	198038,viprekzitf
 n_f	vi-Baktf	198206,viBaktf
 n_f	vi-BAjayitf	198244,viBAjayitf
 n_f	vi-Bettf	198351,viBettf
+n_f	vi-moktf	198832,vimoktf
 n_f	vi-yantf	193405,viyantf
 n_f	vi-yotf	199013,viyotf
 n_f	vi-rAdDf	199267,virAdDf
@@ -417,6 +439,7 @@ n_f	vftti-dAtf	204531,vfttidAtf
 n_f	vftti-hantf	204553,vfttihantf
 n_f	vettf	205595,vettf
 n_f	vedayitf	205935,vedayitf
+n_f	veditf	206064,veditf
 n_f	vedDf	206192,vedDf
 n_f	voQf	208147,voQf
 n_f	vy-apadezwf	208750,vyapadezwf
@@ -453,6 +476,7 @@ n_f	saM-drazwf	231571,saMdrazwf
 n_f	saM-DAtf	231606,saMDAtf
 n_f	saM-DAna-kartf	231630,saMDAnakartf
 n_f	saM-DyAtf	231887,saMDyAtf
+n_f	saM-niDAtf	231990,saMniDAtf
 n_f	saM-niyantf	232067,saMniyantf
 n_f	saM-yantf	225656,saMyantf
 n_f	saM-rAjitf	225850,saMrAjitf
@@ -471,9 +495,12 @@ n_f	sat-kartf	229510,satkartf
 n_f	sattf	230508,sattf
 n_f	satya-vaktf	229993,satyavaktf
 n_f	sanitf	231039,sanitf
+n_f	sanutf	231048,sanutf
 n_f	sapta-mAtf	232569,saptamAtf
+n_f	sapta-svasf	232693,saptasvasf
 n_f	sapta-hotf	232699,saptahotf
 n_f	sam-aByarTayitf	233713,samaByarTayitf
+n_f	sam-arDayitf	235879,samarDayitf
 n_f	sam-arpayitf	235855,samarpayitf
 n_f	sam-uditf	235413,samuditf
 n_f	sam-udDartf	235487,samudDartf
@@ -514,8 +541,10 @@ n_f	skanttf	254078,skanttf
 n_f	stana-pAtf	254334,stanapAtf
 n_f	stotf	254712,stotf
 n_f	sTAtf	255372,sTAtf
+n_f	sTAna-dAtf	255414,sTAnadAtf
 n_f	sTApayitf	255530,sTApayitf
 n_f	sTiti-kartf	255689,sTitikartf
+n_f	sneha-kartf	256365,snehakartf
 n_f	sparitf	256599,sparitf:256738,sparitf
 n_f	sparSitf	256673,sparSitf
 n_f	sparzwf	256677,sparzwf
@@ -538,7 +567,9 @@ n_f	hata-pitf	260339,hatapitf
 n_f	hata-BrAtf	260350,hataBrAtf
 n_f	hata-mAtf	260352,hatamAtf
 n_f	hata-svasf	260381,hatasvasf
+n_f	hantf	260454,hantf
 n_f	hasitf	262089,hasitf
 n_f	hitopadezwf	262931,hitopadezwf
 n_f	hUrCitf	263576,hUrCitf
 n_f	hetf	264058,hetf
+n_f	hotf	264482,hotf
