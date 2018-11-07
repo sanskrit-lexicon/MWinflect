@@ -4210,6 +4210,7 @@ ind	yuktyA	171811.1,yuktyA
 ind	yuga-pad	171866,yugapad
 ind	yuga-Saram	171882,yugaSaram
 ind	yuva-drik	172149,yuvadrik
+ind	yuvAku	172159,yuvAku
 ind	yuzmat-tas	172213,yuzmattas
 ind	yuzmad-arTam	172215,yuzmadarTam
 ind	yUTa-pati-sakASam	172245,yUTapatisakASam

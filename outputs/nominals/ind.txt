@@ -4210,6 +4210,7 @@ ind	yuktyA	yuktyA
 ind	yuga-pad	yugapad
 ind	yuga-Saram	yugaSaram
 ind	yuva-drik	yuvadrik
+ind	yuvAku	yuvAku
 ind	yuzmat-tas	yuzmattas
 ind	yuzmad-arTam	yuzmadarTam
 ind	yUTa-pati-sakASam	yUTapatisakASam

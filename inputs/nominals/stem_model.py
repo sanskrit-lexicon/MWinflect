@@ -986,73 +986,88 @@ def model_mfn_i1(recs,flog,fileout):
  fout.close()
  print(nout,"lexnorm records written to",fileout)
 
-
-def prev_model_mfn_i1(recs,flog):
- endchar = 'i'
+def model_mfn_u1(recs,flog,fileout):
+ """ This also writes records to a temporary file for further examination"""
+ fout = codecs.open(fileout,"w","utf-8")
+ nout = 0
+ endchar = 'u'
+ d = {}
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(endchar):
    continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n','f#U','f#u','f#vI',
+                'f#pUrvI','f#I','f#us','f#Us','ind']
   lexparts = rec.lexnorm.split(':')
-  knownparts = ['m','f','n','f#I',
-                'f#i', # redundant. Could replace with 'f'
-                'f#is','f#tnI','f#yA','f#A','f#ikA','ind','f#tinI']
   if not set(lexparts).issubset(set(knownparts)):
+   print('model_mfn_u1: unexpected lexnorm:',rec.toString())
    continue
-  if lexparts == ['ind']:
-   # these are handled in model_ind
-   continue
+  lexparts = rec.lexnorm.split(':')
   rec.parsed = True
   for part in lexparts:
    if part in ['m','n','f']:
     # stem is unchanged
     mstem = stem
     model = '%s_%s' %(part,endchar)  
+   elif part in ['f#U']:
+    mstem = stem[0:-1] + 'U'  # replace ending 'u' with 'U'
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'U')
+   elif part in ['f#u']:
+    mstem = stem
+    mpart = 'f'
+    model = '%s_%s' %(mpart,'u')
+   elif part in ['f#vI']:
+    mstem = stem[0:-1] + 'vI'  # replace final 'u' with 'vI'
+    model = 'f_I'
+   elif part in ['f#pUrvI']:
+    assert stem == 'puru'
+    ending = part[2:]
+    mstem = ending
+    model = 'f_%s' %ending[-1]
    elif part in ['f#I']:
+    assert stem == 'SASabindu'
     ending = part[2:]
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'I'
-    model = 'f_%s' %ending
-   elif part in ['f#i']:
-    ending = part[2:]
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'i'  (same as 'f')
-    model = 'f_%s' %ending
-   elif part in ['f#is']:
-    ending = part[2:]
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'is'
-    model = 'f_%s' %ending
-   elif part in ['f#A']:
-    ending = part[2:]
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'A'
-    model = 'f_%s' %ending
-   elif part in ['f#ikA']:
-    ending = part[2:]
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'ikA'
+    mstem = stem[0:-1]+ending  # replace final 'u' with 'I'
     model = 'f_%s' %ending[-1]
-   elif part in ['f#tnI']:
-    ending = part[2:]
-    assert stem.endswith('pati')
-    mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tnI'
-    model = 'f_%s' %ending[-1]
-   elif part in ['f#tinI']:
-    ending = part[2:]
-    assert stem == 'prati-prati'
-    mstem = stem[0:-2] + ending  # replace ending 'ti' with 'tinI'
-    model = 'f_%s' %ending[-1]
+   elif part in ['f#us']:
+    # treat MW's 'us' as same as 'u' (Denu_. Refer his grammar, p. 88, where
+    # he writes 'Denus' for nom. singular.
+    assert stem in ['an-uru','kawu','cAru','tanu']
+    mstem = stem
+    model = 'f_u' 
+   elif part in ['f#Us']:
+    ## interpret this as f_U  (like vaDU). See MW grammar as above, p. 91.
+    assert stem in ['asita-jYu','kamaRqalu','kaSeru','guggulu','guNgu',
+                   'jatu','tanu']
+    mstem = stem[0:-1] + 'U'
+    model = 'f_U'  # 
    elif part in ['ind']:
-    assert stem in ['vazaw-kfti']
+    assert stem in ['yuvAku']
     mstem = stem
     model = 'ind'
-   elif part in ['f#yA']:
-    ending = part[2:]
-    # question this in dEva-yajYi. WOuld give dEva-yajYyA Right? Yes acc. to pwg
-    mstem = stem[0:-1] + ending  # replace ending 'i' with 'yA'
-    model = 'f_%s' %ending[-1]
    else:
-    print('mfn_i internal ERROR',part)
+    print('mfn_u1 internal ERROR',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
+   if not (part in ['m','n']):
+    # write record to temp file for feminine stem
+    out = rec.toString() + '\t' + mstem
+    out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
+    fout.write(out + '\n')
+    nout = nout + 1
 
-def model_mfn_u1(recs,flog):
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_u1',d,flog)
+ fout.close()
+ print(nout,"lexnorm records written to",fileout)
+
+def prev_model_mfn_u1(recs,flog):
  endchar = 'u'
  for rec in recs:
   stem = rec.key2
@@ -1859,6 +1874,7 @@ if __name__ == "__main__":
  model_mfn_a3(recs,flog,'model_mfn_a3.txt')  # cases written to file
  model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
  model_mfn_i1(recs,flog,'model_mfn_i1.txt')  # cases written to file
+ model_mfn_u1(recs,flog,'model_mfn_u1.txt')  # cases written to file
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

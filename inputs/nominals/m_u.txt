@@ -75,6 +75,7 @@ m_u	a-vidIDayu	18811,avidIDayu
 m_u	a-vivadizRu	19007,avivadizRu
 m_u	a-viharyata-kratu	19116,aviharyatakratu
 m_u	a-Satru	19468,aSatru:19470,aSatru
+m_u	a-SiSu	19568,aSiSu
 m_u	a-SIta-tanu	19579,aSItatanu
 m_u	a-SIrta-tanu	19591.1,aSIrtatanu
 m_u	a-SuSrUzu	19624,aSuSrUzu
@@ -114,7 +115,7 @@ m_u	acizwu	1823,acizwu
 m_u	aja-mAyu	1977,ajamAyu
 m_u	aYjizWu	2319.2,aYjizWu
 m_u	aYjizRu	2319.1,aYjizRu
-m_u	aRu	2413,aRu:2419.1,aRu
+m_u	aRu	2412,aRu:2413,aRu:2419.1,aRu
 m_u	aRu-priyaNgu	2419.4,aRupriyaNgu
 m_u	aRu-reRu	2429,aRureRu
 m_u	aRqAlu	2483,aRqAlu
@@ -156,6 +157,7 @@ m_u	an-ikzu	5754,anikzu
 m_u	an-icCu	5764,anicCu
 m_u	an-izu	5960,anizu
 m_u	an-izwa-hetu	5975,anizwahetu
+m_u	an-uru	7120,anuru
 m_u	an-uzRa-gu	7514,anuzRagu
 m_u	an-Una-guru	7737,anUnaguru
 m_u	an-Uru	7762,anUru:7763,anUru
@@ -289,6 +291,7 @@ m_u	azwa-DAtu	20197,azwaDAtu
 m_u	asamezu	20671,asamezu
 m_u	asaru	20806,asaru
 m_u	asita-jAnu	20984,asitajAnu
+m_u	asita-jYu	20985,asitajYu
 m_u	asitAlu	21000,asitAlu
 m_u	asu	21023,asu
 m_u	asura-guru	21064,asuraguru
@@ -468,11 +471,12 @@ m_u	upAyu	36937,upAyu
 m_u	upAlipsu	36788.1,upAlipsu
 m_u	upta-keSa-SmaSru	186280,uptakeSaSmaSru
 m_u	umA-guru	37171,umAguru
-m_u	uru	37296,uru
+m_u	uru	37295,uru:37296,uru
 m_u	uru-drapsu	37332,urudrapsu
 m_u	uru-bindu	37337,urubindu
 m_u	uruvu	37372,uruvu
 m_u	uruzyu	37398,uruzyu
+m_u	urvAru	37431,urvAru
 m_u	ulUka-yAtu	37472,ulUkayAtu
 m_u	ulUlu	37499,ulUlu
 m_u	ulbaRizRu	37543,ulbaRizRu
@@ -493,7 +497,7 @@ m_u	UrDva-bAhu	38207,UrDvabAhu
 m_u	UrDva-mAyu	38226,UrDvamAyu
 m_u	UrDva-sAnu	38265,UrDvasAnu
 m_u	fceyu	38768,fceyu
-m_u	fju	38799,fju
+m_u	fju	38793,fju:38799,fju
 m_u	fju-kratu	38803,fjukratu
 m_u	fjUyu	38841,fjUyu
 m_u	fta-psu	38465,ftapsu
@@ -534,7 +538,7 @@ m_u	kaNkeru	41692,kaNkeru
 m_u	kacAku	41740,kacAku:41742,kacAku
 m_u	kaYcukAlu	41853,kaYcukAlu
 m_u	kawAlu	42005,kawAlu
-m_u	kawu	42059,kawu
+m_u	kawu	42055,kawu:42059,kawu
 m_u	kawukAlAbu	42147,kawukAlAbu
 m_u	kaWAku	42183,kaWAku
 m_u	kaWinekzu	42206,kaWinekzu
@@ -557,7 +561,7 @@ m_u	kapAla-ketu	43397,kapAlaketu
 m_u	kapi-ketu	43446.1,kapiketu
 m_u	kapi-praBu	43469,kapipraBu
 m_u	kapI-kacCu	43496,kapIkacCu
-m_u	kamaRqalu	43903,kamaRqalu
+m_u	kamaRqalu	43901,kamaRqalu:43903,kamaRqalu
 m_u	kamalinI-banDu	43891,kamalinIbanDu
 m_u	kambu	43991,kambu
 m_u	kara-tanu	44068.1,karatanu
@@ -840,7 +844,7 @@ m_u	guRa-ketu	65541,guRaketu
 m_u	guRa-guru	65546.1,guRaguru
 m_u	guRa-gfDnu	65547,guRagfDnu
 m_u	guRa-vizRu	65654,guRavizRu
-m_u	guru	65997,guru:66008,guru
+m_u	guru	65987,guru:65997,guru:66008,guru
 m_u	guru-kratu	66025,gurukratu
 m_u	guru-meru	66115,gurumeru
 m_u	guru-SuSrUzu	66139,guruSuSrUzu
@@ -937,7 +941,7 @@ m_u	cAwu-vawu	72770,cAwuvawu
 m_u	cAyu	73041,cAyu
 m_u	cAra-cuYcu	73056,cAracuYcu
 m_u	cAra-vAyu	73065,cAravAyu
-m_u	cAru	73141,cAru
+m_u	cAru	73137,cAru:73141,cAru
 m_u	cAru-dAru	73173,cArudAru
 m_u	cAru-bAhu	73193,cArubAhu
 m_u	cikarizu	73370,cikarizu
@@ -1081,7 +1085,7 @@ m_u	taTA-kratu	82001,taTAkratu
 m_u	tad-banDu	82127,tadbanDu
 m_u	tad-bahu	82130,tadbahu
 m_u	tanayitnu	82221,tanayitnu
-m_u	tanu	82276,tanu:82277,tanu:82278,tanu
+m_u	tanu	82274,tanu:82276,tanu:82277,tanu:82278,tanu
 m_u	tantu	82420,tantu
 m_u	tandrayu	82583,tandrayu
 m_u	tandrAlu	82585,tandrAlu
@@ -1259,6 +1263,7 @@ m_u	dIpta-ketu	92897,dIptaketu
 m_u	dIptAMSu	92917,dIptAMSu
 m_u	dIpti-ketu	92942,dIptiketu
 m_u	dIrGa-caYcu	93012,dIrGacaYcu
+m_u	dIrGa-tanu	93031,dIrGatanu
 m_u	dIrGa-tantu	93033,dIrGatantu
 m_u	dIrGa-taru	93040,dIrGataru
 m_u	dIrGa-dru	93064,dIrGadru
@@ -1286,6 +1291,7 @@ m_u	dur-marAyu	94191,durmarAyu
 m_u	dur-mAyu	94206,durmAyu
 m_u	dur-vartu	94296,durvartu
 m_u	dur-haRAyu	94407,durhaRAyu
+m_u	dur-hanu	94410,durhanu
 m_u	dur-hfRAyu	94416.1,durhfRAyu
 m_u	durasyu	94422.1,durasyu
 m_u	duru	94715,duru
@@ -1441,6 +1447,7 @@ m_u	nAga-reRu	105103,nAgareRu
 m_u	nAga-hanu	105152,nAgahanu
 m_u	nAgABiBu	105172,nAgABiBu
 m_u	nAti-krUra-mfdu	102675.05,nAtikrUramfdu
+m_u	nAti-pfTu	102675.31,nAtipfTu
 m_u	nATa-vindu	105462,nATavindu
 m_u	nAnA-tanu	105525,nAnAtanu
 m_u	nAma-DAtu	105756,nAmaDAtu
@@ -1541,7 +1548,7 @@ m_u	pakza-bindu	113157,pakzabindu
 m_u	pakzAlu	113218,pakzAlu
 m_u	pakzu	113260,pakzu
 m_u	pakzRu	113465,pakzRu
-m_u	paNgu	113396,paNgu
+m_u	paNgu	113394,paNgu:113396,paNgu
 m_u	paYca-gu	113593,paYcagu
 m_u	paYca-pawu	113727,paYcapawu
 m_u	paYca-paSu	113742,paYcapaSu:113743,paYcapaSu
@@ -1549,7 +1556,7 @@ m_u	paYca-bAhu	113774,paYcabAhu
 m_u	paYca-mantra-tanu	113802,paYcamantratanu
 m_u	paYcaTu	114153,paYcaTu
 m_u	paYcezu	114124,paYcezu
-m_u	pawu	114387,pawu:114396,pawu
+m_u	pawu	114378,pawu:114387,pawu:114396,pawu
 m_u	paq-bISa-SaNku	114547.2,paqbISaSaNku
 m_u	paq-viMSa-SaNku	114549.2,paqviMSaSaNku
 m_u	paq-vISa-SaNku	114548.2,paqvISaSaNku
@@ -1557,6 +1564,7 @@ m_u	paRqAlu	114696,paRqAlu
 m_u	paRqu	114693,paRqu
 m_u	patad-BIru	114770,patadBIru
 m_u	patanu	115013.1,patanu
+m_u	patayAlu	114790,patayAlu
 m_u	patayizRu	114791,patayizRu
 m_u	pataru	114794,pataru
 m_u	pattra-taru	114877,pattrataru
@@ -1571,6 +1579,7 @@ m_u	padma-praBu	115642,padmapraBu
 m_u	padma-banDu	115645,padmabanDu
 m_u	panasyu	115836,panasyu
 m_u	papu	115874,papu
+m_u	para-uru	116438,parauru
 m_u	para-tra-BIru	116111.2,paratraBIru
 m_u	para-manTu	116218,paramanTu
 m_u	para-manyu	116219,paramanyu
@@ -1608,6 +1617,7 @@ m_u	pari-Suzka-tAlu	118814,pariSuzkatAlu
 m_u	parIcikzizu	119343,parIcikzizu
 m_u	parIpsu	119788,parIpsu
 m_u	paru	119373,paru
+m_u	paro-'Mhu	116701,paroMhu
 m_u	paro-'kza-banDu	116702.38,parokzabanDu
 m_u	paro-bAhu	116705,parobAhu
 m_u	pary-aSru	119721,paryaSru
@@ -1684,7 +1694,7 @@ m_u	pum-paSu	125119,pumpaSu
 m_u	purastAt-kratu	125929,purastAtkratu
 m_u	purA-vasu	125975,purAvasu
 m_u	purIza-BIru	126275,purIzaBIru
-m_u	puru	126300,puru
+m_u	puru	126299,puru:126300,puru
 m_u	puru-kzu	126317,purukzu
 m_u	puru-dasyu	126342,purudasyu
 m_u	puru-paSu	126354,purupaSu
@@ -1714,11 +1724,12 @@ m_u	pUrva-vAyu	128096,pUrvavAyu
 m_u	pftanAyu	128352,pftanAyu:128353,pftanAyu
 m_u	pftanyu	128356,pftanyu:128357,pftanyu
 m_u	pfTA-sUnu	128381,pfTAsUnu
-m_u	pfTu	128529,pfTu
+m_u	pfTu	128523,pfTu:128529,pfTu
 m_u	pfTu-dIrGa-bAhu	128579,pfTudIrGabAhu
 m_u	pfTu-parSu	128586,pfTuparSu
 m_u	pfTu-bAhu	128597,pfTubAhu
 m_u	pfTu-zwu	128638,pfTuzwu
+m_u	pfdAku	128713,pfdAku
 m_u	pfdAku-sAnu	128717,pfdAkusAnu
 m_u	pfSni-gu	128734,pfSnigu:128734.1,pfSnigu
 m_u	pfSni-bAhu	128741,pfSnibAhu
@@ -1749,7 +1760,7 @@ m_u	pra-bAhu	135328,prabAhu
 m_u	pra-Bava-praBu	135536,praBavapraBu
 m_u	pra-BavizRu	135544,praBavizRu
 m_u	pra-BAnu	135483,praBAnu
-m_u	pra-Bu	135574,praBu:135584,praBu
+m_u	pra-Bu	135568,praBu:135574,praBu:135584,praBu
 m_u	pra-BU-vasu	135601.2,praBUvasu:135601.3,praBUvasu
 m_u	pra-BUzRu	135629,praBUzRu
 m_u	pra-BraMSaTu	135643,praBraMSaTu
@@ -1838,13 +1849,15 @@ m_u	pluta-meru	141558,plutameru
 m_u	Pala-grahizRu	141765,PalagrahizRu
 m_u	Pala-prepsu	141825,Palaprepsu
 m_u	Pala-hetu	141894,Palahetu
+m_u	Palgu	142082,Palgu
 m_u	Pu	142190,Pu
 m_u	Peru	142281,Peru
 m_u	baka-ripu	142330,bakaripu
 m_u	bawu	142378,bawu
 m_u	badara-saktu	142438,badarasaktu
 m_u	badDa-vepaTu	142590,badDavepaTu
-m_u	baBru	142852,baBru
+m_u	banDu	142731,banDu
+m_u	baBru	142850,baBru:142852,baBru
 m_u	baBru-DAtu	142875,baBruDAtu
 m_u	baru	142904,baru
 m_u	barku	142912,barku
@@ -1852,7 +1865,9 @@ m_u	barha-ketu	142970,barhaketu
 m_u	bala-banDu	143156,balabanDu
 m_u	balakza-gu	143296,balakzagu
 m_u	balizRu	143416,balizRu
+m_u	bahu	143498,bahu
 m_u	bahu-ketu	143529,bahuketu
+m_u	bahu-gu	143546,bahugu
 m_u	bahu-guru	143552,bahuguru
 m_u	bahu-pawu	143656,bahupawu
 m_u	bahu-paSu	143677,bahupaSu
@@ -1903,6 +1918,7 @@ m_u	boDi-taru	145882,boDitaru
 m_u	brahma-ketu	146607,brahmaketu
 m_u	brahma-dAru	146766,brahmadAru
 m_u	brahma-DAtu	146785,brahmaDAtu
+m_u	brahma-banDu	146872,brahmabanDu
 m_u	brahma-bindu	146876,brahmabindu
 m_u	brahma-yAtu	146931,brahmayAtu
 m_u	brahma-SamBu	147055,brahmaSamBu
@@ -1959,7 +1975,7 @@ m_u	Bihu	150968,Bihu
 m_u	BIma-gu	151021,BImagu
 m_u	BIma-jAnu	151027,BImajAnu
 m_u	BImayu	151105,BImayu
-m_u	BIru	151112,BIru
+m_u	BIru	151110,BIru:151112,BIru
 m_u	BIru-BIru	151132,BIruBIru
 m_u	BIlu	151147,BIlu
 m_u	Bu	151209,Bu
@@ -2021,7 +2037,7 @@ m_u	madizRu	155651,madizRu
 m_u	made-raGu	155440,maderaGu
 m_u	maderu	155655,maderu
 m_u	madgu	155745,madgu
-m_u	maDu	155770,maDu
+m_u	maDu	155768,maDu:155770,maDu
 m_u	maDu-taru	155870,maDutaru
 m_u	maDu-DAtu	155888,maDuDAtu
 m_u	maDu-pIlu	155942,maDupIlu
@@ -2060,6 +2076,7 @@ m_u	manyu	157489,manyu
 m_u	mayi-vasu	158020,mayivasu
 m_u	mayu	158021,mayu
 m_u	mayUra-ketu	158056,mayUraketu
+m_u	mayo-Bu	158015,mayoBu
 m_u	marAyu	158145,marAyu
 m_u	marizRu	158147,marizRu
 m_u	maru	158231,maru
@@ -2204,7 +2221,7 @@ m_u	mftyu-banDu	166742,mftyubanDu
 m_u	mftyu-mftyu	166754,mftyumftyu
 m_u	mftyu-hetu	166780,mftyuhetu
 m_u	mfdaNkuru	167401.1,mfdaNkuru
-m_u	mfdu	167292,mfdu:167296,mfdu
+m_u	mfdu	167287,mfdu:167292,mfdu:167296,mfdu
 m_u	mfn-maru	167396,mfnmaru
 m_u	meGa-taru	167553,meGataru
 m_u	meDayu	167891,meDayu
@@ -2256,6 +2273,7 @@ m_u	yuyu	172144,yuyu
 m_u	yuyutsu	172124,yuyutsu:172125,yuyutsu
 m_u	yuvanyu	172198,yuvanyu
 m_u	yuvayu	172152,yuvayu
+m_u	yuvAku	172159,yuvAku
 m_u	yuvAyu	172153,yuvAyu
 m_u	yUTa-paSu	172247,yUTapaSu
 m_u	yUpa-ketu	172273,yUpaketu
@@ -2276,12 +2294,13 @@ m_u	rakta-SmaSru	173634,raktaSmaSru
 m_u	raktAlu	173712,raktAlu
 m_u	raktekzu	173717,raktekzu
 m_u	raktErvAru	173719,raktErvAru
-m_u	raGu	173184,raGu:173189,raGu
+m_u	raGu	173182,raGu:173184,raGu:173189,raGu
 m_u	raGu-dru	173198,raGudru
 m_u	raGu-manyu	173214,raGumanyu
 m_u	raNku	173253,raNku
 m_u	raNga-DAtu	173784,raNgaDAtu
 m_u	rajasAnu	173993,rajasAnu
+m_u	rajju	173312,rajju
 m_u	raYjana-dru	174052,raYjanadru
 m_u	rata-guru	174938,rataguru
 m_u	rati-banDu	175019,ratibanDu
@@ -2296,6 +2315,7 @@ m_u	raTayu	174746,raTayu
 m_u	raTezu	174722,raTezu
 m_u	radA-vasu	174799,radAvasu
 m_u	ranDra-baBru	174851,ranDrabaBru
+m_u	ramBoru	174924,ramBoru
 m_u	ramya-sAnu	175204,ramyasAnu
 m_u	ravi-praBu	175384,ravipraBu
 m_u	ravi-sUnu	175416,ravisUnu
@@ -2369,8 +2389,10 @@ m_u	rocizRu	179791,rocizRu
 m_u	ropayizRu	179843,ropayizRu
 m_u	romAlu	179962,romAlu
 m_u	rohiRI-taru	180099,rohiRItaru
+m_u	lakzaRoru	180432,lakzaRoru
+m_u	lakzmaRoru	180509,lakzmaRoru
 m_u	lagnAsu	180754,lagnAsu
-m_u	laGu	180794,laGu
+m_u	laGu	180778,laGu:180794,laGu
 m_u	laGu-karkanDu	180805,laGukarkanDu
 m_u	laGu-meru	180937,laGumeru
 m_u	laGu-vizRu	180959,laGuvizRu
@@ -2452,6 +2474,7 @@ m_u	vapu	186329,vapu
 m_u	vamaTu	186421,vamaTu
 m_u	vayiyu	186514,vayiyu
 m_u	vara-kratu	186784,varakratu
+m_u	vara-tanu	186795,varatanu
 m_u	vara-tantu	186798,varatantu
 m_u	vara-da-nATAcArya-sUnu	186835.1,varadanATAcAryasUnu
 m_u	vara-dAtu	186850,varadAtu
@@ -2462,7 +2485,7 @@ m_u	varAhu	187152,varAhu
 m_u	varIzu	187171,varIzu
 m_u	vareRya-kratu	187071,vareRyakratu
 m_u	vareyu	187074,vareyu
-m_u	varoru	187012,varoru
+m_u	varoru	187012,varoru:187013,varoru
 m_u	varcA-vasu	187274,varcAvasu
 m_u	varRa-guru	187319,varRaguru
 m_u	varRa-BIru	187372,varRaBIru
@@ -2481,7 +2504,7 @@ m_u	vasanta-dru	188595,vasantadru
 m_u	vasanta-banDu	188602,vasantabanDu
 m_u	vasanta-rtu	188617,vasantartu
 m_u	vasA-ketu	188652,vasAketu
-m_u	vasu	188730,vasu:189118,vasu
+m_u	vasu	188705,vasu:188730,vasu:189118,vasu
 m_u	vasu-DA-reRu	188824,vasuDAreRu
 m_u	vasu-banDu	188880,vasubanDu
 m_u	vasu-matI-sUnu	188900,vasumatIsUnu
@@ -2544,7 +2567,7 @@ m_u	vi-jila-bindu	193046,vijilabindu
 m_u	vi-jihIrzu	195191,vijihIrzu
 m_u	vi-jYAna-Bikzu	195289.2,vijYAnaBikzu
 m_u	vi-jYIpsu	195329,vijYIpsu
-m_u	vi-tanu	193064.3,vitanu
+m_u	vi-tanu	193064,vitanu:193064.3,vitanu
 m_u	vi-tantu	193065,vitantu
 m_u	vi-dadaNkzu	196022,vidadaNkzu
 m_u	vi-Ditsu	196637,viDitsu
@@ -2657,6 +2680,8 @@ m_u	vizAlu	201861,vizAlu
 m_u	vizuvat-pUrRa-SitAMSu	202184,vizuvatpUrRaSitAMSu
 m_u	vizRu	202398,vizRu
 m_u	vizvag-vAyu	202242,vizvagvAyu
+m_u	vIqu	203472,vIqu
+m_u	vILu	203474,vILu
 m_u	vIta-trasareRu	203358,vItatrasareRu
 m_u	vIta-manyu	203367,vItamanyu
 m_u	vIDra-bindu	203545,vIDrabindu
@@ -2715,6 +2740,7 @@ m_u	voQu	208146,voQu
 m_u	vy-aYjijizu	208479,vyaYjijizu
 m_u	vy-avasTA-setu	209073.4,vyavasTAsetu
 m_u	vy-avahAra-kalpataru	209146,vyavahArakalpataru
+m_u	vy-asu	208277,vyasu
 m_u	vy-AciKyAsu	209523,vyAciKyAsu
 m_u	vy-Aja-guru	209645,vyAjaguru
 m_u	vy-Aja-vizRu	209652,vyAjavizRu
@@ -2761,6 +2787,7 @@ m_u	SatAyu	212297,SatAyu
 m_u	Satru	212391,Satru
 m_u	Sadru	212490,Sadru:212491,Sadru
 m_u	Santu	213197,Santu
+m_u	SaPoru	212588,SaPoru
 m_u	Sabala-gu	212632,Sabalagu
 m_u	Sabda-kalpa-taru	212665,Sabdakalpataru
 m_u	Sabda-kalpa-dru	212666,Sabdakalpadru
@@ -2807,6 +2834,7 @@ m_u	SAnti-guru	215376,SAntiguru
 m_u	SAmbu	215614,SAmbu
 m_u	SAla-prAMSu	215964,SAlaprAMSu
 m_u	SAlu	216175,SAlu
+m_u	SASabindu	216264,SASabindu
 m_u	SAstra-dasyu	216379,SAstradasyu
 m_u	Sikku	216500,Sikku
 m_u	SikzA-guru	216541,SikzAguru
@@ -2913,6 +2941,7 @@ m_u	sa-kaRqu	227619,sakaRqu
 m_u	sa-ketu	227701,saketu
 m_u	sa-kratu	227715,sakratu
 m_u	sa-gu	227877,sagu
+m_u	sa-cAru	228929,sacAru
 m_u	sa-janu	228967,sajanu
 m_u	sa-jizRu	228985,sajizRu
 m_u	sa-tanu	230384,satanu
@@ -3010,7 +3039,7 @@ m_u	sannaka-dru	230634,sannakadru
 m_u	saparyu	232219,saparyu
 m_u	sapta-gu	232448,saptagu:232448.1,saptagu
 m_u	sapta-tantu	232473,saptatantu:232473.1,saptatantu
-m_u	sapta-DAtu	232502.2,saptaDAtu
+m_u	sapta-DAtu	232502,saptaDAtu:232502.2,saptaDAtu
 m_u	sapta-vidAru	232620,saptavidAru
 m_u	saptAMSu	232703,saptAMSu
 m_u	sabar-Du	232858,sabarDu
@@ -3040,6 +3069,7 @@ m_u	sama-maRqala-SaNku	233130.1,samamaRqalaSaNku
 m_u	sama-vftta-SaNku	233177,samavfttaSaNku
 m_u	sama-SaNku	233187,samaSaNku
 m_u	samagrendu	233350,samagrendu
+m_u	samAna-banDu	234291,samAnabanDu
 m_u	samudrAru	235337,samudrAru
 m_u	samUru	235773.1,samUru
 m_u	sampad-vasu	236017,sampadvasu
@@ -3086,7 +3116,9 @@ m_u	sahasra-BAnu	240638,sahasraBAnu
 m_u	sahasra-manyu	240650,sahasramanyu
 m_u	sahasrAMSu	240755,sahasrAMSu:240756,sahasrAMSu
 m_u	sahasrAyu	240792,sahasrAyu
+m_u	sahitoru	240442,sahitoru
 m_u	sahizRu	240044,sahizRu:240046,sahizRu
+m_u	sahoru	240405,sahoru
 m_u	sahyu	240086,sahyu
 m_u	sAMKya-Bikzu	241243,sAMKyaBikzu
 m_u	sAMgamizRu	241288,sAMgamizRu
@@ -3094,7 +3126,7 @@ m_u	sAketu	241002,sAketu
 m_u	sAgara-sUnu	241144,sAgarasUnu
 m_u	sAtu	240858,sAtu
 m_u	sAtvatI-sUnu	241469,sAtvatIsUnu
-m_u	sADu	241625,sADu
+m_u	sADu	241612,sADu:241625,sADu
 m_u	sADv-asADu	241798,sADvasADu:241799,sADvasADu
 m_u	sAnu	241906,sAnu
 m_u	sAmudra-banDu	242532,sAmudrabanDu
@@ -3142,7 +3174,7 @@ m_u	sisnAsu	245024,sisnAsu
 m_u	sIDu	245107,sIDu
 m_u	sImA-setu	245184,sImAsetu
 m_u	su-kaRqu	245341,sukaRqu
-m_u	su-ketu	245544,suketu
+m_u	su-ketu	245543,suketu:245544,suketu
 m_u	su-kratu	245568,sukratu:245569,sukratu
 m_u	su-gAtu	246086,sugAtu
 m_u	su-gu	246097,sugu
@@ -3169,6 +3201,7 @@ m_u	su-pramaDu	247742,supramaDu
 m_u	su-prEtu	247824,suprEtu
 m_u	su-banDu	247867,subanDu:247868,subanDu
 m_u	su-baBru	247877,subaBru
+m_u	su-bahu	247887,subahu
 m_u	su-bAhu	247901,subAhu:247902,subAhu
 m_u	su-bAhu-Satru	247921,subAhuSatru
 m_u	su-Baga-m-BavizRu	248002,suBagamBavizRu
@@ -3314,6 +3347,7 @@ m_u	sva-deSa-banDu	257946,svadeSabanDu
 m_u	sva-banDu	258022,svabanDu
 m_u	sva-bAhu	258027,svabAhu
 m_u	sva-BAnu	258037,svaBAnu
+m_u	sva-setu	258271,svasetu
 m_u	sva-hetu	258311,svahetu
 m_u	svapnAlu	259029,svapnAlu
 m_u	svayaM-grAha-nizakta-bAhu	258568,svayaMgrAhanizaktabAhu
@@ -3333,7 +3367,7 @@ m_u	svarRa-bindu	259346,svarRabindu
 m_u	svaryu	259250,svaryu
 m_u	svalpAyu	259452,svalpAyu
 m_u	svA-vasu	258436,svAvasu
-m_u	svAdu	258810,svAdu:258815,svAdu
+m_u	svAdu	258809,svAdu:258810,svAdu:258813,svAdu:258815,svAdu
 m_u	svAdu-mfdu	258850,svAdumfdu
 m_u	svAdu-svAdu	258867,svAdusvAdu
 m_u	svArTa-lipsu	258421,svArTalipsu
