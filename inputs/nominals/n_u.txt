@@ -678,7 +678,7 @@ n_u	devayu	96396,devayu
 n_u	deSaka-pawu	96582,deSakapawu
 n_u	dezRu	96627,dezRu
 n_u	dor-gaqu	97111,dorgaqu
-n_u	dyu	92231.1,dyu:97516,dyo
+n_u	dyu	97516,dyo
 n_u	draviRasyu	97617,draviRasyu
 n_u	dravitnu	97625,dravitnu
 n_u	drAvayitnu	97825,drAvayitnu

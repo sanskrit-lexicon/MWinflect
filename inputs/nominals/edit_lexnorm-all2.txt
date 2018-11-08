@@ -888,3 +888,5 @@ new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
 ;  no gender information.  Since the entries under 'dyu' show m,f,n genders,
 ;  we show all three genders for dyo.
 [insert] 97516 dyo   dyo     m:f:n
+; Nov 8, 2018. Remove 'dyu' entries from lexnorm-all2. 
+; Put them in lexnorm-irregular.txt

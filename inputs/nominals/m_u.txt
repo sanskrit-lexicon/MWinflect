@@ -1339,7 +1339,6 @@ m_u	deha-vAyu	96690,dehavAyu
 m_u	deha-SaNku	96694,dehaSaNku
 m_u	dEtya-guru	96735,dEtyaguru
 m_u	dor-gaqu	97111,dorgaqu
-m_u	dyu	92231.1,dyu:92231.2,dyu
 m_u	dyu-taru	97297,dyutaru
 m_u	drava-vasu	97570,dravavasu
 m_u	draviqa-SiSu	97716,draviqaSiSu
