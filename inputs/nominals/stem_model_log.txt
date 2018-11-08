@@ -165,3 +165,7 @@
 00001 m:f#zwrI:n model_mfn_f1
 00001 m:f:f#sanutrI:n model_mfn_f1
 00001 m:f:f#trI:n model_mfn_f1
+00008 f model_mfn_o
+00009 m model_mfn_o
+00004 m:f model_mfn_o
+00006 m:f:n model_mfn_o

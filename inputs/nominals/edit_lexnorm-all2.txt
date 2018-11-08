@@ -882,3 +882,9 @@ new 224998	zawtriMSati	zaw-triMSati	LEXID=card,STEM=zaw-triMSati
 ; change stem
 old 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSat
 new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
+; Nov 7, 2018
+; Add dyo .  MW refers this to 'dyu'.  But Kale, Deshpande, Bucknell use 'dyo'
+;  The reason MW's record for dyo is not already present, is that he shows
+;  no gender information.  Since the entries under 'dyu' show m,f,n genders,
+;  we show all three genders for dyo.
+[insert] 97516 dyo   dyo     m:f:n

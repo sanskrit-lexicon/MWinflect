@@ -1135,6 +1135,39 @@ def model_mfn_f1(recs,flog,fileout):
  fout.close()
  print(nout,"lexnorm records written to",fileout)
 
+def model_mfn_o(recs,flog):
+ endchar = 'o'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f','n']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_o, f_u
+   elif part == 'n':
+    # change final 'o' to 'u' and decline like maDu. Ref Kale, p.53
+    mstem = stem[0:-1]+'u'
+    model = 'n_u'
+   else:
+    print('mfn_o Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_o',d,flog)
+
 def model_f_AIU(recs,flog):
  endchars = ['A','I','U']
  for rec in recs:
@@ -1883,6 +1916,7 @@ if __name__ == "__main__":
  model_mfn_i1(recs,flog,'model_mfn_i1.txt')  # cases written to file
  model_mfn_u1(recs,flog,'model_mfn_u1.txt')  # cases written to file
  model_mfn_f1(recs,flog,'model_mfn_f1.txt')  # cases written to file
+ model_mfn_o(recs,flog)
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

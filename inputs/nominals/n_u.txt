@@ -678,7 +678,7 @@ n_u	devayu	96396,devayu
 n_u	deSaka-pawu	96582,deSakapawu
 n_u	dezRu	96627,dezRu
 n_u	dor-gaqu	97111,dorgaqu
-n_u	dyu	92231.1,dyu
+n_u	dyu	92231.1,dyu:97516,dyo
 n_u	draviRasyu	97617,draviRasyu
 n_u	dravitnu	97625,dravitnu
 n_u	drAvayitnu	97825,drAvayitnu
@@ -860,7 +860,7 @@ n_u	pfTu-parSu	128586,pfTuparSu
 n_u	pfTu-bAhu	128597,pfTubAhu
 n_u	pfTu-zwu	128638,pfTuzwu
 n_u	pfdAku-sAnu	128717,pfdAkusAnu
-n_u	pfSni-gu	128734,pfSnigu
+n_u	pfSni-gu	128734,pfSnigu:128735,pfSnigo
 n_u	pfSni-bAhu	128741,pfSnibAhu
 n_u	pfzwa-banDu	128809,pfzwabanDu
 n_u	pfzWa-vAstu	128868,pfzWavAstu
@@ -953,7 +953,7 @@ n_u	baBru	142850,baBru:142871,baBru
 n_u	balizRu	143416,balizRu
 n_u	bastAmbu	143473,bastAmbu
 n_u	bahu	143498,bahu:143502,bahu
-n_u	bahu-gu	143546,bahugu
+n_u	bahu-gu	143546,bahugu:143554,bahugo
 n_u	bahu-pawu	143656,bahupawu
 n_u	bahu-paSu	143677,bahupaSu
 n_u	bahu-bAhu	143729,bahubAhu
@@ -1176,6 +1176,7 @@ n_u	li-Du	182613,liDu
 n_u	ligu	182466,ligu
 n_u	lindu	182614,lindu
 n_u	lipsu	181464,lipsu
+n_u	lu	183227,lo
 n_u	lUna-bAhu	183145,lUnabAhu
 n_u	loka-kftnu	183256,lokakftnu
 n_u	loka-vindu	183404,lokavindu
@@ -1316,6 +1317,7 @@ n_u	vfza-psu	205022,vfzapsu
 n_u	vfza-maRyu	205025,vfzamaRyu
 n_u	vfzaR-vasu	205048,vfzaRvasu:205048.1,vfzaRvasu
 n_u	vfzayu	205117,vfzayu
+n_u	vfzwi-dyu	205197,vfzwidyo
 n_u	vfzwy-ambu	205209,vfzwyambu
 n_u	vepaTu	206239,vepaTu
 n_u	vERu	206834,vERu
@@ -1629,6 +1631,7 @@ n_u	sparSAsahizRu	256655,sparSAsahizRu
 n_u	spfhayAlu	256727,spfhayAlu
 n_u	spfhAlu	256733,spfhAlu
 n_u	smad-aBISu	257065,smadaBISu
+n_u	smftu	257386,smfto
 n_u	syUmanyu	257513,syUmanyu
 n_u	srastAMsa-bAhu	257556,srastAMsabAhu
 n_u	srug-dAru	257755,srugdAru

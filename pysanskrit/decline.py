@@ -460,6 +460,61 @@ sup-n-u=u:unI:Uni:u:unI:Uni:unA:uByAm:uBiH:une:uByAm:uByaH:unaH:uByAm:uByaH:unaH
    b.append(y)
   return b
 
+class Decline_f_o(object):
+ """ declension table for feminine nouns ending in 'o'
+ declension for masculine nouns ending in 'o' is same.
+ The code allows for alternate endings, though currently none are found
+ It forms the table from the base inflections by prepend_head method.
+Os:AvO:Avas:Am:AvO:As:avA:oByAm:oBis:ave:oByAm:oByas:os:oByAm:oByas:os:avos:avAm:avi:avos:ozu:Os:AvO:Avas 
+"""
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'OH:AvO:AvaH:Am:AvO:AH:avA:oByAm:oBiH:ave:oByAm:oByaH:oH:oByAm:oByaH:oH:avoH:avAm:avi:avoH:ozu:OH:AvO:AvaH'  
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  base1 = base[0:-1]
+  # join key2base and all the endings
+  # allow variants for each sup
+  # although known examples need to nR sandhi, we use it (via 
+  # declension_join_simple).
+  base_infls = []
+  for sup in sups:
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(base1,sup))
+   else:
+    # join each alternate sup to base1
+    infls = [declension_join_simple(base1,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

@@ -370,3 +370,25 @@ Case 5:  gantfRaH gantfByAm gantfByaH
 Case 6:  gantfRaH gantfRoH gantFRAm
 Case 7:  gantfRi gantfRoH gantfzu
 Case 8:  gantf/gantar gantfRI gantFRi
+; Check Deshpande, Kale
+$ python decline_one.py f_o go
+Declension of f_o go
+Case 1:  gOH gAvO gAvaH
+Case 2:  gAm gAvO gAH
+Case 3:  gavA goByAm goBiH
+Case 4:  gave goByAm goByaH
+Case 5:  goH goByAm goByaH
+Case 6:  goH gavoH gavAm
+Case 7:  gavi gavoH gozu
+Case 8:  gOH gAvO gAvaH
+; Check Deshpande
+$ python decline_one.py f_o dyo
+Declension of f_o dyo
+Case 1:  dyOH dyAvO dyAvaH
+Case 2:  dyAm dyAvO dyAH
+Case 3:  dyavA dyoByAm dyoBiH
+Case 4:  dyave dyoByAm dyoByaH
+Case 5:  dyoH dyoByAm dyoByaH
+Case 6:  dyoH dyavoH dyavAm
+Case 7:  dyavi dyavoH dyozu
+Case 8:  dyOH dyAvO dyAvaH

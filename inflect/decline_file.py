@@ -41,6 +41,11 @@ class DeclRec(object):
    decl = decline.Decline_n_i(self.key1,self.key2)
   elif self.model == 'n_u':
    decl = decline.Decline_n_u(self.key1,self.key2)
+  elif self.model in ['m_o','f_o']:  
+   # masculine same as feminine. There is no neuter,
+   # since the stem for neuter ending in o is changed to stem ending in u
+   # by stem_model.py in inputs/nominals.
+   decl = decline.Decline_f_o(self.key1,self.key2)
   elif self.model == 'm_f':
    decl = decline_f.Decline_m_f(self.key1,self.key2)
   elif self.model == 'f_f':
