@@ -1651,6 +1651,7 @@ n_i	sAsi	243558,sAsi
 n_i	sAsi-pARi	243559,sAsipARi
 n_i	sAsTi	243565,sAsTi
 n_i	sAhi-vIci	243707,sAhivIci
+n_i	si	252042,se
 n_i	siMha-vikrAnta-gati	243896,siMhavikrAntagati
 n_i	sita-ruci	244167,sitaruci
 n_i	sita-sapti	244188,sitasapti

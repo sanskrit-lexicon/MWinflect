@@ -96,7 +96,7 @@ def test_md1(model,key2):
  # This is implemented with only certain models
  if not model in ['m_a','n_a','f_A','f_I','f_U',
         'm_i','f_i','n_i', 'm_u','f_u','n_u', 'm_f','f_f','n_f',
-        'f_o','m_o','f_O','m_O']:
+        'f_o','m_o','f_O','m_O','m_e']:
   print('md1 not implemented for model=',model)
   return
  

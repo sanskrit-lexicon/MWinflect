@@ -51,6 +51,10 @@ class DeclRec(object):
    # since the stem for neuter ending in O is changed to stem ending in u
    # by stem_model.py in inputs/nominals.
    decl = decline.Decline_f_O(self.key1,self.key2)
+  elif self.model in ['m_e']:  
+   # Assume feminine and neuter stems replace 'e' with 'i';
+   # This is done in stem_model.py in inputs/nominals
+   decl = decline.Decline_m_e(self.key1,self.key2)
   elif self.model == 'm_f':
    decl = decline_f.Decline_m_f(self.key1,self.key2)
   elif self.model == 'f_f':

@@ -5561,7 +5561,7 @@ f_i	sAsi-pARi	243559,sAsipARi
 f_i	sAsTi	243565,sAsTi
 f_i	sAhi-vIci	243707,sAhivIci
 f_i	sAhitya-sUkzma-saraRi	243701,sAhityasUkzmasaraRi
-f_i	si	252043,si
+f_i	si	252042,se:252043,si
 f_i	siMha-vikrAnta-gati	243896,siMhavikrAntagati
 f_i	siMha-sTa-snAna-padDati	243918.2,siMhasTasnAnapadDati
 f_i	siMhAsana-dvAtriMSati	243940.1,siMhAsanadvAtriMSati

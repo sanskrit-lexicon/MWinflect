@@ -1201,6 +1201,47 @@ def model_mfn_O(recs,flog):
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_O',d,flog)
 
+def model_mfn_e(recs,flog):
+ endchar = 'e'
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchar):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  knownparts = ['m','f#si','n']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   #m_e
+   elif part == 'f#si':
+    # change final 'e' to 'i' and decline like mati
+    # speculative. Inferred MW's f#si
+    # only case se
+    mstem = stem[0:-1]+'i'
+    model = 'f_i'
+   elif part == 'n':
+    # change final 'e' to 'i' and decline like vAri. 
+    # speculative. Inferred from Kale p. 52,53
+    # only case se
+    mstem = stem[0:-1]+'i'
+    model = 'n_i'
+   else:
+    print('mfn_E Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_O',d,flog)
+
 def model_f_AIU(recs,flog):
  endchars = ['A','I','U']
  for rec in recs:
@@ -1951,6 +1992,7 @@ if __name__ == "__main__":
  model_mfn_f1(recs,flog,'model_mfn_f1.txt')  # cases written to file
  model_mfn_o(recs,flog)
  model_mfn_O(recs,flog)
+ model_mfn_e(recs,flog)
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)
