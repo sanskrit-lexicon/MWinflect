@@ -392,3 +392,25 @@ Case 5:  dyoH dyoByAm dyoByaH
 Case 6:  dyoH dyavoH dyavAm
 Case 7:  dyavi dyavoH dyozu
 Case 8:  dyOH dyAvO dyAvaH
+; Check Kale, p. 53
+$ python decline_one.py m_O glO
+Declension of m_O glO
+Case 1:  glOH glAvO glAvaH
+Case 2:  glAvam glAvO glAvaH
+Case 3:  glAvA glOByAm glOBiH
+Case 4:  glAve glOByAm glOByaH
+Case 5:  glAvaH glOByAm glOByaH
+Case 6:  glAvaH glAvoH glAvAm
+Case 7:  glAvi glAvoH glOzu
+Case 8:  glOH glAvO glAvaH
+; check Bucknell, p. 89
+$ python decline_one.py f_O nO
+Declension of f_O nO
+Case 1:  nOH nAvO nAvaH
+Case 2:  nAvam nAvO nAvaH
+Case 3:  nAvA nOByAm nOBiH
+Case 4:  nAve nOByAm nOByaH
+Case 5:  nAvaH nOByAm nOByaH
+Case 6:  nAvaH nAvoH nAvAm
+Case 7:  nAvi nAvoH nOzu
+Case 8:  nOH nAvO nAvaH

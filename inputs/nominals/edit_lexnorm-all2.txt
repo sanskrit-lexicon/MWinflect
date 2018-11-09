@@ -890,3 +890,7 @@ new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
 [insert] 97516 dyo   dyo     m:f:n
 ; Nov 8, 2018. Remove 'dyu' entries from lexnorm-all2. 
 ; Put them in lexnorm-irregular.txt
+[del] 92231.1	dyu	dyu	m:n
+[del] 92231.2	dyu	dyu	m
+; put asakO in lexnorm-irregular
+[del] 20448	asakO	asakO	m:f

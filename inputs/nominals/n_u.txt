@@ -90,6 +90,7 @@ n_u	aRu	2412,aRu:2418,aRu
 n_u	ati-guru	2606,atiguru
 n_u	ati-trasnu	2640,atitrasnu
 n_u	ati-Denu	2665,atiDenu
+n_u	ati-nu	3051,atinO
 n_u	ati-bahu	2703,atibahu
 n_u	ati-mftyu	3144,atimftyu
 n_u	ati-vepaTu	2804,ativepaTu
@@ -996,6 +997,7 @@ n_u	BAjayu	149720,BAjayu
 n_u	BAvayu	150396,BAvayu
 n_u	BAsA-ketu	150624,BAsAketu
 n_u	Bikzu	150706,Bikzu
+n_u	Binna-nu	150832,BinnanO
 n_u	BImayu	151105,BImayu
 n_u	BIru	151110,BIru:151122,BIru
 n_u	BIru-BIru	151132,BIruBIru
@@ -1510,6 +1512,7 @@ n_u	savya-jAnu	239686,savyajAnu
 n_u	savya-bAhu	239689,savyabAhu
 n_u	saha-gu	240128,sahagu
 n_u	saha-dAnu	240207,sahadAnu
+n_u	saha-nu	240228,sahanO
 n_u	saha-vasu	240302,sahavasu
 n_u	sahasAnu	240024,sahasAnu
 n_u	sahasra-ketu	240518,sahasraketu
@@ -1566,6 +1569,7 @@ n_u	su-dAtu	246593,sudAtu
 n_u	su-dAnu	246596,sudAnu
 n_u	su-dAru	246624,sudAru
 n_u	su-DAtu	246842,suDAtu
+n_u	su-nu	247200,sunO:247201,sunO
 n_u	su-pArSvoru	247516,supArSvoru
 n_u	su-pu	247545,supu
 n_u	su-prEtu	247824,suprEtu
