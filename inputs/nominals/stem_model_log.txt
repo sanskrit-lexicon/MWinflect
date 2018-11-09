@@ -174,5 +174,8 @@
 00001 m:f model_mfn_O
 00004 m:f:n model_mfn_O
 00001 n model_mfn_O
-00002 m model_mfn_O
-00001 m:f#si:n model_mfn_O
+00002 m model_mfn_e
+00001 m:f#si:n model_mfn_e
+00002 m model_mfn_E
+00001 m:f model_mfn_E
+00002 m:f:n model_mfn_E

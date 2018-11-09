@@ -21,3 +21,7 @@ python decline_file.py ../inputs/nominals/m_o1.txt ../outputs/nominals/m_o1.txt
 python decline_file.py ../inputs/nominals/f_o1.txt ../outputs/nominals/f_o1.txt 
 #
 python decline_file.py ../inputs/nominals/m_e.txt ../outputs/nominals/m_e.txt 
+#
+python decline_file.py ../inputs/nominals/m_e1.txt ../outputs/nominals/m_e1.txt 
+python decline_file.py ../inputs/nominals/f_e1.txt ../outputs/nominals/f_e1.txt 
+python decline_file.py ../inputs/nominals/n_e1.txt ../outputs/nominals/n_e1.txt 

@@ -1,0 +1,3 @@
+f_E	bahu-rE	143841,bahurE
+f_E	rE	179535,rE
+f_E	su-rE	248758,surE
