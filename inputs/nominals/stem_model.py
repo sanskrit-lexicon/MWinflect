@@ -1271,6 +1271,37 @@ def model_mfn_E(recs,flog):
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_E',d,flog)
 
+def model_mfn_Fx(recs,flog):
+ endchars = ('F','x')
+ d = {}
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(endchars):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  endchar = stem[-1]
+  knownparts = ['m','f']
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,endchar)   
+   else:
+    print('mfn_Fx Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+  if rec.lexnorm not in d:
+   d[rec.lexnorm] = 0
+  d[rec.lexnorm] = d[rec.lexnorm]+1
+ log_models('model_mfn_Fx',d,flog)
+
+
 def model_f_AIU(recs,flog):
  endchars = ['A','I','U']
  for rec in recs:
@@ -2023,6 +2054,7 @@ if __name__ == "__main__":
  model_mfn_O(recs,flog)
  model_mfn_e(recs,flog)
  model_mfn_E(recs,flog)
+ model_mfn_Fx(recs,flog)
  #model_f_AIU(recs,flog)
  #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)

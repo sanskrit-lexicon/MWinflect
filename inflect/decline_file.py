@@ -60,6 +60,12 @@ class DeclRec(object):
    decl = decline.Decline_m_E(self.key1,self.key2)
   elif self.model in ['n_E']:  
    decl = decline.Decline_n_E(self.key1,self.key2)
+  elif self.model in ['m_F','f_F']:  
+   # Masculine and feminine the same 
+   decl = decline.Decline_m_F(self.key1,self.key2)
+  elif self.model in ['m_x','f_x']:  
+   # Masculine and feminine the same 
+   decl = decline.Decline_m_x(self.key1,self.key2)
   elif self.model == 'm_f':
    decl = decline_f.Decline_m_f(self.key1,self.key2)
   elif self.model == 'f_f':

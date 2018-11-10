@@ -894,3 +894,9 @@ new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
 [del] 92231.2	dyu	dyu	m
 ; put asakO in lexnorm-irregular
 [del] 20448	asakO	asakO	m:f
+; Nov 9, 2018
+; remove 'X' -- no examples in Kale
+[del] 39152	X	X	m
+[del] 39153	X	X	f
+; remove neuter for F -- no examples in Kale
+[del] 39143	F	F	n
