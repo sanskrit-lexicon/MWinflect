@@ -94,10 +94,15 @@ def md1_explain_alts(x,base,supstr):
 def test_md1(model,key2):
  # generate a markdown table with explanations
  # This is implemented with only certain models
- if not model in ['m_a','n_a','f_A','f_I','f_U',
+ models_1 = ['m_a','n_a','f_A','f_I','f_U',
         'm_i','f_i','n_i', 'm_u','f_u','n_u', 'm_f','f_f','n_f',
         'f_o','m_o','f_O','m_O','m_e','m_E','f_E','n_E',
-        'f_F','m_F','f_x','m_x',]:
+        'f_F','m_F','f_x','m_x',
+        'f_in_I', # alias for f_I
+        ]
+ models_2 = ['m_in','n_in']
+ models = models_1 + models_2
+ if not model in models:
   print('md1 not implemented for model=',model)
   return
  
@@ -118,7 +123,14 @@ def test_md1(model,key2):
  casenames = ['Nominative','Accusative','Instrumental',
   'Dative','Ablative','Genitive','Locative','Vocative']
  sups = decl.sups
- base = key1[0:-1] # drop last character -- only for certain models
+ 
+ if model in models_1:
+  base = key1[0:-1] # drop last character -- only for certain models
+ elif model in models_2:
+  base = key1[0:-2]
+ else:
+  print('test_md1: Internal error. Cannot compute base')
+  exit(1)
  for icell in range(0,24,3):
   a = []
   case = (icell // 3) + 1

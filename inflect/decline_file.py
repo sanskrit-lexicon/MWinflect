@@ -93,11 +93,11 @@ class DeclRec(object):
   elif self.model == 'n_vat':
    decl = decline_2stem.Decline_n_matvat(self.key1,self.key2)
   elif self.model == 'm_in':
-   decl = decline_2stem.Decline_m_in(self.key1,self.key2)
+   decl = decline.Decline_m_in(self.key1,self.key2)
   elif self.model == 'n_in':
-   decl = decline_2stem.Decline_n_in(self.key1,self.key2)
-  elif self.model == 'f_an_I':
-   decl = decline.Decline_f_an_I(self.key1,self.key2)
+   decl = decline.Decline_n_in(self.key1,self.key2)
+  elif self.model == 'f_in_I': # alias for f_I
+   decl = decline.Decline_f_I(self.key1,self.key2)
   elif self.model == 'm_an':
    decl = decline_3stem.Decline_m_an(self.key1,self.key2)
   elif self.model == 'n_an':

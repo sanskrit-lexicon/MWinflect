@@ -900,3 +900,6 @@ new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
 [del] 39153	X	X	f
 ; remove neuter for F -- no examples in Kale
 [del] 39143	F	F	n
+; adjust pada (Not yet done 11-30-2018)
+old 556.11	akzamin	a-kza-min	m:f:n
+new 556.11	akzamin	a-kzamin	m:f:n

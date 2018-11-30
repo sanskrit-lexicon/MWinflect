@@ -30,3 +30,7 @@ python decline_file.py ../inputs/nominals/m_f1.txt ../outputs/nominals/m_f1.txt
 python decline_file.py ../inputs/nominals/f_f1.txt ../outputs/nominals/f_f1.txt 
 #
 python decline_file.py ../inputs/nominals/m_x.txt ../outputs/nominals/m_x.txt 
+#
+python decline_file.py ../inputs/nominals/m_in.txt ../outputs/nominals/m_in.txt 
+python decline_file.py ../inputs/nominals/f_in_i1.txt ../outputs/nominals/f_in_i1.txt 
+python decline_file.py ../inputs/nominals/n_in.txt ../outputs/nominals/n_in.txt 

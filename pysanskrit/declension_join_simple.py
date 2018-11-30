@@ -14,7 +14,7 @@ def declension_join_simple(base,sup,dbg=False):
  # concatenate base and sup
  ans = base+sup
  if dbg:
-    print "declension_join_simple uses concatenation: (%s +%s => %s)" %(base,sup,ans)
+    print("declension_join_simple uses concatenation: (%s +%s => %s)" %(base,sup,ans))
  # nR sandhi
  nR_parm = len(base) - 1  
  ans1 = sandhi_nR(ans,nR_parm)

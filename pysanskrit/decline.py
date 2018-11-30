@@ -884,6 +884,94 @@ class Decline_m_x(object):
    b.append(y)
   return b
 
+class Decline_m_in(object):
+ """ declension table for masculine nouns ending in 'in'
+  These are classified as nouns with two stems, but we can treat them
+  has nouns with one stems, by using appropriate (non-standard) sups,
+  and for the [single] base dropping the 'in'.
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'I:inO:inaH:inam:inO:inaH:inA:iByAm:iBiH:ine:iByAm:iByaH:inaH:iByAm:iByaH:inaH:inoH:inAm:ini:inoH:izu:in:inO:inaH'
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'in' is removed from the base
+  base1 = base[0:-2]
+  # join key2base and all the endings
+  base_infls = [declension_join_simple(base1,sup) for sup in sups]
+  self.table = [head+infl for infl in base_infls]
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+
+class Decline_n_in(object):
+ """ declension table for neuter nouns ending in 'in'
+  These are classified as nouns with two stems, but we can treat them
+  has nouns with one stems, by using appropriate (non-standard) sups,
+  and for the [single] base dropping the 'in'.
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  # note alternate in 8s.  3-7 same as for m_in
+  self.sup = 'i:inI:Ini:i:inI:Ini:inA:iByAm:iBiH:ine:iByAm:iByaH:inaH:iByAm:iByaH:inaH:inoH:inAm:ini:inoH:izu:i/in:inI:Ini'
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'in' is removed from the base
+  base1 = base[0:-2]
+  # join key2base and all the endings
+  # allow variants for each sup
+  base_infls = []
+  for sup in sups:
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(base1,sup))
+   else:
+    # join each alternate sup to base1
+    infls = [declension_join_simple(base1,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]  # drop the final 'in'
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

@@ -414,3 +414,37 @@ Case 5:  nAvaH nOByAm nOByaH
 Case 6:  nAvaH nAvoH nAvAm
 Case 7:  nAvi nAvoH nOzu
 Case 8:  nOH nAvO nAvaH
+; check Deshpande, p. 192
+$ python decline_one.py m_in balin
+Declension of m_in balin
+Case 1:  balI balinO balinaH
+Case 2:  balinam balinO balinaH
+Case 3:  balinA baliByAm baliBiH
+Case 4:  baline baliByAm baliByaH
+Case 5:  balinaH baliByAm balByaH
+Case 6:  balinaH balinoH balinAm
+Case 7:  balini balinoH balizu
+Case 8:  balin balinO balinaH
+; check Deshpande, p. 192
+$ python decline_one.py n_in balin
+Declension of n_in balin
+Case 1:  bali balinI balIni
+Case 2:  bali balinI balIni
+Case 3:  balinA baliByAm baliBiH
+Case 4:  baline baliByAm baliByaH
+Case 5:  balinaH baliByAm baliByaH
+Case 6:  balinaH balinoH balinAm
+Case 7:  balini balinoH balizu
+Case 8:  bali/balin balinI balIni
+; Confirm Huet
+$ python decline_one.py m_in cArin
+Declension of m_in cArin
+Case 1:  cArI cAriRO cAriRaH
+Case 2:  cAriRam cAriRO cAriRaH
+Case 3:  cAriRA cAriByAm cAriBiH
+Case 4:  cAriRe cAriByAm cAriByaH
+Case 5:  cAriRaH cAriByAm cAriByaH
+Case 6:  cAriRaH cAriRoH cAriRAm
+Case 7:  cAriRi cAriRoH cArizu
+Case 8:  cArin cAriRO cAriRaH
+

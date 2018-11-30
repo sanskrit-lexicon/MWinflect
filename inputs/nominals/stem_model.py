@@ -5,8 +5,8 @@
 """
 import sys,re,codecs
 from slp_cmp import slp_cmp
-#sys.path.append('../../pysanskrit')
-#from sandhi import sandhi_nR
+sys.path.append('../../pysanskrit')
+from sandhi_nR import sandhi_nR
 #import decline_3stem
 #from decline_util import declension_join
 
@@ -1351,6 +1351,12 @@ def model_mfn_in(recs,flog):
      mstem = lastpart2
     else:
      mstem = firstpart + '-' + lastpart2
+    if True and (lastpart2a == None):
+     # write cases where ignoring pada-structure gives a different answer
+     mstem1 = ''.join(stemparts) + 'I'
+     mstem2 = sandhi_nR(mstem1)
+     if (mstem2 != None) and mstem2.endswith('RI'):
+      print('stem %s+I , without pada -> %s' %(stem,mstem2))
     #if lastpart2a != None:  # debugging
     # print('chk:',stem,"->",mstem)
     # model is f_in_I  (which is same as f_I)
@@ -2055,8 +2061,8 @@ if __name__ == "__main__":
  model_mfn_e(recs,flog)
  model_mfn_E(recs,flog)
  model_mfn_Fx(recs,flog)
+ model_mfn_in(recs,flog)
  #model_f_AIU(recs,flog)
- #model_mfn_in(recs,flog)
  #model_mfn_f(recs,flog)
  #model_pron(recs,flog)
  #model_vat(recs,flog)  #  -vat
