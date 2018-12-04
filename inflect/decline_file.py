@@ -72,6 +72,21 @@ class DeclRec(object):
    decl = decline_f.Decline_f_f(self.key1,self.key2)
   elif self.model == 'n_f':
    decl = decline_f.Decline_n_f(self.key1,self.key2)
+
+  elif self.model == 'm_in':
+   decl = decline.Decline_m_in(self.key1,self.key2)
+  elif self.model == 'n_in':
+   decl = decline.Decline_n_in(self.key1,self.key2)
+  elif self.model == 'f_in_I': # alias for f_I
+   decl = decline.Decline_f_I(self.key1,self.key2)
+
+  elif self.model == 'm_vat':
+   decl = decline.Decline_m_vat(self.key1,self.key2)
+  elif self.model == 'n_vat':
+   decl = decline.Decline_n_vat(self.key1,self.key2)
+  elif self.model == 'f_vat_I': # alias for f_I
+   decl = decline.Decline_f_I(self.key1,self.key2)
+
   elif self.model == 'm_pron':
    decl = decline_pco.Decline_m_pron(self.key1,self.key2)
   elif self.model == 'f_pron':
@@ -84,6 +99,7 @@ class DeclRec(object):
    decl = decline_pco.Decline_f_card(self.key1,self.key2)
   elif self.model == 'n_card':
    decl = decline_pco.Decline_n_card(self.key1,self.key2)
+   """
   elif self.model == 'm_mat':
    decl = decline_2stem.Decline_m_matvat(self.key1,self.key2)
   elif self.model == 'n_mat':
@@ -92,12 +108,7 @@ class DeclRec(object):
    decl = decline_2stem.Decline_m_matvat(self.key1,self.key2)
   elif self.model == 'n_vat':
    decl = decline_2stem.Decline_n_matvat(self.key1,self.key2)
-  elif self.model == 'm_in':
-   decl = decline.Decline_m_in(self.key1,self.key2)
-  elif self.model == 'n_in':
-   decl = decline.Decline_n_in(self.key1,self.key2)
-  elif self.model == 'f_in_I': # alias for f_I
-   decl = decline.Decline_f_I(self.key1,self.key2)
+   """
   elif self.model == 'm_an':
    decl = decline_3stem.Decline_m_an(self.key1,self.key2)
   elif self.model == 'n_an':

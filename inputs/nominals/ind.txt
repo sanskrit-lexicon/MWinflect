@@ -5481,6 +5481,7 @@ ind	ham	260546,ham
 ind	haye	260674,haye
 ind	hari	261603,hari
 ind	harile	261608,harile
+ind	harza-vat	261698,harzavat
 ind	harzyA	261754,harzyA
 ind	halahalA	261846,halahalA
 ind	halA	261848,halA

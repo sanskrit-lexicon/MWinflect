@@ -1400,13 +1400,16 @@ def model_Iyas(recs,flog):
    rec.models.append(Model(rec,model,mstem))
 
 def model_vat(recs,flog):
- # key2 ends with '-vat'
- ending = 'vat'
- ending1 = '-' + ending
- knownparts = ['m','f','n','f#atI','ind','f#antI','f#atnI']
+ # key2 ends with '-vat', '-mat', or
+ # 'yat' and is one of kiyat, iyat 
+ #ending = 'vat'
+ #ending1 = '-' + ending
+ knownparts = ['m','f','n','f#atI','ind',
+               'f#atnI'  # antarvat
+               ]
  for rec in recs:
   stem = rec.key2
-  if not stem.endswith(ending1):
+  if (not stem.endswith(('-mat','-vat')) and (stem not in ['iyat','kiyat'])):
    continue
   lexparts = rec.lexnorm.split(':')
   if not set(lexparts).issubset(set(knownparts)):
@@ -1419,24 +1422,20 @@ def model_vat(recs,flog):
    if part in ['m','n']:
     # stem is unchanged
     mstem = stem
-    model = '%s_%s' %(part,ending)    
+    model = '%s_%s' %(part,'vat')    # use m_vat even for -mat or iyat, kiyat
    elif part == 'f':
     # add 'I' to stem
     mstem = stem + 'I'
-    model = 'f_I'  # normal feminine ending in 'I'
+    model = 'f_vat_I'  # normal feminine ending in 'I'. Use _vat for knowledge
     rec.models.append(Model(rec,model,mstem))
    elif part == 'f#atI':
     mstem = stem + 'I'
-    model = 'f_I'  # normal feminine ending in 'I'
-    rec.models.append(Model(rec,model,mstem))
-   elif part == 'f#antI':
-    mstem = stem[0:-2]+'antI'  # replace ending 'at' with 'antI'
-    model = 'f_I'  # normal feminine ending in 'I'
+    model = 'f_vat_I'  # normal feminine ending in 'I'
     rec.models.append(Model(rec,model,mstem))
    elif part == 'f#atnI':
     assert stem in ['antar-vat']
     mstem = stem[0:-2]+'atnI'  # replace ending 'at' with 'atnI'
-    model = 'f_I'  # normal feminine ending in 'I'
+    model = 'f_vat_I'  # normal feminine ending in 'I'
     rec.models.append(Model(rec,model,mstem))
    elif part in ['ind']:
     if stem not in ['harza-vat']:
@@ -2062,10 +2061,10 @@ if __name__ == "__main__":
  model_mfn_E(recs,flog)
  model_mfn_Fx(recs,flog)
  model_mfn_in(recs,flog)
+ model_vat(recs,flog)  #  -vat, -mat, some -yat
  #model_f_AIU(recs,flog)
  #model_mfn_f(recs,flog)
  #model_pron(recs,flog)
- #model_vat(recs,flog)  #  -vat
  #model_mat(recs,flog)  #  -mat
  #model_an(recs,flog)
  #model_Iyas(recs,flog)

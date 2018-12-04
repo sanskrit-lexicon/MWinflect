@@ -34,3 +34,7 @@ python decline_file.py ../inputs/nominals/m_x.txt ../outputs/nominals/m_x.txt
 python decline_file.py ../inputs/nominals/m_in.txt ../outputs/nominals/m_in.txt 
 python decline_file.py ../inputs/nominals/f_in_i1.txt ../outputs/nominals/f_in_i1.txt 
 python decline_file.py ../inputs/nominals/n_in.txt ../outputs/nominals/n_in.txt 
+#
+python decline_file.py ../inputs/nominals/m_vat.txt ../outputs/nominals/m_vat.txt 
+python decline_file.py ../inputs/nominals/f_vat_i1.txt ../outputs/nominals/f_vat_i1.txt 
+python decline_file.py ../inputs/nominals/n_vat.txt ../outputs/nominals/n_vat.txt 

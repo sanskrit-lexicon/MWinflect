@@ -60,6 +60,8 @@
 198969	viyat	vi-yat	m:f:n
 198971	viyat	vi-yat	n
 261644	haryat	haryat	m:f:n
+; 12-04-2018. participles
+13431	aBIpsat	aBIpsat	m:f#atI:f#antI:n
 ; 
 7859	anekIBavat	anekI-Bavat	m:f:n=anekI+BU
 16657	alalABavat	alalA-Bavat	m:f:n=alalA+BU

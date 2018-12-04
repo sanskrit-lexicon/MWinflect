@@ -99,8 +99,10 @@ def test_md1(model,key2):
         'f_o','m_o','f_O','m_O','m_e','m_E','f_E','n_E',
         'f_F','m_F','f_x','m_x',
         'f_in_I', # alias for f_I
+        'f_vat_I', # alias for f_I
         ]
- models_2 = ['m_in','n_in']
+ models_2 = ['m_in','n_in',
+             'm_vat','n_vat']
  models = models_1 + models_2
  if not model in models:
   print('md1 not implemented for model=',model)
