@@ -50,6 +50,16 @@
 257634	sravat	sravat	m:f:n=sru
 257635	sravat	sravat	f=sru
 259414	svarvat	sv-arvat	m=su+f  (go)
+; 12-04-2018. words ending in 'yat' which are probably participles
+36911	upayat	upa-yat	m:f:n
+6645.1	anupayat	an-upayat	m:f:n
+10236	apiyat	api-yat	m:f:n
+14708	ayat	a-yat	m:f:n
+46606	kavIyat	kavIyat	m:f:n
+95251	dfpyat	dfpyat	m:f:n
+198969	viyat	vi-yat	m:f:n
+198971	viyat	vi-yat	n
+261644	haryat	haryat	m:f:n
 ; 
 7859	anekIBavat	anekI-Bavat	m:f:n=anekI+BU
 16657	alalABavat	alalA-Bavat	m:f:n=alalA+BU

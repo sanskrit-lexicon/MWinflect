@@ -903,3 +903,13 @@ new 232478	saptatriMSati	sapta-triMSati	LEXID=card,STEM=sapta-triMSati
 ; adjust pada (Not yet done 11-30-2018)
 old 556.11	akzamin	a-kza-min	m:f:n
 new 556.11	akzamin	a-kzamin	m:f:n
+; moved from lexnorm-all2.txt to lexnorm-all2-part.txt 12-04-2018
+36911	upayat	upa-yat	m:f:n
+6645.1	anupayat	an-upayat	m:f:n
+10236	apiyat	api-yat	m:f:n
+14708	ayat	a-yat	m:f:n
+46606	kavIyat	kavIyat	m:f:n
+95251	dfpyat	dfpyat	m:f:n
+198969	viyat	vi-yat	m:f:n
+198971	viyat	vi-yat	n
+261644	haryat	haryat	m:f:n
