@@ -447,4 +447,48 @@ Case 5:  cAriRaH cAriByAm cAriByaH
 Case 6:  cAriRaH cAriRoH cAriRAm
 Case 7:  cAriRi cAriRoH cArizu
 Case 8:  cArin cAriRO cAriRaH
+; Confirm Deshpande, p. 187
+$ python decline_one.py m_vat Bagavat
+Declension of m_vat Bagavat
+Case 1:  BagavAn BagavantO BagavantaH
+Case 2:  Bagavantam BagavantO BagavataH
+Case 3:  BagavatA BagavadByAm BagavadBiH
+Case 4:  Bagavate BagavadByAm BagavadByaH
+Case 5:  BagavataH BagavadByAm BagavadByaH
+Case 6:  BagavataH BagavatoH BagavatAm
+Case 7:  Bagavati BagavatoH Bagavatsu
+Case 8:  Bagavan BagavantO BagavantaH
+; Confirm Deshpande, p. 188
+$ python decline_one.py n_vat iyat
+Declension of n_vat iyat
+Case 1:  iyat iyatI iyanti
+Case 2:  iyat iyatI iyanti
+Case 3:  iyatA iyadByAm iyadBiH
+Case 4:  iyate iyadByAm iyadByaH
+Case 5:  iyataH iyadByAm iyadByaH
+Case 6:  iyataH iyatoH iyatAm
+Case 7:  iyati iyatoH iyatsu
+Case 8:  iyat iyatI iyanti
+; Confirm Deshpande
+$ python decline_one.py n_Iyas laGIyas
+Declension of n_Iyas laGIyas
+Case 1:  laGIyaH laGIyasI laGIyAMsi
+Case 2:  laGIyaH laGIyasI laGIyAMsi
+Case 3:  laGIyasA laGIyoByAm laGIyoBiH
+Case 4:  laGIyase laGIyoByAm laGIyoByaH
+Case 5:  laGIyasaH laGIyoByAm laGIyoByaH
+Case 6:  laGIyasaH laGIyasoH laGIyasAm
+Case 7:  laGIyasi laGIyasoH laGIyaHsu
+Case 8:  laGIyaH laGIyasI laGIyAMsi
+; Confirm Bucknell
+$ python decline_one.py m_Iyas Sreyas
+Declension of m_Iyas Sreyas
+Case 1:  SreyAn SreyAMsO SreyAMsaH
+Case 2:  SreyAMsam SreyAMsO SreyasaH
+Case 3:  SreyasA SreyoByAm SreyoBiH
+Case 4:  Sreyase SreyoByAm SreyoByaH
+Case 5:  SreyasaH SreyoByAm SreyoByaH
+Case 6:  SreyasaH SreyasoH SreyasAm
+Case 7:  Sreyasi SreyasoH SreyaHsu
+Case 8:  Sreyan SreyAMsO SreyAMsaH
 

@@ -1447,28 +1447,81 @@ def model_vat(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
-def model_mat(recs,flog):
- # key2 ends with '-mat'
- ending = 'mat'
- ending1 = '-' + ending
+def model_vas(recs,flog):
+ # Ending is 'vas', and this is a reduplicated past participle
+ #ending1 = '-' + ending
+ print 'model_vas incomplete'
+ return
+ knownparts = ['m','f','n','f#atI','ind',
+               'f#atnI'  # antarvat
+               ]
  for rec in recs:
   stem = rec.key2
-  if not stem.endswith(ending1):
+  if (not stem.endswith(('-mat','-vat')) and (stem not in ['iyat','kiyat'])):
    continue
   lexparts = rec.lexnorm.split(':')
-  if not set(lexparts).issubset(set(['m','f','n'])):
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  if lexparts == ['ind']:
+   # these are handled in model_ind
    continue
   rec.parsed = True
   for part in lexparts:
    if part in ['m','n']:
     # stem is unchanged
     mstem = stem
-    model = '%s_%s' %(part,ending)    
+    model = '%s_%s' %(part,'vat')    # use m_vat even for -mat or iyat, kiyat
    elif part == 'f':
     # add 'I' to stem
     mstem = stem + 'I'
-    model = 'f_I'  # normal feminine ending in 'I'
+    model = 'f_vat_I'  # normal feminine ending in 'I'. Use _vat for knowledge
     rec.models.append(Model(rec,model,mstem))
+   elif part == 'f#atI':
+    mstem = stem + 'I'
+    model = 'f_vat_I'  # normal feminine ending in 'I'
+    rec.models.append(Model(rec,model,mstem))
+   elif part == 'f#atnI':
+    assert stem in ['antar-vat']
+    mstem = stem[0:-2]+'atnI'  # replace ending 'at' with 'atnI'
+    model = 'f_vat_I'  # normal feminine ending in 'I'
+    rec.models.append(Model(rec,model,mstem))
+   elif part in ['ind']:
+    if stem not in ['harza-vat']:
+     print 'mfn_a  unexpected "ind"',stem
+    mstem = stem
+    model = 'ind'
+   else:
+    print('mfn_vat Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
+
+def model_Iyas(recs,flog):
+ # key2 ends with 'Iyas' or 'eyas': comparative adjective
+ ending = 'Iyas'
+ ending1 = '-' + ending
+ knownparts = ['m','f','n']
+ for rec in recs:
+  stem = rec.key2
+  if not stem.endswith(('Iyas','eyas')) :
+   continue
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(knownparts)):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,'Iyas')    
+   elif part == 'f':
+    # add 'I' to stem
+    mstem = stem + 'I'
+    model = 'f_Iyas_I'  # normal feminine ending in 'I'. Use _vat for knowledge
+    rec.models.append(Model(rec,model,mstem))
+   else:
+    print('mfn_Iyas Internal error',part)
+    exit(1)
    rec.models.append(Model(rec,model,mstem))
 
 def model_an(recs,flog):
@@ -2062,12 +2115,11 @@ if __name__ == "__main__":
  model_mfn_Fx(recs,flog)
  model_mfn_in(recs,flog)
  model_vat(recs,flog)  #  -vat, -mat, some -yat
+ model_vas(recs,flog)  #  reduplicated participle ending in 'vas'
+ model_Iyas(recs,flog)
  #model_f_AIU(recs,flog)
- #model_mfn_f(recs,flog)
  #model_pron(recs,flog)
- #model_mat(recs,flog)  #  -mat
  #model_an(recs,flog)
- #model_Iyas(recs,flog)
  #model_1stem(recs,flog)
  write_normal_models()
  write_special_models('card')
