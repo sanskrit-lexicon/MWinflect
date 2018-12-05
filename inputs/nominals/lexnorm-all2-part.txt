@@ -62,6 +62,8 @@
 261644	haryat	haryat	m:f:n
 ; 12-04-2018. participles
 13431	aBIpsat	aBIpsat	m:f#atI:f#antI:n
+10986	abiByat	a-biByat	m:f:n
+53126	kulAyayat	kulAyayat	m:f:n
 ; 
 7859	anekIBavat	anekI-Bavat	m:f:n=anekI+BU
 16657	alalABavat	alalA-Bavat	m:f:n=alalA+BU

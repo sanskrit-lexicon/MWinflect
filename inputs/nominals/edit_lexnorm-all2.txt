@@ -913,3 +913,5 @@ new 556.11	akzamin	a-kzamin	m:f:n
 198969	viyat	vi-yat	m:f:n
 198971	viyat	vi-yat	n
 261644	haryat	haryat	m:f:n
+10986	abiByat	a-biByat	m:f:n
+53126	kulAyayat	kulAyayat	m:f:n
