@@ -1,6 +1,7 @@
 """decline.py
 """
 from declension_join_simple import declension_join_simple
+import sys
 class Decline_ind(object):
  """ Makes a 1-table entry for indeclineables.
      Of course indeclineables are not declined,
@@ -1117,6 +1118,168 @@ class Decline_n_Iyas(object):
   base = parts[-1]
   head = ''.join(parts[0:-1])
   return head,base
+
+sys.path.append('../inputs/nominals')
+from data_vas import data_vas_init
+dict_vas = data_vas_init()
+
+class Decline_m_vas(object):
+ """ declension table for masculine nouns ending in vas, which are
+  reduplicated perfect participles.
+  These are classified as nouns with three stems, but we can treat them
+  has nouns with two stems, by using appropriate (non-standard) sups.
+  This logic requires computation of two stems (which we call strong
+  and weak).  The strong stem just drops the 'vas' from the citation form.
+  The weak form comes from pre-computed data, which is in file 
+  inputs/nominals/data_vas.py
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  
+  self.sup = 'vAn:vAMsO:vAMsaH:vAMsam:vAMsO:uzaH:uzA:vadByAm:vadBiH:uze:vadByAm:vadByaH:uzaH:vadByAm:vadByaH:uzaH:uzoH:uzAm:uzi:uzoH:vatsu:van:vAMsO:vAMsaH' 
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'vas' is removed from the base
+  base1 = base[0:-3] # strong
+  # weak base is derived from feminine
+  base2 = self.weakbase(base)
+  # for decline_one logic in inflect
+  self.base1 = head + base1
+  self.base2 = head + base2
+  # join base and all the endings
+  base_infls = []
+  for sup in sups:
+   if sup.startswith('v'):
+    b = base1
+   elif sup.startswith('u'):
+    b = base2
+   else:
+    print('Decline_m_vas error: sup=%s'%sup)
+    b = base1
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(b,sup))
+   else:
+    # join each alternate sup to b
+    infls = [declension_join_simple(b,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def weakbase(self,base):
+  if base in dict_vas:
+   (fstem,root) = dict_vas[base]
+   assert fstem.endswith('uzI'),"Decline_m_vas. weakbase error 1: %s %s %s" %(base,fstem,root)
+   return fstem[0:-3]   # drop the uzI
+  else:
+   # just drop the 'vas' at end of base, i.e., weak and strong bases the same
+   assert base.endswith('vas'),"Decline_m_vas. weakbase error 2: %s %s %s" %(base,fstem,root)
+   return base[0:-3]
+   
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
+class Decline_n_vas(object):
+ """ declension table for neuter nouns ending in vas, which are
+  reduplicated perfect participles.
+  These are classified as nouns with three stems, but we can treat them
+  has nouns with two stems, by using appropriate (non-standard) sups.
+  This logic requires computation of two stems (which we call strong
+  and weak).  The strong stem just drops the 'vas' from the citation form.
+  The weak form comes from pre-computed data, which is in file 
+  inputs/nominals/data_vas.py
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  
+  self.sup = 'vat:uzI:vAMsi:vat:uzI:vAMsi:uzA:vadByAm:vadBiH:uze:vadByAm:vadByaH:uzaH:vadByAm:vadByaH:uzaH:uzoH:uzAm:uzi:uzoH:vatsu:vat:uzI:vAMsi' 
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'vas' is removed from the base
+  base1 = base[0:-3] # strong
+  # weak base is derived from feminine
+  base2 = self.weakbase(base)
+  # for decline_one logic in inflect
+  self.base1 = head + base1
+  self.base2 = head + base2
+  # join base and all the endings
+  base_infls = []
+  for sup in sups:
+   if sup.startswith('v'):
+    b = base1
+   elif sup.startswith('u'):
+    b = base2
+   else:
+    print('Decline_m_vas error: sup=%s'%sup)
+    b = base1
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(b,sup))
+   else:
+    # join each alternate sup to b
+    infls = [declension_join_simple(b,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def weakbase(self,base):
+  if base in dict_vas:
+   (fstem,root) = dict_vas[base]
+   assert fstem.endswith('uzI'),"Decline_m_vas. weakbase error 1: %s %s %s" %(base,fstem,root)
+   return fstem[0:-3]   # drop the uzI
+  else:
+   # just drop the 'vas' at end of base, i.e., weak and strong bases the same
+   assert base.endswith('vas'),"Decline_m_vas. weakbase error 2: %s %s %s" %(base,fstem,root)
+   return base[0:-3]
+   
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
 
 # --------------------------------------
 def test_m_a(key1,key2):

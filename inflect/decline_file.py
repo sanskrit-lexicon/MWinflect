@@ -94,6 +94,17 @@ class DeclRec(object):
   elif self.model == 'f_Iyas_I': # alias for f_I
    decl = decline.Decline_f_I(self.key1,self.key2)
 
+  elif self.model == 'm_vas':
+   decl = decline.Decline_m_vas(self.key1,self.key2)
+   self.base1 = decl.base1
+   self.base2 = decl.base2
+  elif self.model == 'n_vas':
+   decl = decline.Decline_n_vas(self.key1,self.key2)
+   self.base1 = decl.base1
+   self.base2 = decl.base2
+  elif self.model == 'f_vas_I': # alias for f_I
+   decl = decline.Decline_f_I(self.key1,self.key2)
+
   elif self.model == 'm_pron':
    decl = decline_pco.Decline_m_pron(self.key1,self.key2)
   elif self.model == 'f_pron':

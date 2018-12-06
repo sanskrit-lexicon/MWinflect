@@ -91,6 +91,10 @@ def md1_explain_alts(x,base,supstr):
   ans = "%s + %s = %s -> **%s**" %(base,supstr,cat,x)
  return ans
 
+sys.path.append('../inputs/nominals')
+from data_vas import data_vas_init
+dict_vas = data_vas_init()
+
 def test_md1(model,key2):
  # generate a markdown table with explanations
  # This is implemented with only certain models
@@ -106,7 +110,8 @@ def test_md1(model,key2):
              'm_vat','n_vat',
              'm_Iyas','n_Iyas'
             ]
- models = models_1 + models_2
+ models_3 = ['m_vas','n_vas']
+ models = models_1 + models_2 + models_3
  if not model in models:
   print('md1 not implemented for model=',model)
   return
@@ -133,6 +138,9 @@ def test_md1(model,key2):
   base = key1[0:-1] # drop last character -- only for certain models
  elif model in models_2:
   base = key1[0:-2]
+ elif model in models_3:
+  base1 = decl.base1
+  base2 = decl.base2
  else:
   print('test_md1: Internal error. Cannot compute base')
   exit(1)
@@ -144,10 +152,20 @@ def test_md1(model,key2):
   for i in range(0,3):
    x = table[icell+i]
    sup=sups[icell+i]
+   if model in models_1:
+    b = base
+   elif model in models_2:
+    b = base
+   elif model in models_3: 
+    # vas
+    if sup.startswith('v'):
+     b = base1
+    else:
+     b = base2
    if '/' not in sup:
-    explain = md1_explain(x,base,sup)
+    explain = md1_explain(x,b,sup)
    else:
-    explain = md1_explain_alts(x,base,sup)
+    explain = md1_explain_alts(x,b,sup)
    a.append(explain)
   out = '|'.join(a)
   out = '|' + out + '|'
