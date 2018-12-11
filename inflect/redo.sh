@@ -43,6 +43,6 @@ python decline_file.py ../inputs/nominals/m_i1yas.txt ../outputs/nominals/m_i1ya
 python decline_file.py ../inputs/nominals/f_i1yas_i1.txt ../outputs/nominals/f_i1yas_i1.txt 
 python decline_file.py ../inputs/nominals/n_i1yas.txt ../outputs/nominals/n_i1yas.txt 
 #
-python decline_file.py ../inputs/nominals/m_vas.txt ../outputs/nominals/m_vas.txt 
-python decline_file.py ../inputs/nominals/f_vas_i1.txt ../outputs/nominals/f_vas_i1.txt 
-python decline_file.py ../inputs/nominals/n_vas.txt ../outputs/nominals/n_vas.txt 
+python decline_file.py ../inputs/nominals/m_as.txt ../outputs/nominals/m_as.txt 
+python decline_file.py ../inputs/nominals/f_as.txt ../outputs/nominals/f_as.txt 
+python decline_file.py ../inputs/nominals/n_as.txt ../outputs/nominals/n_as.txt 

@@ -1399,6 +1399,35 @@ def model_Iyas(recs,flog):
     model = 'f_Iyas_I'
    rec.models.append(Model(rec,model,mstem))
 
+def model_mfn_as(recs,flog):
+ """ nouns with 1 stem ending in 'as' """
+
+ ending = 'as'
+ for rec in recs:
+  stem = rec.key2
+  found = False
+  if not stem.endswith(ending):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(['m','f','n','ind'])):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,ending)  
+   elif part in ['ind']:
+    mstem = stem
+    model = 'ind'
+   else:
+    print('mfn_as Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
 def model_vat(recs,flog):
  # key2 ends with '-vat', '-mat', or
  # 'yat' and is one of kiyat, iyat 
@@ -1454,7 +1483,7 @@ def model_vas(recs,flog):
  import data_vas
  dvas = data_vas.data_vas_init()
 
- knownparts = ['m','f','n','f#',
+ knownparts = ['m','f','n','f#','m#'
                ]
  for rec in recs:
   stem = rec.key2
@@ -1467,6 +1496,8 @@ def model_vas(recs,flog):
   lexparts = rec.lexnorm.split(':')
   rec.parsed = True
   for part in lexparts:
+   if part.startswith('m#'):
+    part = 'm'  # darSivas
    if part in ['m','n']:
     # stem is unchanged
     mstem = stem
@@ -2104,6 +2135,7 @@ if __name__ == "__main__":
  model_vat(recs,flog)  #  -vat, -mat, some -yat
  model_vas(recs,flog)  #  reduplicated participle ending in 'vas'
  model_Iyas(recs,flog)
+ model_mfn_as(recs,flog)
  #model_f_AIU(recs,flog)
  #model_pron(recs,flog)
  #model_an(recs,flog)

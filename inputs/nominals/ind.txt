@@ -2309,6 +2309,7 @@ ind	nadam	103311,nada
 ind	naBas-tas	103764,naBastas
 ind	naBas-vat	103771,naBasvat
 ind	naBAka-vat	103818.1,naBAkavat
+ind	namas	103845,namas
 ind	nara-vat	104120,naravat
 ind	narmaRA	104370.1,narmaRA
 ind	narmArTam	104343,narmArTam

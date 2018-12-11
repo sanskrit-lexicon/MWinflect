@@ -28,12 +28,16 @@ m_vas	jajYivas	76512,jajYivas
 m_vas	jUjuvas	80079,jUjuvas
 m_vas	tad-vIrya-vidvas	82165,tadvIryavidvas
 m_vas	tasTivas	83677,tasTivas:255317,tasTivas
+m_vas	darSivas	90698,darSivas
+m_vas	dIrGa-darSivas	93061,dIrGadarSivas
 m_vas	dur-vidvas	94355,durvidvas
 m_vas	na-vidvas	102666,navidvas
 m_vas	pareyivas	119437,pareyivas
 m_vas	pIpivas	124902,pIpivas
 m_vas	pra-vidvas	136990,pravidvas
+m_vas	praty-akza-darSivas	133823,pratyakzadarSivas
 m_vas	brahma-vidvas	147022,brahmavidvas
+m_vas	mIQvas	164594,mIQvas
 m_vas	yad-vidvas	170181.1,yadvidvas
 m_vas	vi-Seza-vidvas	200665,viSezavidvas
 m_vas	vidvas	195930,vidvas:195931,vidvas

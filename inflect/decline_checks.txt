@@ -491,4 +491,25 @@ Case 5:  SreyasaH SreyoByAm SreyoByaH
 Case 6:  SreyasaH SreyasoH SreyasAm
 Case 7:  Sreyasi SreyasoH SreyaHsu
 Case 8:  Sreyan SreyAMsO SreyAMsaH
-
+; Confirm Deshpande, p. 158
+$ python decline_one.py m_as sumanas
+Declension of m_as sumanas
+Case 1:  sumanAH sumanasO sumanasaH
+Case 2:  sumanasam sumanasO sumanasaH
+Case 3:  sumanasA sumanoByAm sumanoBiH
+Case 4:  sumanase sumanoByAm sumanoByaH
+Case 5:  sumanasaH sumanoByAm sumanoByaH
+Case 6:  sumanasaH sumanasoH sumanasAm
+Case 7:  sumanasi sumanasoH sumanaHsu
+Case 8:  sumanaH sumanasO sumanasaH
+; Confirm Deshpande, p. 159
+$ python decline_one.py n_as yaSas
+Declension of n_as yaSas
+Case 1:  yaSaH yaSasI yaSAMsi
+Case 2:  yaSaH yaSasI yaSAMsi
+Case 3:  yaSasA yaSoByAm yaSoBiH
+Case 4:  yaSase yaSoByAm yaSoByaH
+Case 5:  yaSasaH yaSoByAm yaSoByaH
+Case 6:  yaSasaH yaSasoH yaSasAm
+Case 7:  yaSasi yaSasoH yaSaHsu
+Case 8:  yaSaH yaSasI yaSAMsi

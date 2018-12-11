@@ -36,8 +36,10 @@ vavftvas vavftuzI vft
 sAsahvas sAsahuzI sah
 suzupvas suzupuzI svap
 ninIvas ninyuzI nI
+mIQvas mIQuzI mih
+darSivas darSuzI dfS
 """
-
+# darSuzI by analogy with jakzuzI and a few others above. No references found.
 def data_vas_init():
  """ return dictionary. 
   Key is first field. 

@@ -27,12 +27,15 @@ n_vas	jajYivas	76512,jajYivas
 n_vas	jUjuvas	80079,jUjuvas
 n_vas	tad-vIrya-vidvas	82165,tadvIryavidvas
 n_vas	tasTivas	83677,tasTivas:255317,tasTivas
+n_vas	dIrGa-darSivas	93061,dIrGadarSivas
 n_vas	dur-vidvas	94355,durvidvas
 n_vas	na-vidvas	102666,navidvas
 n_vas	pareyivas	119437,pareyivas
 n_vas	pIpivas	124902,pIpivas
 n_vas	pra-vidvas	136990,pravidvas
+n_vas	praty-akza-darSivas	133823,pratyakzadarSivas
 n_vas	brahma-vidvas	147022,brahmavidvas
+n_vas	mIQvas	164594,mIQvas
 n_vas	yad-vidvas	170181.1,yadvidvas
 n_vas	vidvas	195930,vidvas
 n_vas	viSva-vidvas	201326,viSvavidvas
