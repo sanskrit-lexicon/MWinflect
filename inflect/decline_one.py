@@ -105,6 +105,7 @@ def test_md1(model,key2):
         'f_in_I', # alias for f_I
         'f_vat_I', # alias for f_I
         'f_Iyas_I', # alias for f_I
+        'f_us_I', # alias for f_I
         ]
  models_2 = ['m_in','n_in',
              'm_vat','n_vat',

@@ -50,3 +50,8 @@ python3 decline_file.py ../inputs/nominals/n_as.txt ../outputs/nominals/n_as.txt
 python3 decline_file.py ../inputs/nominals/m_is.txt ../outputs/nominals/m_is.txt 
 python3 decline_file.py ../inputs/nominals/f_is.txt ../outputs/nominals/f_is.txt 
 python3 decline_file.py ../inputs/nominals/n_is.txt ../outputs/nominals/n_is.txt 
+#
+python3 decline_file.py ../inputs/nominals/m_us.txt ../outputs/nominals/m_us.txt 
+python3 decline_file.py ../inputs/nominals/f_us.txt ../outputs/nominals/f_us.txt 
+python3 decline_file.py ../inputs/nominals/f_us_i1.txt ../outputs/nominals/f_us_i1.txt 
+python3 decline_file.py ../inputs/nominals/n_us.txt ../outputs/nominals/n_us.txt 

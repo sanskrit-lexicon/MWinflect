@@ -1458,6 +1458,38 @@ def model_mfn_is(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
+def model_mfn_us(recs,flog):
+ """ nouns with 1 stem ending in 'us' """
+
+ ending = 'us'
+ for rec in recs:
+  stem = rec.key2
+  found = False
+  if not stem.endswith(ending):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(['m','f','n','ind','f#uzI'])):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,ending)  
+   elif part in ['ind']:
+    mstem = stem
+    model = 'ind'
+   elif part in ['f#uzI']:
+    mstem = stem[0:-2] + 'uzI'  # vapus -> vapuzI
+    model = 'f_us_I'
+   else:
+    print('mfn_is Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
 def model_vat(recs,flog):
  # key2 ends with '-vat', '-mat', or
  # 'yat' and is one of kiyat, iyat 
@@ -2168,6 +2200,7 @@ if __name__ == "__main__":
  model_Iyas(recs,flog)
  model_mfn_as(recs,flog)
  model_mfn_is(recs,flog)
+ model_mfn_us(recs,flog)
  #model_f_AIU(recs,flog)
  #model_pron(recs,flog)
  #model_an(recs,flog)

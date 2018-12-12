@@ -108,6 +108,15 @@ class DeclRec(object):
   elif self.model == 'f_is': # same as m_is 
    decl = decline.Decline_f_is(self.key1,self.key2)
 
+  elif self.model == 'm_us':
+   decl = decline.Decline_m_us(self.key1,self.key2)
+  elif self.model == 'n_us':
+   decl = decline.Decline_n_us(self.key1,self.key2)
+  elif self.model == 'f_us': # same as m_us 
+   decl = decline.Decline_f_us(self.key1,self.key2)
+  elif self.model == 'f_us_I': # alias for f_I. vapus f#uzI and SatAyus f#uzI
+   decl = decline.Decline_f_I(self.key1,self.key2)
+
   elif self.model == 'm_vas':
    decl = decline.Decline_m_vas(self.key1,self.key2)
    self.base1 = decl.base1

@@ -536,3 +536,26 @@ Case 5:  udarcizaH udarcirByAm udarcirByaH
 Case 6:  udarcizaH udarcizoH udarcizAm
 Case 7:  udarcizi udarcizoH udarciHzu
 Case 8:  udarciH udarcizO udarcizaH
+; Confirm Deshpande p. 160
+$ python decline_one.py n_us Ayus
+Declension of n_us Ayus
+Case 1:  AyuH AyuzI AyUMzi
+Case 2:  AyuH AyuzI AyUMzi
+Case 3:  AyuzA AyurByAm AyurBiH
+Case 4:  Ayuze AyurByAm AyurByaH
+Case 5:  AyuzaH AyurByAm AyurByaH
+Case 6:  AyuzaH AyuzoH AyuzAm
+Case 7:  Ayuzi AyuzoH AyuHzu
+Case 8:  AyuH AyuzI AyUMzi
+; Confirm Huet; 
+; partial confirm Kale (1s, 1d, 3s, 3d, 7p):  Kale has uHzu and also uzzu for 7p ending.
+$ python decline_one.py m_us acakzus
+Declension of m_us acakzus
+Case 1:  acakzuH acakzuzO acakzuzaH
+Case 2:  acakzuzam acakzuzO acakzuzaH
+Case 3:  acakzuzA acakzurByAm acakzurBiH
+Case 4:  acakzuze acakzurByAm acakzurByaH
+Case 5:  acakzuzaH acakzurByAm acakzurByaH
+Case 6:  acakzuzaH acakzuzoH acakzuzAm
+Case 7:  acakzuzi acakzuzoH acakzuHzu
+Case 8:  acakzuH acakzuzO acakzuzaH
