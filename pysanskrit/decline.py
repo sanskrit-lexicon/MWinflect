@@ -1347,6 +1347,72 @@ class Decline_n_as(object):
   head = ''.join(parts[0:-1])
   return head,base
 
+class Decline_m_is(object):
+ """ declension table for masculine (or feminine) nouns ending in 'is'.
+  These are classified as nouns with one stem.
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'iH:izO:izaH:izam:izO:izaH:izA:irByAm:irBiH:ize:irByAm:irByaH:izaH:irByAm:irByaH:izaH:izoH:izAm:izi:izoH:iHzu:iH:izO:izaH' 
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'is' is removed from the base
+  base1 = base[0:-2]
+  # join key2base and all the endings
+  base_infls = [declension_join_simple(base1,sup) for sup in sups]
+  self.table = [head+infl for infl in base_infls]
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+
+Decline_f_is = Decline_m_is  # f_is same algorithm as m_is
+
+class Decline_n_is(object):
+ """ declension table for neuter nouns ending in 'is'.
+  These are classified as nouns with one stem.
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'iH:izI:IMzi:iH:izI:IMzi:izA:irByAm:irBiH:ize:irByAm:irByaH:izaH:irByAm:irByaH:izaH:izoH:izAm:izi:izoH:iHzu:iH:izI:IMzi' 
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final 'is' is removed from the base
+  base1 = base[0:-2]
+  # join key2base and all the endings
+  base_infls = [declension_join_simple(base1,sup) for sup in sups]
+  self.table = [head+infl for infl in base_infls]
+  self.status = True
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

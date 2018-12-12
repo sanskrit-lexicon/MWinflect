@@ -110,6 +110,8 @@ def test_md1(model,key2):
              'm_vat','n_vat',
              'm_Iyas','n_Iyas',
              'm_as','f_as','n_as', # 1 stem
+             'm_is','f_is','n_is', # 1 stem
+             'm_us','f_us','n_us', # 1 stem
             ]
  models_3 = ['m_vas','n_vas']
  models = models_1 + models_2 + models_3

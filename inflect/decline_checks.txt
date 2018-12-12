@@ -513,3 +513,26 @@ Case 5:  yaSasaH yaSoByAm yaSoByaH
 Case 6:  yaSasaH yaSasoH yaSasAm
 Case 7:  yaSasi yaSasoH yaSaHsu
 Case 8:  yaSaH yaSasI yaSAMsi
+; Confirm Deshpande, p. 159
+$ python3 decline_one.py n_is havis
+Declension of n_is havis
+Case 1:  haviH havizI havIMzi
+Case 2:  haviH havizI havIMzi
+Case 3:  havizA havirByAm havirBiH
+Case 4:  havize havirByAm havirByaH
+Case 5:  havizaH havirByAm havirByaH
+Case 6:  havizaH havizoH havizAm
+Case 7:  havizi havizoH haviHzu
+Case 8:  haviH havizI havIMzi
+; Confirm Huet; 
+; partial confirm Kale (1s, 1d, 3s, 3d, 7p):  Kale has iHzu and also izzu for 7p ending.
+$ python decline_one.py m_is udarcis
+Declension of m_is udarcis
+Case 1:  udarciH udarcizO udarcizaH
+Case 2:  udarcizam udarcizO udarcizaH
+Case 3:  udarcizA udarcirByAm udarcirBiH
+Case 4:  udarcize udarcirByAm udarcirByaH
+Case 5:  udarcizaH udarcirByAm udarcirByaH
+Case 6:  udarcizaH udarcizoH udarcizAm
+Case 7:  udarcizi udarcizoH udarciHzu
+Case 8:  udarciH udarcizO udarcizaH

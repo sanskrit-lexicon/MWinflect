@@ -101,6 +101,13 @@ class DeclRec(object):
   elif self.model == 'f_as': # same as m_as 
    decl = decline.Decline_f_as(self.key1,self.key2)
 
+  elif self.model == 'm_is':
+   decl = decline.Decline_m_is(self.key1,self.key2)
+  elif self.model == 'n_is':
+   decl = decline.Decline_n_is(self.key1,self.key2)
+  elif self.model == 'f_is': # same as m_is 
+   decl = decline.Decline_f_is(self.key1,self.key2)
+
   elif self.model == 'm_vas':
    decl = decline.Decline_m_vas(self.key1,self.key2)
    self.base1 = decl.base1
