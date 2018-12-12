@@ -6813,7 +6813,6 @@ f_I	mAMsa-kandI	161780,mAMsakandI
 f_I	mAMsa-cCedI	161793,mAMsacCeda
 f_I	mAMsa-peSI	161821,mAMsapeSI
 f_I	mAMsa-mayI	161835,mAMsamaya
-f_I	mAMsa-mayI peSI	161836,mAMsamayIpeSI
 f_I	mAMsa-muKI	161839,mAMsamuKa
 f_I	mAMsa-rohiRI	161849,mAMsarohiRI
 f_I	mAMsa-rohI	161850,mAMsarohI
@@ -7342,7 +7341,6 @@ f_I	yoga-vAhI	172514,yogavAhI
 f_I	yoga-sArAvalI	172558.1,yogasArAvalI
 f_I	yogAmfta-taraMgiRI	172610,yogAmftataraMgiRI
 f_I	yogAvalI	172618,yogAvalI
-f_I	yogAvalI-tantre kula-dIpinI	172620,yogAvalItantrekuladIpinI
 f_I	yoginI	172693,yoginI:172694,yoginI
 f_I	yogISvarI	172677,yogISvarI
 f_I	yogeSvarI	172639,yogeSvarI

@@ -4961,7 +4961,6 @@ m_i	vidyA-niDi	195771,vidyAniDi
 m_i	vidyA-pati	195782,vidyApati
 m_i	vidyA-maRi	195805,vidyAmaRi
 m_i	vidyA-rASi	195827,vidyArASi
-m_i	vidyA-vizaye homa-viDi	195862,vidyAvizayehomaviDi
 m_i	vidyADipati	195757,vidyADipati
 m_i	vidyADISa-muni	195763,vidyADISamuni
 m_i	vidyut-sani	196325,vidyutsani

@@ -915,3 +915,73 @@ new 556.11	akzamin	a-kzamin	m:f:n
 261644	haryat	haryat	m:f:n
 10986	abiByat	a-biByat	m:f:n
 53126	kulAyayat	kulAyayat	m:f:n
+; 12/12/2018  some additional cardinal numbers
+old 232732	saptAzwan	saptAzwan	m:f:n
+new 232732	saptAzwan	saptAzwan	LEXID=card,STEM=saptAzwan
+old 131531	pratidvAdaSan	prati-dvAdaSan	m:f:n
+new 131531	pratidvAdaSan	prati-dvAdaSan	LEXID=card,STEM=prati-dvA-daSan
+old 225095	zaqaDikadaSan	zaq-aDika-daSan	m:f:n
+new 225095	zaqaDikadaSan	zaq-aDika-daSan	LEXID=card,STEM=zaq-aDika-daSan
+old 16188	arDapaYcan	arDa-paYcan	m:f:n
+new 16188	arDapaYcan	arDa-paYcan	LEXID=card,STEM=arDa-paYcan
+old 98751	dvisaptan	dvi-saptan	m:f:n
+new 98751	dvisaptan	dvi-saptan	LEXID=card,STEM=dvi-saptan
+; 12/12/2018 Remove entries (58) which have a space character in key2
+del 21881	ahirbuDnyas	ahir buDnyas	m
+del 93038.1	dIrGatamasorka	dIrGa-tamaso 'rka	m
+del 93038.2	dIrGatamasovrata	dIrGa-tamaso vrata	n
+del 96011	devalokegata	deva-loke gata	m:f:n
+del 120295.1	pallISarawayoHPalAPalavicAra	pallI-SarawayoH PalAPala-vicAra	m
+del 120295.2	pallISarawayoHSAnti	pallI-SarawayoH SAnti	f
+del 124573	pizwarAtryAHkalpa	pizwa-rAtryAH kalpa	m
+del 132934.3	pratiyogijYAnasyahetutvaKaRqana	prati-yogi-jYAnasya hetutva-KaRqana	n
+del 132934.8	pratiyogyanaDikaraRenASasyotpattinirAsa	prati-yogyanaDikaraRe nASasyotpatti-nirAsa	m
+del 146712	brahmatantregAyatrIpaYjara	brahma-tantre gAyatrI-paYjara	n
+del 147157	brahmARqayAmalepaYcamIsADana	brahmARqa-yAmale paYcamI-sADana	n
+del 147409	brAhmaRAcCaMsinaukTya	brAhmaRAc-CaMsina ukTya	n
+del 149632	BAgavatasamuccayesahasranAmastotra	BAgavata-samuccaye sahasra-nAma-stotra	n
+del 159381	mahAkAlaBEravatantreSaraBakavaca	mahA-kAla-BErava-tantre SaraBa-kavaca	n
+del 159381.2	mahAkAlayogaSAstreKecarIvidyA	mahA-kAla-yoga-SAstre KecarI-vidyA	f
+del 159392	mahAkASaBEravakalpeSaraBeSvarakavaca	mahA-kASa-BErava-kalpe SaraBeSvara-kavaca	n
+del 159462	mahAgaRapatikalpepaYcatriMSatpIWikA	mahA-gaRa-pati-kalpe paYca-triMSatpIWikA	f
+del 159464	mahAgaReSapurARegaReSagItA	mahA-gaReSa-purARe gaReSa-gItA	f
+del 160055	mahApuruzavidyAyAMvizRurahasyekzetrakARqejagannATamAhAtmya	mahA-puruza-vidyAyAM vizRu-rahasye kzetra-kARqe jagan-nATa-mAhAtmya	n
+del 160518	mahAyogapaYcaratneASvalAyanopayogyADAnaprakaraRa	mahA-yoga-paYcaratne ASvalAyanopayogyADAna-prakaraRa	n
+del 160784	mahAvizRormahAstuti	mahA-vizRor mahA-stuti	f
+del 161836	mAMsamayIpeSI	mAMsa-mayI peSI	f
+del 166027	mugDaboDAKyAjvarAdirogacikitsA	mugDa-boDAKyA jvarAdi-roga-cikitsA	f
+del 168025	meruvirahatantreBuvaneSvarIsahasranAmastotra	meru-viraha-tantre BuvaneSvarI-sahasra-nAma-stotra	n
+del 170797	yavanaSAstremalapraSna	yavana-SAstre 'mala-praSna	m
+del 172620	yogAvalItantrekuladIpinI	yogAvalI-tantre kula-dIpinI	f
+del 174418.1	ratnasArajAtakejyotizasArasaMgraha	ratna-sAra-jAtake jyotiza-sAra-saMgraha	m
+del 183016	lubDajAtakevarzavarDApanaviDAna	lubDa-jAtake varza-varDApana-viDAna	n
+del 186734	varuRAnyAHsAman	varuRAnyAH sAman	n
+del 190313.1	vAjapeyakratorudgAtfprayoga	vAja-peya-krator udgAtf-prayoga	m
+del 192641	vAstuyAgaviDestattva	vAstu-yAga-viDes tattva	n
+del 195862	vidyAvizayehomaviDi	vidyA-vizaye homa-viDi	m
+del 200080.1	vivAhahomopayuktAmantra	vi-vAha-homopayuktA mantra	m
+del 200082	vivAhAdikarmaRAmprayoga	vi-vAhAdi-karmaRAm prayoga	m
+del 202559	vizRumahimnaHstava	vizRu-mahimnaH stava	m
+del 203796	vIrasiMhamitrodayesaMskAraprakaraRa	vIra-siMha-mitrodaye saMskAra-prakaraRa	n
+del 204806	vfndAvanaKaRqegargasaMhitA	vfndA-vana-KaRqe garga-saMhitA	f
+del 205804	vedavedAntatattvasAreSAlagrAmamAhAtmya	veda-vedAnta-tattva-sAre SAlagrAma-mAhAtmya	n
+del 205976	vedAntanyAyaratnAvalIbrahmAdvEtAmftaprakASikA	vedAnta-nyAya-ratnAvalI brahmAdvEtAmfta-prakASikA	f
+del 206033.1	vedAntasUtravfttisaMkziptA	vedAnta-sUtra-vftti saMkziptA	f
+del 212200	SataSlokirAmAyaRa	Sata-Sloki rAmAyaRa	n
+del 212720.1	SabdaparicCedarahasyepUrvavAdarahasya	Sabda-paricCeda-rahasye 'pUrvavAdarahasya	n
+del 217744.3	SivamahimnaHstotra	Siva-mahimnaH stotra	n
+del 222096	SyAmasAhSaMkara	SyAma-sAh SaMkara	m
+del 222715.3	SrAdDakalpaBAzyagoBilIya	SrAdDa-kalpa-BAzya goBilIya	n
+del 223174	SrImahimnaHstava	SrI-mahimnaH stava	m
+del 223499	SrutaSravonuja	Sruta-Sravo 'nuja	m
+del 226715	saMSravasaHsAma	saM-SravasaH sAma	n
+del 228350.2	saMkziptarAgAnugApUjApadDati	saM-kzipta-rAgAnugA pUjA-padDati	f
+del 228584.50	saMgItavinodenftyADyAya	saM-gIta-vinode nftyADyAya	m
+del 232453	saptagranTanibarhaRaSEvavEzRavavicAra	sapta-granTa-nibarhaRa SEva-vEzRava-vicAra	m
+del 243121	sArisTAKA 	sArisTA-KA 	loan
+del 243265	sArvaBOmAsarvasverAmasUkta	sArva-BOmA-sarvasve rAma-sUkta	n
+del 252921	somaBakzayoHprayoga	soma-BakzayoH prayoga	m
+del 253580	sOBAgyalakzmIkalpeSyAmalAmbAstotra	sOBAgya-lakzmI-kalpe SyAmalAmbA-stotra	n
+del 253581	sOBAgyalakzmItantreSyAmalAmbAvarmaratna	sOBAgya-lakzmI-tantre SyAmalAmbA-varma-ratna	n
+del 255101	strISUdrAdInAMdevArcanavicAra	strI-SUdrA-dInAM devArcana-vicAra	m
+del 257900	svatantramuKamardana	sva-tantra-muKa mardana	n

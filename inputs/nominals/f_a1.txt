@@ -20674,7 +20674,6 @@ f_A	deva-retasA	95994,devaretasa
 f_A	deva-latA	96003,devalatA
 f_A	deva-lANgulikA	96004,devalANgulikA
 f_A	deva-leKA	96007,devaleKA
-f_A	deva-loke gatA	96011,devalokegata
 f_A	deva-vacanA	96014,devavacanA
 f_A	deva-vandA	96019,devavanda
 f_A	deva-vAtA	96034,devavAta
@@ -33468,7 +33467,6 @@ f_A	mahA-kAntA	159348,mahAkAntA
 f_A	mahA-kAya-Siro-DarA	159357,mahAkAyaSiroDara
 f_A	mahA-kAyA	159350,mahAkAya:159356,mahAkAyA
 f_A	mahA-kAruRikA	159362,mahAkAruRika
-f_A	mahA-kAla-yoga-SAstre KecarI-vidyA	159381.2,mahAkAlayogaSAstreKecarIvidyA
 f_A	mahA-kAla-saMhitA	159381.4,mahAkAlasaMhitA
 f_A	mahA-kumudA	159401,mahAkumudA
 f_A	mahA-kulA	159404,mahAkula
@@ -33487,9 +33485,7 @@ f_A	mahA-kzIrA	159444,mahAkzIrA
 f_A	mahA-KAtA	159452,mahAKAta
 f_A	mahA-KyAtA	159453,mahAKyAta
 f_A	mahA-gaNgA	159455,mahAgaNgA
-f_A	mahA-gaRa-pati-kalpe paYca-triMSatpIWikA	159462,mahAgaRapatikalpepaYcatriMSatpIWikA
 f_A	mahA-gaRa-pati-vidyA	159462.1,mahAgaRapatividyA
-f_A	mahA-gaReSa-purARe gaReSa-gItA	159464,mahAgaReSapurARegaReSagItA
 f_A	mahA-gadA	159470,mahAgada
 f_A	mahA-ganDA	159471,mahAganDa:159474,mahAganDA
 f_A	mahA-gayA	159480,mahAgaya
@@ -34531,7 +34527,6 @@ f_A	muKyArTA	165072,muKyArTa
 f_A	mugDa-kaTA	166012,mugDakaTA
 f_A	mugDa-gaRqa-PalakA	166014,mugDagaRqaPalaka
 f_A	mugDa-dUrvA	166017,mugDadUrvA
-f_A	mugDa-boDAKyA jvarAdi-roga-cikitsA	166027,mugDaboDAKyAjvarAdirogacikitsA
 f_A	mugDa-svaBAvA	166037,mugDasvaBAva
 f_A	mugDA	166007,mugDa
 f_A	mugDAnanA	166043,mugDAnana
@@ -41797,7 +41792,6 @@ f_A	vfnda-saMhitA	204796,vfndasaMhitA
 f_A	vfndarA	204798,vfndara
 f_A	vfndA	204788,vfndA:204791,vfnda:204799,vfndA
 f_A	vfndA-vana-kAvya-wIkA	204805.1,vfndAvanakAvyawIkA
-f_A	vfndA-vana-KaRqe garga-saMhitA	204806,vfndAvanaKaRqegargasaMhitA
 f_A	vfndA-vana-pratizWA	204811.10,vfndAvanapratizWA
 f_A	vfndArakA	204819,vfndAraka
 f_A	vfndArA	204817,vfndAra
@@ -41972,7 +41966,6 @@ f_A	vedAnta-candrikA	205961,vedAntacandrikA
 f_A	vedAnta-dIpikA	205968,vedAntadIpikA
 f_A	vedAnta-nizWA	205974,vedAntanizWa
 f_A	vedAnta-nyAya-mAlA	205975,vedAntanyAyamAlA
-f_A	vedAnta-nyAya-ratnAvalI brahmAdvEtAmfta-prakASikA	205976,vedAntanyAyaratnAvalIbrahmAdvEtAmftaprakASikA
 f_A	vedAnta-pariBAzA	205978,vedAntapariBAzA
 f_A	vedAnta-prakriyA	205982,vedAntaprakriyA
 f_A	vedAnta-maNgala-dIpikA	205987,vedAntamaNgaladIpikA
@@ -41991,7 +41984,6 @@ f_A	vedAnta-saMjYA-prakriyA	206024.2,vedAntasaMjYAprakriyA
 f_A	vedAnta-sAra-padya-mAlA	206028,vedAntasArapadyamAlA
 f_A	vedAnta-sidDAnta-candrikA	206030.2,vedAntasidDAntacandrikA
 f_A	vedAnta-sidDAnta-dIpikA	206030.3,vedAntasidDAntadIpikA
-f_A	vedAnta-sUtra-vftti saMkziptA	206033.1,vedAntasUtravfttisaMkziptA
 f_A	vedAntAcArya-dina-caryA	206037.1,vedAntAcAryadinacaryA
 f_A	vedAntABihitA	206040,vedAntABihita
 f_A	vedAnti-bruvA	206051,vedAntibruva

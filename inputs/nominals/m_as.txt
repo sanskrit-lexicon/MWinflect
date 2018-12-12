@@ -134,7 +134,6 @@ m_as	asamAty-ojas	20677,asamAtyojas
 m_as	asamOjas	20672,asamOjas
 m_as	asTi-BUyas	21402,asTiBUyas
 m_as	ahi-nas	21837,ahinas
-m_as	ahir buDnyas	21881,ahirbuDnyas
 m_as	A-Kyas	22500,AKyas
 m_as	A-cakzas	22861.1,Acakzas
 m_as	A-tta-manas	23771,Attamanas

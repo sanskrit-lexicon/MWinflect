@@ -2681,7 +2681,6 @@ f_i	palAli	120134,palAli
 f_i	pallavANguli	120318,pallavANguli
 f_i	palli	120277,palli
 f_i	pallI-patana-SAnti	120290.3,pallIpatanaSAnti
-f_i	pallI-SarawayoH SAnti	120295.2,pallISarawayoHSAnti
 f_i	pavanodBrAnta-vIci	120404.1,pavanodBrAntavIci
 f_i	pavamAna-padDati	120414,pavamAnapadDati
 f_i	pavamAna-homa-padDati	120422,pavamAnahomapadDati
@@ -3603,7 +3602,6 @@ f_i	mahA-vAkya-ratnAvali	160731.35,mahAvAkyaratnAvali
 f_i	mahA-viBUti	160770,mahAviBUti:160772,mahAviBUti
 f_i	mahA-vizuva-saMkrAnti	160780.1,mahAvizuvasaMkrAnti
 f_i	mahA-vizRu-pUjA-padDati	160783,mahAvizRupUjApadDati
-f_i	mahA-vizRor mahA-stuti	160784,mahAvizRormahAstuti
 f_i	mahA-vedi	160833,mahAvedi
 f_i	mahA-vyAhfti	160849,mahAvyAhfti
 f_i	mahA-vyutpatti	160850,mahAvyutpatti
@@ -5133,7 +5131,6 @@ f_i	saM-keta-BUmi	228218,saMketaBUmi
 f_i	saM-krAnti	228282,saMkrAnti
 f_i	saM-krAnti-SAnti	228291.2,saMkrAntiSAnti
 f_i	saM-kzipta-gati	228346,saMkziptagati
-f_i	saM-kzipta-rAgAnugA pUjA-padDati	228350.2,saMkziptarAgAnugApUjApadDati
 f_i	saM-kzipta-SAstrArTa-padDati	228350.55,saMkziptaSAstrArTapadDati
 f_i	saM-kzipta-SyAmA-pUjA-padDati	228350.6,saMkziptaSyAmApUjApadDati
 f_i	saM-kzipti	228355,saMkzipti

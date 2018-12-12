@@ -30331,7 +30331,6 @@ m_a	dIrGa-jihva	93022,dIrGajihva:93023,dIrGajihva
 m_a	dIrGa-jihvya	93027,dIrGajihvya
 m_a	dIrGa-jIraka	93028,dIrGajIraka
 m_a	dIrGa-tama	93037,dIrGatama
-m_a	dIrGa-tamaso 'rka	93038.1,dIrGatamasorka
 m_a	dIrGa-tara	93039,dIrGatara
 m_a	dIrGa-tIkzRa-muKa	93044,dIrGatIkzRamuKa
 m_a	dIrGa-tuRqa	93045,dIrGatuRqa
@@ -31497,7 +31496,6 @@ m_a	deva-rzi-pitf-vallaBa	95999,devarzipitfvallaBa
 m_a	deva-rzi-varya	96000,devarzivarya
 m_a	deva-loka	96008,devaloka
 m_a	deva-loka-pAla	96012,devalokapAla
-m_a	deva-loke gata	96011,devalokegata
 m_a	deva-vaDa	96017,devavaDa
 m_a	deva-vanda	96019,devavanda
 m_a	deva-vara	96020,devavara
@@ -40066,7 +40064,6 @@ m_a	palli-vAha	120280,pallivAha
 m_a	pallI-deSa	120288,pallIdeSa
 m_a	pallI-patana-vicAra	120290.2,pallIpatanavicAra
 m_a	pallI-vicAra	120292,pallIvicAra
-m_a	pallI-SarawayoH PalAPala-vicAra	120295.1,pallISarawayoHPalAPalavicAra
 m_a	pallISa	120294,pallISa
 m_a	palvala	120341,palvala
 m_a	palvala-karzaka	120342,palvalakarzaka
@@ -41486,7 +41483,6 @@ m_a	pizwa-BAjana	124565,pizwaBAjana
 m_a	pizwa-maya	124567,pizwamaya
 m_a	pizwa-meha	124569,pizwameha
 m_a	pizwa-rasa	124571,pizwarasa
-m_a	pizwa-rAtryAH kalpa	124573,pizwarAtryAHkalpa
 m_a	pizwa-lepa	124574,pizwalepa
 m_a	pizwaka	124583,pizwaka
 m_a	pizwAta	124590,pizwAta
@@ -45102,7 +45098,6 @@ m_a	prati-yoga	132930,pratiyoga
 m_a	prati-yogi-jYAna-kAraRatA-vAda	132934.2,pratiyogijYAnakAraRatAvAda
 m_a	prati-yogi-tA-vAda	132934.5,pratiyogitAvAda
 m_a	prati-yogika	132935,pratiyogika
-m_a	prati-yogyanaDikaraRe nASasyotpatti-nirAsa	132934.8,pratiyogyanaDikaraRenASasyotpattinirAsa
 m_a	prati-yojayitavya	132941,pratiyojayitavya
 m_a	prati-yodDavya	132945,pratiyodDavya
 m_a	prati-yoDa	132948,pratiyoDa
@@ -56666,7 +56661,6 @@ m_a	yavana-deSa-ja	170789,yavanadeSaja
 m_a	yavana-deSodBava	170791,yavanadeSodBava
 m_a	yavana-mata-golADyAya	170795,yavanamatagolADyAya
 m_a	yavana-muRqa	170796,yavanamuRqa
-m_a	yavana-SAstre 'mala-praSna	170797,yavanaSAstremalapraSna
 m_a	yavana-sAra	170798,yavanasAra
 m_a	yavana-sena	170799,yavanasena
 m_a	yavanaka	170812,yavanaka
@@ -57862,7 +57856,6 @@ m_a	ratna-samudgala	174411,ratnasamudgala
 m_a	ratna-samBava	174412,ratnasamBava
 m_a	ratna-sAgara	174415,ratnasAgara
 m_a	ratna-sAra	174417,ratnasAra
-m_a	ratna-sAra-jAtake jyotiza-sAra-saMgraha	174418.1,ratnasArajAtakejyotizasArasaMgraha
 m_a	ratna-sAra-parvata	174419,ratnasAraparvata
 m_a	ratna-sAra-samuccaya	174420.1,ratnasArasamuccaya
 m_a	ratna-siMha	174421,ratnasiMha
@@ -62752,7 +62745,6 @@ m_a	vAja-jaWara	190297,vAjajaWara
 m_a	vAja-pastya	190308,vAjapastya
 m_a	vAja-pIta	190309,vAjapIta
 m_a	vAja-peya	190310,vAjapeya:190312,vAjapeya
-m_a	vAja-peya-krator udgAtf-prayoga	190313.1,vAjapeyakratorudgAtfprayoga
 m_a	vAja-peya-graha	190314,vAjapeyagraha
 m_a	vAja-peya-prayoga	190315.1,vAjapeyaprayoga
 m_a	vAja-peya-yUpa	190317,vAjapeyayUpa
@@ -65442,9 +65434,7 @@ m_a	vi-vAha-veza	200074,vivAhaveza
 m_a	vi-vAha-samaya	200075,vivAhasamaya
 m_a	vi-vAha-sambanDa	200076,vivAhasambanDa
 m_a	vi-vAha-homa	200079,vivAhahoma
-m_a	vi-vAha-homopayuktA mantra	200080.1,vivAhahomopayuktAmantra
 m_a	vi-vAhayitavya	200087,vivAhayitavya
-m_a	vi-vAhAdi-karmaRAm prayoga	200082,vivAhAdikarmaRAmprayoga
 m_a	vi-vAhArTa	200083,vivAhArTa
 m_a	vi-vAhita	200088,vivAhita
 m_a	vi-vAhotsava	200085,vivAhotsava
@@ -66870,7 +66860,6 @@ m_a	vizRu-Bakti-prabanDa	202545.2,vizRuBaktiprabanDa
 m_a	vizRu-mantra	202552,vizRumantra
 m_a	vizRu-mantra-viSeza	202553.1,vizRumantraviSeza
 m_a	vizRu-maya	202556,vizRumaya
-m_a	vizRu-mahimnaH stava	202559,vizRumahimnaHstava
 m_a	vizRu-mitra	202564,vizRumitra
 m_a	vizRu-muKa	202567,vizRumuKa
 m_a	vizRu-yAga	202572,vizRuyAga
@@ -72976,7 +72965,6 @@ m_a	SyAma-muKa	222086,SyAmamuKa
 m_a	SyAma-varRa	222090,SyAmavarRa
 m_a	SyAma-Sabala	222093,SyAmaSabala
 m_a	SyAma-sAra	222095,SyAmasAra
-m_a	SyAma-sAh SaMkara	222096,SyAmasAhSaMkara
 m_a	SyAma-sujayanta	222096.1,SyAmasujayanta
 m_a	SyAma-sundara	222097,SyAmasundara
 m_a	SyAmaka	222109,SyAmaka:222110,SyAmaka
@@ -73341,7 +73329,6 @@ m_a	SrI-mada	223164,SrImada
 m_a	SrI-manta	223166,SrImanta
 m_a	SrI-maya	223167,SrImaya
 m_a	SrI-mastaka	223171,SrImastaka
-m_a	SrI-mahimnaH stava	223174,SrImahimnaHstava
 m_a	SrI-mAla	223175,SrImAla
 m_a	SrI-mAla-KaRqa	223176,SrImAlaKaRqa
 m_a	SrI-mitra	223179,SrImitra
@@ -73448,7 +73435,6 @@ m_a	Sruta-SabdArTa-samuccaya	223488,SrutaSabdArTasamuccaya
 m_a	Sruta-SIla	223493,SrutaSIla
 m_a	Sruta-SIla-sampanna	223495,SrutaSIlasampanna
 m_a	Sruta-SIlopasampanna	223496,SrutaSIlopasampanna
-m_a	Sruta-Sravo 'nuja	223499,SrutaSravonuja
 m_a	Sruta-sena	223504,Srutasena
 m_a	Sruta-soma	223513,Srutasoma
 m_a	Srutarya	223534,Srutarya
@@ -75243,7 +75229,6 @@ m_a	saM-gIta-raGu-nandana	228584.34,saMgItaraGunandana
 m_a	saM-gIta-ratnAkara	228584.40,saMgItaratnAkara
 m_a	saM-gIta-rAGava	228584.46,saMgItarAGava
 m_a	saM-gIta-rAja	228584.48,saMgItarAja
-m_a	saM-gIta-vinode nftyADyAya	228584.50,saMgItavinodenftyADyAya
 m_a	saM-gIta-vftta-ratnAkara	228586,saMgItavfttaratnAkara
 m_a	saM-gIta-vyApfta	228588,saMgItavyApfta
 m_a	saM-gIta-sAgara	228593,saMgItasAgara
@@ -76888,7 +76873,6 @@ m_a	sapta-koRa	232444,saptakoRa
 m_a	sapta-gaRa	232447,saptagaRa
 m_a	sapta-guRa	232449,saptaguRa
 m_a	sapta-gfDra	232450,saptagfDra
-m_a	sapta-granTa-nibarhaRa SEva-vEzRava-vicAra	232453,saptagranTanibarhaRaSEvavEzRavavicAra
 m_a	sapta-cakra	232456,saptacakra
 m_a	sapta-catvAriMSa	232457,saptacatvAriMSa
 m_a	sapta-citika	232460,saptacitika
@@ -83632,7 +83616,6 @@ m_a	soma-Bakza	252918,somaBakza
 m_a	soma-Bakza-japa	252919.1,somaBakzajapa
 m_a	soma-Bakza-prayoga	252920,somaBakzaprayoga
 m_a	soma-Bakza-viveka	252920.1,somaBakzaviveka
-m_a	soma-BakzayoH prayoga	252921,somaBakzayoHprayoga
 m_a	soma-Bawwa	252922,somaBawwa
 m_a	soma-Bava	252924,somaBava
 m_a	soma-BAgavatAcArya	252923,somaBAgavatAcArya
@@ -84394,7 +84377,6 @@ m_a	strI-vizaya	255092,strIvizaya:255093,strIvizaya
 m_a	strI-vfta	255094,strIvfta
 m_a	strI-veza-DAraka	255095,strIvezaDAraka
 m_a	strI-vraRa	255099,strIvraRa
-m_a	strI-SUdrA-dInAM devArcana-vicAra	255101,strISUdrAdInAMdevArcanavicAra
 m_a	strI-SUdrAdi-dina-caryA-krama	255100,strISUdrAdidinacaryAkrama
 m_a	strI-Seza	255102,strISeza
 m_a	strI-SORqa	255103,strISORqa

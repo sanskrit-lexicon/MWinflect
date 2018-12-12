@@ -24250,7 +24250,6 @@ n_a	dIrGa-jihvya	93027,dIrGajihvya
 n_a	dIrGa-tapa-AKyAna	93036,dIrGatapaAKyAna
 n_a	dIrGa-tapaH-svarga-gamana	93036.1,dIrGatapaHsvargagamana
 n_a	dIrGa-tama	93037,dIrGatama
-n_a	dIrGa-tamaso vrata	93038.2,dIrGatamasovrata
 n_a	dIrGa-tara	93039,dIrGatara
 n_a	dIrGa-tIkzRa-muKa	93044,dIrGatIkzRamuKa
 n_a	dIrGa-tuRqa	93045,dIrGatuRqa
@@ -25276,7 +25275,6 @@ n_a	deva-rzi-carita	95997,devarzicarita
 n_a	deva-rzi-tva	95998,devarzitva
 n_a	deva-lakzma	96001,devalakzma
 n_a	deva-liNga	96006,devaliNga
-n_a	deva-loke gata	96011,devalokegata
 n_a	deva-vaktra	96013,devavaktra
 n_a	deva-vanda	96019,devavanda
 n_a	deva-vara	96021,devavara
@@ -36863,7 +36861,6 @@ n_a	prati-yAtana	132917,pratiyAtana
 n_a	prati-yuta	132927,pratiyuta
 n_a	prati-yudDa	132943,pratiyudDa:132944,pratiyudDa
 n_a	prati-yuvana	132928,pratiyuvana
-n_a	prati-yogi-jYAnasya hetutva-KaRqana	132934.3,pratiyogijYAnasyahetutvaKaRqana
 n_a	prati-yogi-tva	132934.6,pratiyogitva
 n_a	prati-yogi-nirUpaRa	132934.7,pratiyoginirUpaRa
 n_a	prati-yogika	132935,pratiyogika
@@ -39855,7 +39852,6 @@ n_a	brahma-jyezWa	146705,brahmajyezWa
 n_a	brahma-tattva	146709,brahmatattva
 n_a	brahma-tattva-vivaraRa	146710.1,brahmatattvavivaraRa
 n_a	brahma-tantra	146711,brahmatantra
-n_a	brahma-tantre gAyatrI-paYjara	146712,brahmatantregAyatrIpaYjara
 n_a	brahma-tarka-stava-vivaraRa	146714,brahmatarkastavavivaraRa
 n_a	brahma-tIrTa	146719,brahmatIrTa
 n_a	brahma-tulya	146722,brahmatulya
@@ -40000,7 +39996,6 @@ n_a	brahmARqa-jYAna-mahArAja-tantra	147154.1,brahmARqajYAnamahArAjatantra
 n_a	brahmARqa-tantra	147154.2,brahmARqatantra
 n_a	brahmARqa-purARa	147155,brahmARqapurARa
 n_a	brahmARqa-BARqodara	147156,brahmARqaBARqodara
-n_a	brahmARqa-yAmale paYcamI-sADana	147157,brahmARqayAmalepaYcamIsADana
 n_a	brahmAdi-SIrza	147164,brahmAdiSIrza
 n_a	brahmAdya	147165,brahmAdya:147166,brahmAdya
 n_a	brahmADigamana	147168.1,brahmADigamana
@@ -40076,7 +40071,6 @@ n_a	brAhmaRa-sva	147404,brAhmaRasva
 n_a	brAhmaRa-hita	147406,brAhmaRahita
 n_a	brAhmaRakIya	147426.1,brAhmaRakIya
 n_a	brAhmaRAc-CaMsi-Sastra	147409.2,brAhmaRAcCaMsiSastra
-n_a	brAhmaRAc-CaMsina ukTya	147409,brAhmaRAcCaMsinaukTya
 n_a	brAhmaRAc-CaMsIya	147410,brAhmaRAcCaMsIya
 n_a	brAhmaRAc-CaMsya	147411,brAhmaRAcCaMsya:147412,brAhmaRAcCaMsya
 n_a	brAhmaRAtmaka	147414,brAhmaRAtmaka
@@ -40564,7 +40558,6 @@ n_a	BAgavata-purARa-mahA-vivaraRa	149622.60,BAgavatapurARamahAvivaraRa
 n_a	BAgavata-mAhAtmya	149623,BAgavatamAhAtmya
 n_a	BAgavata-muktA-Pala	149624,BAgavatamuktAPala
 n_a	BAgavata-rahasya	149625,BAgavatarahasya
-n_a	BAgavata-samuccaye sahasra-nAma-stotra	149632,BAgavatasamuccayesahasranAmastotra
 n_a	BAgavata-stotra	149637,BAgavatastotra
 n_a	BAgavatAmfta	149638,BAgavatAmfta
 n_a	BAgavatAzwaka	149640,BAgavatAzwaka
@@ -42847,7 +42840,6 @@ n_a	mahA-kAla-KaRqa	159379.1,mahAkAlaKaRqa
 n_a	mahA-kAla-tantra	159379.2,mahAkAlatantra
 n_a	mahA-kAla-tva	159379.21,mahAkAlatva
 n_a	mahA-kAla-pura	159380,mahAkAlapura
-n_a	mahA-kAla-BErava-tantre SaraBa-kavaca	159381,mahAkAlaBEravatantreSaraBakavaca
 n_a	mahA-kAla-mata	159381.1,mahAkAlamata
 n_a	mahA-kAla-rudrodita-stotra	159381.3,mahAkAlarudroditastotra
 n_a	mahA-kAla-saMhitA-kUwa	159381.5,mahAkAlasaMhitAkUwa
@@ -42859,7 +42851,6 @@ n_a	mahA-kAlI-sUkta	159384,mahAkAlIsUkta
 n_a	mahA-kAleya	159388,mahAkAleya
 n_a	mahA-kAleSvara	159385,mahAkAleSvara
 n_a	mahA-kAvya	159390,mahAkAvya
-n_a	mahA-kASa-BErava-kalpe SaraBeSvara-kavaca	159392,mahAkASaBEravakalpeSaraBeSvarakavaca
 n_a	mahA-kIrtana	159396,mahAkIrtana
 n_a	mahA-kula	159403,mahAkula:159404,mahAkula
 n_a	mahA-kulIna	159406,mahAkulIna
@@ -43016,7 +43007,6 @@ n_a	mahA-pura	160041,mahApura
 n_a	mahA-purARa	160045,mahApurARa
 n_a	mahA-puruza-pAvana-kavaca	160052,mahApuruzapAvanakavaca
 n_a	mahA-puruza-lakzaRa	160053,mahApuruzalakzaRa
-n_a	mahA-puruza-vidyAyAM vizRu-rahasye kzetra-kARqe jagan-nATa-mAhAtmya	160055,mahApuruzavidyAyAMvizRurahasyekzetrakARqejagannATamAhAtmya
 n_a	mahA-puruza-stotra	160055.2,mahApuruzastotra
 n_a	mahA-pUta	160061,mahApUta
 n_a	mahA-pfTivI-tva	160064.1,mahApfTivItva
@@ -43144,7 +43134,6 @@ n_a	mahA-yAnABiDarma-saMgIti-SAstra	160511,mahAyAnABiDarmasaMgItiSAstra
 n_a	mahA-yAma	160512,mahAyAma
 n_a	mahA-yuga	160514,mahAyuga
 n_a	mahA-yudDa	160516,mahAyudDa
-n_a	mahA-yoga-paYcaratne ASvalAyanopayogyADAna-prakaraRa	160518,mahAyogapaYcaratneASvalAyanopayogyADAnaprakaraRa
 n_a	mahA-yODAjaya	160523,mahAyODAjaya
 n_a	mahA-rajata	160528,mahArajata:160530,mahArajata
 n_a	mahA-rajana	160531,mahArajana:160533,mahArajana
@@ -45007,7 +44996,6 @@ n_a	meru-pfzWa	168014,merupfzWa
 n_a	meru-praBa	168016,merupraBa
 n_a	meru-yantra	168022,meruyantra
 n_a	meru-varza	168024,meruvarza
-n_a	meru-viraha-tantre BuvaneSvarI-sahasra-nAma-stotra	168025,meruvirahatantreBuvaneSvarIsahasranAmastotra
 n_a	meru-vraja	168026,meruvraja
 n_a	meru-SfNga	168028,meruSfNga
 n_a	meruka	168038,meruka
@@ -48558,7 +48546,6 @@ n_a	luptopama	182976,luptopama
 n_a	luptopamAna	182978,luptopamAna
 n_a	lubDa	183011,lubDa:183013,lubDa
 n_a	lubDa-jana	183015,lubDajana
-n_a	lubDa-jAtake varza-varDApana-viDAna	183016,lubDajAtakevarzavarDApanaviDAna
 n_a	lubDa-tva	183018,lubDatva
 n_a	luBita	183023,luBita
 n_a	lumbinIya	183057,lumbinIya
@@ -50739,7 +50726,6 @@ n_a	vAstu-maRqana	192636,vAstumaRqana
 n_a	vAstu-maDya	192637,vAstumaDya
 n_a	vAstu-maya	192638,vAstumaya
 n_a	vAstu-yAga-viDi-tattva	192641.1,vAstuyAgaviDitattva
-n_a	vAstu-yAga-viDes tattva	192641,vAstuyAgaviDestattva
 n_a	vAstu-lakzaRa	192642,vAstulakzaRa
 n_a	vAstu-vidya	192645,vAstuvidya
 n_a	vAstu-vidyA-kuSala	192647,vAstuvidyAkuSala
@@ -53703,7 +53689,6 @@ n_a	vIra-SEva-dikzA-viDAna	203788.1,vIraSEvadikzAviDAna
 n_a	vIra-SEva-purARa	203788.2,vIraSEvapurARa
 n_a	vIra-SEvAmfta-purARa	203789.3,vIraSEvAmftapurARa
 n_a	vIra-samanvita	203792,vIrasamanvita
-n_a	vIra-siMha-mitrodaye saMskAra-prakaraRa	203796,vIrasiMhamitrodayesaMskAraprakaraRa
 n_a	vIra-siMhAvalokana	203797.1,vIrasiMhAvalokana
 n_a	vIra-sU-tva	203799.1,vIrasUtva
 n_a	vIra-sena	203809,vIrasena
@@ -54167,7 +54152,6 @@ n_a	veda-vihita	205800,vedavihita
 n_a	veda-vftta	205801,vedavftta
 n_a	veda-vedANga-tattva-jYa	205803.1,vedavedANgatattvajYa
 n_a	veda-vedANga-pAra-ga	205803.2,vedavedANgapAraga
-n_a	veda-vedAnta-tattva-sAre SAlagrAma-mAhAtmya	205804,vedavedAntatattvasAreSAlagrAmamAhAtmya
 n_a	veda-vrata	205808,vedavrata:205809,vedavrata
 n_a	veda-vrata-parAyaRa	205810,vedavrataparAyaRa
 n_a	veda-SAKA-praRayana	205816,vedaSAKApraRayana
@@ -55917,7 +55901,6 @@ n_a	Sata-SIrza	212191,SataSIrza
 n_a	Sata-SIrza-rudra-SamanIya	212195.1,SataSIrzarudraSamanIya
 n_a	Sata-SfNga	212196,SataSfNga
 n_a	Sata-SfNga-mAhAtmya	212198,SataSfNgamAhAtmya
-n_a	Sata-Sloki rAmAyaRa	212200,SataSlokirAmAyaRa
 n_a	Sata-saMKya	212206,SatasaMKya
 n_a	Sata-saMDAna	212210,SatasaMDAna
 n_a	Sata-saMvatsara	212204,SatasaMvatsara
@@ -56078,7 +56061,6 @@ n_a	Sabda-tva-jAti-pramARa	212708,SabdatvajAtipramARa
 n_a	Sabda-nirUpaRa	212713,SabdanirUpaRa
 n_a	Sabda-nftya	212715,Sabdanftya
 n_a	Sabda-paricCeda-rahasya	212720,SabdaparicCedarahasya
-n_a	Sabda-paricCeda-rahasye 'pUrvavAdarahasya	212720.1,SabdaparicCedarahasyepUrvavAdarahasya
 n_a	Sabda-pramARa	212729,SabdapramARa
 n_a	Sabda-prAmARya-KaRqana	212730,SabdaprAmARyaKaRqana
 n_a	Sabda-brahma-maya	212738,Sabdabrahmamaya
@@ -57254,7 +57236,6 @@ n_a	Siva-BujaMgAzwaka	217731.2,SivaBujaMgAzwaka
 n_a	Siva-maNgalAzwaka	217734,SivamaNgalAzwaka
 n_a	Siva-maya	217737,Sivamaya
 n_a	Siva-mahima-praKyApana	217744,SivamahimapraKyApana
-n_a	Siva-mahimnaH stotra	217744.3,SivamahimnaHstotra
 n_a	Siva-mAtra	217745,SivamAtra
 n_a	Siva-mAnasika-snAna	217747,SivamAnasikasnAna
 n_a	Siva-mAhAtmya	217750,SivamAhAtmya
@@ -58473,7 +58454,6 @@ n_a	Sravya-tva	222578,Sravyatva
 n_a	SrARa	222699,SrARa:222702,SrARa
 n_a	SrAta	222703,SrAta
 n_a	SrAdDa	222705,SrAdDa:222707,SrAdDa
-n_a	SrAdDa-kalpa-BAzya goBilIya	222715.3,SrAdDakalpaBAzyagoBilIya
 n_a	SrAdDa-kalpa-sUtra	222715.5,SrAdDakalpasUtra
 n_a	SrAdDa-kARqa	222716,SrAdDakARqa
 n_a	SrAdDa-tattva	222729,SrAdDatattva
@@ -61059,7 +61039,6 @@ n_a	saM-SrayaRIya	226685,saMSrayaRIya
 n_a	saM-Srayitavya	226686,saMSrayitavya
 n_a	saM-Srava	226709,saMSrava
 n_a	saM-SravaRa	226710,saMSravaRa
-n_a	saM-SravasaH sAma	226715,saMSravasaHsAma
 n_a	saM-SrAnta	226671,saMSrAnta
 n_a	saM-SrAvita	226720.1,saMSrAvita
 n_a	saM-SrAvya	226721,saMSrAvya
@@ -65038,7 +65017,6 @@ n_a	sArva-BOma	243253,sArvaBOma:243261,sArvaBOma
 n_a	sArva-BOma-gfha	243262,sArvaBOmagfha
 n_a	sArva-BOma-Bavana	243263,sArvaBOmaBavana
 n_a	sArva-BOma-vrata	243264,sArvaBOmavrata
-n_a	sArva-BOmA-sarvasve rAma-sUkta	243265,sArvaBOmAsarvasverAmasUkta
 n_a	sArva-BOmika	243266,sArvaBOmika
 n_a	sArva-meDika	243267,sArvameDika
 n_a	sArva-yajYika	243268,sArvayajYika
@@ -67788,8 +67766,6 @@ n_a	sOBAgya-kARqa	253561,sOBAgyakARqa
 n_a	sOBAgya-cihna	253567,sOBAgyacihna
 n_a	sOBAgya-tantra	253569,sOBAgyatantra
 n_a	sOBAgya-Pala	253573,sOBAgyaPala
-n_a	sOBAgya-lakzmI-kalpe SyAmalAmbA-stotra	253580,sOBAgyalakzmIkalpeSyAmalAmbAstotra
-n_a	sOBAgya-lakzmI-tantre SyAmalAmbA-varma-ratna	253581,sOBAgyalakzmItantreSyAmalAmbAvarmaratna
 n_a	sOBAgya-vat-tva	253588.1,sOBAgyavattva
 n_a	sOBAgya-vAyana	253590,sOBAgyavAyana
 n_a	sOBAgya-vidyeSvara-stotra	253592,sOBAgyavidyeSvarastotra
@@ -69082,7 +69058,6 @@ n_a	sva-taH-pramARa	257907.5,svataHpramARa
 n_a	sva-taH-sidDa	257907.6,svataHsidDa
 n_a	sva-tantra	257888,svatantra:257893,svatantra:257894,svatantra
 n_a	sva-tantra-tantra	257896,svatantratantra
-n_a	sva-tantra-muKa mardana	257900,svatantramuKamardana
 n_a	sva-tantra-leKana	257900.1,svatantraleKana
 n_a	sva-tas-tva	257907.8,svatastva
 n_a	sva-tulya	257910,svatulya

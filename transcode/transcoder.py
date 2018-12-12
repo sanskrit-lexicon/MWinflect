@@ -173,9 +173,9 @@ def transcoder_fsm(sfrom,to) :
  transcoder_fsmarr[fromto]=fsm
  #debug
  if (False):
-  print "filein=",filein
+  print("filein=",filein)
   filedbg = "dbg_%s.txt" %fromto
-  print "transcoder.py. Dbg info written to",filedbg
+  print("transcoder.py. Dbg info written to",filedbg)
   fdbg = codecs.open(filedbg,"w","utf-8")
   fdbg.write("fsmentries=...\n")
   keys = ['starts','in','regex','out','next','inraw','outraw']
