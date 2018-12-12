@@ -41,7 +41,7 @@ lexnorm-all2.txt.
 
 ### stem-model files
 ```
-python stem_model.py lexnorm-all2.txt 
+python3 stem_model.py lexnorm-all2.txt 
 ```
 Separates  the declension information into files with names of two forms:
 

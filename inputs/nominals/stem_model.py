@@ -2,9 +2,10 @@
 """ stem_model.py 
     extract various inflection model information for substantives
     from lexnorm-all2.txt.
+    python3
 """
 import sys,re,codecs
-from slp_cmp import slp_cmp
+from slp_cmp import slp_cmp_key
 sys.path.append('../../pysanskrit')
 from sandhi_nR import sandhi_nR
 #import decline_3stem
@@ -881,7 +882,7 @@ def model_mfn_a4(recs,flog,fileout):
     model = 'ind'
    elif part in ['ind']:
     if stem not in ['ka','tIra','tUla','paSca']:
-     print 'mfn_a  unexpected "ind"',stem
+     print('mfn_a  unexpected "ind"',stem)
     mstem = stem
     model = 'ind'
    else:
@@ -1428,6 +1429,35 @@ def model_mfn_as(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
+def model_mfn_is(recs,flog):
+ """ nouns with 1 stem ending in 'is' """
+
+ ending = 'is'
+ for rec in recs:
+  stem = rec.key2
+  found = False
+  if not stem.endswith(ending):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(['m','f','n','ind'])):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,ending)  
+   elif part in ['ind']:
+    mstem = stem
+    model = 'ind'
+   else:
+    print('mfn_is Internal error',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
 def model_vat(recs,flog):
  # key2 ends with '-vat', '-mat', or
  # 'yat' and is one of kiyat, iyat 
@@ -1468,7 +1498,7 @@ def model_vat(recs,flog):
     rec.models.append(Model(rec,model,mstem))
    elif part in ['ind']:
     if stem not in ['harza-vat']:
-     print 'mfn_a  unexpected "ind"',stem
+     print('model_vat:  unexpected "ind"',stem)
     mstem = stem
     model = 'ind'
    else:
@@ -2042,7 +2072,8 @@ def write_model_instances(modelname,instances):
    e[k] = []
   e[k].append(mrec)
  stems = e.keys()  # all stems for this model
- stems = sorted(stems, cmp=slp_cmp)
+ #stems = sorted(stems, cmp=slp_cmp)  # not valid for python3
+ stems = sorted(stems,key=slp_cmp_key)
  nout = 0
  ntot = 0
  for stem in stems:
@@ -2136,6 +2167,7 @@ if __name__ == "__main__":
  model_vas(recs,flog)  #  reduplicated participle ending in 'vas'
  model_Iyas(recs,flog)
  model_mfn_as(recs,flog)
+ model_mfn_is(recs,flog)
  #model_f_AIU(recs,flog)
  #model_pron(recs,flog)
  #model_an(recs,flog)
