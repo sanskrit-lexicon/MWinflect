@@ -2309,6 +2309,7 @@ ind	nadam	nadam
 ind	naBas-tas	naBastas
 ind	naBas-vat	naBasvat
 ind	naBAka-vat	naBAkavat
+ind	namas	namas
 ind	nara-vat	naravat
 ind	narmaRA	narmaRA
 ind	narmArTam	narmArTam
@@ -5481,6 +5482,7 @@ ind	ham	ham
 ind	haye	haye
 ind	hari	hari
 ind	harile	harile
+ind	harza-vat	harzavat
 ind	harzyA	harzyA
 ind	halahalA	halahalA
 ind	halA	halA
