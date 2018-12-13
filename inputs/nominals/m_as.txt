@@ -389,8 +389,8 @@ m_as	dAnApnas	91311,dAnApnas
 m_as	dAnOkas	91374,dAnOkas
 m_as	dASvas	91863,dASvas
 m_as	dig-vAsas	92559,digvAsas:92560,digvAsas
-m_as	div'okas	92249,divokas
 m_as	diva-kzas	92240,divakzas
+m_as	divokas	92249,divokas
 m_as	divOkas	92252,divOkas
 m_as	dIna-manas	92676,dInamanas
 m_as	dIpta-tapas	92900,dIptatapas

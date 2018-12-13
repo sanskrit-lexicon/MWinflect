@@ -35,7 +35,7 @@
 114378	pawu	pawu	m:f#u:f#vI:n	f#vI	f_I	pawvI
 114790	patayAlu	patayAlu	m:f#U:n	f#U	f_U	patayAlU
 116438	parauru	para-uru	m:f#vI:n	f#vI	f_I	para-urvI
-116701	paroMhu	paro-'Mhu	m:f#vI:n	f#vI	f_I	paro-'MhvI
+116701	paroMhu	paro-Mhu	m:f#vI:n	f#vI	f_I	paro-MhvI
 126299	puru	puru	m:f#pUrvI:n	f#pUrvI	f_I	pUrvI
 128523	pfTu	pfTu	m:f#u:f#vI:n	f#u	f_u	pfTu
 128523	pfTu	pfTu	m:f#u:f#vI:n	f#vI	f_I	pfTvI

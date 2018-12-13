@@ -156,11 +156,11 @@ n_i	aBi-gfhIta-pARi	11303,aBigfhItapARi
 n_i	aBi-BUti	11984,aBiBUti
 n_i	aBi-mAti	12015,aBimAti
 n_i	aBi-rAma-maRi	12188,aBirAmamaRi
-n_i	aBito-'sTi	11197,aBitosTi
+n_i	aBito-sTi	11197,aBitosTi
 n_i	aBy-AhitAgni	13425.1,aByAhitAgni
 n_i	aBra-sani	13712,aBrasani
 n_i	amati	13758,amati
-n_i	ayo-'pAzwi	14820,ayopAzwi
+n_i	ayo-pAzwi	14820,ayopAzwi
 n_i	aratni	15154,aratni
 n_i	aramati	15175.1,aramati
 n_i	ari	15278,ari
@@ -903,8 +903,8 @@ n_i	para-tantra-dfzwi	116096,paratantradfzwi
 n_i	parA-dadi	116857,parAdadi
 n_i	pari-jri	117510,parijri
 n_i	parIto-yoni	119349.1,parItoyoni
-n_i	paro-'kza-budDi	116702.40,parokzabudDi
-n_i	paro-'kza-vftti	116702.46,parokzavftti
+n_i	paro-kza-budDi	116702.40,parokzabudDi
+n_i	paro-kza-vftti	116702.46,parokzavftti
 n_i	paro-gavyUti	116703.1,parogavyUti
 n_i	pary-ava-sita-mati	119705.5,paryavasitamati
 n_i	pary-astikAkfti	119738,paryastikAkfti
@@ -1422,7 +1422,7 @@ n_i	SiYjad-zaqaNGri	216850,SiYjadzaqaNGri
 n_i	Siti	216874,Siti
 n_i	SiTila-Sakti	216950,SiTilaSakti
 n_i	SiTila-samADi	216951,SiTilasamADi
-n_i	Siro-'sTi	217226,SirosTi
+n_i	Siro-sTi	217226,SirosTi
 n_i	Sila-rati	217258,Silarati
 n_i	Sila-vftti	217259,Silavftti
 n_i	Siva-gati	217576,Sivagati

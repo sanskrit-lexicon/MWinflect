@@ -45,6 +45,7 @@ def pada_parts(rec):
  else:
   b = parts[-1]
   a = ''.join(parts[0:-1])
+  #a = '-'.join(parts[0:-1]) ###
  return (a,b)
 def pada_cmp(rec1,rec2):
  """ rec is a Lexnorm object
@@ -83,35 +84,30 @@ def remove_duplicate_pada1(recs):
 
 def write_d(d,f,tranout='slp1'):
  outarr = []
- """
- outarr.append('; ----------------------------------')
- if rel_agent_type == 'R':
-  outarr.append('; Decline as relation')
- elif rel_agent_type == 'RA':
-  outarr.append('; Relation nouns declined as agent')
- else:
-  outarr.append('; Decline as agent')
- outarr.append('; ----------------------------------')
- """
  allkeys = d.keys()
- #keys = [pada2 for pada2 in allkeys if agent_relation(pada2) == rel_agent_type]
- #keys = sorted(keys,cmp=slp_cmp)
  keys = sorted(allkeys,key=slp_cmp_key)
 
- #def dcmp(rec1,rec2):
- # return slp_cmp(rec1.pada1,rec2.pada1)
  def dcmp_key(rec1):
   return slp_cmp_key(rec1.pada1)
  for ikey,key in enumerate(keys):
   drecs = d[key]
-  #drecs1 = sorted(drecs,cmp=dcmp)
   drecs1 = sorted(drecs,key=dcmp_key)
   drecs1 = remove_duplicate_pada1(drecs1)
   outarr1 = [x.pada1+'-' for x in drecs1[1:]]
+  #outarr1 = [x.pada1+'-' for x in drecs1]
+  if drecs1[0].pada1 == '':
+   outarr1 = ['~'] + outarr1
+  else:
+   outarr1 = [drecs1[0].pada1+'-'] + outarr1
   out1 = ' '.join(outarr1)
-  out = '%03d\t%s\t%02d\t%s' %(ikey+1,key,len(drecs1),out1)
+  if len(drecs1) == 1:
+   rec1 = drecs1[0]
+   out1 = rec1.L
+   key2 = rec1.key2
+   out = '%03d\t%s\t%02d\t%s' %(ikey+1,key2,len(drecs1),out1)
+  else:
+   out = '%03d\t%s\t%02d\t%s' %(ikey+1,key,len(drecs1),out1)
   outarr.append(out)
- #print(len(keys),"of type",rel_agent_type)
  
  for out in outarr:
   out1 = transcode(out,tranout=tranout)
@@ -134,7 +130,6 @@ if __name__ == "__main__":
  recs = init_lexnorm(filein)
  recs1 = [r for r in recs if re.search(regex,r.key2)]
  setpadas(recs1) # add pada1,pada2 attributes
- #set_rel_agent(recs1)
  # construct dictionary from recs1 with pada2 as key
  d = pada2_dict(recs1)
  print(len(d.keys()))

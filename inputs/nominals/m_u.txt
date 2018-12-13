@@ -1616,8 +1616,8 @@ m_u	pari-Suzka-tAlu	118814,pariSuzkatAlu
 m_u	parIcikzizu	119343,parIcikzizu
 m_u	parIpsu	119788,parIpsu
 m_u	paru	119373,paru
-m_u	paro-'Mhu	116701,paroMhu
-m_u	paro-'kza-banDu	116702.38,parokzabanDu
+m_u	paro-Mhu	116701,paroMhu
+m_u	paro-kza-banDu	116702.38,parokzabanDu
 m_u	paro-bAhu	116705,parobAhu
 m_u	pary-aSru	119721,paryaSru
 m_u	paryagu	119612,paryagu
@@ -2203,7 +2203,7 @@ m_u	muhUrta-sinDu	166115,muhUrtasinDu
 m_u	mUQa-praBu	166148,mUQapraBu
 m_u	mUla-DAtu	166377,mUlaDAtu
 m_u	mfkaRqu	166785.1,mfkaRqu
-m_u	mfg-'ervAru	167053,mfgervAru:167054,mfgervAru
+m_u	mfg-ervAru	167053,mfgervAru:167054,mfgervAru
 m_u	mfga-piplu	166875,mfgapiplu
 m_u	mfga-praBu	166878,mfgapraBu
 m_u	mfga-ripu	166915,mfgaripu

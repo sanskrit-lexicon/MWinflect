@@ -315,8 +315,8 @@ ind	ati-himam	atihimam
 ind	atikfcCram	atikfcCram
 ind	atiTi-vat	atiTivat
 ind	atIva	atIva
-ind	ato-'rTam	ato'rTam
 ind	ato-nimittam	atonimittam
+ind	ato-rTam	atorTam
 ind	aty-antam	atyantam
 ind	aty-antaSas	atyantaSas
 ind	aty-antAya	atyantAya
@@ -414,11 +414,11 @@ ind	aDimaKam	aDimaKam
 ind	aDizAdam	aDizAdam
 ind	aDI-vAsas	aDIvAsas
 ind	aDunA	aDunA
-ind	aDo-'kzam	aDo'kzam
-ind	aDo-'kzeRa	aDo'kzeRa
-ind	aDo-'Svam	aDo'Svam
+ind	aDo-kzam	aDokzam
+ind	aDo-kzeRa	aDokzeRa
 ind	aDo-jAnu	aDojAnu
 ind	aDo-nABi	aDonABi
+ind	aDo-Svam	aDoSvam
 ind	aDy-akzaram	aDyakzaram
 ind	aDy-agni	aDyagni
 ind	aDy-aDi	aDyaDi
@@ -2674,13 +2674,13 @@ ind	pare	pare
 ind	pare-dyavi	paredyavi
 ind	pare-dyus	paredyus
 ind	pareRa	pareRa
-ind	paro-'kzam	paro'kzam
-ind	paro-'kzAt	paro'kzAt
-ind	paro-'kze	paro'kze
-ind	paro-'kzeRa	paro'kzeRa
-ind	paro-'varam	paro'varam
+ind	paro-kzam	parokzam
+ind	paro-kzAt	parokzAt
+ind	paro-kze	parokze
+ind	paro-kzeRa	parokzeRa
 ind	paro-gavyUti	parogavyUti
 ind	paro-gozWam	parogozWam
+ind	paro-varam	parovaram
 ind	pary-ak	paryak
 ind	pary-agni-kriyamARe	paryagnikriyamARe
 ind	pary-antam	paryantam
@@ -2822,7 +2822,7 @@ ind	puruza-vAham	puruzavAham
 ind	puruzAntaram	puruzAntaram
 ind	puruzArTam	puruzArTam
 ind	purUruRA	purUruRA
-ind	puro-'kzam	puro'kzam
+ind	puro-kzam	purokzam
 ind	puro-vat	purovat
 ind	puzpa-mATam	puzpamATam
 ind	puzpa-vat	puzpavat
@@ -3735,7 +3735,6 @@ ind	yatiDA	yatiDA
 ind	yatna-tas	yatnatas
 ind	yatra	yatra
 ind	yatra-kAmam	yatrakAmam
-ind	yaT'etam	yaT'etam
 ind	yaT-ADyAyam	yaTADyAyam
 ind	yaTa-fzi	yaTafzi
 ind	yaTa-rcam	yaTarcam
@@ -4074,6 +4073,7 @@ ind	yaTekzitam	yaTekzitam
 ind	yaTecCakam	yaTecCakam
 ind	yaTecCam	yaTecCam
 ind	yaTecCayA	yaTecCayA
+ind	yaTetam	yaTetam
 ind	yaTepsayA	yaTepsayA
 ind	yaTepsitam	yaTepsitam
 ind	yaTezwa-tas	yaTezwatas
@@ -5408,7 +5408,7 @@ ind	sPawika-maRi-vat	sPawikamaRivat
 ind	sPuwa-taram	sPuwataram
 ind	sPuwa-Sabdam	sPuwaSabdam
 ind	sPuwam	sPuwam
-ind	sPurad-aDaro'zWam	sPuradaDaro'zWam
+ind	sPurad-aDarozWam	sPuradaDarozWam
 ind	sma	sma
 ind	smat	smat
 ind	smA	smA

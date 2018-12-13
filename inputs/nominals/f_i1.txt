@@ -4269,8 +4269,8 @@ f_I	na-ga-nadI	103023,naganadI
 f_I	na-ga-nandinI	103024,naganandinI
 f_I	na-ga-svarUpiRI	103039,nagasvarUpiRI
 f_I	na-sukarI	102671,nasukara
-f_I	nakul'ozWI	102757,nakulozWI
 f_I	nakulI	102748,nakulI:102761,nakulI
+f_I	nakulozWI	102757,nakulozWI
 f_I	naktaM-carI	102792,naktaMcara:102796,naktaMcarI
 f_I	nakzatra-yoginI	102895,nakzatrayoginI
 f_I	nakzatra-vAdAvalI	102906,nakzatravAdAvalI
@@ -4904,7 +4904,7 @@ f_I	pari-Sizwa-prakASasya-sAra-maYjarI	118778.6,pariSizwaprakASasyasAramaYjarI
 f_I	pari-staraRI	119062,paristaraRI
 f_I	pari-harzaRI	119196,pariharzaRa
 f_I	paruzRI	119391,paruzRI
-f_I	paro-'MhvI	116701,paroMhu
+f_I	paro-MhvI	116701,paroMhu
 f_I	parozRI	119444,parozRI
 f_I	parkawI	119448,parkawI
 f_I	parjanI	119458.1,parjanI
@@ -5969,7 +5969,7 @@ f_I	biqAlI	145115,biqAlI
 f_I	bidala-kArI	145134,bidalakArI
 f_I	bindu-pratizWA-mayI	145170,bindupratizWAmaya
 f_I	bindu-matI	145176,bindumatI
-f_I	bimb'-ozWI	145249,bimbozWa
+f_I	bimb-ozWI	145249,bimbozWa
 f_I	bimbinI	145257,bimbinI
 f_I	bimbI	145232,bimbI
 f_I	bilva-pattra-mayI	145311,bilvapattramaya

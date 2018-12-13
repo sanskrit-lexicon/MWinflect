@@ -305,8 +305,8 @@ m_in	aDi-rohin	4360,aDirohin
 m_in	aDi-vAsin	4385,aDivAsin
 m_in	aDika-kzaya-kArin	4131,aDikakzayakArin
 m_in	aDItin	4486,aDItin
-m_in	aDo-'vekzin	4106,aDovekzin
 m_in	aDo-gAmin	4062,aDogAmin
+m_in	aDo-vekzin	4106,aDovekzin
 m_in	aDy-ava-sAyin	4618,aDyavasAyin
 m_in	aDy-Ayin	4508,aDyAyin
 m_in	aDy-Asin	4672,aDyAsin
@@ -445,7 +445,7 @@ m_in	antara-prekzin	8211.1,antaraprekzin
 m_in	antara-sTAyin	8214,antarasTAyin
 m_in	antAvaSAyin	7958,antAvaSAyin
 m_in	antAvasAyin	7955,antAvasAyin
-m_in	ante-'vasAyin	7961,antevasAyin
+m_in	ante-vasAyin	7961,antevasAyin
 m_in	ante-vAsin	7963,antevAsin:7964,antevAsin
 m_in	antyAvasAyin	8380,antyAvasAyin
 m_in	anDa-kArin	8420.1,anDakArin
@@ -3705,10 +3705,10 @@ m_in	manIzita-varzin	156864,manIzitavarzin
 m_in	manIzin	156865,manIzin:156867,manIzin
 m_in	manuzya-yaSasin	156963.1,manuzyayaSasin
 m_in	manuzya-hArin	156982,manuzyahArin
-m_in	mano-'pahArin	157074,manopahArin
 m_in	mano-grAhin	157004,manogrAhin
 m_in	mano-javin	157032,manojavin
 m_in	mano-dAhin	157059,manodAhin
+m_in	mano-pahArin	157074,manopahArin
 m_in	mano-yAyin	157099,manoyAyin
 m_in	mano-hArin	157203,manohArin
 m_in	mano-hlAdin	157207,manohlAdin
@@ -4913,8 +4913,8 @@ m_in	vrIhin	210803,vrIhin
 m_in	SaMkara-svAmin	213175,SaMkarasvAmin
 m_in	SaMsin	210860,SaMsin
 m_in	Sakawin	211273,Sakawin:211274,Sakawin
-m_in	Sakal'yezin	211310,Sakalyezin
 m_in	Sakalin	211303,Sakalin
+m_in	Sakalyezin	211310,Sakalyezin
 m_in	Sakulin	211401,Sakulin
 m_in	Sakti-vAdin	211003,SaktivAdin
 m_in	Sakti-svAmin	211019,SaktisvAmin
@@ -5185,8 +5185,8 @@ m_in	Sruta-SAlin	223491,SrutaSAlin
 m_in	Sruti-nigadin	223578,Srutinigadin
 m_in	Sruti-hArin	223647,SrutihArin
 m_in	Srutin	223648,Srutin
-m_in	Sreyo-'BikANkzin	223752,SreyoBikANkzin
-m_in	Sreyo-'rTin	223754,SreyorTin
+m_in	Sreyo-BikANkzin	223752,SreyoBikANkzin
+m_in	Sreyo-rTin	223754,SreyorTin
 m_in	SrezWin	223793,SrezWin:223794,SrezWin:223796,SrezWin
 m_in	SroRi-pratodin	223815,SroRipratodin
 m_in	Srotra-vAdin	223874,SrotravAdin

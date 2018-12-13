@@ -263,8 +263,8 @@ f_in_I	aDi-rohiRI	4360,aDirohin
 f_in_I	aDi-vAsinI	4385,aDivAsin
 f_in_I	aDika-kzaya-kAriRI	4131,aDikakzayakArin
 f_in_I	aDItinI	4486,aDItin
-f_in_I	aDo-'vekziRI	4106,aDovekzin
 f_in_I	aDo-gAminI	4062,aDogAmin
+f_in_I	aDo-vekziRI	4106,aDovekzin
 f_in_I	aDy-ava-sAyinI	4618,aDyavasAyin
 f_in_I	aDy-AyinI	4508,aDyAyin
 f_in_I	aDy-AsinI	4672,aDyAsin
@@ -2753,9 +2753,9 @@ f_in_I	manasinI	156832,manasin
 f_in_I	manIziRI	156865,manIzin
 f_in_I	manIzita-varziRI	156864,manIzitavarzin
 f_in_I	manuzya-yaSasinI	156963.1,manuzyayaSasin
-f_in_I	mano-'pahAriRI	157074,manopahArin
 f_in_I	mano-grAhiRI	157004,manogrAhin
 f_in_I	mano-javinI	157032,manojavin
+f_in_I	mano-pahAriRI	157074,manopahArin
 f_in_I	mano-yAyinI	157099,manoyAyin
 f_in_I	mano-hAriRI	157203,manohArin
 f_in_I	mano-hlAdinI	157207,manohlAdin
@@ -3583,7 +3583,7 @@ f_in_I	vrIhi-vApinI	210799,vrIhivApin
 f_in_I	vrIhiRI	210803,vrIhin
 f_in_I	SaMsinI	210860,SaMsin
 f_in_I	SakawinI	211273,Sakawin
-f_in_I	Sakal'yeziRI	211310,Sakalyezin
+f_in_I	SakalyeziRI	211310,Sakalyezin
 f_in_I	SaktinI	211024,Saktin
 f_in_I	SaNkinI	211459,SaNkin
 f_in_I	SaNku-karRinI	211499,SaNkukarRin
@@ -3754,8 +3754,8 @@ f_in_I	Sruta-SAlinI	223491,SrutaSAlin
 f_in_I	Sruti-nigadinI	223578,Srutinigadin
 f_in_I	Sruti-hAriRI	223647,SrutihArin
 f_in_I	SrutinI	223648,Srutin
-f_in_I	Sreyo-'BikANkziRI	223752,SreyoBikANkzin
-f_in_I	Sreyo-'rTinI	223754,SreyorTin
+f_in_I	Sreyo-BikANkziRI	223752,SreyoBikANkzin
+f_in_I	Sreyo-rTinI	223754,SreyorTin
 f_in_I	SrezWinI	223793,SrezWin:223796,SrezWin
 f_in_I	SroRi-pratodinI	223815,SroRipratodin
 f_in_I	Srotra-vAdinI	223874,SrotravAdin

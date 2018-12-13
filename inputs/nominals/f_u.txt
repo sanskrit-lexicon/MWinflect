@@ -810,7 +810,7 @@ f_u	pari-Suzka-tAlu	118814,pariSuzkatAlu
 f_u	parIcikzizu	119343,parIcikzizu
 f_u	parIpsu	119788,parIpsu
 f_u	parezwu	119442,parezwu
-f_u	paro-'kza-banDu	116702.38,parokzabanDu
+f_u	paro-kza-banDu	116702.38,parokzabanDu
 f_u	paro-bAhu	116705,parobAhu
 f_u	pary-aSru	119721,paryaSru
 f_u	paryagu	119612,paryagu

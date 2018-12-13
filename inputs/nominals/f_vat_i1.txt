@@ -872,7 +872,7 @@ f_vat_I	purastAd-Doma-vatI	125951.2,purastAdDomavat
 f_vat_I	purIza-vatI	126279,purIzavat
 f_vat_I	puru-kAraka-vatI	126306,purukArakavat
 f_vat_I	puruza-vatI	126533,puruzavat
-f_vat_I	puro-'nuvAkyA-vatI	126092,puronuvAkyAvat
+f_vat_I	puro-nuvAkyA-vatI	126092,puronuvAkyAvat
 f_vat_I	puro-ruN-matI	126114,puroruNmat
 f_vat_I	puzwA-vatI	126939,puzwAvat
 f_vat_I	puzwi-matI	126955,puzwimat

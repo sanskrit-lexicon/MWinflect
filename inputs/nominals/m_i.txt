@@ -320,7 +320,7 @@ m_i	aBi-lazitArTa-cintAmaRi	12254.1,aBilazitArTacintAmaRi
 m_i	aBi-viDi	12356,aBiviDi
 m_i	aBi-zwi	12635,aBizwi
 m_i	aBi-saMDi	12787,aBisaMDi
-m_i	aBito-'sTi	11197,aBitosTi
+m_i	aBito-sTi	11197,aBitosTi
 m_i	aBy-agni	13148,aByagni
 m_i	aBy-AhitAgni	13425.1,aByAhitAgni
 m_i	aBra-giri	13690.1,aBragiri
@@ -344,8 +344,8 @@ m_i	amBo-niDi	14591,amBoniDi
 m_i	amBo-rASi	14593,amBorASi
 m_i	ayas-kAnta-maRi	14774,ayaskAntamaRi
 m_i	ayuk-Sakti	14920,ayukSakti
-m_i	ayo-'ni	14819.1,ayoni
-m_i	ayo-'pAzwi	14820,ayopAzwi
+m_i	ayo-ni	14819.1,ayoni
+m_i	ayo-pAzwi	14820,ayopAzwi
 m_i	ayo-maRi	14821.1,ayomaRi
 m_i	ayoDyADipati	14974,ayoDyADipati
 m_i	ar-DAsi	16303.1,arDAsi
@@ -1972,8 +1972,8 @@ m_i	tapo-rati	82800,taporati:82801,taporati
 m_i	tapo-ravi	82803,taporavi
 m_i	tapo-rASi	82805,taporASi
 m_i	tapo-viDi	82815,tapoviDi
-m_i	tamo-'ri	82987,tamori
 m_i	tamo-maRi	82982,tamomaRi
+m_i	tamo-ri	82987,tamori
 m_i	tara-vAri	83045,taravAri
 m_i	taraRi	83089,taraRi:83091,taraRi
 m_i	taru-kURi	83259,tarukURi
@@ -2203,7 +2203,6 @@ m_i	dala-sUci	90731,dalasUci
 m_i	dale-ganDi	90747,daleganDi
 m_i	dalmi	90769,dalmi
 m_i	davAgni	90789,davAgni
-m_i	daS'oRi	91048,daSoRi
 m_i	daSa-kaRWAri	90813,daSakaRWAri
 m_i	daSa-goRi	90834,daSagoRi
 m_i	daSa-grAma-pati	90835.2,daSagrAmapati
@@ -2218,6 +2217,7 @@ m_i	daSa-sani	90984,daSasani
 m_i	daSA-pati	91104,daSApati
 m_i	daSAgni	90999,daSAgni
 m_i	daSADipati	91003,daSADipati
+m_i	daSoRi	91048,daSoRi
 m_i	daSonasi	91126,daSonasi
 m_i	dahati	91166,dahati
 m_i	dahana-sAraTi	91188.2,dahanasAraTi
@@ -2994,8 +2994,8 @@ m_i	pari-hAsa-hari	119141,parihAsahari
 m_i	parI-kziti	119213,parIkziti
 m_i	parIto-yoni	119349.1,parItoyoni
 m_i	parezwi	116414,parezwi
-m_i	paro-'kza-budDi	116702.40,parokzabudDi
-m_i	paro-'kza-vftti	116702.46,parokzavftti
+m_i	paro-kza-budDi	116702.40,parokzabudDi
+m_i	paro-kza-vftti	116702.46,parokzavftti
 m_i	paro-gavyUti	116703.1,parogavyUti
 m_i	parRa-Di	119494,parRaDi
 m_i	parRa-maRi	119506,parRamaRi
@@ -5506,7 +5506,6 @@ m_i	Suci	219196,Suci:219201,Suci
 m_i	Suci-pati	219247,Sucipati
 m_i	Suci-maRi	219256,SucimaRi
 m_i	SuRQi	219363.1,SuRQi
-m_i	SudD'odani	219492,SudDodani
 m_i	SudDa-kIrti	219393,SudDakIrti
 m_i	SudDa-gaRa-pati	219395,SudDagaRapati
 m_i	SudDa-neri	219408,SudDaneri
@@ -5514,6 +5513,7 @@ m_i	SudDa-pArzRi	219412,SudDapArzRi
 m_i	SudDa-budDi	219419,SudDabudDi:219420,SudDabudDi
 m_i	SudDa-mati	219426,SudDamati:219427,SudDamati
 m_i	SudDi-cintAmaRi	219510,SudDicintAmaRi
+m_i	SudDodani	219492,SudDodani
 m_i	Suna-M-kuri	219563,SunaMkuri
 m_i	Suni	219601,Suni
 m_i	SuBa-jAni	219674,SuBajAni

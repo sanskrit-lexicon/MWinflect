@@ -325,12 +325,12 @@ n_as	gUrta-Sravas	65983,gUrtaSravas
 n_as	gfha-cetas	66548,gfhacetas
 n_as	gfhArUQa-cetas	66681,gfhArUQacetas
 n_as	gfhIta-cetas	66727,gfhItacetas
-n_as	go-'mBas	67442,gomBas
 n_as	go-arRas	66888,goarRas
 n_as	go-DAyas	67156,goDAyas
 n_as	go-nyoGas	67213,gonyoGas
 n_as	go-parIRas	67220,goparIRas
 n_as	go-mayAmBas	67377,gomayAmBas
+n_as	go-mBas	67442,gomBas
 n_as	go-rajas	67488,gorajas
 n_as	gopikA-saras	67954,gopikAsaras
 n_as	gOtama-saras	68159,gOtamasaras

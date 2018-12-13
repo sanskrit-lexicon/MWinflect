@@ -315,8 +315,8 @@ ind	ati-himam	3313,atihimam
 ind	atikfcCram	2579.2,atikfcCram
 ind	atiTi-vat	3007,atiTivat
 ind	atIva	3336,atIva:3336.3,atIva
-ind	ato-'rTam	2552,atorTam
 ind	ato-nimittam	2550,atonimittam
+ind	ato-rTam	2552,atorTam
 ind	aty-antam	3411,atyantam
 ind	aty-antaSas	3426.1,atyantaSas
 ind	aty-antAya	3413,atyantAya
@@ -414,11 +414,11 @@ ind	aDimaKam	4310.1,aDimaKam
 ind	aDizAdam	4437.1,aDizAdam
 ind	aDI-vAsas	4533,aDIvAsas
 ind	aDunA	4540,aDunA
-ind	aDo-'kzam	4053,aDokzam
-ind	aDo-'kzeRa	4054,aDokzeRa
-ind	aDo-'Svam	4107,aDoSvam
+ind	aDo-kzam	4053,aDokzam
+ind	aDo-kzeRa	4054,aDokzeRa
 ind	aDo-jAnu	4066,aDojAnu
 ind	aDo-nABi	4075,aDonABi
+ind	aDo-Svam	4107,aDoSvam
 ind	aDy-akzaram	4571,aDyakzaram
 ind	aDy-agni	4572,aDyagni
 ind	aDy-aDi	4121,aDyaDi
@@ -2674,13 +2674,13 @@ ind	pare	116048,pare
 ind	pare-dyavi	116696,paredyavi
 ind	pare-dyus	116697,paredyus
 ind	pareRa	116046,pareRa
-ind	paro-'kzam	116702.06,parokzam
-ind	paro-'kzAt	116702.10,parokzAt
-ind	paro-'kze	116702.12,parokze
-ind	paro-'kzeRa	116702.08,parokzeRa
-ind	paro-'varam	116709,parovaram
+ind	paro-kzam	116702.06,parokzam
+ind	paro-kzAt	116702.10,parokzAt
+ind	paro-kze	116702.12,parokze
+ind	paro-kzeRa	116702.08,parokzeRa
 ind	paro-gavyUti	116703,parogavyUti
 ind	paro-gozWam	116704,parogozWam
+ind	paro-varam	116709,parovaram
 ind	pary-ak	119611,paryak
 ind	pary-agni-kriyamARe	119620,paryagnikriyamARe
 ind	pary-antam	119654,paryantam
@@ -2822,7 +2822,7 @@ ind	puruza-vAham	126542,puruzavAham
 ind	puruzAntaram	126581.01,puruzAntaram
 ind	puruzArTam	126589,puruzArTam
 ind	purUruRA	126422,purUruRA
-ind	puro-'kzam	126039,purokzam
+ind	puro-kzam	126039,purokzam
 ind	puro-vat	126115,purovat
 ind	puzpa-mATam	127100,puzpamATam
 ind	puzpa-vat	127134,puzpavat
@@ -3735,7 +3735,6 @@ ind	yatiDA	169630,yatiDA
 ind	yatna-tas	169614,yatnatas
 ind	yatra	169635,yatra
 ind	yatra-kAmam	169636,yatrakAmam
-ind	yaT'etam	170076,yaTetam
 ind	yaT-ADyAyam	169764.1,yaTADyAyam
 ind	yaTa-fzi	169649,yaTafzi
 ind	yaTa-rcam	169650,yaTarcam
@@ -4074,6 +4073,7 @@ ind	yaTekzitam	170073,yaTekzitam
 ind	yaTecCakam	170075.3,yaTecCakam
 ind	yaTecCam	170075.1,yaTecCam
 ind	yaTecCayA	170075.2,yaTecCayA
+ind	yaTetam	170076,yaTetam
 ind	yaTepsayA	170077,yaTepsayA
 ind	yaTepsitam	170079,yaTepsitam
 ind	yaTezwa-tas	170085,yaTezwatas
@@ -5408,7 +5408,7 @@ ind	sPawika-maRi-vat	256753,sPawikamaRivat
 ind	sPuwa-taram	256876.1,sPuwataram
 ind	sPuwa-Sabdam	256897,sPuwaSabdam
 ind	sPuwam	256871,sPuwam
-ind	sPurad-aDaro'zWam	256982.1,sPuradaDarozWam
+ind	sPurad-aDarozWam	256982.1,sPuradaDarozWam
 ind	sma	257061,sma
 ind	smat	257062,smat
 ind	smA	257061.2,smA

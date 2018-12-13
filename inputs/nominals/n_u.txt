@@ -442,9 +442,9 @@ n_u	gfDu	66439,gfDu
 n_u	gfDnu	66445,gfDnu
 n_u	gfha-dAru	66557,gfhadAru
 n_u	gfhAmbu	66675,gfhAmbu
-n_u	go-'mbu	67441,gombu
 n_u	go-banDu	67330,gobanDu
 n_u	go-mAyu	67384,gomAyu
+n_u	go-mbu	67441,gombu
 n_u	go-vindu	67605,govindu
 n_u	go-zWe-pawu	67720.2,gozWepawu
 n_u	grasizRu	68554,grasizRu
@@ -809,8 +809,8 @@ n_u	pari-Suzka-tAlu	118814,pariSuzkatAlu
 n_u	pari-hAsa-vastu	119136,parihAsavastu
 n_u	parIcikzizu	119343,parIcikzizu
 n_u	parIpsu	119788,parIpsu
-n_u	paro-'Mhu	116701,paroMhu
-n_u	paro-'kza-banDu	116702.38,parokzabanDu
+n_u	paro-Mhu	116701,paroMhu
+n_u	paro-kza-banDu	116702.38,parokzabanDu
 n_u	paro-bAhu	116705,parobAhu
 n_u	pary-aSru	119721,paryaSru
 n_u	paryagu	119612,paryagu
@@ -1094,7 +1094,7 @@ n_u	mumUrzu	166609,mumUrzu
 n_u	mumokzayizu	165272,mumokzayizu:168319,mumokzayizu
 n_u	mumocayizu	165273,mumocayizu
 n_u	mustu	165963,mustu
-n_u	mfg-'ervAru	167053,mfgervAru
+n_u	mfg-ervAru	167053,mfgervAru
 n_u	mfga-lipsu	166924,mfgalipsu
 n_u	mfgaRyu	167070,mfgaRyu
 n_u	mfgErvAru	167062,mfgErvAru

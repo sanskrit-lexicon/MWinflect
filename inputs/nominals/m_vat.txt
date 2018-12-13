@@ -924,7 +924,7 @@ m_vat	purIza-vat	126279,purIzavat
 m_vat	puru-kAraka-vat	126306,purukArakavat
 m_vat	purud-vat	126436,purudvat
 m_vat	puruza-vat	126533,puruzavat
-m_vat	puro-'nuvAkyA-vat	126092,puronuvAkyAvat
+m_vat	puro-nuvAkyA-vat	126092,puronuvAkyAvat
 m_vat	puro-ruN-mat	126114,puroruNmat
 m_vat	puli-mat	126726,pulimat
 m_vat	pulo-mat	126751,pulomat

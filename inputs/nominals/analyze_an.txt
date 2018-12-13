@@ -1,534 +1,470 @@
-001	akzan	03	try- hary-
-002	agman	01	
-003	agrAkzan	01	
-004	agrAdvan	01	
-005	agretvan	01	
-006	aGAhan	01	
-007	ajanman	01	
-008	ajman	01	
-009	aRiman	01	
-010	aTarvan	01	
-011	adman	01	
-012	advan	01	
-013	aDimAMsArman	01	
-014	aDyAyopAkarman	01	
-015	aDvan	06	aty- kad- triy- divizad- vy-
-016	anarman	01	
-017	apakarman	01	
-018	apamUrDan	01	
-019	apAkarman	01	
-020	apADvan	01	
-021	aBItvan	01	
-022	amliman	01	
-023	arAvan	01	
-024	aruRiman	01	
-025	arkASman	01	
-026	arTozman	01	
-027	arman	02	snAyv-
-028	aryaman	01	
-029	arvan	02	an-
-030	alaGUzman	01	
-031	avAvan	01	
-032	aSan	01	
-033	aSman	04	gOry- dfzad- praty-
-034	aSvatTAman	01	
-035	aSvan	01	
-036	asan	01	
-037	asitASman	01	
-038	ahan	03	an- vy-
-039	Akfzwiman	01	
-040	Atman	212	akft- aKil- ajit- adIn- aDarm- an- anant- ananyavizay- aniyat- anukampit- anuBay- antar- antarhit- anDIkft- apramey- aBinn- aBfty- amal- amit- amft- amey- alaNGit- avyay- asaMyat- asajjit- AkAS- Anand- ABft- indriy- udak- upaSAnt- upahat- UrDvag- ek- karakft- karuR- karm- kal- kaluz- kAm- kft- kfp- keval- krUr- kzudr- K- guR- cakravAl- catuHsapt- catur- cal- cid- Cidr- jagad- jagadantar- jagadDit- jaq- jit- jIv- jYAn- tigm- tfpt- tyakt- trilok- datt- dAruR- dAh- dIpt- duHKaparIt- dur- durit- duzkft- duzw- duzwAntar- dfpt- dev- devat- dvAdaS- Darm- DarzaR- Dft- DftiparIt- DOt- nazw- niBft- niyat- nir- nivftt- nizkriy- nizprapaYc- nizprapaYcasad- nEk- par- param- paramaDarm- parituzw- parjany- paryAy- pAp- puRy- puruzAntar- pUt- pfTag- prakAS- prajY- praRihit- pratibudD- pratIt- pratyag- praDAn- prayat- praSAnt- prasann- prahit- prahfzw- prAR- priy- prIt- boD- Bagn- BagnotsAhakriy- BAvit- BinnaBinn- BUt- mantrapUt- mand- malin- mah- mukt- mugD- mUQ- yajY- yat- yatacitt- yukt- yog- lok- loB- lOh- varR- vaSy- vAg- vAt- vijit- vijYAt- vijYAn- viDey- viniyukt- vinihit- vinIt- viBakt- vimal- vimUQ- viviD- viSad- viSudD- viSv- viSvacakr- vizaRR- vizavimukt- visfzw- vihval- ved- vyAkulitAntar- vyAvftt- Sat- SarIr- Saly- SAnt- SudD- SokapAtr- SokonmaTitacitt- zaq- zoqaS- s- saMyat- saMSay- saMSit- saMsAry- saMskft- saccid- sattAmAtr- sattv- saty- satyAnandacid- sad- sapt- sam- samAhit- samBAvit- sarv- sarvadev- sarvaBUt- sarvaBUtAntar- sarvalokAntar- sarvaSarIry- sarvAntar- sahasr- sukft- supriy- sumah- sUkzm- sUtr- sTir- sv- svayamprakAS- svASiz- hary- hiMs- hit- hfday-
-041	Amriman	01	
-042	Ayavan	01	
-043	ASitiman	01	
-044	ASiman	01	
-045	Asan	01	
-046	itvan	02	prAtar-
-047	iDman	01	
-048	izan	01	
-049	Irman	01	
-050	ukzan	02	bfhad-
-051	uttarASman	01	
-052	udan	01	
-053	udman	01	
-054	uDan	02	try-
-055	ullaNGitADvan	01	
-056	uzRiman	01	
-057	uzman	01	
-058	UDan	01	
-059	Uzman	03	an- nir-
-060	fkvan	01	
-061	fjiman	01	
-062	fjiSvan	01	
-063	ftvan	01	
-064	fBvan	01	
-065	ekAhan	01	
-066	eman	01	
-067	ojman	01	
-068	odman	01	
-069	oman	02	vy-
-070	kawukiman	01	
-071	karpUrASman	01	
-072	karman	332	a- akfzRa- aklizwa- akzadfk- agni- aNga- acintya- aYjali- adfzwa- adButa- adButaBIma- aDi- aDvara- anitya- anu- anta- antya- apa- apA- apUrva- aBi- amitra- ayanadfk- arizwa- arTa- avaSya- aSru- aharahaH- ahIna- Atma- Adi- APalodaya- Arya- ASvayujI- indra- indramaha- indrARI- izwa- ugra- udaka- udvAha- upacAra- upA- UrDva- ftu- eka- evaM- kaTaM- kAmya- kAla- kAlacodita- kiM- ku- kula- kUwa- kfcCra- kfta- kfzi- kfzRa- keSa- kratu- krUra- kzAra- kzIRa- kzIRAjya- kzIRAzwa- kzudra- kzura- kzetra- kzema- kzOra- Ke'wa- gaRa- guRa- guru- gfha- gfhya- gfhyA- go- gozWa- grAmya- caRqa- caturTI- citra- cintA- cIvara- cOqa- cOra- cOla- japya- jAta- jAla- jYAti- takza- tarku- tAna- tIkzRa- toya- tri- daRqa- dahana- dAra- dAru- dAruRa- durga- duz- duzkara- duzkfta- dUta- dfk- dfzwa- deva- dEva- Darma- DI- nastaH- nasya- nAnA- nApita- nAma- nija- nitya- niz- nIca- nEmittika- nO- paYca- paYcadaSa- pawwa- patti- patnI- para- parAcI- pari- paridfzwa- paSu- pARqu- pApa- pAraRa- pAlana- pAlASa- pitf- puRya- puRyaSlokeya- puRyEka- putra- punaH- puraScaraRa- purohita- puzwi- pusta- pUjA- pUrva- pfTu- prakASa- prati- pratikAra- pratipatti- pratirOdra- praDAna- pravftta- prAk- prAktana- prARa- prApta- prArabDa- priya- prIti- preta- bali- bahiz- bIBatsa- bfhat- bfhaspatiSAnti- brahma- BAva- BIma- BUta- BUti- BUri- Boga- maNgala- maRiBUmikA- mati- manovAk- manda- marut- mahA- mAraRa- mitra- miTyA- miSrIBAva- muzwi- mUla- mUlI- mft- mfdu- moGa- yajYa- yantra- yAga- yukta- yugapat- raRa- rati- rasa- rAja- rOdra- lakta- lakzaRa- lipi- vaMSa- vaRik- varga- vartma- varza- vaSya- vasti- vAcA- vAja- vAta- vAruRa- vArttA- vAstu- vi- vikrama- viGnita- vicCinnabali- vidyA- vidveza- vinaya- vivAha- vivAhacaturTI- viSva- vizama- vizaya- vIra- vfka- vfTA- vfdDa- vfza- veSma- vEdika- vESya- vESvadeva- vESvadevabali- vyaya- vyApti- Sata- Sabda- Sava- Sastra- SAKAntarIya- SAnti- SAntika- SAmitra- SAlA- Silpa- Silpi- SIGra- SuNgA- SudDa- SudDABijana- SuBa- SOrya- SmaSru- SravaRA- SrAdDa- SrAvaRa- SrAvaRI- SrAvaRotsarga- Sruta- SrOta- zaw- sa- saMklizwa- saMgrAma- saMcita- saMjYA- saMtAna- saMDyAdibrahma- saMSlizwa- saMsfzwa- sajja- sajya- sat- satya- sapiRqIkaraRAnta- sama- samara- samAna- samAvartana- sampratti- sarpabali- sarva- sarvadevapratizWA- salila- savana- sahatva- sahya- sAMnipAtika- sADu- siMha- sita- su- sukfta- surA- sUcI- sUcIvAna- sUta- sUtra- sUda- sfjatva- setu- senA- soma- sozyantI- strI- sTira- smara- smArta- sva- svasti- svIkaraRa- svEri- haWa- haya- hiMsA- hIna- hotf- homa-
-073	karzan	01	
-074	kalman	01	
-075	kazASman	01	
-076	kAntASman	01	
-077	kAman	01	
-078	kArzman	01	
-079	kAliman	01	
-080	kAhan	01	
-081	kiYcaniman	01	
-082	kIlAloDan	01	
-083	kUrcan	01	
-084	kftvan	09	ni- pApa- puru- pUrvakAma- mrakza- rAja- saha- su-
-085	kfzRADvan	01	
-086	kfzRiman	01	
-087	keSan	01	
-088	kraSiman	01	
-089	krAvan	01	
-090	kruSvan	01	
-091	kledan	01	
-092	kloman	01	
-093	kzadman	02	svAdu-
-094	kzAman	01	
-095	kzitvan	01	
-096	kzIban	01	
-097	kzepan	01	
-098	kzepiman	01	
-099	kzeman	02	su-
-100	kzodiman	01	
-101	KaRqiman	01	
-102	Kan	01	
-103	Karvan	01	
-104	gaRqASman	01	
-105	gatADvan	01	
-106	gatvan	01	
-107	ganDASman	01	
-108	ganman	01	
-109	gamBan	01	
-110	gariman	03	kula- tulya-
-111	garuqASman	01	
-112	gahman	01	
-113	gAman	03	pra- vi-
-114	gASman	01	
-115	gUQo'tman	01	
-116	gfhASman	01	
-117	goRASman	01	
-118	gOriman	01	
-119	gman	01	
-120	grAvan	09	aSani- UrDva- citra- tattvanikaza- nikaza- bfhad- yukta- ravi-
-121	Gan	01	
-122	cakrASman	01	
-123	cakzan	01	
-124	caRqiman	01	
-125	candrASman	01	
-126	carman	21	kari- gaja- gala- gfhItaKaqga- go- duS- niSA- nIla- paruza- meQra- meza- yuga- vajra- vi- vyAGra- Sata- SArdUla- siMha- su- hariRa-
-127	carvan	01	
-128	cikitvan	01	
-129	cukriman	01	
-130	cCadman	02	palita-
-131	Cadman	01	
-132	jaqiman	01	
-133	janiman	02	su-
-134	janman	92	agni- agra- anu- antar- antya- anya- ambA- ambu- amBo- amBoja- asra- Atma- Uru- eka- kalaSa- kaSmIra- kASmIra- ku- kumBa- kfta- kopa- kva- kzata- Gawa- citta- janma- jala- jAra- tanu- tanU- danta- dvi- Darma- nazwa- paNka- paNkaja- payo- para- pari- puM- puRya- punar- punarukta- puro- pUrva- pfTA- prati- pratipakza- prAktana- prAg- brahma- BUri- BrAjaj- BrAtfvya- manuzya- mano- mAnasa- muKa- yugma- ramaRIya- rAma- labDa- varta- vartita- valmIka- vasudeva- vi- viyoni- viSva- viSvAsa- vfTA- Sara- SarIra- SIGra- Suci- SUdra- SfNgAra- saMkalpa- samAna- saralaskanDasaMGawwa- sarasi- sarasiruha- saro- sarva- salila- saha- sinDu- su- sukula- strI- sva-
-135	jamBan	04	su- soma- harita-
-136	jariman	01	
-137	jalADvan	01	
-138	javaniman	01	
-139	jasvan	01	
-140	jahman	01	
-141	jAman	01	
-142	jAvan	02	vi-
-143	jitvan	02	sa-
-144	jeman	01	
-145	jman	05	uru- dvibarha- pari- pfTu-
-146	jvan	01	
-147	jvalanASman	01	
-148	wakvan	01	
-149	RAman	03	dur- puru-
-150	takman	01	
-151	takvan	02	pra-
-152	takzan	03	yantra- sa-
-153	tan	01	
-154	taniman	01	
-155	tanman	01	
-156	tapanASman	01	
-157	tapasIvan	01	
-158	taruRiman	01	
-159	tardman	01	
-160	tarman	02	su-
-161	tAmrASman	01	
-162	tAmriman	01	
-163	tihan	01	
-164	tugvan	01	
-165	tuNgiman	01	
-166	tokman	01	
-167	tman	05	CAyA- devatA- puru- mahA-
-168	trAman	03	su- sU-
-169	trAvan	01	
-170	tvan	01	
-171	daMSman	02	tfzwa-
-172	dakziRerman	01	
-173	daGvan	02	paScAd-
-174	daRqiman	01	
-175	dattAnapakarman	01	
-176	daDan	01	
-177	darman	01	
-178	daSan	01	
-179	dAman	27	a- ASA- jIva- nirmAlya- paYca- puzpa- Pulla- bakula- bahu- mAlA- mAlya- muktA- meKalA- mOktika- rudra- vasu- vAla- vidyud- vIra- SiKA- Siro- SfNKalA- SrI- su- sumano- srag-
-180	dArvan	01	
-181	dAvan	19	aSva- Ayur- oza- ozizWa- paSu- puzwi- bala- BUri- rAyaspoza- vasu- vAja- viBU- viSva- viSvato- Sata- satrA- sahasra- su-
-182	divan	02	prati-
-183	dIrGAhan	01	
-184	dIvan	01	
-185	dugDASman	01	
-186	dfvan	01	
-187	dfSvan	10	dIrGa- pApa- pAra- bahu- meru- viveka- SrutapAra- sImanta- hari-
-188	devan	01	
-189	doman	01	
-190	dozan	01	
-191	dyAvan	01	
-192	dyuman	01	
-193	dyotman	01	
-194	draQiman	01	
-195	drAGiman	01	
-196	drAGman	01	
-197	druhvan	02	a-
-198	dvAdaSan	01	
-199	Dan	01	
-200	Danozman	01	
-201	Danvan	34	ati- abala- avatata- asTi- Ajya- izu- ugra- kusuma- kzipra- kzema- gARqIva- gfhIta- Cinna- tuNga- tri- dfQa- nAga- puzpa- BIma- maru- vi- vitata- vilAsa- vIra- Sata- SArNga- SUla- SEla- su- sezu- sTira- svAdu- hema-
-202	Dariman	01	
-203	DarIman	01	
-204	Darman	55	anucCitti- asammoza- uYCa- kalyARa- kAla- ku- kfta- ketu- kzatra- kzatriya- kzetra- cakra- citra- cyavana- jaya- tad- tri- deva- Dana- nAnA- nf- paSu- puzya- pratyakza- prasava- Pala- Pena- bIja- bfhad- manuzya- maraRa- martya- mitra- mfga- yati- yaSo- yugma- ravi- rAja- vasu- vi- vinASa- vizRu- SaSa- Sruta- sa- satya- samAna- sarva- saha- sAkzAtkfta- su- sva- hema-
-205	DarmADvan	01	
-206	Davaliman	01	
-207	DAman	51	aGarma- aNgiro- atuhina- Aditya- uccEr- utpatti- fta- ftu- kOstuBa- caRqa- cAru- jatu- jyotir- tapo- tri- deva- devI- dyu- nidAGa- pIyUza- pratyag- priya- brahma- BUta- BUri- meru- yaSo- rAja- ruci- viSva- Sata- SaSi- Siro- SrI- Sveta- sattva- satya- sarva- sahasra- sidDa- su- suDA- sura- suvar- sTira- sva- svar- hariRa- havir- hima-
-208	Ditavan	01	
-209	DinAman	01	
-210	DIvan	03	bahu- su-
-211	DUpozman	01	
-212	DUmriman	01	
-213	DUrvan	01	
-214	DUsariman	01	
-215	Dftvan	02	kzema-
-216	Dvasan	01	
-217	Dvasman	02	a-
-218	nagASman	01	
-219	nadaniman	01	
-220	narman	03	a- mahA-
-221	nAman	180	a- agni- aNGri- ati- anta- antarikza- apa- aSva- asO- ahaM- ahi- ahita- Aditya- iti- upa- evaM- kapi- karma- kAka- kARqa- kAlIsahasra- kiM- ku- gaReSasahasra- ganDa- gfhIta- go- gotra- cakra- caturdaSaguRa- Cando- janma- jaya- qambara- tulya- dur- deva- devIsahasra- dvi- DvANkza- nakzatra- nara- narasiMhasahasra- nAga- nfsiMhasahasra- nfsiMhAzwottaraSata- paYca- parabrahmAzwottaraSata- paramahaMsasahasra- paraSuvanasahasra- pApa- pArvatIsahasra- pitf- puM- puRya- putra- pun- puruzottamasahasra- prati- pratyaNgirAsahasra- praSaMsA- prOQacarita- bawukaBEravasahasra- bawukAzwaSata- balIndrasahasra- bahu- bAlacarita- Badra- BavAnIsahasra- BuvaneSvarIsahasra- BU- BEravasahasra- makArAdisahasra- maNgalya- manuzya- mallArisahasra- mahA- mahAkAlasahasra- mahAdevasahasra- mahAdevAzwottaraSata- mahAsahasra- mANgalya- mAtf- mAsa- meGa- yaTArTa- yaTArTakfta- yan- yugalasahasra- rakArAdirAmasahasra- raTANga- rAja- rAjakIya- rAjayakzma- rAjalIlA- rADAsahasra- rAmazoqaSa- rAmasahasra- rAmAzwottaraSata- rASi- rudrasahasra- reRukAsahasra- lakzmInArAyaRasahasra- lakzmInfsiMhasahasra- lakzmyazwottaraSata- laGu- labDa- lalitAzwottaraSata- lalitAsahasra- vagalAsahasra- varAha- vahni- vAta- vAsudevasahasra- viGneSvarasahasra- vijayeSasahasra- vijja- viwWalasahasra- vinAyakasahasra- vivikta- viSva- vizRusahasra- vizRvazwottaraSata- veNkaweSadvAdaSa- veNkaweSasahasra- veNkaweSAzwottaraSata- veNkaweSvarasahasra- vedasAraSivasahasra- vedasArasahasra- vyarTa- SaWakopasahasra- SaraBasahasra- SAradAsahasra- Sivasahasra- SivAdyazwottaraSata- SivAzwottaraSata- SiSu- SyAmalAsahasra- SyAmAsahasra- SrIguRasahasra- SrImuKIsahasra- Sveta- sa- saMKyA- saMskAra- satya- sadASivasahasra- san- sapta- samAna- sarja- sarva- sarvasAmrAjyameDasahasra- sarvArTa- sahasra- sahasragaRa- sItArAmAzwottaraSata- sItAsahasra- su- sugfhIta- sudarSanasahasra- subrahmaRyasahasra- sumaNgala- sumantu- suhavItu- sUryasahasra- sUryAzwaSata- sUryAzwottaraSata- sOmya- skandasahasra- strI- sva- hanumatsahasra- hanumadazwottaraSata- hanumaddvAdaSa- hari- hariharAzwottaraSata- hita- hinviDe-
-222	niHziDvan	01	
-223	nihan	01	
-224	nIlAmbujanman	01	
-225	nIlASman	01	
-226	nIliman	01	
-227	nIvan	01	
-228	nfpAryaman	01	
-229	neman	01	
-230	pakzman	06	akzi- ut- kuwila- nIla- su-
-231	paYcan	01	
-232	pawiman	01	
-233	paWarvan	01	
-234	paRqitiman	01	
-235	paRqiman	01	
-236	patman	03	vi- vIqu-
-237	patvan	04	ASu- raGu- Syena-
-238	padvan	01	
-239	paraSvan	01	
-240	parikarman	01	
-241	parIman	01	
-242	paruziman	01	
-243	parvan	67	a- aNgulI- araRya- Adi- AraReya- AraRya- ASrama- udyoga- upa- Uru- kaNka- karRa- kizku- gadA- gadAyudDa- GozayAtrA- caraRa- jatugfha- jambUKaRqavinirmARa- tantu- tikta- tIrTayAtrA- tri- triSataMzazwi- daSarAtra- dAmana- dIrGa- droRa- nata- paYca- pariSizwa- brAhma- BIzma- mahAprasTAna- mahAprasTAnika- mfdu- mokzaDarma- mOsala- rAjasUyAramBa- rAhu- ruci- vana- vi- vidurAgamana- virAwa- viSoka- viza- vfza- Sata- Sarat- Salya- SAnti- SiSupAlavaDa- saMgraha- saMvatsara- saMSaptakavaDa- saBA- samBava- sarvavArzika- su- sUrya- soma- sOptika- strI- svarga- svargArohaRa-
-244	pAkiman	01	
-245	pAwaliman	01	
-246	pARqiman	01	
-247	pARquriman	01	
-248	pApman	10	anapahata- apahata- jagDa- DUta- DOta- pUta- mahA- vi- viDUta-
-249	pAman	02	su-
-250	pAvan	11	aBiSasti- asfk- Garma- Gfta- citta- jihvA- tanU- vasA- suta- soma-
-251	piNgaliman	01	
-252	piNgiman	01	
-253	piYjariman	01	
-254	pItASman	01	
-255	pItiman	01	
-256	pIvan	02	su-
-257	puloman	01	
-258	pUrRiman	01	
-259	pUrtvan	01	
-260	pUzan	03	indrA- somA-
-261	pragAman	01	
-262	pratikarman	01	
-263	prativarman	01	
-264	praTiman	01	
-265	praBarman	02	vfza-
-266	prayAvan	02	su-
-267	prayutvan	01	
-268	prasadman	01	
-269	prahan	01	
-270	prahAvan	01	
-271	prAvan	02	varza-
-272	pretvan	01	
-273	preman	10	a- Dvasta- BUri- manda- vi- sa- samAna- sTita- sTira-
-274	prertvan	01	
-275	prOQiman	01	
-276	plihan	01	
-277	plIhan	01	
-278	psan	01	
-279	baMhiman	01	
-280	badvan	01	
-281	baDiriman	01	
-282	baliman	01	
-283	bAliman	01	
-284	bukkan	01	
-285	bUKan	01	
-286	brahman	22	a- ati- anna- oha- ku- kfta- tuvi- tri- deva- para- parama- bfhad- BUta- mahA- Sabda- sad- sadASiva- su- svara- hari- harihara-
-287	Baktivan	01	
-288	Bakzivan	01	
-289	BaNgan	01	
-290	BaRqiman	01	
-291	Bariman	01	
-292	BarIman	01	
-293	Barman	06	arizwa- garBa- jAtU- pra- vAja-
-294	Basman	13	aBraka- kfzRa- pIta- pravAla- rasa- vi- SaNKa- Sava- Sveta- sa- saha- homa-
-295	BArman	01	
-296	BAvan	01	
-297	BUman	04	pum- prakfti- vi-
-298	BUvan	01	
-299	Bftvan	02	sam-
-300	BraSiman	01	
-301	Bvan	01	
-302	maGavan	02	sato-
-303	majjan	03	maDu- svAdu-
-304	maYjiman	01	
-305	madvan	02	satya-
-306	maDuriman	01	
-307	man	09	ay- kakud- Buj- vaSi- vimati- viSAradi- Sre- sammati-
-308	maniman	02	sam-
-309	mandiman	01	
-310	mandozman	01	
-311	manman	06	dur- yajYa- vipra- satya- su-
-312	maraRADvan	01	
-313	mariman	01	
-314	marman	07	a- aDo- antar- Binna- Siro- snAyu-
-315	maliniman	01	
-316	maliman	01	
-317	mahan	01	
-318	mahASman	01	
-319	mahiman	31	alupta- kArttika- kAla- taru- tIrTa- datta- durvAso- devI- nfsiMha- paYcasaMskAra- purARaSravaRa- pradoza- bArhaspatya- BadrA- maRikarRikA- maTurA- mahA- yoga- rAma- rudrapAda- lakzmIdvAdaSanAma- vimukti- vizRu- Siva- SivapUjA- SrI- zawsTala- sampUrRapuRya- sUryavrata- hari-
-320	mahman	01	
-321	mAMsArman	01	
-322	mIvan	01	
-323	mugDiman	01	
-324	muzIvan	01	
-325	mUkiman	01	
-326	mUrKiman	01	
-327	mUrDan	31	adri- apa- aSma- asta- eka- kumBa- gagana- tapur- tigma- tri- dina- dvi- naga- nata- bahu- mahA- muRqita- yan- raRa- roma- Sakra- Sata- saMgrAma- saMyuga- samanIka- samara- samAna- sahasra- sODa- hiraRya-
-328	mUrDvan	01	
-329	mfgvan	01	
-330	mftAhan	01	
-331	mftiman	01	
-332	meGADvan	01	
-333	mradiman	01	
-334	mlAniman	01	
-335	yakzman	03	rAja- sa-
-336	yakzmannAman	01	
-337	yajvan	12	a- aByarDa- astfta- devarAja- dvArakAnATa- pfzWa- bahu- varadADISa- Sata- Siva- samudrabanDa-
-338	yadvan	01	
-339	yavan	02	a-
-340	yavayAvan	01	
-341	yAtayAman	01	
-342	yAtiman	01	
-343	yAman	19	a- aKidra- anusra- aptor- izwa- usra- gAyatrI- dur- dyutad- punar- pfTu- pra- pravad- yAta- raGu- Sata- sahasra- su-
-344	yAvan	17	a- akzRa- agra- fRa- eka- eva- deva- puro- pUrva- prAtar- raTa- SuBaM- SuBra- sa- sAyaM- sva-
-345	yugman	01	
-346	yugvan	03	sa- sva-
-347	yudDADvan	01	
-348	yuDvan	03	rAja- saha-
-349	yuyuDan	01	
-350	yuvan	09	ati- Arya- kzatriya- punar- BallUka- lAsaka- SElAli- haMsa-
-351	yUnarvan	01	
-352	yozan	01	
-353	raktArman	01	
-354	raktiman	01	
-355	raRvan	01	
-356	raTASman	01	
-357	rarAvan	01	
-358	raSman	02	a-
-359	rAjan	45	a- agni- ati- aDi- anya- indra- kardama- kASi- ku- kunti- kowwa- geya- jana- taru- tfRa- deva- Darma- Dfta- nivAsa- paYcAla- pitf- prati- Pala- bahu- maRqalaka- maDukara- manuzya- mADavasenA- muKya- yama- yuva- varuRa- vikrama- SAlva- SuNga- SvApada- sa- satya- sAma- sAzI- su- sura- soma- sva-
-360	rAjADvan	01	
-361	rAman	01	
-362	rAvan	04	a- puru- bfhad-
-363	rikvan	02	pra-
-364	ritakvan	01	
-365	riBvan	01	
-366	rukman	01	
-367	ruhvan	01	
-368	rerivan	01	
-369	rezman	01	
-370	roman	38	UrDva- kapota- kfti- Kaqga- Kara- dIpta- dIrGa- nigUQa- nIcanaKa- netra- piNgala- pfTu- prahfzwa- bahu- BayasaMhfzwa- mayUra- mahA- mfdu- rudra- vikIrRa- SaNKa- SiSu- SvAvid- Sveta- saMhfzwa- sahasra- su- suvarRa- sUci- stabDa- svarRa- haMsa- hari- hiraRya- hIna- hfzwa- hrasva-
-371	rOSarman	01	
-372	lakzman	25	a- aDastAl- uttara- uparizwAl- kampa- kusuma- jarA- tAla- tulya- nfpa- puM- purastAl- mfga- mfgarAja- rAja- reRu- lulAya- vyakta- SaSa- SrI- SrIvatsa- sa- samIra- hariRa-
-373	laGiman	01	
-374	laNgiman	01	
-375	lalAman	01	
-376	lavaRiman	01	
-377	lABiman	01	
-378	liman	01	
-379	lUman	01	
-380	loman	35	a- akzi- aja- ajAta- avi- aSva- asi- Asya- uqu- uttara- urasi- kakza- kroqa- go- dfQa- baBru- bahir- mahA- yakfl- vAri- vi- vipatita- vfka- vyAGra- Sara- Salya- SaSa- SArdUla- SvAvil- sa- siMha- su- hari- hiraRya-
-381	lozwan	01	
-382	lohitArman	01	
-383	lohitiman	01	
-384	vakman	01	
-385	vakriman	01	
-386	vakvan	01	
-387	vatsiman	01	
-388	vadman	01	
-389	van	21	amas- arAtI- avasTA- inDan- upasad- fGA- fRa- fRA- ftA- gir- tad- tamas- dyu- DitA- maGa- vasu- SruzwI- satyA- sahA- saho-
-390	vanIvan	01	
-391	vaprIvan	01	
-392	variman	01	
-393	varIman	01	
-394	varuRAnyAH sAman	01	
-395	vartman	67	aklinna- anu- anupalakzya- arDa- arSo- asita- AkASa- AnAkaraTa- ud- UrDva- eka- kalyARa- ku- kula- kftya- kfzRa- klinna- klizwa- garBa- gIrvARa- guda- Gana- candra- janma- tArA- tri- dIrGa- deva- dyUta- dvAra- DUma- nakzatra- naya- nAga- pari- puru- puzpa- pfTag- praklinna- prati- bahala- bisa- Binna- marud- mArga- meGa- yaSo- raTa- rAja- vAyu- vi- vyutkrAnta- vyoma- SyAva- Srotra- Slizwa- saMsAra- satya- sambADa- sahasra- sikatA- su- suKa- sura- sTala- smfti-
-396	varDman	02	antra-
-397	varman	142	a- ajaya- ananta- apahAra- amitra- arTa- avanti- aSma- Aditya- Arya- indra- ISvara- udaya- upahAra- kanaka- kamala- kalApa- kalyARa- kAYcana- kIrti- kfta- kzema- Kadira- gada- guRa- gfha- gopAla- cakra- caRqa- candra- candramuKa- cAru- citra- jawA- jaya- jYAna- tanu- tIkzRa- dAna- dAru- dfQa- deva- devendra- deha- Dana- Darma- Dfta- nandapraBaYjana- nandi- nara- narasiMha- nAga- nArAyaRa- nirjita- nIti- parameSvara- pari- puRya- pUrRa- pracaRqa- prajYA- praBAkara- prahAra- banDu- bala- bahula- brahma- Badanta- BadantajYAna- Badra- BAnu- BAskara- BUti- Boga- maRi- mayUra- mahendra- mAra- mitra- mfga- mfgeSavara- yakza- yajYa- yaSo- ratna- ravi- rAja- rAma- rAmasiMha- loha- vajra- vi- vikawa- vikrAnti- vijaya- vinDya- viBu- viSAla- viSrAnti- viSva- vizRu- vizRugopa- vIra- vIraravi- SaMkara- Saka- Sarva- SAnti- SAntivara- SArdUla- Siva- Suzkawa- SUra- Sruta- sa- saMhAra- satya- sapta- samara- samudra- sarva- sAgara- siMha- sita- su- suKa- suBawa- sura- suvarRakAreSvara- susTira- sUra- sUrya- skanda- sTala- sTiti- sTira- hari- harza- hasti- himpati- hiraRya-
-398	varSman	01	
-399	varziman	01	
-400	varzman	02	Sata-
-401	vasman	01	
-402	vahman	01	
-403	vAtADvan	01	
-404	vidman	01	
-405	vidvan	01	
-406	viDarman	01	
-407	vilAtiman	01	
-408	vIrADvan	01	
-409	vfzan	04	kavi- kziti- tri-
-410	vfziman	01	
-411	veman	01	
-412	veSman	41	agni- antar- eka- kArA- koSa- krIqA- garBa- catuzka- cintA- jatu- jAta- deva- devatA- nfpa- pawa- para- pAyukzAlana- pitf- prati- banDana- bali- BUpati- meGa- rAja- lIlA- vastra- vAsa- vilAsa- viSrAma- veSyA- SayyA- SayyAvAsa- SilA- SmaSAna- saMgIta- samBoga- sahopapati- sura- sUrya- snAna-
-413	vyeman	01	
-414	vyoman	02	prati-
-415	vraQiman	02	pari-
-416	Sakman	01	
-417	Sakvan	01	
-418	Sagman	01	
-419	Sattvan	01	
-420	Sabaliman	01	
-421	Sariman	01	
-422	SarIman	01	
-423	Sarman	75	a- agni- indra- uru- kapila- kalyARa- kfta- kfzRa- kfzRacandradeva- kfzRaSaMkara- keSavajInanda- kzema- giri- caRqIdevI- candra- jaya- jAnakInATa- jIva- daRqa- dAsa- dfzwa- deva- dEvajYa- Darma- DIragovinda- Dfzwa- nanda- nAga- paSupati- pitf- prajApati- bala- bAla- bindu- bUba- Badra- Bava- BAva- BAskara- BUta- makaranda- manohara- mayUra- mahA- mahAdeva- mitra- yajYadatta- rAma- rudra- lAvaRya- lokanATa- varuRa- varma- viBAkara- virUpa- viSva- vizRu- vIra- vEdyanATadeva- SatruGna- SAnti- Siva- SrIkaRWa- Sruta- su- suKa- soma- haWa- hari- harinArAyaRa- hariBAskara- harirAya- harzanATa- hitalAla-
-424	Sasman	01	
-425	SAkman	01	
-426	SARASman	01	
-427	SAman	01	
-428	Sikvan	01	
-429	SitAman	01	
-430	SiSvan	01	
-431	SItASman	01	
-432	SItiman	01	
-433	SItozman	01	
-434	SIrzan	23	a- anuzwup- ayaH- avanata- avAcIna- uBayataH- eka- kfzRa- gfDra- tri- mfga- ruru- vi- Sata- SatEka- SIrRa- sa- sapta- sarpa- sahasra- haya- hiraRya-
-435	SIvan	06	uttAna- upa- talpa- prati- vahya-
-436	Sukriman	01	
-437	SuklArman	01	
-438	Sukliman	01	
-439	Sukvan	01	
-440	SuBvan	01	
-441	Suzman	03	barhiH- soma-
-442	SEtozman	01	
-443	SoRASman	01	
-444	SoRiman	01	
-445	Sman	01	
-446	SyAmaliman	01	
-447	Srutarvan	01	
-448	Srezman	01	
-449	Slezman	01	
-450	Svan	07	araRya- durgfBi- piSAca- mAtari- vana- vyAGra-
-451	Svetiman	01	
-452	zadman	02	su-
-453	zadvan	03	nf- pari-
-454	zan	01	
-455	zAman	07	rAtri- saMDi- sinDu- su- setu- hotf-
-456	ziDvan	02	niz-
-457	zkadvan	01	
-458	zwarIman	01	
-459	zWAman	01	
-460	zWAvan	01	
-461	zvan	01	
-462	sakman	01	
-463	saGan	01	
-464	satkarman	01	
-465	satvan	05	aBi- ahiSuzma- satIna- satya-
-466	sadman	28	ISvara- UrDva- kavikamala- Kaqga- jina- danta- deva- dyu- nAku- nEtala- padma- pitf- prARa- bali- Boga- yantra- rAja- ruk- vasana- vidyA- vibuDa- vilAsa- SAnti- Sukra- sattra- sura- sUkara-
-467	sadvan	01	
-468	sanitvan	01	
-469	saptan	02	sArDa-
-470	saptAzwan	01	
-471	samadvan	01	
-472	sariman	01	
-473	sarman	01	
-474	savIman	01	
-475	sahasranAman	02	lakzmI-
-476	sahvan	02	pra-
-477	sADiman	01	
-478	sAman	60	a- agnizwoma- arvAk- avaBfTa- ahaH- indrARI- uBaya- fk- fta- kzatra- gAyatrI- goDA- candra- jagat- jyezWa- jyotiH- tArkzya- tri- tvAzwrI- nfsiMhAdi- payaH- paraH- pari- puruza- pUjopayogi- pORqarIka- pravargya- prastotf- prAcya- bfhat- bfhadraTaMtara- brahma- Badra- BAraqa- maNgala- mahA- raTaMtara- rAja- rAtri- rudra- loka- varuRa- vAja- vAjapeya- viSva- SAktya- SrezWa- SrOtaprayoga- zoqaSi- satya- sarpa- sarvapfzWAptoryAma- saha- su- sUrya- soma- svaH- svara- hAuhuvEvA-
-479	sAyAhan	01	
-480	sAhvan	01	
-481	sitiman	01	
-482	siDman	01	
-483	sIman	08	a- niH- pari- sa- samara- su- sTala-
-484	sutrAman	01	
-485	sutvan	04	pAka- sa- soma-
-486	suplan	01	
-487	sUkzman	01	
-488	sUryASman	01	
-489	sUvan	01	
-490	sfkvan	02	viza-
-491	sftvan	02	bAQa-
-492	sfpman	01	
-493	soman	01	
-494	sozman	01	
-495	stariman	01	
-496	starIman	01	
-497	stAman	01	
-498	stuBvan	01	
-499	sTaviman	01	
-500	sTAman	03	niH- pAka-
-501	sTAvan	03	pra- sa-
-502	sTeman	01	
-503	snAvan	01	
-504	snIhan	01	
-505	snUhan	01	
-506	snehan	01	
-507	sPawikASman	01	
-508	sPeman	01	
-509	sman	01	
-510	syUman	01	
-511	srajvan	01	
-512	sreman	01	
-513	svadAvan	01	
-514	svaDarman	01	
-515	svaDAvan	01	
-516	svAdiman	01	
-517	svAduman	01	
-518	svAdman	01	
-519	han	135	aGaSaMsa- adfzwa- anila- apaSu- apAzWi- aBimAti- amitra- amIva- ari- arizwa- aruSa- avIra- aSasti- asura- ahi- AKu- Atma- Arti- ozizWa- kaMsa- kAlaKaRqa- kAlanemi- kfzwi- keSi- kEwaBa- kzudra- gara- guru- gfha- go- cakzur- candra- tamo- tripura- darpa- dasyu- duHKa- dunduBidarpa- durAri- durRAma- dEtya- dvi- DAtu- DunDu- namuci- ni- nf- netraroga- para- paravIra- paSu- pApa- pitf- pitta- piSAca- putra- punar- pura- puruza- puro- pUtanA- pfSni- prajA- pralamba- pralApa- bala- balavftra- bali- balivfza- bARa- bAla- brahma- Baga- Baganetra- BagAkzi- BujaMga- BUta- BUri- BrAtfvya- BrURa- maKa- matsya- maDu- mano- marma- mAtf- mAna- mitra- mura- muzwi- mfga- mEnda- yajYa- yamalArjuna- yamalArjunaka- yaSo- yAtu- yuva- rakzo- roga- lakzya- valaga- vAta- vAtApi- vAyu- virADa- viza- vihaMga- vIra- vftti- vftra- vetra- Sakawa- Sata- Satru- Sambara- Sambaravftra- Sarya- SaSa- SiSupAla- SUdra- Sva- satrA- sapatna- sapta- sarpa- sasya- sArTa- suraSatru- surAri- senA- svara- hayagrIva- hiraRyakaSipu-
-520	hanman	03	aSma- puru-
-521	hariman	01	
-522	harIman	01	
-523	harman	01	
-524	havIman	01	
-525	hasvan	01	
-526	hArdivan	01	
-527	hArdvan	01	
-528	hitvan	01	
-529	himmativarman	01	
-530	heman	06	ASu- kUwa- rasa- sidDa- hiraRya-
-531	hEtanAman	01	
-532	hoqiman	01	
-533	hotvan	01	
-534	hrasiman	01	
+001	akzan	03	~ try- hary-
+002	agman	01	1190
+003	agrAkzan	01	1286
+004	agrAdvan	01	1288
+005	agretvan	01	1294
+006	aGAhan	01	1376
+007	ajman	01	2239
+008	aRiman	01	2406
+009	aTarvan	01	3547
+010	adman	01	3821
+011	advan	01	3912
+012	aDimAMsArman	01	4316.1
+013	aDvan	06	~ aty- kad- triy- divizad- vy-
+014	vy-apamUrDan	01	208237
+015	aBItvan	01	13007
+016	amliman	01	14653
+017	arAvan	01	15276
+018	aruRiman	01	15476
+019	arman	03	~ an- snAyv-
+020	aryaman	01	16390
+021	arvan	02	~ an-
+022	alaGUzman	01	16563
+023	avAvan	01	18594
+024	aSan	01	19472
+025	aSman	04	~ gOry- dfzad- praty-
+026	aSvatTAman	01	20119
+027	an-aSvan	01	5389
+028	asan	01	20609
+029	ahan	03	~ an- vy-
+030	Akfzwiman	01	22269
+031	Atman	212	~ akft- aKil- ajit- adIn- aDarm- an- anant- ananyavizay- aniyat- anukampit- anuBay- antar- antarhit- anDIkft- apramey- aBinn- aBfty- amal- amit- amft- amey- alaNGit- avyay- asaMyat- asajjit- AkAS- Anand- ABft- indriy- udak- upaSAnt- upahat- UrDvag- ek- karakft- karuR- karm- kal- kaluz- kAm- kft- kfp- keval- krUr- kzudr- K- guR- cakravAl- catuHsapt- catur- cal- cid- Cidr- jagad- jagadantar- jagadDit- jaq- jit- jIv- jYAn- tigm- tfpt- tyakt- trilok- datt- dAruR- dAh- dIpt- duHKaparIt- dur- durit- duzkft- duzw- duzwAntar- dfpt- dev- devat- dvAdaS- Darm- DarzaR- Dft- DftiparIt- DOt- nazw- niBft- niyat- nir- nivftt- nizkriy- nizprapaYc- nizprapaYcasad- nEk- par- param- paramaDarm- parituzw- parjany- paryAy- pAp- puRy- puruzAntar- pUt- pfTag- prakAS- prajY- praRihit- pratibudD- pratIt- pratyag- praDAn- prayat- praSAnt- prasann- prahit- prahfzw- prAR- priy- prIt- boD- Bagn- BagnotsAhakriy- BAvit- BinnaBinn- BUt- mantrapUt- mand- malin- mah- mukt- mugD- mUQ- yajY- yat- yatacitt- yukt- yog- lok- loB- lOh- varR- vaSy- vAg- vAt- vijit- vijYAt- vijYAn- viDey- viniyukt- vinihit- vinIt- viBakt- vimal- vimUQ- viviD- viSad- viSudD- viSv- viSvacakr- vizaRR- vizavimukt- visfzw- vihval- ved- vyAkulitAntar- vyAvftt- Sat- SarIr- Saly- SAnt- SudD- SokapAtr- SokonmaTitacitt- zaq- zoqaS- s- saMyat- saMSay- saMSit- saMsAry- saMskft- saccid- sattAmAtr- sattv- saty- satyAnandacid- sad- sapt- sam- samAhit- samBAvit- sarv- sarvadev- sarvaBUt- sarvaBUtAntar- sarvalokAntar- sarvaSarIry- sarvAntar- sahasr- sukft- supriy- sumah- sUkzm- sUtr- sTir- sv- svayamprakAS- svASiz- hary- hiMs- hit- hfday-
+032	ADvan	12	ap- ullaNGit- kfzR- gat- jal- Darm- maraR- meG- yudD- rAj- vAt- vIr-
+033	Amriman	01	25679
+034	Ayavan	01	25815
+035	ASitiman	01	27365
+036	ASiman	01	27565
+037	ASman	28	ark- asit- uttar- karpUr- gaRq- ganD- garuq- gfh- goR- cakr- candr- jalakAnt- jvalan- tapan- tAmr- dugD- nag- nikaz- nIl- pataMg- pIt- mah- raT- SAR- SIt- SoR- sUry- sPawik-
+038	Asan	01	27884
+039	itvan	02	~ prAtar-
+040	iDman	01	29283.1
+041	izan	01	29444
+042	Irman	01	29791
+043	ukzan	02	~ bfhad-
+044	udan	01	32229
+045	udman	01	33411
+046	uDan	02	~ try-
+047	uzRiman	01	37822
+048	uzman	01	37852
+049	rapSad-UDan	01	174864
+050	Uzman	03	~ an- nir-
+051	fkvan	01	38715
+052	fjiman	01	38829
+053	fjiSvan	01	38780
+054	ftvan	01	38623.1
+055	fBvan	01	38979
+056	ekAhan	01	39912.2
+057	eman	01	40094
+058	ojman	01	40652
+059	odman	01	40695
+060	oman	02	~ vy-
+061	ozman	07	arT- Dan- DUp- mand- SIt- SEt- s-
+062	kawukiman	01	42150
+063	karman	337	~ a- akfzRa- aklizwa- akzadfk- agni- aNga- acintya- aYjali- adfzwa- adButa- adButaBIma- aDi- aDyAyopA- aDvara- anapa- anapA- anitya- anu- anta- antya- apa- apA- apUrva- aprati- aBi- amitra- ayanadfk- arizwa- arTa- avaSya- aSru- aharahaH- ahIna- Atma- Adi- APalodaya- Arya- ASvayujI- indra- indramaha- indrARI- izwa- ugra- udaka- udvAha- upacAra- upA- UrDva- ftu- eka- evaM- kaTaM- kAmya- kAla- kAlacodita- kiM- ku- kula- kUwa- kfcCra- kfta- kfzi- kfzRa- keSa- kratu- krUra- kzAra- kzIRa- kzIRAjya- kzIRAzwa- kzudra- kzura- kzetra- kzema- kzOra- Ke'wa- gaRa- guRa- guru- gfha- gfhya- gfhyA- go- gozWa- grAmya- caRqa- caturTI- citra- cintA- cIvara- cOqa- cOra- cOla- japya- jAta- jAla- jYAti- takza- tarku- tAna- tIkzRa- toya- tri- daRqa- dattAnapa- dahana- dAra- dAru- dAruRa- durga- duz- duzkara- duzkfta- dUta- dfk- dfzwa- deva- dEva- Darma- DI- nastaH- nasya- nAnA- nApita- nAma- nija- nitya- niz- nIca- nEmittika- nO- paYca- paYcadaSa- pawwa- patti- patnI- para- parAcI- pari- paridfzwa- paSu- pARqu- pApa- pAraRa- pAlana- pAlASa- pitf- puRya- puRyaSlokeya- puRyEka- putra- punaH- puraScaraRa- purohita- puzwi- pusta- pUjA- pUrva- pfTu- prakASa- prati- pratikAra- pratipatti- pratirOdra- praDAna- pravftta- prAk- prAktana- prARa- prApta- prArabDa- priya- prIti- preta- bali- bahiz- bIBatsa- bfhat- bfhaspatiSAnti- brahma- BAva- BIma- BUta- BUti- BUri- Boga- maNgala- maRiBUmikA- mati- manovAk- manda- marut- mahA- mAraRa- mitra- miTyA- miSrIBAva- muzwi- mUla- mUlI- mft- mfdu- moGa- yajYa- yantra- yAga- yukta- yugapat- raRa- rati- rasa- rAja- rOdra- lakta- lakzaRa- lipi- vaMSa- vaRik- varga- vartma- varza- vaSya- vasti- vAcA- vAja- vAta- vAruRa- vArttA- vAstu- vi- vikrama- viGnita- vicCinnabali- vidyA- vidveza- vinaya- vivAha- vivAhacaturTI- viSva- vizama- vizaya- vIra- vfka- vfTA- vfdDa- vfza- veSma- vEdika- vESya- vESvadeva- vESvadevabali- vyaya- vyApti- Sata- Sabda- Sava- Sastra- SAKAntarIya- SAnti- SAntika- SAmitra- SAlA- Silpa- Silpi- SIGra- SuNgA- SudDa- SudDABijana- SuBa- SOrya- SmaSru- SravaRA- SrAdDa- SrAvaRa- SrAvaRI- SrAvaRotsarga- Sruta- SrOta- zaw- sa- saMklizwa- saMgrAma- saMcita- saMjYA- saMtAna- saMDyAdibrahma- saMSlizwa- saMsfzwa- sajja- sajya- sat- satya- sapiRqIkaraRAnta- sama- samara- samAna- samAvartana- sampratti- sarpabali- sarva- sarvadevapratizWA- salila- savana- sahatva- sahya- sAMnipAtika- sADu- siMha- sita- su- sukfta- surA- sUcI- sUcIvAna- sUta- sUtra- sUda- sfjatva- setu- senA- soma- sozyantI- strI- sTira- smara- smArta- sva- svasti- svIkaraRa- svEri- haWa- haya- hiMsA- hIna- hotf- homa-
+064	anu-karzan	01	6137
+065	kalman	01	46215
+066	ni-kAman	01	107825
+067	kArzman	01	48989
+068	kAliman	01	49315
+069	kAhan	01	50138
+070	a-kiYcaniman	01	274
+071	kIlAloDan	01	50892
+072	pARi-kUrcan	01	121439
+073	kftvan	09	~ ni- pApa- puru- pUrvakAma- mrakza- rAja- saha- su-
+074	kfzRiman	01	55554
+075	su-keSan	01	245556
+076	kraSiman	01	57953
+077	daDi-krAvan	01	89917
+078	kruSvan	01	58299
+079	kledan	01	58585
+080	kloman	01	58678
+081	kzadman	02	~ svAdu-
+082	kzAman	01	59127
+083	kzitvan	01	59446
+084	kzIban	01	59659
+085	kzepan	01	59630
+086	kzepiman	01	59632
+087	kzeman	02	pArzRi- su-
+088	kzodiman	01	60064
+089	KaRqiman	01	61215
+090	KarI-Kan	01	61483
+091	a-Karvan	01	744.1
+092	pUrva-gatvan	01	127866
+093	su-ganman	01	246062
+094	gamBan	01	63373
+095	gariman	03	~ kula- tulya-
+096	gahman	01	64476
+097	gAman	03	dyumad- pra- vi-
+098	gUQo'tman	01	66382
+099	gOriman	01	68324
+100	pfTu-gman	01	128559
+101	grAvan	09	~ aSani- UrDva- citra- tattvanikaza- nikaza- bfhad- yukta- ravi-
+102	aBog-Gan	01	13135
+103	cakzan	01	70646
+104	caRqiman	01	71018
+105	carman	21	~ kari- gaja- gala- gfhItaKaqga- go- duS- niSA- nIla- paruza- meQra- meza- yuga- vajra- vi- vyAGra- Sata- SArdUla- siMha- su- hariRa-
+106	carvan	01	72575
+107	cikitvan	01	73485
+108	cukriman	01	74535
+109	cCadman	02	kUwa- palita-
+110	Cadman	01	75503
+111	jaqiman	01	76690
+112	janiman	02	~ su-
+113	janman	94	~ a- agni- agra- anu- antar- antya- anya- ambA- ambu- amBo- amBoja- asra- Atma- Uru- eka- kalaSa- kaSmIra- kASmIra- ku- kumBa- kfta- kopa- kva- kzata- Gawa- citta- janma- jala- jAra- tanu- tanU- danta- dvi- Darma- nazwa- nIlAmbu- paNka- paNkaja- payo- para- pari- puM- puRya- punar- punarukta- puro- pUrva- pfTA- prati- pratipakza- prAktana- prAg- brahma- BUri- BrAjaj- BrAtfvya- manuzya- mano- mAnasa- muKa- yugma- ramaRIya- rAma- labDa- varta- vartita- valmIka- vasudeva- vi- viyoni- viSva- viSvAsa- vfTA- Sara- SarIra- SIGra- Suci- SUdra- SfNgAra- saMkalpa- samAna- saralaskanDasaMGawwa- sarasi- sarasiruha- saro- sarva- salila- saha- sinDu- su- sukula- strI- sva-
+114	jamBan	04	tfRa- su- soma- harita-
+115	jariman	01	77701
+116	javaniman	01	78339
+117	jasvan	01	78368
+118	jahman	01	78406
+119	vi-jAman	01	193039
+120	jAvan	02	pUrva- vi-
+121	jitvan	02	~ sa-
+122	jeman	01	80170
+123	jman	05	upa- uru- dvibarha- pari- pfTu-
+124	pari-jvan	01	117511
+125	niz-wakvan	01	110899
+126	RAman	03	tri- dur- puru-
+127	takman	01	81588
+128	takvan	02	~ pra-
+129	takzan	03	~ yantra- sa-
+130	tan	01	82250
+131	taniman	01	82268
+132	tanman	01	82601.1
+133	tapasIvan	01	82733
+134	taruRiman	01	83328
+135	tardman	01	83457
+136	tarman	02	~ su-
+137	tAmriman	01	84218
+138	tihan	01	85387
+139	tugvan	01	85740
+140	tuNgiman	01	85788
+141	tokman	01	87138
+142	tman	05	~ CAyA- devatA- puru- mahA-
+143	trAman	03	~ su- sU-
+144	su-trAvan	01	246474
+145	bfhat-tvan	01	146159
+146	daMSman	02	~ tfzwa-
+147	dakziRerman	01	89463
+148	daGvan	02	apaScA- paScAd-
+149	daRqiman	01	89781
+150	sa-daDan	01	230684
+151	darman	01	90548
+152	dAman	27	~ a- ASA- jIva- nirmAlya- paYca- puzpa- Pulla- bakula- bahu- mAlA- mAlya- muktA- meKalA- mOktika- rudra- vasu- vAla- vidyud- vIra- SiKA- Siro- SfNKalA- SrI- su- sumano- srag-
+153	dArvan	01	91802
+154	dAvan	19	~ aSva- Ayur- oza- ozizWa- paSu- puzwi- bala- BUri- rAyaspoza- vasu- vAja- viBU- viSva- viSvato- Sata- satrA- sahasra- su-
+155	divan	02	~ prati-
+156	dIrGAhan	01	93266
+157	prati-dIvan	01	132387
+158	dfvan	01	95262
+159	dfSvan	10	~ dIrGa- pApa- pAra- bahu- meru- viveka- SrutapAra- sImanta- hari-
+160	devan	01	96382
+161	doman	01	96974
+162	dozan	01	97096
+163	vfzwi-dyAvan	01	205196
+164	maha-dyuman	01	159168
+165	su-dyotman	01	246787
+166	draQiman	01	97525
+167	drAGiman	01	97777
+168	drAGman	01	97783
+169	druhvan	02	~ a-
+170	sad-Dan	01	230274
+171	Danvan	34	~ ati- abala- avatata- asTi- Ajya- izu- ugra- kusuma- kzipra- kzema- gARqIva- gfhIta- Cinna- tuNga- tri- dfQa- nAga- puzpa- BIma- maru- vi- vitata- vilAsa- vIra- Sata- SArNga- SUla- SEla- su- sezu- sTira- svAdu- hema-
+172	Dariman	01	99870
+173	DarIman	01	99874
+174	Darman	57	~ anucCitti- asammoza- uYCa- kalyARa- kAla- ku- kfta- ketu- kzatra- kzatriya- kzetra- cakra- citra- cyavana- jaya- tad- tri- deva- Dana- Darmavi- nAnA- nf- paramasva- paSu- puzya- pratyakza- prasava- Pala- Pena- bIja- bfhad- manuzya- maraRa- martya- mitra- mfga- yati- yaSo- yugma- ravi- rAja- vasu- vi- vinASa- vizRu- SaSa- Sruta- sa- satya- samAna- sarva- saha- sAkzAtkfta- su- sva- hema-
+175	Davaliman	01	100599
+176	DAman	51	~ aGarma- aNgiro- atuhina- Aditya- uccEr- utpatti- fta- ftu- kOstuBa- caRqa- cAru- jatu- jyotir- tapo- tri- deva- devI- dyu- nidAGa- pIyUza- pratyag- priya- brahma- BUta- BUri- meru- yaSo- rAja- ruci- viSva- Sata- SaSi- Siro- SrI- Sveta- sattva- satya- sarva- sahasra- sidDa- su- suDA- sura- suvar- sTira- sva- svar- hariRa- havir- hima-
+177	Ditavan	01	101188.1
+178	antar-DinAman	01	8117.2
+179	DIvan	03	~ bahu- su-
+180	DUmriman	01	101701
+181	DUrvan	01	101796
+182	DUsariman	01	101813
+183	Dftvan	02	~ kzema-
+184	Dvasan	01	102545
+185	Dvasman	02	~ a-
+186	nadaniman	01	103324
+187	narman	03	~ a- mahA-
+188	nAman	183	~ a- agni- aNGri- ati- anta- antarikza- apa- aSva- asO- ahaM- ahi- ahita- Aditya- iti- upa- evaM- kapi- karma- kAka- kARqa- kAlIsahasra- kiM- ku- gaReSasahasra- ganDa- gfhIta- go- gotra- gorakzasahasra- cakra- caturdaSaguRa- Cando- janma- jaya- qambara- tulya- dur- deva- devIsahasra- dvi- DvANkza- nakzatra- nara- narasiMhasahasra- nAga- nfsiMhasahasra- nfsiMhAzwottaraSata- paYca- parabrahmAzwottaraSata- paramahaMsasahasra- paraSuvanasahasra- pApa- pArvatIsahasra- pitf- puM- puRya- putra- pun- puruzottamasahasra- prati- pratyaNgirAsahasra- praSaMsA- prOQacarita- bawukaBEravasahasra- bawukAzwaSata- balIndrasahasra- bahu- bAlacarita- Badra- BavAnIsahasra- BuvaneSvarIsahasra- BU- BEravasahasra- makArAdisahasra- maNgalya- manuzya- mallArisahasra- mahA- mahAkAlasahasra- mahAdevasahasra- mahAdevAzwottaraSata- mahAsahasra- mANgalya- mAtf- mAsa- meGa- yaTArTa- yaTArTakfta- yan- yugalasahasra- rakArAdirAmasahasra- raTANga- rAja- rAjakIya- rAjayakzma- rAjayakzman- rAjalIlA- rADAsahasra- rAmazoqaSa- rAmasahasra- rAmAzwottaraSata- rASi- rudrasahasra- reRukAsahasra- lakzmInArAyaRasahasra- lakzmInfsiMhasahasra- lakzmIsahasra- lakzmyazwottaraSata- laGu- labDa- lalitAzwottaraSata- lalitAsahasra- vagalAsahasra- varAha- vahni- vAta- vAsudevasahasra- viGneSvarasahasra- vijayeSasahasra- vijja- viwWalasahasra- vinAyakasahasra- vivikta- viSva- vizRusahasra- vizRvazwottaraSata- veNkaweSadvAdaSa- veNkaweSasahasra- veNkaweSAzwottaraSata- veNkaweSvarasahasra- vedasAraSivasahasra- vedasArasahasra- vyarTa- SaWakopasahasra- SaraBasahasra- SAradAsahasra- Sivasahasra- SivAdyazwottaraSata- SivAzwottaraSata- SiSu- SyAmalAsahasra- SyAmAsahasra- SrIguRasahasra- SrImuKIsahasra- Sveta- sa- saMKyA- saMskAra- satya- sadASivasahasra- san- sapta- samAna- sarja- sarva- sarvasAmrAjyameDasahasra- sarvArTa- sahasra- sahasragaRa- sItArAmAzwottaraSata- sItAsahasra- su- sugfhIta- sudarSanasahasra- subrahmaRyasahasra- sumaNgala- sumantu- suhavItu- sUryasahasra- sUryAzwaSata- sUryAzwottaraSata- sOmya- skandasahasra- strI- sva- hanumatsahasra- hanumadazwottaraSata- hanumaddvAdaSa- hari- hariharAzwottaraSata- hita- hinviDe-
+189	puru-niHziDvan	01	126350
+190	maDu-nihan	01	155906
+191	nIliman	01	111725
+192	nIvan	01	111743
+193	nfpAryaman	01	112016
+194	a-neman	01	7871
+195	pakzman	06	~ akzi- ut- kuwila- nIla- su-
+196	pawiman	01	114418
+197	paWarvan	01	114544
+198	paRqitiman	01	114692
+199	pari-paRqiman	01	117898
+200	patman	03	~ vi- vIqu-
+201	patvan	04	~ ASu- raGu- Syena-
+202	padvan	01	115476
+203	paraSvan	01	116741.1
+204	Binna-parikarman	01	150834
+205	parIman	01	119355
+206	paruziman	01	119410
+207	parvan	67	~ a- aNgulI- araRya- Adi- AraReya- AraRya- ASrama- udyoga- upa- Uru- kaNka- karRa- kizku- gadA- gadAyudDa- GozayAtrA- caraRa- jatugfha- jambUKaRqavinirmARa- tantu- tikta- tIrTayAtrA- tri- triSataMzazwi- daSarAtra- dAmana- dIrGa- droRa- nata- paYca- pariSizwa- brAhma- BIzma- mahAprasTAna- mahAprasTAnika- mfdu- mokzaDarma- mOsala- rAjasUyAramBa- rAhu- ruci- vana- vi- vidurAgamana- virAwa- viSoka- viza- vfza- Sata- Sarat- Salya- SAnti- SiSupAlavaDa- saMgraha- saMvatsara- saMSaptakavaDa- saBA- samBava- sarvavArzika- su- sUrya- soma- sOptika- strI- svarga- svargArohaRa-
+208	pAkiman	01	121040
+209	pAwaliman	01	121354
+210	pari-pARqiman	01	117940
+211	pARquriman	01	121694
+212	pApman	10	~ anapahata- apahata- jagDa- DUta- DOta- pUta- mahA- vi- viDUta-
+213	pAman	02	~ su-
+214	pAvan	11	~ aBiSasti- asfk- Garma- Gfta- citta- jihvA- tanU- vasA- suta- soma-
+215	piNgaliman	01	123678
+216	piNgiman	01	123684
+217	piYjariman	01	123709.1
+218	pItiman	01	124877
+219	pIvan	02	~ su-
+220	puloman	01	126749
+221	pUrRiman	01	127774
+222	pUrtvan	01	127800
+223	pUzan	03	~ indrA- somA-
+224	pfTu-pragAman	01	128593
+225	su-prativarman	01	247663
+226	praTiman	01	134494
+227	prayAvan	02	vfza- su-
+228	a-prayutvan	01	10723
+229	a-prahan	01	10791
+230	a-prahAvan	01	10792
+231	prAvan	02	kratu- varza-
+232	pretvan	01	140972
+233	preman	10	~ a- Dvasta- BUri- manda- vi- sa- samAna- sTita- sTira-
+234	prertvan	01	141082
+235	prOQiman	01	141393
+236	plihan	01	141452
+237	plIhan	01	141461
+238	viSva-psan	01	201185
+239	baMhiman	01	142297
+240	badvan	01	142477
+241	baDiriman	01	142628
+242	baliman	01	143277
+243	bAliman	01	144728
+244	bukkan	01	145549
+245	bUKan	01	146019
+246	brahman	22	~ a- ati- anna- oha- ku- kfta- tuvi- tri- deva- para- parama- bfhad- BUta- mahA- Sabda- sad- sadASiva- su- svara- hari- harihara-
+247	Baktivan	01	147747
+248	Bakzivan	01	147565
+249	sapta-BaNgan	01	232549
+250	BaRqiman	01	148224
+251	Bariman	01	148789
+252	BarIman	01	148792
+253	Barman	08	~ arizwa- garBa- jAtU- tfpalapra- pra- vAja- vfzapra-
+254	Basman	13	~ aBraka- kfzRa- pIta- pravAla- rasa- vi- SaNKa- Sava- Sveta- sa- saha- homa-
+255	BArman	01	150105
+256	vi-BAvan	01	198290
+257	BUman	04	~ pum- prakfti- vi-
+258	aBi-BUvan	01	11987
+259	Bftvan	02	vi- sam-
+260	BraSiman	01	152756
+261	vi-Bvan	01	198517
+262	maGavan	03	~ mahI- sato-
+263	majjan	03	~ maDu- svAdu-
+264	maYjiman	01	154462
+265	madvan	02	~ satya-
+266	maDuriman	01	156272
+267	man	09	agni- ay- kakud- Buj- vaSi- vimati- viSAradi- Sre- sammati-
+268	maniman	02	vi- sam-
+269	mandiman	01	157876
+270	manman	06	~ dur- yajYa- vipra- satya- su-
+271	mariman	01	158146
+272	marman	07	~ a- aDo- antar- Binna- Siro- snAyu-
+273	maliniman	01	158748
+274	vi-maliman	01	198726
+275	mahan	01	159265
+276	mahiman	31	~ alupta- kArttika- kAla- taru- tIrTa- datta- durvAso- devI- nfsiMha- paYcasaMskAra- purARaSravaRa- pradoza- bArhaspatya- BadrA- maRikarRikA- maTurA- mahA- yoga- rAma- rudrapAda- lakzmIdvAdaSanAma- vimukti- vizRu- Siva- SivapUjA- SrI- zawsTala- sampUrRapuRya- sUryavrata- hari-
+277	mahman	01	161622
+278	aDika-mAMsArman	01	4137
+279	mIvan	01	164732.1
+280	mugDiman	01	166047
+281	muzIvan	01	165881
+282	mUkiman	01	166179
+283	mUrKiman	01	165780
+284	mUrDan	31	~ adri- apa- aSma- asta- eka- kumBa- gagana- tapur- tigma- tri- dina- dvi- naga- nata- bahu- mahA- muRqita- yan- raRa- roma- Sakra- Sata- saMgrAma- saMyuga- samanIka- samara- samAna- sahasra- sODa- hiraRya-
+285	mUrDvan	01	166317
+286	vi-mfgvan	01	193398.1
+287	mftAhan	01	166686
+288	mftiman	01	166699
+289	mradiman	01	168884
+290	mlAniman	01	168965
+291	yakzman	03	~ rAja- sa-
+292	yajvan	12	~ a- aByarDa- astfta- devarAja- dvArakAnATa- pfzWa- bahu- varadADISa- Sata- Siva- samudrabanDa-
+293	yadvan	01	170223
+294	yavan	02	~ a-
+295	yavayAvan	01	170648
+296	a-yAtayAman	01	14855
+297	vi-yAtiman	01	199003
+298	yAman	19	~ a- aKidra- anusra- aptor- izwa- usra- gAyatrI- dur- dyutad- punar- pfTu- pra- pravad- yAta- raGu- Sata- sahasra- su-
+299	yAvan	17	~ a- akzRa- agra- fRa- eka- eva- deva- puro- pUrva- prAtar- raTa- SuBaM- SuBra- sa- sAyaM- sva-
+300	yugman	01	171952
+301	yugvan	03	aBi- sa- sva-
+302	yuDvan	03	~ rAja- saha-
+303	yuyuDan	01	172127
+304	yuvan	09	~ ati- Arya- kzatriya- punar- BallUka- lAsaka- SElAli- haMsa-
+305	yUnarvan	01	172267
+306	yozan	01	172889
+307	raktArman	01	173710
+308	raktiman	01	173746
+309	raRvan	01	174195
+310	rarAvan	01	175296
+311	raSman	02	~ a-
+312	rAjan	45	~ a- agni- ati- aDi- anya- indra- kardama- kASi- ku- kunti- kowwa- geya- jana- taru- tfRa- deva- Darma- Dfta- nivAsa- paYcAla- pitf- prati- Pala- bahu- maRqalaka- maDukara- manuzya- mADavasenA- muKya- yama- yuva- varuRa- vikrama- SAlva- SuNga- SvApada- sa- satya- sAma- sAzI- su- sura- soma- sva-
+313	su-rAman	01	248714
+314	rAvan	04	~ a- puru- bfhad-
+315	rikvan	02	~ pra-
+316	ritakvan	01	178036
+317	riBvan	01	178104
+318	pfTu-rukman	01	128612
+319	ruhvan	01	178970
+320	rerivan	01	179475
+321	rezman	01	179529
+322	roman	38	~ UrDva- kapota- kfti- Kaqga- Kara- dIpta- dIrGa- nigUQa- nIcanaKa- netra- piNgala- pfTu- prahfzwa- bahu- BayasaMhfzwa- mayUra- mahA- mfdu- rudra- vikIrRa- SaNKa- SiSu- SvAvid- Sveta- saMhfzwa- sahasra- su- suvarRa- sUci- stabDa- svarRa- haMsa- hari- hiraRya- hIna- hfzwa- hrasva-
+323	lakzman	25	~ a- aDastAl- uttara- uparizwAl- kampa- kusuma- jarA- tAla- tulya- nfpa- puM- purastAl- mfga- mfgarAja- rAja- reRu- lulAya- vyakta- SaSa- SrI- SrIvatsa- sa- samIra- hariRa-
+324	laGiman	01	181034
+325	laNgiman	01	181116
+326	lalAman	01	181811
+327	lavaRiman	01	181967
+328	vi-lABiman	01	199612
+329	a-ba-liman	01	10958.2
+330	lUman	01	183179
+331	loman	35	~ a- akzi- aja- ajAta- avi- aSva- asi- Asya- uqu- uttara- urasi- kakza- kroqa- go- dfQa- baBru- bahir- mahA- yakfl- vAri- vi- vipatita- vfka- vyAGra- Sara- Salya- SaSa- SArdUla- SvAvil- sa- siMha- su- hari- hiraRya-
+332	lozwan	01	183772
+333	lohitArman	01	184013
+334	lohitiman	01	184046
+335	vakman	01	184681
+336	vakriman	01	184470
+337	vakvan	01	184483
+338	vatsiman	01	185512
+339	vadman	01	185565
+340	van	20	amatI- amas- arAtI- avasTA- inDan- upasad- fGA- fRa- fRA- ftA- gir- tad- tamas- dyu- DitA- vasu- SruzwI- satyA- sahA- saho-
+341	vanIvan	01	186119
+342	vaprIvan	01	186406
+343	variman	01	186645
+344	varIman	01	186662
+345	vartman	67	~ aklinna- anu- anupalakzya- arDa- arSo- asita- AkASa- AnAkaraTa- ud- UrDva- eka- kalyARa- ku- kula- kftya- kfzRa- klinna- klizwa- garBa- gIrvARa- guda- Gana- candra- janma- tArA- tri- dIrGa- deva- dyUta- dvAra- DUma- nakzatra- naya- nAga- pari- puru- puzpa- pfTag- praklinna- prati- bahala- bisa- Binna- marud- mArga- meGa- yaSo- raTa- rAja- vAyu- vi- vyutkrAnta- vyoma- SyAva- Srotra- Slizwa- saMsAra- satya- sambADa- sahasra- sikatA- su- suKa- sura- sTala- smfti-
+346	varDman	02	~ antra-
+347	varman	142	~ a- ajaya- ananta- apahAra- amitra- arTa- avanti- aSma- Aditya- Arya- indra- ISvara- udaya- upahAra- kanaka- kamala- kalApa- kalyARa- kAYcana- kIrti- kfta- kzema- Kadira- gada- guRa- gfha- gopAla- cakra- caRqa- candra- candramuKa- cAru- citra- jawA- jaya- jYAna- tanu- tIkzRa- dAna- dAru- dfQa- deva- devendra- deha- Dana- Darma- Dfta- nandapraBaYjana- nandi- nara- narasiMha- nAga- nArAyaRa- nirjita- nIti- parameSvara- pari- puRya- pUrRa- pracaRqa- prajYA- praBAkara- prahAra- banDu- bala- bahula- brahma- Badanta- BadantajYAna- Badra- BAnu- BAskara- BUti- Boga- maRi- mayUra- mahendra- mAra- mitra- mfga- mfgeSavara- yakza- yajYa- yaSo- ratna- ravi- rAja- rAma- rAmasiMha- loha- vajra- vi- vikawa- vikrAnti- vijaya- vinDya- viBu- viSAla- viSrAnti- viSva- vizRu- vizRugopa- vIra- vIraravi- SaMkara- Saka- Sarva- SAnti- SAntivara- SArdUla- Siva- Suzkawa- SUra- Sruta- sa- saMhAra- satya- sapta- samara- samudra- sarva- sAgara- siMha- sita- su- suKa- suBawa- sura- suvarRakAreSvara- susTira- sUra- sUrya- skanda- sTala- sTiti- sTira- hari- harza- hasti- himpati- hiraRya-
+348	varSman	01	187842
+349	varziman	01	188049
+350	varzman	02	~ Sata-
+351	vasman	01	189094
+352	su-vahman	01	248956
+353	vidman	01	195686
+354	vidvan	01	195921
+355	vilAtiman	01	199709
+356	vfzan	04	~ kavi- kziti- tri-
+357	vfziman	01	205172
+358	veman	01	205284
+359	veSman	41	~ agni- antar- eka- kArA- koSa- krIqA- garBa- catuzka- cintA- jatu- jAta- deva- devatA- nfpa- pawa- para- pAyukzAlana- pitf- prati- banDana- bali- BUpati- meGa- rAja- lIlA- vastra- vAsa- vilAsa- viSrAma- veSyA- SayyA- SayyAvAsa- SilA- SmaSAna- saMgIta- samBoga- sahopapati- sura- sUrya- snAna-
+360	vyeman	01	210347.1
+361	vyoman	02	~ prati-
+362	vraQiman	02	~ pari-
+363	Sakman	01	211034
+364	Sakvan	01	211161
+365	Sagman	01	211179
+366	pra-Sattvan	01	137489
+367	Sabaliman	01	212646
+368	Sariman	01	213828
+369	SarIman	01	213828.1
+370	Sarman	76	~ a- agni- indra- uru- kapila- kalyARa- kfta- kfzRa- kfzRacandradeva- kfzRaSaMkara- keSavajInanda- kzema- giri- caRqIdevI- candra- jaya- jAnakInATa- jIva- daRqa- dAsa- dfzwa- deva- dEvajYa- Darma- DIragovinda- Dfzwa- nanda- nAga- paSupati- pitf- prajApati- bala- bAla- bindu- bUba- Badra- Bava- BAva- BAskara- BUta- makaranda- manohara- mayUra- mahA- mahAdeva- mitra- yajYadatta- rAma- rudra- rO- lAvaRya- lokanATa- varuRa- varma- viBAkara- virUpa- viSva- vizRu- vIra- vEdyanATadeva- SatruGna- SAnti- Siva- SrIkaRWa- Sruta- su- suKa- soma- haWa- hari- harinArAyaRa- hariBAskara- harirAya- harzanATa- hitalAla-
+371	Sasman	01	210891
+372	SAkman	01	214894
+373	SAman	01	215561
+374	Sikvan	01	216515
+375	SitAman	01	216872
+376	saM-SiSvan	01	226568
+377	SItiman	01	218509
+378	SIrzan	23	~ a- anuzwup- ayaH- avanata- avAcIna- uBayataH- eka- kfzRa- gfDra- tri- mfga- ruru- vi- Sata- SatEka- SIrRa- sa- sapta- sarpa- sahasra- haya- hiraRya-
+379	SIvan	06	~ uttAna- upa- talpa- prati- vahya-
+380	Sukriman	01	219015
+381	SuklArman	01	219138
+382	Sukliman	01	219153
+383	su-Sukvan	01	250124
+384	SuBvan	01	219832
+385	Suzman	03	~ barhiH- soma-
+386	SoRiman	01	221519
+387	Sman	01	221967
+388	SyAmaliman	01	222152
+389	Srutarvan	01	223535
+390	a-Srezman	01	19856
+391	Slezman	01	224127
+392	Svan	07	~ araRya- durgfBi- piSAca- mAtari- vana- vyAGra-
+393	Svetiman	01	224857
+394	zadman	02	nf- su-
+395	zadvan	03	dru- nf- pari-
+396	go-zan	01	67674
+397	zAman	07	ftu- rAtri- saMDi- sinDu- su- setu- hotf-
+398	ziDvan	02	niH- niz-
+399	ati-zkadvan	01	3261
+400	su-zwarIman	01	250284
+401	su-zWAman	01	250291
+402	ati-zWAvan	01	3267.1
+403	tuvi-zvan	01	86253
+404	sakman	01	228853
+405	saGan	01	227924
+406	pari-Brazwa-satkarman	01	118194
+407	satvan	05	~ aBi- ahiSuzma- satIna- satya-
+408	sadman	29	~ ISvara- UrDva- kavikamala- Kaqga- jina- danta- dIrGapra- deva- dyu- nAku- nEtala- padma- pitf- prARa- bali- Boga- yantra- rAja- ruk- vasana- vidyA- vibuDa- vilAsa- SAnti- Sukra- sattra- sura- sUkara-
+409	adma-sadvan	01	3825
+410	sanitvan	01	231043
+411	sArDa-saptan	01	243204
+412	samadvan	01	233423
+413	sariman	01	237661
+414	vi-sarman	01	202742
+415	savIman	01	239490
+416	sahvan	02	~ pra-
+417	sADiman	01	241603
+418	sAman	60	~ a- agnizwoma- arvAk- avaBfTa- ahaH- indrARI- uBaya- fk- fta- kzatra- gAyatrI- goDA- candra- jagat- jyezWa- jyotiH- tArkzya- tri- tvAzwrI- nfsiMhAdi- payaH- paraH- pari- puruza- pUjopayogi- pORqarIka- pravargya- prastotf- prAcya- bfhat- bfhadraTaMtara- brahma- Badra- BAraqa- maNgala- mahA- raTaMtara- rAja- rAtri- rudra- loka- varuRa- vAja- vAjapeya- viSva- SAktya- SrezWa- SrOtaprayoga- zoqaSi- satya- sarpa- sarvapfzWAptoryAma- saha- su- sUrya- soma- svaH- svara- hAuhuvEvA-
+419	sAyAhan	01	242689
+420	viSva-sAhvan	01	201372
+421	sitiman	01	244292
+422	siDman	01	244765
+423	sIman	08	~ a- niH- pari- sa- samara- su- sTala-
+424	DaritrI-sutrAman	01	99869
+425	sutvan	04	~ pAka- sa- soma-
+426	suplan	01	248165
+427	soma-sUkzman	01	253087
+428	sUvan	01	250826
+429	sfkvan	02	~ viza-
+430	sftvan	02	~ bAQa-
+431	sfpman	01	252015
+432	soman	01	253194
+433	stariman	01	254847
+434	starIman	01	254848
+435	stAman	01	254585
+436	stuBvan	01	254802
+437	sTaviman	01	255919
+438	sTAman	03	~ niH- pAka-
+439	sTAvan	03	upa- pra- sa-
+440	sTeman	01	255847
+441	snAvan	01	256290
+442	snIhan	01	256354
+443	snUhan	01	256483
+444	snehan	01	256427
+445	sPeman	01	256840
+446	sman	01	257071
+447	syUman	01	257511
+448	srajvan	01	257591
+449	a-sreman	01	21563
+450	svadAvan	01	258790
+451	svaDAvan	01	258506
+452	svAdiman	01	258805
+453	svAduman	01	258872
+454	svAdman	01	258875
+455	han	135	~ aGaSaMsa- adfzwa- anila- apaSu- apAzWi- aBimAti- amitra- amIva- ari- arizwa- aruSa- avIra- aSasti- asura- ahi- AKu- Atma- Arti- ozizWa- kaMsa- kAlaKaRqa- kAlanemi- kfzwi- keSi- kEwaBa- kzudra- gara- guru- gfha- go- cakzur- candra- tamo- tripura- darpa- dasyu- duHKa- dunduBidarpa- durAri- durRAma- dEtya- dvi- DAtu- DunDu- namuci- ni- nf- netraroga- para- paravIra- paSu- pApa- pitf- pitta- piSAca- putra- punar- pura- puruza- puro- pUtanA- pfSni- prajA- pralamba- pralApa- bala- balavftra- bali- balivfza- bARa- bAla- brahma- Baga- Baganetra- BagAkzi- BujaMga- BUta- BUri- BrAtfvya- BrURa- maKa- matsya- maDu- mano- marma- mAtf- mAna- mitra- mura- muzwi- mfga- mEnda- yajYa- yamalArjuna- yamalArjunaka- yaSo- yAtu- yuva- rakzo- roga- lakzya- valaga- vAta- vAtApi- vAyu- virADa- viza- vihaMga- vIra- vftti- vftra- vetra- Sakawa- Sata- Satru- Sambara- Sambaravftra- Sarya- SaSa- SiSupAla- SUdra- Sva- satrA- sapatna- sapta- sarpa- sasya- sArTa- suraSatru- surAri- senA- svara- hayagrIva- hiraRyakaSipu-
+456	hanman	03	~ aSma- puru-
+457	hariman	01	260788
+458	harIman	01	260790
+459	harman	01	260803
+460	havIman	01	262047
+461	upa-hasvan	01	36469
+462	hArdivan	01	262702
+463	hArdvan	01	262703
+464	hitvan	01	262723
+465	himmativarman	01	263144.1
+466	heman	06	~ ASu- kUwa- rasa- sidDa- hiraRya-
+467	hEtanAman	01	264431
+468	hoqiman	01	264474
+469	hotvan	01	264520
+470	hrasiman	01	264684
