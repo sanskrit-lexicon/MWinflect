@@ -985,3 +985,334 @@ del 253580	sOBAgyalakzmIkalpeSyAmalAmbAstotra	sOBAgya-lakzmI-kalpe SyAmalAmbA-st
 del 253581	sOBAgyalakzmItantreSyAmalAmbAvarmaratna	sOBAgya-lakzmI-tantre SyAmalAmbA-varma-ratna	n
 del 255101	strISUdrAdInAMdevArcanavicAra	strI-SUdrA-dInAM devArcana-vicAra	m
 del 257900	svatantramuKamardana	sva-tantra-muKa mardana	n
+; 12/12/2018 -- mark karman as last pada
+old 4507.1	aDyAyopAkarman	aDyAyopAkarman	n
+new 4507.1	aDyAyopAkarman	aDyAyopA-karman	n
+old 5061	anapakarman	an-apakarman	n
+new 5061	anapakarman	an-apa-karman	n
+old 5109	anapAkarman	an-apAkarman	n
+new 5109	anapAkarman	an-apA-karman	n
+old 89841	dattAnapakarman	dattAnapakarman	n
+new 89841	dattAnapakarman	dattAnapa-karman	n
+old 150834	Binnaparikarman	Binna-parikarman	n
+new 150834	Binnaparikarman	Binna-pari-karman	n
+old 10547	apratikarman	a-pratikarman	m:f:n
+new 10547	apratikarman	a-prati-karman	m:f:n
+; maGavan has irregular declension. change key2
+old 154106	maGavan	maGa-van	m:f:n
+new 154106	maGavan	maGavan	m:f:n
+old 154106.1	maGavan	maGa-van	m
+new 154106.1	maGavan	maGavan	m
+; change key2 with to -nAman
+old 67476	gorakzasahasranAman	go-rakza-sahasranAman	n
+new 67476	gorakzasahasranAman	go-rakza-sahasra-nAman	n
+old 180647	lakzmIsahasranAman	lakzmI-sahasranAman	n
+new 180647	lakzmIsahasranAman	lakzmI-sahasra-nAman	n
+old 176558	rAjayakzmannAman	rAja-yakzmannAman	m
+new 176558	rAjayakzmannAman	rAja-yakzman-nAman	m
+; change praBarman to pra-Barman
+old 86732	tfpalapraBarman	tfpala-praBarman	m:f:n
+new 86732	tfpalapraBarman	tfpala-pra-Barman	m:f:n
+old 205020	vfzapraBarman	vfza-praBarman	m:f:n
+new 205020	vfzapraBarman	vfza-pra-Barman	m:f:n
+;
+old 93125	dIrGaprasadman	dIrGa-prasadman	m:f:n
+new 93125	dIrGaprasadman	dIrGa-pra-sadman	m:f:n
+;
+old 100263	DarmaviDarman	Darma-viDarman	n
+new 100263	DarmaviDarman	Darma-vi-Darman	n
+old 116521	paramasvaDarman	parama-svaDarman	m:f:n
+new 116521	paramasvaDarman	parama-sva-Darman	m:f:n
+;
+old 180265	rOSarman	rOSarman	m
+new 180265	rOSarman	rO-Sarman	m
+; ADvan -- compound of aDvan (way)
+old 10017	apADvan	apADvan	m
+new 10017	apADvan	ap-ADvan	m
+old 100398	DarmADvan	DarmADvan	m
+new 100398	DarmADvan	Darm-ADvan	m
+old 158136.1	maraRADvan	maraRADvan	m
+new 158136.1	maraRADvan	maraR-ADvan	m
+old 167697	meGADvan	meGADvan	m
+new 167697	meGADvan	meG-ADvan	m
+old 172076	yudDADvan	yudDADvan	m:f:n
+new 172076	yudDADvan	yudD-ADvan	m:f:n
+old 176768	rAjADvan	rAjADvan	m
+new 176768	rAjADvan	rAj-ADvan	m
+old 189615	vAtADvan	vAtADvan	m
+new 189615	vAtADvan	vAt-ADvan	m
+old 203833	vIrADvan	vIrADvan	m
+new 203833	vIrADvan	vIr-ADvan	m
+old 37559	ullaNGitADvan	ullaNGitADvan	m:f:n
+new 37559	ullaNGitADvan	ullaNGit-ADvan	m:f:n
+old 55501	kfzRADvan	kfzRADvan	m:f:n
+new 55501	kfzRADvan	kfzR-ADvan	m:f:n
+old 63505	gatADvan	gatADvan	m:f:n
+new 63505	gatADvan	gat-ADvan	m:f:n
+old 78168	jalADvan	jalADvan	m
+new 78168	jalADvan	jal-ADvan	m
+; 
+old 2070.1	ajanman	ajanman	m:f:n
+new 2070.1	ajanman	a-janman	m:f:n
+old 111680	nIlAmbujanman	nIlAmbujanman	n
+new 111680	nIlAmbujanman	nIlAmbu-janman	n
+; 
+old 5238	anarman	anarman	m:f:n
+new 5238	anarman	an-arman	m:f:n
+; ASman  a-aSman
+old 15655	arkASman	arkASman	m
+new 15655	arkASman	ark-ASman	m
+old 21001	asitASman	asitASman	m
+new 21001	asitASman	asit-ASman	m
+old 31327	uttarASman	uttarASman	m:f:n
+new 31327	uttarASman	uttar-ASman	m:f:n
+old 31328	uttarASman	uttarASman	m
+new 31328	uttarASman	uttar-ASman	m
+old 45231	karpUrASman	karpUrASman	m
+new 45231	karpUrASman	karpUr-ASman	m
+old 62808	gaRqASman	gaRqASman	m
+new 62808	gaRqASman	gaRq-ASman	m
+old 63227	ganDASman	ganDASman	m
+new 63227	ganDASman	ganD-ASman	m
+old 63810	garuqASman	garuqASman	m
+new 63810	garuqASman	garuq-ASman	m
+old 66691	gfhASman	gfhASman	m
+new 66691	gfhASman	gfh-ASman	m
+old 67805	goRASman	goRASman	m
+new 67805	goRASman	goR-ASman	m
+old 70574	cakrASman	cakrASman	m
+new 70574	cakrASman	cakr-ASman	m
+old 71931	candrASman	candrASman	m
+new 71931	candrASman	candr-ASman	m
+; and similarly for these -
+77788	jalakAntASman	jala-kAntASman	m
+80914	jvalanASman	jvalanASman	m
+82683	tapanASman	tapanASman	m
+84204	tAmrASman	tAmrASman	m
+93546	dugDASman	dugDASman	m
+103048	nagASman	nagASman	m
+107841.2	nikazASman	ni-kazASman	m
+111690	nIlASman	nIlASman	m
+114735	pataMgASman	pataM-gASman	m
+124852	pItASman	pItASman	m
+160978	mahASman	mahASman	m
+174710	raTASman	raTASman	m
+215113	SARASman	SARASman	n
+218407	SItASman	SItASman	m
+221470	SoRASman	SoRASman	m
+251765	sUryASman	sUryASman	m
+256767	sPawikASman	sPawikASman	m
+; -----
+; ozman -> -ozman:   compound of Xa+uzman
+16055	arTozman	arTozman	m
+99465	Danozman	Danozman	m
+101528	DUpozman	DUpozman	m
+157814	mandozman	mandozman	m:f:n
+218422	SItozman	SItozman	n
+221002.1	SEtozman	SEtozman	n
+253255	sozman	sozman	m:f:n
+253257	sozman	sozman	m
+;
+old 4316.1	aDimAMsArman	aDimAMsArman	n
+new 4316.1	aDimAMsArman	aDimAMs-Arman	n
+old 208237	vyapamUrDan	vy-apamUrDan	m:f:n
+new 208237	vyapamUrDan	vy-apa-mUrDan	m:f:n
+old 25815	Ayavan	Ayavan	m
+new 25815	Ayavan	A-yavan	m
+; Ahan -> -Ahan:  Xa+ahan (day)
+1376	aGAhan	aGAhan	n
+39912.2	ekAhan	ekAhan	n
+50138	kAhan	kAhan	n
+93266	dIrGAhan	dIrGAhan	m:f#hnI:n
+166686	mftAhan	mftAhan	n
+242689	sAyAhan	sAyAhan	n
+; 12/12/2018  Remove apostrophe (avagraha) from key2 (189 cases)
+2551	atonya	ato-'nya	m:f:n
+2552	atorTam	ato-'rTam	ind
+3997	aDarozWa	aDar'-ozWa	m
+3998	aDarozWa	aDar'-ozWa	n
+4052	aDokza	aDo-'kza	m:f:n
+4053	aDokzam	aDo-'kzam	ind
+4054	aDokzeRa	aDo-'kzeRa	ind
+4055	aDokzaja	aDo-'kza-ja	m
+4064	aDoNga	aDo-'Nga	n
+4077	aDopara	aDo-'para	n
+4106	aDovekzin	aDo-'vekzin	m:f:n
+4106.1	aDoMSuka	aDo-'MSuka	n
+4107	aDoSvam	aDo-'Svam	ind
+4108	aDosrapitta	aDo-'sra-pitta	n
+7961	antevasAyin	ante-'vasAyin	m
+8646	anyatoraRya	anyato-'raRya	n
+10286	apuronuvAkyaka	a-puro-'nuvAkyaka	m:f:n
+11197	aBitosTi	aBito-'sTi	m:f:n
+12520.1	aBiSirogra	aBi-Siro'gra	m:f:n
+14812	ayogra	ayo-'gra	n
+14813	ayograka	ayo-'graka	n
+14819.1	ayoni	ayo-'ni	m
+14820	ayopAzwi	ayo-'pAzwi	m:f:n
+14828	ayoSana	ayo-'Sana	m:f:n
+15132	araRyenuvAkya	araRye-'nuvAkya	m:f:n
+15133	araRyenUcya	araRye-'nUcya	m
+24928	ApoSAna	Apo-'SAna	m:f:n
+24929	ApoSAna	Apo-'SAna	n
+29622	izkftAhAva	i'zkftAhAva	m:f:n
+37119	uBayatoNga	uBayato-'Nga	m:f:n
+37122	uBayatotirAtra	uBayato-'ti-rAtra	m:f:n
+37342	urubja	uru-'bja	m:f:n
+43067.1	kanIyokzara	kanIyo'kzara	m:f:n
+55538	kfzRosyAKarezWaka	kfzRo'sy-AKarezWaka	m:f:n
+60843	Kewa	Ke-'wa	m
+60845	Kewakarman	Ke-'wa-karman	n
+60846	KewapIWamAlA	Ke-'wa-pIWa-mAlA	f
+60846.1	KewaboDa	Ke-'wa-boDa	m
+60846.2	KewaBUzaRa	Ke-'wa-BUzaRa	n
+66382	gUQotman	gUQo'tman	m
+67441	gombu	go-'mbu	n
+67442	gomBas	go-'mBas	n
+67662	goSva	go-'Sva	n
+67663	goSva	go-'Sva	m
+75649	Candonuvftta	Cando-'nuvftta	n
+75650	CandonuSAsanavftti	Cando-'nuSAsana-vftti	f
+75651	CandopahArAvali	Cando-'pahArAvali	f
+82787	taponuBAva	tapo-'nuBAva	m
+82806	taporTIya	tapo-'rTIya	m:f:n
+82818	tapoSana	tapo-'Sana	m
+82969	tamontakft	tamo-'nta-kft	m
+82970	tamontya	tamo-'ntya	m
+82971	tamonDakAra	tamo-'nDakAra	m
+82971.1	tamonDakAraBUmi	tamo-'nDakAra-BUmi	f
+82971.2	tamonDakArABUmi	tamo-'nDakArA-BUmi	f
+82972	tamopaha	tamo-'paha	m:f:n
+82987	tamori	tamo-'ri	m
+82988	tamorivivara	tamo-'ri-vivara	m
+84196.1	tAmrADarozWa	tAm-rADar'ozWa	m:f:n
+85105	tirohnya	tiro-'hnya	m:f:n
+86918	tejoBiBavana	tejo-'BiBavana	m
+86924	tejomftamaya	tejo-'mfta-maya	m:f:n
+86943	tejohvA	tejo-'hvA	f
+87031	tErohnya	tEro'hnya	m:f:n
+87847	trinavaha	tri-nava-'ha	n
+90216	dantyozWya	danty'ozWya	m:f:n
+91048	daSoRi	daS'oRi	m
+91049	daSoRya	daS'oRya	m
+92249	divokas	div'okas	m
+102757	nakulozWI	nakul'ozWI	f
+103190	nawagaNgoka	nawa-gaNg'oka	m
+103789	naBoNgaRa	naBo-'NgaRa	n
+103806	naBombupa	naBo-'mbu-pa	m
+104841	nastota	nast'ota	m:f:n
+104907	nAkoka	nAk'oka	m
+105469	nAToka	nAT'oka	m
+113645	paYcataponvita	paYca-tapo'nvita	m:f:n
+115991	payomftatIrTa	payo-'mfta-tIrTa	n
+116698	parepa	pare-'pa	m:f:n
+116701	paroMhu	paro-'Mhu	m:f#vI:n
+116702	parokza	paro-'kza	m:f#A:n
+116702.06	parokzam	paro-'kzam	ind
+116702.08	parokzeRa	paro-'kzeRa	ind
+116702.10	parokzAt	paro-'kzAt	ind
+116702.12	parokze	paro-'kze	ind
+116702.16	parokza	paro-'kza	m
+116702.20	parokzA	paro-'kzA	f
+116702.26	parokzakAma	paro-'kza-kAma	m:f:n
+116702.28	parokzakfta	paro-'kza-kfta	m:f:n
+116702.30	parokzajit	paro-'kza-jit	m:f:n
+116702.32	parokzatA	paro-'kza-tA	f
+116702.33	parokzatva	paro-'kza-tva	n
+116702.34	parokzapfzWa	paro-'kza-pfzWa	m
+116702.36	parokzapriya	paro-'kza-priya	m:f:n
+116702.38	parokzabanDu	paro-'kza-banDu	m:f:n
+116702.40	parokzabudDi	paro-'kza-budDi	m:f:n
+116702.42	parokzaBoga	paro-'kza-Boga	m
+116702.44	parokzamanmaTa	paro-'kza-manmaTa	m:f:n
+116702.46	parokzavftti	paro-'kza-vftti	m:f:n
+116702.50	parokzArTa	paro-'kzArTa	m:f:n
+116702.52	parokzArTa	paro-'kzArTa	n
+116709	parovaram	paro-'varam	ind
+116709.1	parovarIRa	paro-'varIRa	m:f:n
+116712	paroSIta	paro-'SIta	m:f:n
+120405	pavanombuja	pavano'mbuja	m
+125068	puMKewa	puM-Ke'wa	m
+126039	purokzam	puro-'kzam	ind
+126091	puronuvAkyA	puro-'nuvAkyA	f
+126092	puronuvAkyAvat	puro-'nuvAkyA-vat	m:f:n
+126183	puroka	pur'oka	m
+140846	preyopatya	preyo-'patya	m
+145241	bimbaPalADarozWa	bimba-PalADar'ozWa	m:f:n
+145249	bimbozWa	bimb'-ozWa	m:f#I:n
+148648	Bayeqaka	Bay-'eqaka	m
+152028	BUtodana	BUt'-odana	m
+152326	BUyokzara	BUyo-'kzara	m:f#A:n
+152326.1	BUyokzaratara	BUyo-'kzara-tara	m:f:n
+152329	BUyonAgamana	BUyo-'nAgamana	n
+154960	maRqalISa	maRqal'-ISa	m
+157066	manoDinATa	mano-'DinATa	m
+157068	manonavasTAna	mano-'navasTAna	n
+157071	manonukUla	mano-'nukUla	m:f:n
+157072	manonuga	mano-'nuga	m:f:n
+157073	manonuga	mano-'nuga	m
+157074	manopahArin	mano-'pahArin	m:f:n
+157075	manopeta	mano-'peta	m:f:n
+157082	manoBiDA	mano-'BiDA	f
+157083	manoBiniveSa	mano-'BiniveSa	m
+157084	manoBiprAya	mano-'BiprAya	m
+157085	manoBiprAyaga	mano-'BiprAya-ga	m:f:n
+157086	manoBirAma	mano-'BirAma	m:f:n
+157087	manoBirAma	mano-'BirAma	m
+157088	manoBirAma	mano-'BirAma	m:n
+157089	manoBilAza	mano-'-BilAza	m
+157148	manorti	mano-'rti	f
+157157	manovalambikA	mano-'valambikA	f
+157208	manohvA	mano-'hvA	f
+161369	mahozWa	mah'-ozWa	m:f:n
+161833	mAMsaBUtodana	mAMsa-BUt'-odana	n
+161883	mAMsodana	mAMs'-odana	m
+167053	mfgervAru	mfg-'ervAru	m:n
+167054	mfgervAru	mfg-'ervAru	m
+167056	mfgervAruka	mfg-'ervAruka	m
+167864	medorbuda	medo-'rbuda	n
+170076	yaTetam	yaT'etam	ind
+174009	rajoDika	rajo-'Dika	m:f:n
+174288	ratnatejoByudgatarAja	ratna-tejo-'Byudgata-rAja	m
+179458	retovasikta	reto-'vasikta	m:f:n
+181537	lambozWa	lamb'ozWa	m:f:n
+181537.1	lambozWa	lamb'ozWa	m
+182140	lANgalIzA	lANgal'IzA	f
+183104	lolozWa	lol'-ozWa	m:f:n
+183324	lokaparokza	loka-paro'kza	m:f:n
+184456	vakrozWi	vakr'-ozWi	f
+184457	vakrozWika	vakr'-ozWika	n
+184458	vakrozWikA	vakr'-ozWikA	f
+186536	vayotiga	vayo-'tiga	m:f#A:n
+186538	vayotIta	vayo-'tIta	m:f#A:n
+186545	vayoDika	vayo-'Dika	m:f:n
+186547	vayoDika	vayo-'Dika	m
+186549.1	vayonurUpa	vayo-'nurUpa	m:f:n
+186552	vayovasTA	vayo-'vasTA	f
+199082	virajastejombaraBUzaRa	vi-rajas-tejo'mbara-BUzaRa	m:f:n
+211310	Sakalyezin	Sakal'yezin	m:f:n
+217184	SiroBitApa	Siro-'BitApa	m
+217210	Sirorti	Siro-'rti	f
+217226	SirosTi	Siro-'sTi	n
+219143	Suklodana	Sukl'odana	m
+219490	SudDodana	SudD'odana	m
+219491	SudDodanasuta	SudD'odana-suta	m
+219492	SudDodani	SudD'odani	m
+220579	SfNgISvaratIrTa	SfNg'ISvara-tIrTa	n
+223752	SreyoBikANkzin	Sreyo-'BikANkzin	m:f:n
+223754	SreyorTin	Sreyo-'rTin	m:f:n
+230584	sadojira	sado-'jira	n
+230930	sadyonugata	sadyo-'nugata	m:f:n
+230939	sadyoBivarza	sadyo-'Bivarza	m
+232311	sapuronuvAkya	sa-puro'nuvAkya	m:f:n
+238439	sarvaparokza	sarva-paro'kza	m:f#A:n
+239197	sarvatokziSiromuKa	sarvato-'kzi-Siro-muKa	m:f:n
+240394	sahodana	sah'odana	m:f:n
+245742	suKayaSorTavfdDikara	suKa-yaSo-'rTa-vfdDi-kara	m:f:n
+246399	sutAmrozWa	su-tAmr'ozWa	m:f:n
+248291.30	sumanoBirAma	su-mano-'BirAma	m:f#A:n
+256982	sPuradaDarozWa	sPurad-aDaro'zWa	m:f:n
+256982.1	sPuradaDarozWam	sPurad-aDaro'zWam	ind
+257718	srotoYjana	sroto-'Yjana	n
+257720	srotonugata	sroto-'nugata	m
+261794	halIzA	hal'IzA	f
