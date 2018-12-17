@@ -36453,6 +36453,7 @@ f_A	rAjanyA	176844,rAjanya:176849,rAjanyA
 f_A	rAjamAnA	176858,rAjamAna
 f_A	rAjasA	176949,rAjasa
 f_A	rAjasikA	176952,rAjasika
+f_A	rAjA	176833,rAjan
 f_A	rAjAjYA	176754,rAjAjYA
 f_A	rAjAntakaraRA	176773,rAjAntakaraRa
 f_A	rAjApatyA	176777,rAjApatyA

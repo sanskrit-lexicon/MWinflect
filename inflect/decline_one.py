@@ -115,7 +115,8 @@ def test_md1(model,key2):
              'm_us','f_us','n_us', # 1 stem
             ]
  models_3 = ['m_vas','n_vas']
- models = models_1 + models_2 + models_3
+ models_4 = ['m_an','n_an'] 
+ models = models_1 + models_2 + models_3 + models_4
  if not model in models:
   print('md1 not implemented for model=',model)
   return
@@ -145,6 +146,9 @@ def test_md1(model,key2):
  elif model in models_3:
   base1 = decl.base1
   base2 = decl.base2
+ elif model in models_4:
+  # use decl.bases. See below
+  pass
  else:
   print('test_md1: Internal error. Cannot compute base')
   exit(1)
@@ -166,6 +170,8 @@ def test_md1(model,key2):
      b = base1
     else:
      b = base2
+   elif model in models_4: # an
+    b = decl.head + decl.bases[icell+i]
    if '/' not in sup:
     explain = md1_explain(x,b,sup)
    else:

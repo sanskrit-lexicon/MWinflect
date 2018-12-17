@@ -8,8 +8,7 @@ import sys,re,codecs
 from slp_cmp import slp_cmp_key
 sys.path.append('../../pysanskrit')
 from sandhi_nR import sandhi_nR
-#import decline_3stem
-#from decline_util import declension_join
+import decline # for f_an_I. See model_an
 
 class Lexnorm(object):
  """
@@ -1611,9 +1610,15 @@ def model_an(recs,flog):
   stem = rec.key2
   if not stem.endswith(ending):
    continue
+  if rec.parsed:
+   continue  # already handled. Could be for indeclineables
   # For adjectives ending in 'an', the feminine stem is formed by adding
-  # 'I' to the weak stem.  We recognize such 'adjectives' by
-  # lexnorm == 'm:f:n'
+  # 'I' to the weak stem. (This is rule in Antoine I).
+  # However, from Kale (p. 190, section 326) and Whitney (section 435),
+  # for nominals ending in 'van', the feminine changes the final 'an' to 'arI'.
+  # Specifically, we compute the declension of the word as a masculine,
+  # then take the 3s (instrumental singular), which ends in 'A', and 
+  # change that 'A' to 'I' to form the feminine.
   # Otherwise, the feminine is declined like a masculine ending in 'an'.
   # In fact, the only example of this feminine is sIman (Deshpande, Kale)
   # and we restrict to the (5) words of MW ending in sIman
@@ -1630,18 +1635,21 @@ def model_an(recs,flog):
     mstem = stem
     model = '%s_%s' %(part,ending)    
    elif part == 'f':
-    if stem.endswith('sIman'):
-     #Use f_an model, which is like m_an
-     mstem = stem
-     model = '%s_%s' %(part,ending)    
+    if stem.endswith('van'):
+     mstem = stem[0:-1]+'rI'
     else:
-     # add 'I' to **weak** stem
-     (s,m,w) = decline_3stem.stems_an(stem)
-     # in my version of strong, middle, weak, we actually add 'nI' to weak
-     mstem = declension_join(w,'nI')
-     # Correct one issue with declension join: It changes m-nI to M-ni
-     mstem = re.sub(r'M([nR])I$',r'm\1I',mstem)
-     model = 'f_an_I'  # normal feminine ending in 'I'
+     # Decline the last pada
+     padas = rec.key2.split('-')
+     firstpadas = padas[0:-1]
+     lastpada = padas[-1]
+     decl = decline.Decline_m_an(lastpada,lastpada)
+     inflection = decl.table  #  a list
+     instr = inflection[6]  # for m_an, we know instr is a string
+     assert isinstance(instr,str) and instr.endswith('A'),"%s %s" %(rec.key2,instr)
+     lastpada_f = instr[0:-1] + 'I'
+     firstpadas.append(lastpada_f)
+     mstem = '-'.join(firstpadas)
+    model = 'f_an_I'  
    elif part == 'f#GnI':
     assert stem.endswith('han')
     mstem = stem[0:-3] + 'GnI'
@@ -1690,7 +1698,7 @@ def model_an(recs,flog):
    elif part in ['f#yUnI','f#yuvatI','f#yuvati']:
     assert stem == 'yuvan'
     mstem = part
-    model = 'f_I'  
+    model = 'f_an_I'  
    else:
     print('model_an internal ERROR',part)
     exit(1)
@@ -2201,9 +2209,9 @@ if __name__ == "__main__":
  model_mfn_as(recs,flog)
  model_mfn_is(recs,flog)
  model_mfn_us(recs,flog)
+ model_an(recs,flog)
  #model_f_AIU(recs,flog)
  #model_pron(recs,flog)
- #model_an(recs,flog)
  #model_1stem(recs,flog)
  write_normal_models()
  write_special_models('card')

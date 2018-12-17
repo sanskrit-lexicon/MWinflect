@@ -2635,6 +2635,7 @@ ind	pari-krAmitakena	117118.1,parikrAmitakena
 ind	pari-klizwam	117143,pariklizwam
 ind	pari-gfhya	117258,parigfhya
 ind	pari-GarGaram	117336,pariGarGaram
+ind	pari-jman	117506,parijman
 ind	pari-Rayena	117600,pariRayena
 ind	pari-RAme	117556.1,pariRAme
 ind	pari-tas	117647,paritas

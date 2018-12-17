@@ -19,8 +19,8 @@ f_card	azwA-saptati	20302,azwAsaptati
 f_card	azwASIti	20317,azwASIti
 f_card	AryA-paYcASat	26609.1,AryApaYcASat
 m_card	eka	39168,eka
-n_card	eka	39168,eka
 f_card	eka	39168,eka
+n_card	eka	39168,eka
 f_card	eka-catvAriMSat	39218,ekacatvAriMSat
 f_card	eka-triMSat	39292,ekatriMSat
 f_card	eka-navati	39362,ekanavati
@@ -36,8 +36,8 @@ f_card	kowi	56461,kowi
 f_card	catuH-zazwi	71103,catuHzazwi
 f_card	catuH-saptati	71117,catuHsaptati
 m_card	catur	71074,catasf:71131,catur
-n_card	catur	71074,catasf:71131,catur
 f_card	catur	71074,catasf:71131,catur
+n_card	catur	71074,catasf:71131,catur
 f_card	catur-aSIti	71156,caturaSIti
 m_card	catur-daSan	71221,caturdaSan
 f_card	catur-navati	71240,caturnavati
@@ -59,8 +59,8 @@ m_card	trayo-daSan	87491,trayodaSa
 f_card	trayo-navati	87496,trayonavati
 f_card	trayo-viMSati	87501,trayoviMSati
 m_card	tri	87572,tri
-n_card	tri	87572,tri
 f_card	tri	87572,tri
+n_card	tri	87572,tri
 f_card	tri-catvAriMSat	87690,tricatvAriMSat
 f_card	tri-navati	87845,trinavati
 f_card	tri-paYcASat	87873,tripaYcASat
@@ -82,8 +82,8 @@ f_card	dvA-viMSati	98184,dvAviMSati
 f_card	dvA-zazwi	98193,dvAzazwi
 f_card	dvA-saptati	98196,dvAsaptati
 m_card	dvi	98101,dva:98396,dvi
-n_card	dvi	98101,dva:98396,dvi
 f_card	dvi	98101,dva:98396,dvi
+n_card	dvi	98101,dva:98396,dvi
 f_card	dvi-catvAriMSat	98433,dvicatvAriMSat
 f_card	dvi-trayas-triMSat	98464,dvitrayastriMSat
 f_card	dvi-navati	98504,dvinavati

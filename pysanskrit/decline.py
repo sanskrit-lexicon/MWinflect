@@ -1479,6 +1479,204 @@ class Decline_n_us(object):
   head = ''.join(parts[0:-1])
   return head,base
 
+consonant_set = 'kKgGNcCjJYwWqQRtTdDnpPbBmyrlvhzSsHM'
+
+def stems_an(key2):
+ b0 = key2.replace('-','')
+ b = b0[0:-2]  # remove final 'an'
+ #s = b + 'A' # strong
+ s = b
+ m = b + 'a' # middle
+ w = b       # weak
+ manvanflag = False
+ if b.endswith('h'): 
+  # -han
+  #w = b[0:-1]+'G'
+  pass ## do this in declension_join_an
+ elif b0.endswith('mUrDan'):
+  # Deshpande, Huet. Appears to be exception to next rule.
+  pass
+ #elif (len(b) > 2) and (b[-2] in consonant_set):
+ elif (len(b) > 2) and (b[-2] in consonant_set) and b.endswith(('m','v')):
+  # example vartman, Atman, varman
+  w = m  
+  manvanflag=True
+ return (s,m,w,manvanflag)
+
+def declension_join_an(b,sup0):
+ """ b and sup0 are strings
+   If sup0 contains '/', it is parsed as a list, 
+     and a list of strings is returned.
+   If sup0 is a string, a string is returned.
+   This has special sandhi logic :only used for declensions ending in 'an'.
+    1. b endswith 'j': (j+n -> j+Y) (rAjan) 
+    2. han (a killer) and its compounds.  Recognized here by b == 'h'
+       There are many other irregularities among 'an' nominals (ref. Kale).
+       When we deal with these other irregularities, perhaps move the
+       'han' compounds to be with that code.
+ """
+ sups = sup0.split('/')
+ infls = []
+ for sup in sups:
+  b0 = b
+  if b0.endswith(('j','J','c','C')):
+   if sup.startswith('n'):
+    sup = 'Y' + sup[1:]  # replace initial 'n' with 'Y'
+  if b0 == 'h': 
+   # han and its compounds
+   if sup.startswith('n'):
+    # h changes to G
+    b0 = 'G'
+   elif sup != 'an':
+    sup = sup.replace('n','R')
+   # only Nom. Sing. sup is long A
+   if sup.startswith('A'):
+    if sup != 'A':
+     # Ax -> ax
+     sup = 'a'+sup[1:]
+  infls.append(declension_join_simple(b0,sup))
+ if len(sups) == 1:
+  # case 1 sup (no alternates)
+  ans = infls[0] # return a string
+ else:
+  ans = infls  # return a list
+ return ans
+
+class Decline_m_an(object):
+ """ declension table for masculine nouns ending in an
+  These are classified as nouns with three stems.
+  This algorithm does just that
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'A:AnO:AnaH:'+\
+             'Anam:AnO:naH:'+\
+             'nA:ByAm:BiH:'+\
+             'ne:ByAm:ByaH:'+\
+             'naH:ByAm:ByaH:'+\
+             'naH:noH:nAm:'+\
+             'ni/ani:noH:su:'+\
+             'an:AnO:AnaH'
+  sups = self.getsups()
+  head,lastpada = self.splitkey2()
+  s,m,w,manvanflag = stems_an(lastpada)
+  if manvanflag:
+   # 'ni' not part of locative singular
+   sups[18] = 'ani'
+  bases = [s,s,s, 
+           s,s,w,
+           w,m,m,
+           w,m,m,
+           w,m,m,
+           w,w,w,
+           s,w,m,   # singular w->s
+           s,s,s]   # singular w->s
+  
+  self.status = True
+  self.table = []
+  # join base and all the endings
+  base_infls = []
+  for isup,sup in enumerate(sups):
+   b = bases[isup]
+   base_infls.append(declension_join_an(b,sup))
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+  # for decline_one in inflect directory
+  self.bases = bases
+  self.head = head
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
+class Decline_n_an(object):
+ """ declension table for neuter nouns ending in an
+  Same as masculine m_an, except the sups for nom., acc., and voc. cases
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  self.sup = 'a:nI/anI:Ani:'+\
+             'a:nI/anI:Ani:'+\
+             'nA:ByAm:BiH:'+\
+             'ne:ByAm:ByaH:'+\
+             'naH:ByAm:ByaH:'+\
+             'naH:noH:nAm:'+\
+             'ni/ani:noH:su:'+\
+             'a/an:nI/anI:Ani'
+  sups = self.getsups()
+  head,lastpada = self.splitkey2()
+  s,m,w,manvanflag = stems_an(lastpada)
+  if manvanflag:
+   # 'ni' not part of locative singular and
+   # 'nI' is not part of 1d,2d and 8d.  Note: I am uncertain of this
+   sups[18] = 'ani'
+   for i in [1,4,22]:
+    sups[i] = 'anI'
+  bases = [s,s,s, 
+           s,s,w,
+           w,m,m,
+           w,m,m,
+           w,m,m,
+           w,w,w,
+           s,w,m,   # singular w->s
+           s,s,s]   # singular w->s
+  
+  self.status = True
+  self.table = []
+  # join base and all the endings
+  base_infls = []
+  for isup,sup in enumerate(sups):
+   b = bases[isup]
+   base_infls.append(declension_join_an(b,sup))
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+  self.bases = bases
+  self.head = head
+
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

@@ -998,6 +998,8 @@ old 150834	Binnaparikarman	Binna-parikarman	n
 new 150834	Binnaparikarman	Binna-pari-karman	n
 old 10547	apratikarman	a-pratikarman	m:f:n
 new 10547	apratikarman	a-prati-karman	m:f:n
+old 118194	pariBrazwasatkarman	pari-Brazwa-satkarman	m:f:n
+new 118194	pariBrazwasatkarman	pari-Brazwa-sat-karman	m:f:n
 ; maGavan has irregular declension. change key2
 old 154106	maGavan	maGa-van	m:f:n
 new 154106	maGavan	maGavan	m:f:n
@@ -1010,6 +1012,8 @@ old 180647	lakzmIsahasranAman	lakzmI-sahasranAman	n
 new 180647	lakzmIsahasranAman	lakzmI-sahasra-nAman	n
 old 176558	rAjayakzmannAman	rAja-yakzmannAman	m
 new 176558	rAjayakzmannAman	rAja-yakzman-nAman	m
+old 264431	hEtanAman	hEtanAman	m
+new 264431	hEtanAman	hEta-nAman	m
 ; change praBarman to pra-Barman
 old 86732	tfpalapraBarman	tfpala-praBarman	m:f:n
 new 86732	tfpalapraBarman	tfpala-pra-Barman	m:f:n
@@ -1115,6 +1119,15 @@ new 71931	candrASman	candr-ASman	m
 ;
 old 4316.1	aDimAMsArman	aDimAMsArman	n
 new 4316.1	aDimAMsArman	aDimAMs-Arman	n
+old 4137	aDikamAMsArman	aDika-mAMsArman	n
+new 4137	aDikamAMsArman	aDika-mAMs-Arman	n
+old 173710	raktArman	raktArman	n
+new 173710	raktArman	rakt-Arman	n
+old 184013	lohitArman	lohitArman	n
+new 184013	lohitArman	lohit-Arman	n
+old 219138	SuklArman	SuklArman	n
+new 219138	SuklArman	Sukl-Arman	n
+;
 old 208237	vyapamUrDan	vy-apamUrDan	m:f:n
 new 208237	vyapamUrDan	vy-apa-mUrDan	m:f:n
 old 25815	Ayavan	Ayavan	m
@@ -1316,3 +1329,49 @@ new 25815	Ayavan	A-yavan	m
 257718	srotoYjana	sroto-'Yjana	n
 257720	srotonugata	sroto-'nugata	m
 261794	halIzA	hal'IzA	f
+; ---------------------------------
+old 155906	maDunihan	maDu-nihan	m
+new 155906	maDunihan	maDu-ni-han	m
+old 150834	Binnaparikarman	Binna-parikarman	n
+new 150834	Binnaparikarman	Binna-pari-karman	n
+old 58299	kruSvan	kruSvan	m
+new 58299	kruSvan	kru-Svan	m
+old 128593	pfTupragAman	pfTu-pragAman	m:f:n
+new 128593	pfTupragAman	pfTu-pra-gAman	m:f:n
+old 247663	suprativarman	su-prativarman	m
+new 247663	suprativarman	su-prati-varman	m
+old 263144.1	himmativarman	himmativarman	m
+new 263144.1	himmativarman	himmati-varman	m
+;
+old 178036	ritakvan	ritakvan	m
+new 178036	ritakvan	ri-takvan	m
+; 12/13/2018.  change -van to van, -man to man when preceded by a consonant
+; Reason (Antoine) for weak stem in 'an' and not in 'n'
+old 14008	amasvan	amas-van	m:f#varI:n
+new 14008	amasvan	amasvan	m:f#varI:n
+old 15003.1	ayman	ay-man	n
+new 15003.1	ayman	ayman	n
+old 29290	inDanvan	inDan-van	m:f:n
+new 29290	inDanvan	inDanvan	m:f:n
+old 36109	upasadvan	upa-sad-van	m:f:n
+new 36109	upasadvan	upa-sadvan	m:f:n
+old 41435	kakudman	kakud-man	m:f:n
+new 41435	kakudman	kakudman	m:f:n
+old 65071	girvan	gir-van	m:f:n
+new 65071	girvan	girvan	m:f:n
+old 82148	tadvan	tad-van	m
+new 82148	tadvan	tadvan	m
+old 82904	tamasvan	tamas-van	m:f#arI:n
+new 82904	tamasvan	tamasvan	m:f#arI:n
+old 151346	Bujman	Buj-man	m:f:n
+new 151346	Bujman	Bujman	m:f:n
+; Other cases of [consonant]-[consonant]an -- remove -
+; Reason (Bucknell) for weak stem in 'an' and not in 'n'
+old 13135	aBogGan	aBog-Gan	m:f:n
+new 13135	aBogGan	aBogGan	m:f:n
+old 70686	cakzurhan	cakzur-han	m:f:n
+new 70686	cakzurhan	cakzurhan	m:f:n
+old 125803	punarhan	punar-han	m:f:n
+new 125803	punarhan	punar-han	m:f:n
+old 230274	sadDan	sad-Dan	m
+new 230274	sadDan	sadDan	m

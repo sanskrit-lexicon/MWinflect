@@ -55,3 +55,7 @@ python3 decline_file.py ../inputs/nominals/m_us.txt ../outputs/nominals/m_us.txt
 python3 decline_file.py ../inputs/nominals/f_us.txt ../outputs/nominals/f_us.txt 
 python3 decline_file.py ../inputs/nominals/f_us_i1.txt ../outputs/nominals/f_us_i1.txt 
 python3 decline_file.py ../inputs/nominals/n_us.txt ../outputs/nominals/n_us.txt 
+#
+python3 decline_file.py ../inputs/nominals/m_an.txt ../outputs/nominals/m_an.txt 
+python3 decline_file.py ../inputs/nominals/f_an_i1.txt ../outputs/nominals/f_an_i1.txt 
+python3 decline_file.py ../inputs/nominals/n_an.txt ../outputs/nominals/n_an.txt 

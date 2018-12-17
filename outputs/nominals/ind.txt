@@ -2635,6 +2635,7 @@ ind	pari-krAmitakena	parikrAmitakena
 ind	pari-klizwam	pariklizwam
 ind	pari-gfhya	parigfhya
 ind	pari-GarGaram	pariGarGaram
+ind	pari-jman	parijman
 ind	pari-Rayena	pariRayena
 ind	pari-RAme	pariRAme
 ind	pari-tas	paritas

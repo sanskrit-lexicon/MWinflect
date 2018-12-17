@@ -559,3 +559,89 @@ Case 5:  acakzuzaH acakzurByAm acakzurByaH
 Case 6:  acakzuzaH acakzuzoH acakzuzAm
 Case 7:  acakzuzi acakzuzoH acakzuHzu
 Case 8:  acakzuH acakzuzO acakzuzaH
+; Confirm Bucknell, p. 82
+$ python decline_one.py m_an Atman
+Declension of m_an Atman
+Case 1:  AtmA AtmAnO AtmAnaH
+Case 2:  AtmAnam AtmAnO AtmanaH
+Case 3:  AtmanA AtmaByAm AtmaBiH
+Case 4:  Atmane AtmaByAm AtmaByaH
+Case 5:  AtmanaH AtmaByAm AtmaByaH
+Case 6:  AtmanaH AtmanoH AtmanAm
+Case 7:  Atmani AtmanoH Atmasu
+Case 8:  Atman AtmAnO AtmAnaH
+; Confirm Bucknell, p. 82
+$ python decline_one.py m_an rAjan
+Declension of m_an rAjan
+Case 1:  rAjA rAjAnO rAjAnaH
+Case 2:  rAjAnam rAjAnO rAjYaH
+Case 3:  rAjYA rAjaByAm rAjaBiH
+Case 4:  rAjYe rAjaByAm rAjaByaH
+Case 5:  rAjYaH rAjaByAm rAjaByaH
+Case 6:  rAjYaH rAjYoH rAjYAm
+Case 7:  rAjYi/rAjani rAjYoH rAjasu
+Case 8:  rAjan rAjAnO rAjAnaH
+; confirm Bucknell,p. 86
+$ python decline_one.py n_an karman
+Declension of n_an karman
+Case 1:  karma karmaRI karmARi
+Case 2:  karma karmaRI karmaARi
+Case 3:  karmaRA karmaByAm karmaBiH
+Case 4:  karmaRe karmaByAm karmaByaH
+Case 5:  karmaRaH karmaByAm karmaByaH
+Case 6:  karmaRaH karmaRoH karmaRAm
+Case 7:  karmaRi karmaRoH karmasu
+Case 8:  karma/karman karmaRI karmARi
+; confirm Bucknell,p. 86
+$ python decline_one.py n_an nAman
+Declension of n_an nAman
+Case 1:  nAma nAmnI/nAmanI nAmAni
+Case 2:  nAma nAmnI/nAmanI nAmAni
+Case 3:  nAmnA nAmaByAm nAmaBiH
+Case 4:  nAmne nAmaByAm nAmaByaH
+Case 5:  nAmnaH nAmaByAm nAmaByaH
+Case 6:  nAmnaH nAmnoH nAmnAm
+Case 7:  nAmni/nAmani nAmnoH nAmasu
+Case 8:  nAma/nAman nAmnI/nAmanI nAmAni
+; Confirm Kale, p. 75-6, Huet
+; note need for '-han'
+; note difference in Huet between declensions of
+; 'vftrahan' and 'vftra-han' (former uses 'haR', latter 'han')
+;  Suspect: 'haR' occurs due to 'nR' sandhi only. 
+;   See Kale rule for 'han' below which accounts for my use of 'haR'.
+$ python decline_one.py m_an vftra-han
+Declension of m_an vftra-han
+Case 1:  vftrahA vftrahaRO vftrahaRaH
+Case 2:  vftrahaRam vftrahaRO vftraGnaH
+Case 3:  vftraGnA vftrahaByAm vftrahaBiH
+Case 4:  vftraGne vftrahaByAm vftrahaByaH
+Case 5:  vftraGnaH vftrahaByAm vftrahaByaH
+Case 6:  vftraGnaH vftraGnoH vftraGnAm
+Case 7:  vftraGni/vftrahaRi vftraGnoH vftrahasu
+Case 8:  vftrahan vftrahaRO vftrahaRaH
+; NOT confirmed by Huet or Bucknell (p. 94)
+; The difference is that Huet/Bucknell show 'n' instead of 'R'
+; This differs from my interpretation of Kale's rule:
+; "'pUzan', 'aryaman' and nouns ending in 'han' lengthen their 'a'
+; in the Nom. sing. only; the 'n' of 'han' is changed to 'R' after 'ha'"
+$ python decline_one.py m_an go-han
+Declension of m_an go-han
+Case 1:  gohA gohaRO gohaRaH
+Case 2:  gohaRam gohaRO goGnaH
+Case 3:  goGnA gohaByAm gohaBiH
+Case 4:  goGne gohaByAm gohaByaH
+Case 5:  goGnaH gohaByAm gohaByaH
+Case 6:  goGnaH goGnoH goGnAm
+Case 7:  goGni/gohaRi goGnoH gohasu
+Case 8:  gohan gohaRO gohaRaH
+; Confirm Kale, p. 73
+$ python decline_one.py m_an brahman
+Declension of m_an brahman
+Case 1:  brahmA brahmARO brahmARaH
+Case 2:  brahmARam brahmARO brahmaRaH
+Case 3:  brahmaRA brahmaByAm brahmaBiH
+Case 4:  brahmaRe brahmaByAm brahmaByaH
+Case 5:  brahmaRaH brahmaByAm brahmaByaH
+Case 6:  brahmaRaH brahmaRoH brahmaRAm
+Case 7:  brahmaRi brahmaRoH brahmasu
+Case 8:  brahman brahmARO brahmARaH
