@@ -1355,8 +1355,8 @@ def model_mfn_in(recs,flog):
      # write cases where ignoring pada-structure gives a different answer
      mstem1 = ''.join(stemparts) + 'I'
      mstem2 = sandhi_nR(mstem1)
-     if (mstem2 != None) and mstem2.endswith('RI'):
-      print('stem %s+I , without pada -> %s' %(stem,mstem2))
+     #if (mstem2 != None) and mstem2.endswith('RI'):
+     # print('stem %s+I , without pada -> %s' %(stem,mstem2))
     #if lastpart2a != None:  # debugging
     # print('chk:',stem,"->",mstem)
     # model is f_in_I  (which is same as f_I)
@@ -1537,13 +1537,12 @@ def model_vat(recs,flog):
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
+import data_vas
+dvas = data_vas.data_vas_init()
 def model_vas(recs,flog):
  """ This is quite different from previous functions.
 
  """
- import data_vas
- dvas = data_vas.data_vas_init()
-
  knownparts = ['m','f','n','f#','m#'
                ]
  for rec in recs:
@@ -1701,6 +1700,48 @@ def model_an(recs,flog):
     model = 'f_an_I'  
    else:
     print('model_an internal ERROR',part)
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
+import data_aYc
+daYc = data_aYc.data_aYc_init()
+
+def model_aYc(recs,flog):
+ """ This is quite different from previous functions, except for model_vas
+
+ """
+ knownparts = ['m','f','n',
+               ]
+ for rec in recs:
+  stem = rec.key2
+  stempadas = stem.split('-')
+  lastpada = stempadas[-1]
+  firstpadas = stempadas[0:-1]  # all but last of stempadas. May be empty
+  if lastpada.endswith('ac'):
+   lastpada = lastpada[0:-1]+'Yc'  # change spelling
+   stem = stem[0:-1] + 'Yc'
+  if lastpada not in daYc:
+   continue
+  (fstem,) = daYc[lastpada]
+  lexparts = rec.lexnorm.split(':')
+  if rec.parsed:
+   continue # such as for indeclineable akuDryaYc
+  rec.parsed = True
+  for part in lexparts:
+   if part.startswith(('m','f','n')):
+    part = part[0] # we don't use MW feminine hints
+   if part in ['m','n']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_%s' %(part,'aYc') 
+   elif part == 'f':
+    newstempadas = firstpadas + [fstem]
+    mstem = '-'.join(newstempadas)
+    assert mstem.endswith('I')
+    model = 'f_aYc_I'  # normal feminine ending in 'I'. 
+    rec.models.append(Model(rec,model,mstem))
+   else:
+    print('model_aYc Internal error',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
@@ -2210,6 +2251,7 @@ if __name__ == "__main__":
  model_mfn_is(recs,flog)
  model_mfn_us(recs,flog)
  model_an(recs,flog)
+ model_aYc(recs,flog)  #  reduplicated participle ending in 'aYc'
  #model_f_AIU(recs,flog)
  #model_pron(recs,flog)
  #model_1stem(recs,flog)

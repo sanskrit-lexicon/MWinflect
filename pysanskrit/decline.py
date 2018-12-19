@@ -1677,6 +1677,173 @@ class Decline_n_an(object):
    b.append(y)
   return b
 
+from data_aYc import data_aYc_init
+dict_aYc = data_aYc_init()
+
+class Decline_m_aYc(object):
+ """ declension table for masculine nouns ending in aYc or AYc or ac, which are
+  directional words 
+  These are classified as nouns with three stems, but we can treat them
+  has nouns with two stems, by using appropriate (non-standard) sups.
+  This logic requires computation of two stems (which we call strong
+  and weak).  
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  
+  self.sup = 'N:YcO:YcaH:Ycam:YcO:caH:cA:gByAm:gBiH:ce:gByAm:gByaH:caH:gByAm:gByaH:caH:coH:cAm:ci:coH:kzu:N:YcO:YcaH' 
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final Yc or Yc or ac removed
+  if base.endswith('ac'):
+   # assume alternate citation spelling with 'real' spelling ending in aYc
+   base = base[0:-1] + 'Yc'  # replace final 'c' with 'Yc'
+  assert base.endswith(('aYc','AYc')),"decline.Decline_aYc. Error in base:%s"%self.keys
+  base1 = base[0:-2] # strong. remove final 'Yc'
+  # weak base is derived from feminine
+  base2 = self.weakbase(base)
+  # for decline_one logic in inflect
+  self.base1 = head + base1
+  self.base2 = head + base2
+  # join base and all the endings
+  base_infls = []
+  for isup,sup in enumerate(sups):
+   if isup in [5,6,9,12,15,16,17,18,19]:
+    b = base2
+   else:
+    b = base1
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(b,sup))
+   else:
+    # join each alternate sup to b
+    infls = [declension_join_simple(b,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def weakbase(self,base):
+  if base in dict_aYc:
+   fstem,  = dict_aYc[base]
+   assert fstem.endswith(('cI',)),"Decline_m_aYc. weakbase error 1: %s %s" % (base,fstem)
+   return fstem[0:-2]   # drop the cI
+  else:
+   print("decline.decline_aYc.weakbase error:",base)
+   exit(1)
+   # just drop the 'vas' at end of base, i.e., weak and strong bases the same
+   #assert base.endswith('vas'),"Decline_m_aYc. weakbase error 2: %s %s %s" %(base,fstem,root)
+   #return base[0:-3]
+   
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
+#from data_aYc import data_aYc_init
+#dict_aYc = data_aYc_init()
+
+class Decline_n_aYc(object):
+ """ declension table for masculine nouns ending in aYc or AYc or ac, which are
+  directional words 
+  These are classified as nouns with three stems, but we can treat them
+  has nouns with two stems, by using appropriate (non-standard) sups.
+  This logic requires computation of two stems (which we call strong
+  and weak).  
+ """
+ def __init__(self,key1,key2=None):
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
+  
+  self.sup = 'k:cI:Yci:k:cI:Yci:cA:gByAm:gBiH:ce:gByAm:gByaH:caH:gByAm:gByaH:caH:coH:cAm:ci:coH:kzu:k:cI:Yci'  
+  self.status = True
+  self.table = []
+  sups = self.getsups()
+  head,base = self.splitkey2()
+  # our sups assume final Yc or Yc or ac removed
+  if base.endswith('ac'):
+   # assume alternate citation spelling with 'real' spelling ending in aYc
+   base = base[0:-1] + 'Yc'  # replace final 'c' with 'Yc'
+  assert base.endswith(('aYc','AYc')),"decline.Decline_aYc. Error in base:%s"%self.keys
+  #if base.endswith(('aYc','AYc')):
+  base1 = base[0:-2] # strong. remove final 'Yc'
+  # weak base is derived from feminine
+  base2 = self.weakbase(base)
+  # for decline_one logic in inflect
+  self.base1 = head + base1
+  self.base2 = head + base2
+  # join base and all the endings
+  base_infls = []
+  for isup,sup in enumerate(sups):
+   if isup in [1,4,6,9,12,15,16,17,18,19,22]:
+    b = base2
+   else:
+    b = base1
+   if '/' not in sup:
+    # no variants for this sup
+    base_infls.append(declension_join_simple(b,sup))
+   else:
+    # join each alternate sup to b
+    infls = [declension_join_simple(b,sup1) for sup1 in sup.split('/')]
+    base_infls.append(infls)
+  self.table = self.prepend_head(head,base_infls)
+  self.status = True
+
+ def weakbase(self,base):
+  if base in dict_aYc:
+   fstem,  = dict_aYc[base]
+   assert fstem.endswith(('cI',)),"Decline_m_aYc. weakbase error 1: %s %s" % (base,fstem)
+   return fstem[0:-2]   # drop the cI
+  else:
+   print("decline.decline_aYc.weakbase error:",base)
+   exit(1)
+   # just drop the 'vas' at end of base, i.e., weak and strong bases the same
+   #assert base.endswith('vas'),"Decline_m_aYc. weakbase error 2: %s %s %s" %(base,fstem,root)
+   #return base[0:-3]
+   
+ def getsups(self):
+  return self.sup.split(':') 
+ def splitkey2(self):
+  parts = self.key2.split('-')
+  # base is last part
+  # head is joining of all prior parts.  If no '-', head is empty string
+  base = parts[-1]
+  head = ''.join(parts[0:-1])
+  return head,base
+ # static method
+ def prepend_head(self,head,infls):
+  b = []
+  for x in infls:
+   if isinstance(x,list):
+    y = [head + i for i in x]
+   else: # assume string
+    y = head + x
+   b.append(y)
+  return b
+
 # --------------------------------------
 def test_m_a(key1,key2):
  decl = Decline_m_a(key1,key2)

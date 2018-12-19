@@ -1375,3 +1375,102 @@ old 125803	punarhan	punar-han	m:f:n
 new 125803	punarhan	punar-han	m:f:n
 old 230274	sadDan	sad-Dan	m
 new 230274	sadDan	sadDan	m
+; 12/17/2018.  adj. of direction ending in aYc
+; change final pada for declension
+old 14157.12	amudryaYc	amudr-yaYc	m:f:n
+new 14157.12	amudryaYc	amudr-yaYc	m:f:n
+old 14157.13	amumuyaYc	amumu-yaYc	m:f:n
+new 14157.13	amumuyaYc	amumu-yaYc	m:f:n
+old 21506	asmadryaYc	asmadryaYc	m:f:n
+new 21506	asmadryaYc	asmadr-yaYc	m:f:n
+old 42910	kadryaYc	kadryaYc	m:f#kadrIcI:n
+new 42910	kadryaYc	kadr-yaYc	m:f#IcI:n
+old 82185	tadryaYc	tadryaYc	m:f:n
+new 82185	tadryaYc	tadr-yaYc	m:f:n
+old 85192	tiryadryaYc	tiryadryaYc	m:f:n
+new 85192	tiryadryaYc	tiryadr-yaYc	m:f:n
+old 112723	nyaYc	ny-aYc	m:f#nIci:n
+new 112723	nyaYc	n-yaYc	m:f#Ici:n
+old 155282	madryaYc	madryaYc	m:f:n
+new 155282	madryaYc	madr-yaYc	m:f:n
+old 133872	pratyaYc	praty-aYc	m:f:n
+new 133872	pratyaYc	prat-yaYc	m:f:n
+old 133879	pratyaYc	praty-aYc	m
+new 133879	pratyaYc	prat-yaYc	m
+old 170221	yadriyaYc	yadriyaYc	m:f:n
+new 170221	yadriyaYc	yadri-yaYc	m:f:n
+old 170222	yadryaYc	yadryaYc	m:f:n
+new 170222	yadryaYc	yadr-yaYc	m:f:n
+old 202255	vizvadryaYc	vizvadryaYc	m:f#drIcI:n
+new 202255	vizvadryaYc	vizvadr-yaYc	m:f#IcI:n
+old 224504	SvityaYc	SvityaYc	m:f#tIcI:n
+new 224504	SvityaYc	Svit-yaYc	m:f#IcI:n
+old 231015	saDryaYc	saDryaYc	m:f#saDrIcI:n
+new 231015	saDryaYc	saDr-yaYc	m:f#rIcI:n
+old 231018	saDryaYc	saDryaYc	m
+new 231018	saDryaYc	saDr-yaYc	m
+old 231020	saDryaYc	saDryaYc	n
+new 231020	saDryaYc	saDr-yaYc	n
+old 237298	samyaYc	samy-aYc	m:f:n
+new 237298	samyaYc	sam-yaYc	m:f:n
+old 239252	sarvadryaYc	sarvadry-aYc	m:f:n
+new 239252	sarvadryaYc	sarvadr-yaYc	m:f:n
+old 247702	supratyaYc	su-pratyaYc	m:f#tIcI:n
+new 247702	supratyaYc	su-prat-yaYc	m:f#IcI:n
+; -vaYc
+old 8730	anvaYc	anvaYc	m:f#UcI:n
+new 8730	anvaYc	an-vaYc	m:f#UcI:n
+old 38835	fjvaYc	fjv-aYc	m:f:n
+new 38835	fjvaYc	fj-vaYc	m:f:n
+old 156321	maDvaYc	maDv-aYc	m:f#DUcI:n
+new 156321	maDvaYc	maD-vaYc	m:f#UcI:n
+old 202245	vizvaYc	vizvaYc	m:f#zUcI:n
+new 202245	vizvaYc	viz-vaYc	m:f#UcI:n
+old 202250	vizvaYc	vizvaYc	n
+new 202250	vizvaYc	viz-vaYc	n
+old 258781	svaYc	sv-aYc	m:f:n
+new 258781	svaYc	s-vaYc	m:f:n
+; ---
+old 32301.7	udaYc	udaYc	m:f:n
+new 32301.7	udaYc	u-daYc	m:f:n
+old 139294	prAgudaYc	prAg-udaYc	m:f#IcI:n
+new 139294	prAgudaYc	prAg-u-daYc	m:f#dIcI:n
+old 139481	prAcyodaYc	prAcyodaYc	m:f#IcI:n
+new 139481	prAcyodaYc	prAcyo-daYc	m:f#dIcI:n
+old 112723	nyaYc	ny-aYc	m:f#nIcI:n
+new 112723	nyaYc	n-yaYc	m:f#IcI:n
+; nominal ends in 'ac', but declined as if ending in 'aYc'
+old 89492	dakziRApratyac	dakziRA-pratyac	m:f#tIcI:n
+new 89492	dakziRApratyac	dakziRA-prat-yac	m:f#IcI:n
+old 95745	devadryac	deva-dryac	m:f#IcI
+new 95745	devadryac	devadr-yac	m:f#IcI
+old 89992	daDyac	daDy-ac	m
+new 89992	daDyac	daD-yac	m
+old 32301	udac	ud-ac	m:f#IcI:n
+new 32301	udac	u-dac	m:f#IcI:n
+;
+old 37357	uruvyaYc	uruvyaYc	m:f:n
+new 37357	uruvyaYc	uruvyaYc	m:f:n
+; AYc
+old 9979	apAYc	apAYc	m:f:n
+new 9979	apAYc	ap-AYc	m:f:n
+old 18500	avAYc	avAYc	m:f:n
+new 18500	avAYc	av-AYc	m:f:n
+old 21494.1	asmatrAYc	asma-trAYc	m:f:n
+new 21494.1	asmatrAYc	asmatr-AYc	m:f:n
+old 39891	ekAvAYc	ekAv-AYc	m:f:n
+new 39891	ekAvAYc	ekAvAYc	m:f:n
+; no change
+;64359	gavAYc	gavAYc	m:f#gocI:n
+old 110020	nirvAYc	nirvAYc	m:f:n
+new 110020	nirvAYc	nirv-AYc	m:f:n
+old 116799	parAYc	parAYc	m:f:n
+new 116799	parAYc	par-AYc	m:f:n
+old 116804	parAYc	parAYc	n
+new 116804	parAYc	par-AYc	n
+old 139320.1	prAgdakziRAYc	prAg-dakziRAYc	m:f#AcI:n
+new 139320.1	prAgdakziRAYc	prAg-dakziR-AYc	m:f#AcI:n
+old 239255	sarvAYc	sarvAYc	m:f:n
+new 239255	sarvAYc	sarv-AYc	m:f:n
+old 247367	suparAYc	su-parAYc	m:f#AcI:n
+new 247367	suparAYc	su-parAYc	m:f#AcI:n

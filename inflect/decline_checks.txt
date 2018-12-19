@@ -645,3 +645,69 @@ Case 5:  brahmaRaH brahmaByAm brahmaByaH
 Case 6:  brahmaRaH brahmaRoH brahmaRAm
 Case 7:  brahmaRi brahmaRoH brahmasu
 Case 8:  brahman brahmARO brahmARaH
+; Confirm Deshpande, p. 195
+$ python decline_one.py n_aYc prat-yaYc
+Declension of n_aYc prat-yaYc
+Case 1:  pratyak pratIcI pratyaYci
+Case 2:  pratyak pratIcI pratyaYci
+Case 3:  pratIcA pratyagByAm pratyagBiH
+Case 4:  pratIce pratyagByAm pratyagByaH
+Case 5:  pratIcaH pratyagByAm pratyagByaH
+Case 6:  pratIcaH pratIcoH pratIcAm
+Case 7:  pratIci pratIcoH pratyakzu
+Case 8:  pratyak pratIcI pratyaYci
+; Confirm Deshpande, p. 195
+$  python decline_one.py m_aYc prat-yaYc
+Declension of m_aYc prat-yaYc
+Case 1:  pratyaN pratyaYcO pratyaYcaH
+Case 2:  pratyaYcam pratyaYcO pratIcaH
+Case 3:  pratIcA pratyagByAm pratyagBiH
+Case 4:  pratIce pratyagByAm pratyagByaH
+Case 5:  pratIcaH pratyagByAm pratyagByaH
+Case 6:  pratIcaH pratIcoH pratIcAm
+Case 7:  pratIci pratIcoH pratyakzu
+Case 8:  pratyaN pratyaYcO pratyaYcaH
+; Confirm Deshpande, p. 195
+$  python decline_one.py m_aYc viz-vaYc
+Declension of m_aYc viz-vaYc
+Case 1:  vizvaN vizvaYcO vizvaYcaH
+Case 2:  vizvaYcam vizvaYcO vizUcaH
+Case 3:  vizUcA vizvagByAm vizvagBiH
+Case 4:  vizUce vizvagByAm vizvagByaH
+Case 5:  vizUcaH vizvagByAm vizvagByaH
+Case 6:  vizUcaH vizUcoH vizUcAm
+Case 7:  vizUci vizUcoH vizvakzu
+Case 8:  vizvaN vizvaYcO vizvaYcaH
+; Confirm Deshpande, p. 195
+$  python decline_one.py n_aYc viz-vaYc
+Declension of n_aYc viz-vaYc
+Case 1:  vizvak vizUcI vizvaYci
+Case 2:  vizvak vizUcI vizvaYci
+Case 3:  vizUcA vizvagByAm vizvagBiH
+Case 4:  vizUce vizvagByAm vizvagByaH
+Case 5:  vizUcaH vizvagByAm vizvagByaH
+Case 6:  vizUcaH vizUcoH vizUcAm
+Case 7:  vizUci vizUcoH vizvakzu
+Case 8:  vizvak vizUcI vizvaYci
+; confirm Kale, p.63
+$  python decline_one.py m_aYc prAYc
+Declension of m_aYc prAYc
+Case 1:  prAN prAYcO prAYcaH
+Case 2:  prAYcam prAYcO prAcaH
+Case 3:  prAcA prAgByAm prAgBiH
+Case 4:  prAce prAgByAm prAgByaH
+Case 5:  prAcaH prAgByAm prAgByaH
+Case 6:  prAcaH prAcoH prAcAm
+Case 7:  prAci prAcoH prAkzu
+Case 8:  prAN prAYcO prAYcaH
+; confirm Kale, p.63  (cases 1,2,3,7,8)
+$  python decline_one.py m_aYc tiryaYc
+Declension of m_aYc tiryaYc
+Case 1:  tiryaN tiryaYcO tiryaYcaH
+Case 2:  tiryaYcam tiryaYcO tiraScaH
+Case 3:  tiraScA tiryagByAm tiryagBiH
+Case 4:  tiraSce tiryagByAm tiryagByaH
+Case 5:  tiraScaH tiryagByAm tiryagByaH
+Case 6:  tiraScaH tiraScoH tiraScAm
+Case 7:  tiraSci tiraScoH tiryakzu
+Case 8:  tiryaN tiryaYcO tiryaYcaH

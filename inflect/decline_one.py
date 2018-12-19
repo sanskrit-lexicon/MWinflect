@@ -115,8 +115,9 @@ def test_md1(model,key2):
              'm_us','f_us','n_us', # 1 stem
             ]
  models_3 = ['m_vas','n_vas']
+ models_3a = ['m_aYc','n_aYc']
  models_4 = ['m_an','n_an'] 
- models = models_1 + models_2 + models_3 + models_4
+ models = models_1 + models_2 + models_3 + models_3a + models_4
  if not model in models:
   print('md1 not implemented for model=',model)
   return
@@ -146,6 +147,9 @@ def test_md1(model,key2):
  elif model in models_3:
   base1 = decl.base1
   base2 = decl.base2
+ elif model in models_3a:
+  base1 = decl.base1
+  base2 = decl.base2
  elif model in models_4:
   # use decl.bases. See below
   pass
@@ -160,6 +164,7 @@ def test_md1(model,key2):
   for i in range(0,3):
    x = table[icell+i]
    sup=sups[icell+i]
+   isup=icell+i
    if model in models_1:
     b = base
    elif model in models_2:
@@ -170,6 +175,17 @@ def test_md1(model,key2):
      b = base1
     else:
      b = base2
+   elif model in models_3a: # aYc
+    if model.startswith('m') :
+     if isup in [5,6,9,12,15,16,17,18,19]:
+      b = base2
+     else:
+      b = base1
+    else: # model.startswith('n')
+     if isup in [1,4,6,9,12,15,16,17,18,19,22]:
+      b = base2
+     else:
+      b = base1     
    elif model in models_4: # an
     b = decl.head + decl.bases[icell+i]
    if '/' not in sup:
