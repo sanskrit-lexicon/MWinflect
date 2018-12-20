@@ -1373,6 +1373,12 @@ old 70686	cakzurhan	cakzur-han	m:f:n
 new 70686	cakzurhan	cakzurhan	m:f:n
 old 125803	punarhan	punar-han	m:f:n
 new 125803	punarhan	punar-han	m:f:n
+old 10791	aprahan	a-prahan	m:f:n
+new 10791	aprahan	a-pra-han	m:f:n
+old 70686	cakzurhan	cakzurhan	m:f:n
+new 70686	cakzurhan	cakzur-han	m:f:n
+old 125803	punarhan	punarhan	m:f:n
+new 125803	punarhan	punar-han	m:f:n
 old 230274	sadDan	sad-Dan	m
 new 230274	sadDan	sadDan	m
 ; 12/17/2018.  adj. of direction ending in aYc

@@ -11,7 +11,11 @@ import decline_f # from pysanskrit
 class DeclRec(object):
  def __init__(self,line):
   line = line.rstrip('\r\n')
-  (self.model,self.key2,self.refs) = line.split('\t')
+  try:
+   (self.model,self.key2,self.refs) = line.split('\t')
+  except:
+   print('DeclRec. Error parsing line\n',line)
+   exit(1)
   self.key1 = self.key2.replace('-','')
   self.inflection = None
   self.sups = None
@@ -117,19 +121,38 @@ class DeclRec(object):
   elif self.model == 'f_us_I': # alias for f_I. vapus f#uzI and SatAyus f#uzI
    decl = decline.Decline_f_I(self.key1,self.key2)
 
-
-  elif self.model == 'm_an':
-   decl = decline.Decline_m_an(self.key1,self.key2)
-   self.bases = decl.bases
-   self.head = decl.head
-  elif self.model == 'n_an':
-   decl = decline.Decline_n_an(self.key1,self.key2)
-   self.bases = decl.bases
-   self.head = decl.head
-  elif self.model == 'f_an': # same as m_an 
-   decl = decline.Decline_f_an(self.key1,self.key2)
-  elif self.model == 'f_an_I': # alias for f_I. 
-   decl = decline.Decline_f_I(self.key1,self.key2)
+  elif self.model in ['m_an','f_an','f_an_I','n_an']:
+   # use more specialized model for han
+   if (self.key2 == 'han') or self.key2.endswith('-han'):
+    # possibly temporary m_han, etc
+    model = re.sub(r'_an','_han',self.model)
+    if model == 'm_han':
+     decl = decline.Decline_m_han(self.key1,self.key2)
+     self.bases = decl.bases
+     self.head = decl.head
+    elif model == 'n_han':
+     decl = decline.Decline_n_han(self.key1,self.key2)
+     self.bases = decl.bases
+     self.head = decl.head
+    elif model == 'f_han': # same as m_an 
+     decl = decline.Decline_f_han(self.key1,self.key2)
+    elif model == 'f_han_I': # alias for f_I. 
+     decl = decline.Decline_f_I(self.key1,self.key2)
+   else:  
+    # model ends in _an, but not 'han' or a compound ending in 'han'
+    if self.model == 'm_an':
+     decl = decline.Decline_m_an(self.key1,self.key2)
+     self.bases = decl.bases
+     self.head = decl.head
+    elif self.model == 'n_an':
+     decl = decline.Decline_n_an(self.key1,self.key2)
+     self.bases = decl.bases
+     self.head = decl.head
+    elif self.model == 'f_an': # same as m_an 
+     decl = decline.Decline_f_an(self.key1,self.key2)
+    elif self.model == 'f_an_I': # alias for f_I. 
+     decl = decline.Decline_f_I(self.key1,self.key2)
+  # end of _an models
 
   elif self.model == 'm_vas':
    decl = decline.Decline_m_vas(self.key1,self.key2)

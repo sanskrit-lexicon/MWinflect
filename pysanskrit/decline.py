@@ -1542,31 +1542,26 @@ def declension_join_an(b,sup0):
   ans = infls  # return a list
  return ans
 
-class Decline_m_an(object):
- """ declension table for masculine nouns ending in an
-  These are classified as nouns with three stems.
-  This algorithm does just that
+class Decline_an(object):
+ """ declension logic for masculine and neuter of nominals ending in 'an'
  """
- def __init__(self,key1,key2=None):
+ def __init__(self,sup,gender,key1,key2=None):
+  self.sup = sup
   self.key1 = key1
   if key2 == None:
    self.key2 = key1
   else:
    self.key2 = key2
-  self.sup = 'A:AnO:AnaH:'+\
-             'Anam:AnO:naH:'+\
-             'nA:ByAm:BiH:'+\
-             'ne:ByAm:ByaH:'+\
-             'naH:ByAm:ByaH:'+\
-             'naH:noH:nAm:'+\
-             'ni/ani:noH:su:'+\
-             'an:AnO:AnaH'
   sups = self.getsups()
   head,lastpada = self.splitkey2()
   s,m,w,manvanflag = stems_an(lastpada)
   if manvanflag:
    # 'ni' not part of locative singular
    sups[18] = 'ani'
+   if gender == 'n':
+    # 'nI' is not part of 1d,2d and 8d.  Note: I am uncertain of this
+    for i in [1,4,22]:
+     sups[i] = 'anI'
   bases = [s,s,s, 
            s,s,w,
            w,m,m,
@@ -1609,17 +1604,30 @@ class Decline_m_an(object):
    b.append(y)
   return b
 
-class Decline_n_an(object):
+class Decline_m_an(Decline_an):
+ """ declension table for masculine nouns ending in an
+  These are classified as nouns with three stems.
+  This algorithm does just that
+ """
+ def __init__(self,key1,key2=None):
+  sup = 'A:AnO:AnaH:'+\
+             'Anam:AnO:naH:'+\
+             'nA:ByAm:BiH:'+\
+             'ne:ByAm:ByaH:'+\
+             'naH:ByAm:ByaH:'+\
+             'naH:noH:nAm:'+\
+             'ni/ani:noH:su:'+\
+             'an:AnO:AnaH'
+  super().__init__(sup,'m',key1,key2=key2)  # python 3 syntax
+
+Decline_f_an = Decline_m_an
+
+class Decline_n_an(Decline_an):
  """ declension table for neuter nouns ending in an
   Same as masculine m_an, except the sups for nom., acc., and voc. cases
  """
  def __init__(self,key1,key2=None):
-  self.key1 = key1
-  if key2 == None:
-   self.key2 = key1
-  else:
-   self.key2 = key2
-  self.sup = 'a:nI/anI:Ani:'+\
+  sup = 'a:nI/anI:Ani:'+\
              'a:nI/anI:Ani:'+\
              'nA:ByAm:BiH:'+\
              'ne:ByAm:ByaH:'+\
@@ -1627,15 +1635,65 @@ class Decline_n_an(object):
              'naH:noH:nAm:'+\
              'ni/ani:noH:su:'+\
              'a/an:nI/anI:Ani'
+  super().__init__(sup,'n',key1,key2=key2)  # python 3 syntax
+
+
+stems_han = stems_an  
+
+def declension_join_han(b,sup0):
+ """ b and sup0 are strings
+   If sup0 contains '/', it is parsed as a list, 
+     and a list of strings is returned.
+   If sup0 is a string, a string is returned.
+   This has special sandhi logic for 'han' ('killer) and its compounds
+    Recognized here by b ends with 'h'
+ """
+ sups = sup0.split('/')
+ infls = []
+ for sup in sups:
+  b0 = b
+  # han and its compounds
+  if sup.startswith('n'):
+   # h changes to G
+   # the '*' blocks nR sandhi, if any, for G+n'
+   b0 = b[0:-1] + 'G*'  
+  elif sup.startswith('A'):
+   # only Nom. Sing. sup is long A
+   if sup != 'A':
+    # Ax -> ax
+    sup = 'a'+sup[1:]
+  temp = declension_join_simple(b0,sup)
+  if sup.startswith('n'):
+   # remove block of nR sandhi, if present
+   temp=temp.replace('*','')
+  infls.append(temp)
+ if len(sups) == 1:
+  # case 1 sup (no alternates)
+  ans = infls[0] # return a string
+ else:
+  ans = infls  # return a list
+ return ans
+
+class Decline_han(object):
+ """ declension logic for masculine and neuter of nominals ending in 'an'
+ """
+ def __init__(self,sup,gender,key1,key2=None):
+  self.sup = sup
+  self.key1 = key1
+  if key2 == None:
+   self.key2 = key1
+  else:
+   self.key2 = key2
   sups = self.getsups()
   head,lastpada = self.splitkey2()
-  s,m,w,manvanflag = stems_an(lastpada)
+  s,m,w,manvanflag = stems_han(lastpada)
   if manvanflag:
-   # 'ni' not part of locative singular and
-   # 'nI' is not part of 1d,2d and 8d.  Note: I am uncertain of this
+   # 'ni' not part of locative singular
    sups[18] = 'ani'
-   for i in [1,4,22]:
-    sups[i] = 'anI'
+   if gender == 'n':
+    # 'nI' is not part of 1d,2d and 8d.  Note: I am uncertain of this
+    for i in [1,4,22]:
+     sups[i] = 'anI'
   bases = [s,s,s, 
            s,s,w,
            w,m,m,
@@ -1651,20 +1709,27 @@ class Decline_n_an(object):
   base_infls = []
   for isup,sup in enumerate(sups):
    b = bases[isup]
-   base_infls.append(declension_join_an(b,sup))
+   base_infls.append(declension_join_han(b,sup))
   self.table = self.prepend_head(head,base_infls)
   self.status = True
+  # for decline_one in inflect directory
   self.bases = bases
   self.head = head
 
  def getsups(self):
   return self.sup.split(':') 
  def splitkey2(self):
+  # for compounds ending in 'han', restate last pada to include
+  # prior pada, if any
   parts = self.key2.split('-')
-  # base is last part
-  # head is joining of all prior parts.  If no '-', head is empty string
-  base = parts[-1]
-  head = ''.join(parts[0:-1])
+  # base is last TWO part
+  # head is joining of all prior parts. 
+  if len(parts) == 1:
+   head = ''
+   base = parts[0]
+  else:
+   base = ''.join(parts[-2:])
+   head = ''.join(parts[0:-2])
   return head,base
  # static method
  def prepend_head(self,head,infls):
@@ -1676,6 +1741,40 @@ class Decline_n_an(object):
     y = head + x
    b.append(y)
   return b
+
+class Decline_m_han(Decline_han):
+ """ declension table for masculine nouns ending in an
+  These are classified as nouns with three stems.
+  This algorithm does just that
+ """
+ def __init__(self,key1,key2=None):
+  sup = 'A:AnO:AnaH:'+\
+             'Anam:AnO:naH:'+\
+             'nA:ByAm:BiH:'+\
+             'ne:ByAm:ByaH:'+\
+             'naH:ByAm:ByaH:'+\
+             'naH:noH:nAm:'+\
+             'ni/ani:noH:su:'+\
+             'an:AnO:AnaH'
+  super().__init__(sup,'m',key1,key2=key2)  # python 3 syntax
+
+Decline_f_han = Decline_m_han
+
+class Decline_n_han(Decline_han):
+ """ declension table for neuter nouns ending in an
+  Same as masculine m_han, except the sups for nom., acc., and voc. cases
+ """
+ def __init__(self,key1,key2=None):
+  sup = 'a:nI/anI:Ani:'+\
+             'a:nI/anI:Ani:'+\
+             'nA:ByAm:BiH:'+\
+             'ne:ByAm:ByaH:'+\
+             'naH:ByAm:ByaH:'+\
+             'naH:noH:nAm:'+\
+             'ni/ani:noH:su:'+\
+             'a/an:nI/anI:Ani'
+  super().__init__(sup,'n',key1,key2=key2)  # python 3 syntax
+
 
 from data_aYc import data_aYc_init
 dict_aYc = data_aYc_init()

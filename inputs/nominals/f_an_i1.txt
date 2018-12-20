@@ -16,10 +16,10 @@ f_an_I	a-nemnI	7871,aneman
 f_an_I	a-parvarI	9631.1,aparvan
 f_an_I	a-paSu-GnI	9782,apaSuhan
 f_an_I	a-paScA-daGvarI	9791,apaScAdaGvan
+f_an_I	a-pra-GnI	10791,aprahan
 f_an_I	a-prati-karmaRI	10547,apratikarman
 f_an_I	a-prayutvarI	10723,aprayutvan
 f_an_I	a-prahAvarI	10792,aprahAvan
-f_an_I	a-prahRI	10791,aprahan
 f_an_I	a-premRI	10862,apreman
 f_an_I	a-bala-DanvarI	10956,abalaDanvan
 f_an_I	a-brahmaRI	11089,abrahman
@@ -244,7 +244,7 @@ f_an_I	Garma-pAvarI	69660,GarmapAvan
 f_an_I	Gfta-pAvarI	69972,GftapAvan
 f_an_I	GnI	260418,han
 f_an_I	cakra-vAlAtmanI	70522,cakravAlAtman
-f_an_I	cakzurhRI	70686,cakzurhan
+f_an_I	cakzur-GnI	70686,cakzurhan
 f_an_I	catuH-saptAtmanI	71119,catuHsaptAtman
 f_an_I	catur-AtmanI	71179,caturAtman
 f_an_I	calAtmanI	72625,calAtman
@@ -425,10 +425,10 @@ f_an_I	puRyEka-karmaRI	125470,puRyEkakarman
 f_an_I	putra-GnI	125587,putrahan
 f_an_I	putra-nAmnI	125534,putranAman
 f_an_I	pun-nAmnI	125480,punnAman
+f_an_I	punar-GnI	125803,punarhan
 f_an_I	punar-janmanI	125739,punarjanman
 f_an_I	punar-yAmnI	125785,punaryAman
 f_an_I	punar-yuvarI	125787,punaryuvan
-f_an_I	punarhRI	125803,punarhan
 f_an_I	purastAl-lakzmaRI	125959,purastAllakzman
 f_an_I	puru-kftvarI	126315,purukftvan
 f_an_I	puru-RAmnI	126328,puruRAman

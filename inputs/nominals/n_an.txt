@@ -20,9 +20,9 @@ n_an	a-parvan	9630,aparvan:9631.1,aparvan
 n_an	a-paSu-han	9782,apaSuhan
 n_an	a-paScA-daGvan	9791,apaScAdaGvan
 n_an	a-pUrva-karman	10338,apUrvakarman
+n_an	a-pra-han	10791,aprahan
 n_an	a-prati-karman	10547,apratikarman
 n_an	a-prayutvan	10723,aprayutvan
-n_an	a-prahan	10791,aprahan
 n_an	a-prahAvan	10792,aprahAvan
 n_an	a-preman	10861,apreman:10862,apreman
 n_an	a-bala-Danvan	10956,abalaDanvan
@@ -423,7 +423,7 @@ n_an	Garma-pAvan	69660,GarmapAvan
 n_an	Gfta-pAvan	69972,GftapAvan
 n_an	Goza-yAtrA-parvan	69883,GozayAtrAparvan
 n_an	cakzan	70646,cakzan
-n_an	cakzurhan	70686,cakzurhan
+n_an	cakzur-han	70686,cakzurhan
 n_an	catuH-saptAtman	71119,catuHsaptAtman
 n_an	catur-Atman	71179,caturAtman
 n_an	catur-daSa-guRa-nAman	71221.10,caturdaSaguRanAman
@@ -762,7 +762,7 @@ n_an	punaH-karman	125807,punaHkarman
 n_an	punar-janman	125738,punarjanman:125739,punarjanman
 n_an	punar-yAman	125785,punaryAman
 n_an	punar-yuvan	125787,punaryuvan
-n_an	punarhan	125803,punarhan
+n_an	punar-han	125803,punarhan
 n_an	puraS-caraRa-karman	125896,puraScaraRakarman
 n_an	purastAl-lakzman	125959,purastAllakzman
 n_an	puru-kftvan	126315,purukftvan

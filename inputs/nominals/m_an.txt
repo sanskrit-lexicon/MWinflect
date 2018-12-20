@@ -21,9 +21,9 @@ m_an	a-neman	7871,aneman
 m_an	a-parvan	9631.1,aparvan
 m_an	a-paSu-han	9782,apaSuhan
 m_an	a-paScA-daGvan	9791,apaScAdaGvan
+m_an	a-pra-han	10791,aprahan
 m_an	a-prati-karman	10547,apratikarman
 m_an	a-prayutvan	10723,aprayutvan
-m_an	a-prahan	10791,aprahan
 m_an	a-prahAvan	10792,aprahAvan
 m_an	a-preman	10862,apreman
 m_an	a-ba-liman	10958.2,abaliman
@@ -459,7 +459,7 @@ m_an	cakr-ASman	70574,cakrASman
 m_an	cakra-Darman	70412,cakraDarman
 m_an	cakra-nAman	70417,cakranAman
 m_an	cakra-varman	70502,cakravarman
-m_an	cakzurhan	70686,cakzurhan
+m_an	cakzur-han	70686,cakzurhan
 m_an	caRqa-karman	70932,caRqakarman
 m_an	caRqa-DAman	70950,caRqaDAman
 m_an	caRqa-varman	70974,caRqavarman
@@ -870,7 +870,7 @@ m_an	punar-ukta-janman	125709,punaruktajanman
 m_an	punar-janman	125739,punarjanman
 m_an	punar-yAman	125785,punaryAman
 m_an	punar-yuvan	125787,punaryuvan
-m_an	punarhan	125803,punarhan
+m_an	punar-han	125803,punarhan
 m_an	pum-BUman	125122,pumBUman
 m_an	pura-han	126168,purahan
 m_an	purastAl-lakzman	125959,purastAllakzman
