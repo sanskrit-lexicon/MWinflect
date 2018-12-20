@@ -1657,8 +1657,9 @@ def declension_join_han(b,sup0):
    # h changes to G
    # the '*' blocks nR sandhi, if any, for G+n'
    b0 = b[0:-1] + 'G*'  
-  elif sup.startswith('A'):
+  if sup.startswith('A'):
    # only Nom. Sing. sup is long A
+   suptemp=sup
    if sup != 'A':
     # Ax -> ax
     sup = 'a'+sup[1:]
