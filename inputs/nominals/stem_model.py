@@ -2163,6 +2163,7 @@ def write_model_instances(modelname,instances):
   # each item in mrecs is a Model instance
   # All items in mrecs have same value for stem
   model_names = list(set([mrec.name for mrec in mrecs]))
+  model_names = sorted(model_names)
   for model_name in model_names:
    # All items in mrecs1 have same value for stem and model-name
    mrecs1 = [mrec for mrec in mrecs if mrec.name == model_name]

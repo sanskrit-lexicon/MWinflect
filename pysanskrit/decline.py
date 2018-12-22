@@ -1,6 +1,8 @@
 """decline.py
 """
 from declension_join_simple import declension_join_simple
+from decline_pco import Decline_m_card,Decline_f_card,Decline_n_card
+from decline_pco import Decline_m_pron,Decline_f_pron,Decline_n_pron
 import sys
 class Decline_ind(object):
  """ Makes a 1-table entry for indeclineables.

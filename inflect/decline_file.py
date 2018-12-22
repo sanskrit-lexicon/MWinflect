@@ -177,17 +177,17 @@ class DeclRec(object):
    decl = decline.Decline_f_I(self.key1,self.key2)
 
   elif self.model == 'm_pron':
-   decl = decline_pco.Decline_m_pron(self.key1,self.key2)
+   decl = decline.Decline_m_pron(self.key1,self.key2)
   elif self.model == 'f_pron':
-   decl = decline_pco.Decline_f_pron(self.key1,self.key2)
+   decl = decline.Decline_f_pron(self.key1,self.key2)
   elif self.model == 'n_pron':
-   decl = decline_pco.Decline_n_pron(self.key1,self.key2)
+   decl = decline.Decline_n_pron(self.key1,self.key2)
   elif self.model == 'm_card':
-   decl = decline_pco.Decline_m_card(self.key1,self.key2)
+   decl = decline.Decline_m_card(self.key1,self.key2)
   elif self.model == 'f_card':
-   decl = decline_pco.Decline_f_card(self.key1,self.key2)
+   decl = decline.Decline_f_card(self.key1,self.key2)
   elif self.model == 'n_card':
-   decl = decline_pco.Decline_n_card(self.key1,self.key2)
+   decl = decline.Decline_n_card(self.key1,self.key2)
    """
   elif self.model == 'm_mat':
    decl = decline_2stem.Decline_m_matvat(self.key1,self.key2)
@@ -215,13 +215,19 @@ class DeclRec(object):
   else:
    print('DeclRec unimplemented model',self.model,self.key2)
    exit(1)
-  self.sups = decl.getsups()
+  # for some models, there are no sups.  Use empty list in these cases
+  # example m_card, etc.
+  try:
+   self.sups = decl.getsups()
+  except:
+   self.sups = []
   if not decl.status:
    print('DeclRec error',self.model,self.key2)
    inflection = ['' for x in range(0,24)]
   else:
    inflection = decl.table
   self.inflection = self.list_to_string(inflection)
+  #print("%s,%s\t%s" %(self.key2,self.model,self.inflection))
  # static method
  def list_to_string(self,a):
   b = []

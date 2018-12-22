@@ -63,3 +63,5 @@ python3 decline_file.py ../inputs/nominals/n_an.txt ../outputs/nominals/n_an.txt
 python3 decline_file.py ../inputs/nominals/m_ay1c.txt ../outputs/nominals/m_ay1c.txt 
 python3 decline_file.py ../inputs/nominals/f_ay1c_i1.txt ../outputs/nominals/f_ay1c_i1.txt 
 python3 decline_file.py ../inputs/nominals/n_ay1c.txt ../outputs/nominals/n_ay1c.txt 
+#
+python3 decline_file.py ../inputs/nominals/card.txt ../outputs/nominals/card.txt 

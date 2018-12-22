@@ -1480,3 +1480,7 @@ old 239255	sarvAYc	sarvAYc	m:f:n
 new 239255	sarvAYc	sarv-AYc	m:f:n
 old 247367	suparAYc	su-parAYc	m:f#AcI:n
 new 247367	suparAYc	su-parAYc	m:f#AcI:n
+; don't use LEXID=card
+old 56461	kowi	kowi	LEXID=card,STEM=kowi
+new 56461	kowi	kowi	f
+

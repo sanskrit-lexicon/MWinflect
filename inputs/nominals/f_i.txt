@@ -1276,7 +1276,7 @@ f_i	keSava-Bakti	56045,keSavaBakti
 f_i	kEtavApahnuti	56212,kEtavApahnuti
 f_i	koka-nada-cCavi	56356,kokanadacCavi
 f_i	kokila-smfti	56391,kokilasmfti
-f_i	kowi	56458,kowi
+f_i	kowi	56458,kowi:56461,kowi
 f_i	koRi	56556,koRi
 f_i	koli	56723,koli
 f_i	koSa-vfdDi	56824,koSavfdDi
