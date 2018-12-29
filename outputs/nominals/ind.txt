@@ -2616,7 +2616,6 @@ ind	paras	paras
 ind	paras-taram	parastaram
 ind	paras-tarAm	parastarAm
 ind	paras-tAt	parastAt
-ind	paras-para	paraspara
 ind	paras-param	parasparam
 ind	parA	parA
 ind	parA-taram	parAtaram

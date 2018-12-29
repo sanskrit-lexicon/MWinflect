@@ -49,7 +49,7 @@ class Model(object):
 
 def init_lexnorm(filein):
  with codecs.open(filein,"r","utf-8") as f:
-  recs = [Lexnorm(x) for x in f]
+  recs = [Lexnorm(x) for x in f if not x.startswith(';')]
  print(len(recs),"read from",filein)
  return recs
 
@@ -1746,18 +1746,24 @@ def model_aYc(recs,flog):
    rec.models.append(Model(rec,model,mstem))
 
 def model_pron(recs,flog):
+ stems = {} # prepare to list the distinct pronominal stems
  for rec in recs:
-  m = re.search(r'^LEXID=pron,STEM=(.*)$',rec.lexnorm)
+  m = re.search(r'^(.*)LEXID=pron,STEM=(.*)$',rec.lexnorm)
   if not m:
    continue
-  stem = m.group(1)
-  # one exception
-  # for L=40112, hw = 'ena', stem is given as 'idam,etad' in lexnorma-all2.txt
+  genders = m.group(1)
+  stem = m.group(2)
+   # for L=40112, hw = 'ena', stem is given as 'idam,etad' in lexnorma-all2.txt
   # we change this to 'idam'
   if stem == 'idam,etad':
    stem = 'idam'
    print('change pronoun stem from "idam,etad" to "idam"')
-  if stem in ['asmad','yuzmad']:
+  if genders != '':
+   assert rec.key2.endswith('-Bavat'),"model_pron ERROR 1: %s"%rec
+   genders = re.sub(',$','',genders)
+   lexparts = genders.split(':')
+   stem = rec.key2
+  elif stem in ['asmad','yuzmad']:
    # These have no gender.  Assume gender = 'm' for convenience
    lexparts = ['m']  
   else:
@@ -1772,6 +1778,16 @@ def model_pron(recs,flog):
     print('model_pron internal ERROR')
     exit(1)
    rec.models.append(Model(rec,model,mstem))
+   if mstem not in stems:
+    stems[mstem] = []
+   if part not in stems[mstem]:
+    stems[mstem].append(part)
+ filetemp = "temp_pron_stems.txt"
+ with codecs.open(filetemp,"w","utf-8") as f:
+  keys = sorted(stems.keys(),key=slp_cmp_key)
+  for key in keys:
+   f.write('%s %s\n' %(key,','.join(stems[key])))
+  print(len(keys),"pron stems written to",filetemp)
 
 def model_card(recs,flog):
  for rec in recs:
@@ -2211,6 +2227,7 @@ if __name__ == "__main__":
  flog = codecs.open('stem_model_log.txt',"w","utf-8")
  recs = init_lexnorm(filein)
  model_ind(recs,flog)
+ model_pron(recs,flog)
  model_m_a(recs,flog)
  model_n_a(recs,flog)
  model_f_A(recs,flog)
@@ -2257,7 +2274,7 @@ if __name__ == "__main__":
  #model_pron(recs,flog)
  #model_1stem(recs,flog)
  write_normal_models()
- write_special_models('card')
+ write_special_models('pron')
  lexnorm_todo(recs,flog)
  exit(1)
  vas_1stems = [

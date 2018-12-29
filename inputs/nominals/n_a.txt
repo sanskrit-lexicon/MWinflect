@@ -700,6 +700,7 @@ n_a	a-padma	9254.1,apadma
 n_a	a-panna-gfha	9319,apannagfha
 n_a	a-panna-da	9320,apannada
 n_a	a-payasya	9397.1,apayasya
+n_a	a-para	9405,apara
 n_a	a-para-yoga	9486.1,aparayoga
 n_a	a-para-s-para	9407,aparaspara
 n_a	a-paraSu-vfkRa	9489.1,aparaSuvfkRa
@@ -4758,7 +4759,7 @@ n_a	antar-haRana	8165,antarhaRana
 n_a	antar-hastIna	8168,antarhastIna
 n_a	antar-hita	8296,antarhita
 n_a	antar-hfdaya	8173,antarhfdaya
-n_a	antara	8180,antara
+n_a	antara	8174,antara:8180,antara
 n_a	antara-cakra	8198,antaracakra
 n_a	antara-jYa	8200,antarajYa
 n_a	antara-tama	8201,antaratama
@@ -4870,6 +4871,7 @@ n_a	anya-citta	8575,anyacitta
 n_a	anya-codita	8576,anyacodita
 n_a	anya-ja	8577,anyaja
 n_a	anya-jAta	8578,anyajAta
+n_a	anya-tama	8633,anyatama
 n_a	anya-tIrTika	8581.1,anyatIrTika
 n_a	anya-TA-kfta	8661,anyaTAkfta
 n_a	anya-TA-tva	8664,anyaTAtva
@@ -4930,7 +4932,6 @@ n_a	anyedyuzka	8682,anyedyuzka
 n_a	anyedyuska	8683.11,anyedyuska
 n_a	anyotpanna	8629,anyotpanna
 n_a	anyodarya	8630,anyodarya
-n_a	anyonya	8684,anyonya
 n_a	anyonya-kftya	8686.1,anyonyakftya
 n_a	anyonya-gata	8686.2,anyonyagata
 n_a	anyonya-darSana	8687.1,anyonyadarSana
@@ -5230,7 +5231,7 @@ n_a	apama	9361,apama
 n_a	apama-maRqala	9365,apamamaRqala
 n_a	apama-vftta	9366,apamavftta
 n_a	apamfga	9380.1,apamfga
-n_a	apara	9410,apara:9422.1,apara
+n_a	apara	9422.1,apara
 n_a	apara-godAna	9430,aparagodAna
 n_a	apara-ja	9431,aparaja
 n_a	apara-tva	9438,aparatva
@@ -9542,7 +9543,6 @@ n_a	iRqva	28710,iRqva
 n_a	ita	28541,ita:28545,ita
 n_a	itaH-pradAna	28744.1,itaHpradAna:28745,itaHpradAna
 n_a	itarANga	28730,itarANga
-n_a	itaretara	28731,itaretara:28732,itaretara
 n_a	itaretara-pratyaya	28734,itaretarapratyaya
 n_a	itaretara-pratyaya-tva	28735,itaretarapratyayatva
 n_a	itaretarASraya	28737,itaretarASraya
@@ -12170,8 +12170,6 @@ n_a	eka-ja	39252,ekaja
 n_a	eka-jAta	39258,ekajAta
 n_a	eka-jAtIya	39262,ekajAtIya
 n_a	eka-tatpara	39268,ekatatpara
-n_a	eka-tama	39271,ekatama
-n_a	eka-tara	39272,ekatara
 n_a	eka-tAna	39277,ekatAna
 n_a	eka-tAla	39286,ekatAla
 n_a	eka-tumba	39289,ekatumba
@@ -31489,7 +31487,6 @@ n_a	paraSu-rAmAvatAra-kaTana	116733.1,paraSurAmAvatArakaTana
 n_a	paraSu-vana	116734,paraSuvana
 n_a	paraSvaDAyuDa	116739,paraSvaDAyuDa
 n_a	paras-pa	116646,paraspa:116646.1,paraspa
-n_a	paras-para	116648,paraspara
 n_a	paras-para-virudDa	116651,parasparavirudDa
 n_a	paras-para-saKya	116654,parasparasaKya
 n_a	paras-para-sTita	116657,parasparasTita
@@ -69015,7 +69012,6 @@ n_a	sv-fdDa	260010,svfdDa
 n_a	sv-etavya	260015,svetavya
 n_a	sv-opaSa	260022,svopaSa
 n_a	sv-OpaSa	260023,svOpaSa
-n_a	sva	257778,sva
 n_a	sva-karaRa	257784,svakaraRa
 n_a	sva-karma-ja	257789,svakarmaja
 n_a	sva-karma-vaSa	257790,svakarmavaSa

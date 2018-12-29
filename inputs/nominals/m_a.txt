@@ -749,6 +749,7 @@ m_a	a-padma	9254.1,apadma
 m_a	a-panna-gfha	9319,apannagfha
 m_a	a-panna-da	9320,apannada
 m_a	a-payasya	9397.1,apayasya
+m_a	a-para	9405,apara
 m_a	a-para-yoga	9486.1,aparayoga
 m_a	a-para-s-para	9407,aparaspara
 m_a	a-paraSu-vfkRa	9489.1,aparaSuvfkRa
@@ -5165,6 +5166,7 @@ m_a	antar-hastIna	8168,antarhastIna
 m_a	antar-hAsa	8169,antarhAsa
 m_a	antar-hita	8296,antarhita
 m_a	antar-hfdaya	8173,antarhfdaya
+m_a	antara	8174,antara
 m_a	antara-koSa	8197.11,antarakoSa
 m_a	antara-jYa	8200,antarajYa
 m_a	antara-tama	8201,antaratama:8204,antaratama
@@ -5286,6 +5288,7 @@ m_a	anya-citta	8575,anyacitta
 m_a	anya-codita	8576,anyacodita
 m_a	anya-ja	8577,anyaja
 m_a	anya-jAta	8578,anyajAta
+m_a	anya-tama	8633,anyatama
 m_a	anya-tIrTika	8581.1,anyatIrTika
 m_a	anya-TA-kAra	8658,anyaTAkAra
 m_a	anya-TA-kfta	8661,anyaTAkfta
@@ -5358,7 +5361,6 @@ m_a	anyedyuska	8683.11,anyedyuska
 m_a	anyo-nyAnurAga	8697.1,anyonyAnurAga
 m_a	anyotpanna	8629,anyotpanna
 m_a	anyodarya	8630,anyodarya:8631,anyodarya
-m_a	anyonya	8684,anyonya
 m_a	anyonya-kalaha	8686,anyonyakalaha
 m_a	anyonya-gata	8686.2,anyonyagata
 m_a	anyonya-GAta	8687,anyonyaGAta
@@ -5686,7 +5688,7 @@ m_a	apadarpa	9227.1,apadarpa
 m_a	apapa	9321.3,apapa
 m_a	apama	9361,apama:9362,apama
 m_a	apamfga	9380.1,apamfga
-m_a	apara	9410,apara:9418,apara:9426.1,apara
+m_a	apara	9418,apara:9426.1,apara
 m_a	apara-kAnyakubja	9427,aparakAnyakubja
 m_a	apara-kAya	9428,aparakAya
 m_a	apara-kAla	9429,aparakAla
@@ -10527,7 +10529,6 @@ m_a	iqvara	28708,iqvara
 m_a	ita	28541,ita
 m_a	itaH-pradAna	28745,itaHpradAna
 m_a	itarANga	28730,itarANga
-m_a	itaretara	28731,itaretara
 m_a	itaretara-pratyaya	28734,itaretarapratyaya
 m_a	itaretara-yoga	28736,itaretarayoga
 m_a	itaretarASraya	28737,itaretarASraya:28738,itaretarASraya
@@ -13530,8 +13531,6 @@ m_a	eka-jAta	39258,ekajAta
 m_a	eka-jAtIya	39262,ekajAtIya
 m_a	eka-jIva-vAda	39264,ekajIvavAda
 m_a	eka-tatpara	39268,ekatatpara
-m_a	eka-tama	39271,ekatama
-m_a	eka-tara	39272,ekatara
 m_a	eka-tAna	39277,ekatAna:39279,ekatAna
 m_a	eka-tAla	39281,ekatAla:39286,ekatAla
 m_a	eka-tIrTya	39946.45,ekatIrTya
@@ -38887,7 +38886,6 @@ m_a	paraSu-vana-pradur-BAva	116734.1,paraSuvanapradurBAva
 m_a	paraSvaDa	116738,paraSvaDa
 m_a	paraSvaDAyuDa	116739,paraSvaDAyuDa
 m_a	paras-pa	116646,paraspa
-m_a	paras-para	116648,paraspara
 m_a	paras-para-jYa	116649,parasparajYa
 m_a	paras-para-virudDa	116651,parasparavirudDa
 m_a	paras-para-vivAda	116652,parasparavivAda
@@ -85301,7 +85299,7 @@ m_a	sv-izwa-kfd-BAga	259861,svizwakfdBAga
 m_a	sv-fdDa	260010,svfdDa
 m_a	sv-opaSa	260022,svopaSa
 m_a	sv-OpaSa	260023,svOpaSa
-m_a	sva	257774,sva
+m_a	sva	257779,sva
 m_a	sva-kampana	257782,svakampana
 m_a	sva-karma-ja	257789,svakarmaja
 m_a	sva-karma-vaSa	257790,svakarmavaSa

@@ -1483,4 +1483,107 @@ new 247367	suparAYc	su-parAYc	m:f#AcI:n
 ; don't use LEXID=card
 old 56461	kowi	kowi	LEXID=card,STEM=kowi
 new 56461	kowi	kowi	f
-
+; Pronoun additions to lexnorm-all2: See Kale. Section 149
+add 88935	tvat	tvat	LEXID=pron,STEM=yuzmad
+; we don't add these, as the declension is not clear. Kale. Section 149
+add 88947	tvad	tvad	LEXID=pron,STEM=tvat
+add 89086	tvat	tvat	LEXID=pron,STEM=tvat
+; change these 'sva' entries to pronoun
+old 257774	sva	sva	m
+new 257774	sva	sva	LEXID=pron,STEM=sva
+old 257777	svA	svA	f
+new 257777	svA	svA	LEXID=pron,STEM=sva
+old 257778	sva	sva	f#A:n
+257778	sva	sva	LEXID=pron,STEM=sva
+; add this record, confer Kale section 150. Sense is 'wealth'
+; Said to decline like rAma
+add 257779	sva	sva	m
+; ekatama is said by Kale to be declined like a pronoun, but
+old 39271	ekatama	eka-tama	m:f:n
+new 39271	ekatama	eka-tama	LEXID=pron,STEM=ekatama
+old 39272	ekatara	eka-tara	m:f:n
+new 39272	ekatara	eka-tara	LEXID=pron,STEM=ekatara
+; Kale says antara is declined like a pronoun when it means 'exterior'
+; But (presumably) when meaning 'interior', is declined like an adjective in 'a'
+; Add 8179 (meaning 'exterior') as pronoun, but leave 8174 ('interior') as
+; adjective in 'a'
+old 8174	antara	antara	LEXID=pron,STEM=antara
+new 8174	antara	antara	m:f#A:n
+add 8179	antara	antara	LEXID=pron,STEM=antara
+; consider this to be the pronoun 'apara'
+old 9410	apara	apara	m:f#A:n
+new 9410	apara	apara	LEXID=pron,STEM=apara
+; consider this NOT to be a pronoun?
+old 9405	apara	a-para	LEXID=pron,STEM=apara
+new 9405	apara	a-para	m:f:n
+; anyatama declined as adjective in 'a', not as pronoun (Kale, sec. 147)
+old 8633	anyatama	anya-tama	LEXID=pron,STEM=anyatama
+new 8633	anyatama	anya-tama	m:f:n
+; compounds declined as pronoun
+old 8684	anyonya	anyonya	m:f:n
+new 8684	anyonya	anyonya	LEXID=pron,STEM=anyonya
+old 28731	itaretara	itaretara	m:f:n
+new 28731	itaretara	itaretara	m:f:n
+old 28732	itaretara	itaretara	LEXID=pron,STEM=itaretara
+new 28732	itaretara	itaretara	LEXID=pron,STEM=itaretara
+; remove == there is no lex tag here (incorrectly inherited as ind.)
+del 116648.3	paraspara	paras-para	ind
+old 116648	paraspara	paras-para	m:f#A:n
+new 116648	paraspara	paras-para	LEXID=pron,STEM=paraspara
+; compounds with final member a pronoun. 
+; In light of Pan 1.1.29, further study needed to understand proper
+;------------------------------------------------------------------
+; declension of these (i.e., with a pronominal declension or with 'a' declension
+; currently, we do NOT treat these as pronominal declensions
+old 5013	ananya	an-anya	m:f#A:n
+new 5013	ananya	LEXID=pron,STEM=ananya
+old 82062	tadanya	tad-anya	m:f:n
+new 82062	tadanya	tad-anya	LEXID=pron,STEM=tadanya
+old 88948	tvadanya	tvad-anya	m:f:n
+new 88948	tvadanya	tvad-anya	LEXID=pron,STEM=tvadanya
+old 99170	dvyanya	dvy-anya	m:f#A:n
+new 99170	dvyanya	dvy-anya	LEXID=pron,STEM=dvyanya
+old 99171	dvyanya	dvy-anya	n
+new 99171	dvyanya	dvy-anya	LEXID=pron,STEM=dvyanya
+old 149116	Bavadanya	Bavad-anya	m:f:n
+new 149116	Bavadanya	Bavad-anya	LEXID=pron,STEM=Bavadanya
+; compounds of sarva. decline like pronoun sarva
+old 3273	atisarva	ati-sarva	m:f:n
+new 3273	atisarva	ati-sarva	LEXID=pron,STEM=atisarva
+old 3274	atisarva	ati-sarva	m
+new 3274	atisarva	ati-sarva	LEXID=pron,STEM=atisarva
+old 2834	atisarva	ati-sarva	m:f:n
+new 2834	atisarva	ati-sarva	LEXID=pron,STEM=atisarva
+old 20808	asarva	a-sarva	m:f:n
+new 20808	asarva	a-sarva	LEXID=pron,STEM=asarva
+old 76268	jagatsarva	jagat-sarva	n
+new 76268	jagatsarva	jagat-sarva	LEXID=pron,STEM=jagatsarva
+old 250474	susarva	su-sarva	m:f:n
+new 250474	susarva	su-sarva	LEXID=pron,STEM=susarva
+old 258264	svasarva	sva-sarva	n
+new 258264	svasarva	sva-sarva	LEXID=pron,STEM=svasarva
+; compounds of viSva
+old 3196	ativiSva	ati-viSva	m
+new 3196	ativiSva	ati-viSva	LEXID=pron,STEM=ativiSva
+old 7301	anuviSva	anu-viSva	m
+new 7301	anuviSva	anu-viSva	LEXID=pron,STEM=anuviSva
+old 19053	aviSva	a-viSva	n
+new 19053	aviSva	a-viSva	LEXID=pron,STEM=aviSva
+old 131841	prativiSva	prati-viSva	m:f:n
+new 131841	prativiSva	prati-viSva	LEXID=pron,STEM=prativiSva
+old 201331	viSvaviSva	viSva-viSva	m:f:n
+new 201331	viSvaviSva	viSva-viSva	LEXID=pron,STEM=viSvaviSva
+old 238723	sarvaviSva	sarva-viSva	n
+new 238723	sarvaviSva	sarva-viSva	LEXID=pron,STEM=sarvaviSva
+;------------------------------------------------------------------
+; deactivate ekEka as pronoun
+old 39922	ekEka	ekEka	LEXID=pron,STEM=ekEka
+new 39922	ekEka	ekEka	m:f:n:
+old 
+new 
+old 
+new 
+old 
+new 
+old 
+new 

@@ -701,6 +701,7 @@ f_A	a-para-yogA	9486.1,aparayoga
 f_A	a-para-s-parA	9407,aparaspara
 f_A	a-paraSu-vfkRA	9489.1,aparaSuvfkRa
 f_A	a-paraspara-samBUtA	9407.1,aparasparasamBUta
+f_A	a-parA	9405,apara
 f_A	a-parAN-muKA	9492,aparANmuKa
 f_A	a-parAjitA	9494,aparAjita:9503,aparAjitA
 f_A	a-parADInA	9408,aparADIna
@@ -4273,6 +4274,7 @@ f_A	antara-praBavA	8209,antarapraBava
 f_A	antara-BAvanA	8211.2,antaraBAvanA
 f_A	antara-sTA	8212,antarasTa
 f_A	antara-sTitA	8216,antarasTita
+f_A	antarA	8174,antara
 f_A	antarA-BarA	8223,antarABara
 f_A	antarA-SfNgIyA	8227.2,antarASfNgIya
 f_A	antarApatyA	8218,antarApatyA
@@ -4354,6 +4356,7 @@ f_A	anya-coditA	8576,anyacodita
 f_A	anya-janatA	8577.1,anyajanatA
 f_A	anya-jA	8577,anyaja
 f_A	anya-jAtA	8578,anyajAta
+f_A	anya-tamA	8633,anyatama
 f_A	anya-tA	8581,anyatA
 f_A	anya-tIrTikA	8581.1,anyatIrTika
 f_A	anya-TA-kftA	8661,anyaTAkfta
@@ -4416,7 +4419,6 @@ f_A	anyonya-miTunA	8691.1,anyonyamiTuna
 f_A	anyonya-sApekzA	8696,anyonyasApekza
 f_A	anyonya-sparDA	8696.1,anyonyasparDA
 f_A	anyonya-hArABihatA	8697,anyonyahArABihata
-f_A	anyonyA	8684,anyonya
 f_A	anyonyApahftA	8698,anyonyApahfta
 f_A	anyonyASritA	8702,anyonyASrita
 f_A	anv-akzA	8726,anvakza
@@ -4666,7 +4668,7 @@ f_A	apara-varzA	9453,aparavarzA
 f_A	apara-s-parA	9458,aparaspara
 f_A	apara-hEmanA	9461,aparahEmana
 f_A	aparavojJitA	9489,aparavojJita
-f_A	aparA	9410,apara:9419,aparA:9426.2,aparA
+f_A	aparA	9419,aparA:9426.2,aparA
 f_A	aparAntA	9463,aparAnta
 f_A	aparAntikA	9467,aparAntaka:9468,aparAntikA
 f_A	aparAparA	9471,aparApara
@@ -8006,7 +8008,6 @@ f_A	itaH-pradAnA	28745,itaHpradAna
 f_A	itarANgA	28730,itarANga
 f_A	itaretara-kAmyA	28733,itaretarakAmyA
 f_A	itaretara-pratyayA	28734,itaretarapratyaya
-f_A	itaretarA	28731,itaretara
 f_A	itaretarASrayA	28737,itaretarASraya
 f_A	itA	28541,ita
 f_A	itAntA	28746.1,itAnta
@@ -10126,8 +10127,6 @@ f_A	eka-jAtIyA	39262,ekajAtIya
 f_A	eka-jyA	39265,ekajyA
 f_A	eka-tatparA	39268,ekatatpara
 f_A	eka-tantrikA	39269,ekatantrikA
-f_A	eka-tamA	39271,ekatama
-f_A	eka-tarA	39272,ekatara
 f_A	eka-tA	39275,ekatA
 f_A	eka-tAnA	39277,ekatAna
 f_A	eka-tAlA	39286,ekatAla
@@ -25180,7 +25179,6 @@ f_A	paraSvaDAyuDA	116739,paraSvaDAyuDa
 f_A	paras-para-virudDA	116651,parasparavirudDa
 f_A	paras-para-sTitA	116657,parasparasTita
 f_A	paras-para-hatA	116658,parasparahata
-f_A	paras-parA	116648,paraspara
 f_A	paras-pA	116646,paraspa
 f_A	paraspara-vi-banDanA	116650.1,parasparavibanDana
 f_A	parasparAmizatA	116663,parasparAmizatA
@@ -53942,7 +53940,6 @@ f_A	svasty-ayanA	259560,svastyayana
 f_A	svasty-arTa-caritA	259567,svastyarTacarita
 f_A	svastyA	259571,svastya
 f_A	svasrIyA	259485,svasrIyA
-f_A	svA	257777,svA:257778,sva
 f_A	svAM-kftA	258322,svAMkfta
 f_A	svAkArA	258314,svAkAra
 f_A	svAKyAta-tA	258319.1,svAKyAtatA

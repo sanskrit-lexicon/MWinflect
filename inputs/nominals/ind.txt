@@ -2616,7 +2616,6 @@ ind	paras	116642,paras
 ind	paras-taram	116643,parastaram
 ind	paras-tarAm	116644,parastarAm
 ind	paras-tAt	116645,parastAt
-ind	paras-para	116648.3,paraspara
 ind	paras-param	116648.2,parasparam
 ind	parA	116743,parA
 ind	parA-taram	116744,parAtaram
