@@ -1166,6 +1166,7 @@ f_in_I	kurIriRI	52707,kurIrin
 f_in_I	kuru-kzetriRI	52723,kurukzetrin
 f_in_I	kurUwinI	52788,kurUwin
 f_in_I	kula-kalaNka-kAriRI	52837,kulakalaNkakArin
+f_in_I	kula-pAMsinI	52898.2,kulapAMsin
 f_in_I	kula-pAlinI	52905.1,kulapAlin
 f_in_I	kula-vyApinI	52960,kulavyApin
 f_in_I	kula-SrezWinI	52969,kulaSrezWin
@@ -2131,6 +2132,7 @@ f_in_I	pari-srAviRI	119112,parisrAvin
 f_in_I	pari-harziRI	119198,pariharzin
 f_in_I	pari-hAriRI	119181,parihArin
 f_in_I	pariRirvAyiRI	117834,parinirvAyin
+f_in_I	parivAhiRI	118528,parivAhin
 f_in_I	pariveza-banDinI	118585.01,parivezabanDin
 f_in_I	parItinI	119277,parItin
 f_in_I	paruza-vAdinI	119402,paruzavAdin
@@ -2422,8 +2424,8 @@ f_in_I	prati-roDinI	132988,pratiroDin
 f_in_I	prati-vAdinI	133038,prativAdin
 f_in_I	prati-vAsinI	133055,prativAsin
 f_in_I	prati-vedinI	133067,prativedin
-f_in_I	prati-veSa-vAsinI	131861.5,prativeSavAsin
-f_in_I	prati-veSinI	131862,prativeSin
+f_in_I	prati-veSa-vAsinI	131861.4,prativeSavAsin:131861.5,prativeSavAsin
+f_in_I	prati-veSinI	131862,prativeSin:131862.1,prativeSin
 f_in_I	prati-SyAyinI	133163,pratiSyAyin
 f_in_I	prati-zidDa-sevinI	133213,pratizidDasevin
 f_in_I	prati-zwamBinI	133251,pratizwamBin
@@ -2868,6 +2870,7 @@ f_in_I	muYja-DAriRI	165324,muYjaDArin
 f_in_I	muRqa-DAriRI	165390,muRqaDArin
 f_in_I	muRqinI	165432,muRqin
 f_in_I	muTaSilinI	165447,muTaSilin
+f_in_I	muni-pizwakinI	165632,munipizwakin
 f_in_I	muni-vratinI	165656,munivratin
 f_in_I	musalinI	165986,musalin
 f_in_I	muhur-dIkziRI	166057.1,muhurdIkzin
@@ -4187,6 +4190,7 @@ f_in_I	su-DA-syandinI	246991,suDAsyandin
 f_in_I	su-DAriRI	246855,suDArin
 f_in_I	su-naya-SAlinI	247055,sunayaSAlin
 f_in_I	su-pattriRI	247341,supattrin
+f_in_I	su-paTI	247349,supaTin
 f_in_I	su-payo-vinI	247363,supayovin
 f_in_I	su-Baga-mAninI	248001,suBagamAnin
 f_in_I	su-BAziRI	248066,suBAzin

@@ -1320,12 +1320,14 @@ def model_f_AIU(recs,flog):
 
 def model_mfn_in(recs,flog):
  ending = 'in'
+ knownparts = set(['m','f','n','f#inI','f#iRI',
+      'f#TI','f#I','f#nI',])
  for rec in recs:
   stem = rec.key2
   if not stem.endswith(ending):
    continue
   lexparts = rec.lexnorm.split(':')
-  if not set(lexparts).issubset(set(['m','f','n','f#inI','f#iRI'])):
+  if not set(lexparts).issubset(knownparts):
    continue
   rec.parsed = True
   for part in lexparts:
@@ -1367,6 +1369,15 @@ def model_mfn_in(recs,flog):
     mstem = stem[0:-2] + ending1  # replace ending 'in' 
     mpart = 'f'
     model = 'f_in_I' # '%s_%s' %(mpart,'I')
+   elif part in ['f#TI']:
+    assert rec.key1 == 'supaTin'
+    mstem = stem[0:-2] + 'I'  # replace ending 'in'
+    model = 'f_in_I'
+   elif part in ['f#I','f#nI']:
+    assert rec.key1 in ['kulapAMsin','munipizwakin','prativeSavAsin',
+           'prativeSin']
+    mstem = stem + 'I'  # pAMsinI.  Probably what is meant
+    model = 'f_in_I'
    else:
     print('model_in Internal error',part)
     exit(1)
@@ -1717,11 +1728,17 @@ def model_aYc(recs,flog):
   stempadas = stem.split('-')
   lastpada = stempadas[-1]
   firstpadas = stempadas[0:-1]  # all but last of stempadas. May be empty
+  """
+   1/2/2019.  key2 of lexnorm-all2 for these cases (such as udac) 
+   have been changed, to end in 'Yc'. Thus, this logic not needed.
   if lastpada.endswith('ac'):
    lastpada = lastpada[0:-1]+'Yc'  # change spelling
    stem = stem[0:-1] + 'Yc'
+  """
   if lastpada not in daYc:
    continue
+  if not rec.key1.endswith('Yc'):
+   print('model_aYc: not end in "Yc":',rec.key1)
   (fstem,) = daYc[lastpada]
   lexparts = rec.lexnorm.split(':')
   if rec.parsed:
@@ -1814,6 +1831,37 @@ def model_card(recs,flog):
     model = '%s_%s' %(part,'card')  
    else:
     print('model_card internal ERROR')
+    exit(1)
+   rec.models.append(Model(rec,model,mstem))
+
+def model_mfn_1cons(recs,flog,ending):
+ """ nouns with 1 stem ending in various consonants
+   Note ending comes in as parameter; thus this routine
+   generates files for various consonsants.
+ """
+
+ for rec in recs:
+  stem = rec.key2
+  found = False
+  if not stem.endswith(ending):
+   continue
+  if rec.parsed:
+   # this record has been previously parsed
+   continue
+  lexparts = rec.lexnorm.split(':')
+  if not set(lexparts).issubset(set(['m','f','n','ind'])):
+   continue
+  rec.parsed = True
+  for part in lexparts:
+   if part in ['m','n','f']:
+    # stem is unchanged
+    mstem = stem
+    model = '%s_1_%s' %(part,ending)  
+   elif part in ['ind']:
+    mstem = stem
+    model = 'ind'
+   else:
+    print('mfn_1cons Internal error',part)
     exit(1)
    rec.models.append(Model(rec,model,mstem))
 
@@ -2189,12 +2237,13 @@ def write_model_instances(modelname,instances):
  f.close()
  print(nout,"written to",fileout," (%s)"%ntot)
 
-def write_normal_models():
+def write_normal_models(special_models):
  d = Model.d
  models = d.keys()
  # for 'normal' models, write model
+ special_endings = tuple(['_'+x for x in special_models])
  for model in models:
-  if not model.endswith(('card','pron')):
+  if not model.endswith(special_endings):
    write_model_instances(model,d[model])
 
 def write_special_models(sfx):
@@ -2270,28 +2319,22 @@ if __name__ == "__main__":
  model_mfn_us(recs,flog)
  model_an(recs,flog)
  model_aYc(recs,flog)  #  reduplicated participle ending in 'aYc'
- #model_f_AIU(recs,flog)
- #model_pron(recs,flog)
- #model_1stem(recs,flog)
- write_normal_models()
- write_special_models('pron')
+ special_models=['pron','card']
+ flag1cons=True
+ consonants = 'kKgGNcCjJYwWqQRtTdDnpPbBmyrlvSzsh'
+ for cons in consonants:
+  #  '1-stem' models.
+  # model name is of form: <gender>_1_<cons>, e.g. m_1_t
+  # all genders written to file 1_<cons>, e.g. 1_t.txt
+  if flag1cons:
+   model_mfn_1cons(recs,flog,cons)  
+   special_models.append('1_'+cons)
+ # generate output to various files
+ write_normal_models(special_models)
+ for model in special_models:
+  write_special_models(model)
  lexnorm_todo(recs,flog)
- exit(1)
- vas_1stems = [
- ]
- # 'vi-vikvas'
- # redups endings
- # probable reduplicated perfect active participle in 'vas'
- vas_redups = ['cakfvas','jaGnivas','vidvas','papivas',
-               'biBIvas','upeyivas','Iyivas','udeyivas','pareyivas',
-               'cikitvas','jakzivas','jaganvas','jagmivas',
-               'jaGanvas','jajYivas','jAgfvas','tasTivas',
-               'pIpivas','SiSrivas','SuSruvas','vavftvas',
-               'sAsahvas','suzupvas',
-              ]
- # Another type of participle. How declined?
- vas_others = ['okivas','Kidvas','caKvas','jUjuvas','pIvas','mIQvas',
-               'SaMsivas',
-               'prozivas', 'rarivas', 'saScivas','darSivas',
-               'sedivas',
-              ]
+ if flag1cons:
+  print("1cons models constructed")
+ else:
+  print("1cons models NOT constructed")

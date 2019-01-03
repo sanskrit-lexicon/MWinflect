@@ -13814,6 +13814,7 @@ m_a	ekekzaRa	39917,ekekzaRa
 m_a	ekendriya	39918,ekendriya
 m_a	ekeza	39919,ekeza
 m_a	ekezwaka	39920,ekezwaka
+m_a	ekEka	39922,ekEka
 m_a	ekEka-tara	39924,ekEkatara
 m_a	ekoccaya	39932,ekoccaya
 m_a	ekoti-BAva	39934,ekotiBAva

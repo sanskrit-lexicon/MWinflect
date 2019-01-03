@@ -2,6 +2,7 @@ m_aYc	an-vaYc	8730,anvaYc
 m_aYc	ap-AYc	9979,apAYc
 m_aYc	amudr-yaYc	14157.12,amudryaYc
 m_aYc	amumu-yaYc	14157.13,amumuyaYc
+m_aYc	arv-AYc	16423,arvAc
 m_aYc	av-AYc	18500,avAYc
 m_aYc	asmatr-AYc	21494.1,asmatrAYc
 m_aYc	asmadr-yaYc	21506,asmadryaYc
@@ -16,9 +17,11 @@ m_aYc	tadr-yaYc	82185,tadryaYc
 m_aYc	tadri-yaYc	82184,tadriyaYc
 m_aYc	tiryaYc	85178,tiryaYc:85184,tiryaYc:85185,tiryaYc
 m_aYc	tiryadr-yaYc	85192,tiryadryaYc
+m_aYc	dakziR-AYc	89424,dakziRAc
 m_aYc	dakziRA-prat-yaYc	89492,dakziRApratyac
 m_aYc	dakziRA-prAYc	89435.1,dakziRAprAYc
 m_aYc	daD-yaYc	89992,daDyac
+m_aYc	dev-AYc	96184,devAc
 m_aYc	devadr-yaYc	95745,devadryac
 m_aYc	n-yaYc	112723,nyaYc
 m_aYc	nirv-AYc	110020,nirvAYc
@@ -37,6 +40,7 @@ m_aYc	vizvadr-yaYc	202255,vizvadryaYc
 m_aYc	SvaBra-tiryaYc	224349,SvaBratiryaYc
 m_aYc	Svit-yaYc	224504,SvityaYc
 m_aYc	s-vaYc	258781,svaYc
+m_aYc	satr-AYc	230498,satrAc
 m_aYc	saDr-yaYc	231015,saDryaYc:231018,saDryaYc
 m_aYc	sam-yaYc	237298,samyaYc
 m_aYc	sarv-AYc	239255,sarvAYc

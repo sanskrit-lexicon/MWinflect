@@ -7,6 +7,7 @@
     Revised 02-20-2017 Regarding special handling of slp1 to deva;
      search for  regexCode  variable, and fsmentry['regex'] for where this comes into play.
      This kind of coding is ugly, and needs to be revised for greater generality.
+ # Revised 1/2/2019 to work with Python3
 """ 
 
 __program_name__ = 'transcoder.py'
@@ -227,7 +228,12 @@ def to_unicode(x):
     z1 = z[:4]
     z2 = z[4:]
    zint= int(z1,16)
-   zuni = unichr(zint)
+   # make work with Python 2 or 3
+   try:
+    zuni = unichr(zint)
+   except:
+    # unichr
+    zuni = chr(zint)
    ans += zuni
    ans += z2
   return ans

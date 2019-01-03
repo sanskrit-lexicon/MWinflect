@@ -1168,6 +1168,7 @@ n_in	kurIrin	52707,kurIrin
 n_in	kuru-kzetrin	52723,kurukzetrin
 n_in	kurUwin	52788,kurUwin
 n_in	kula-kalaNka-kArin	52837,kulakalaNkakArin
+n_in	kula-pAMsin	52898.2,kulapAMsin
 n_in	kula-pAlin	52905.1,kulapAlin
 n_in	kula-vyApin	52960,kulavyApin
 n_in	kula-SrezWin	52969,kulaSrezWin
@@ -2137,6 +2138,7 @@ n_in	pari-srAvin	119112,parisrAvin:119114,parisrAvin
 n_in	pari-harzin	119198,pariharzin
 n_in	pari-hArin	119181,parihArin
 n_in	parinirvAyin	117834,parinirvAyin
+n_in	parivAhin	118528,parivAhin
 n_in	pariveza-banDin	118585.01,parivezabanDin
 n_in	parItin	119277,parItin
 n_in	paruza-vAdin	119402,paruzavAdin
@@ -2428,6 +2430,7 @@ n_in	prati-roDin	132988,pratiroDin
 n_in	prati-vAdin	133038,prativAdin
 n_in	prati-vAsin	133055,prativAsin
 n_in	prati-vedin	133067,prativedin
+n_in	prati-veSa-vAsin	131861.4,prativeSavAsin
 n_in	prati-veSin	131862,prativeSin
 n_in	prati-SyAyin	133163,pratiSyAyin
 n_in	prati-zidDa-sevin	133213,pratizidDasevin
@@ -2877,6 +2880,7 @@ n_in	muYja-DArin	165324,muYjaDArin
 n_in	muRqa-DArin	165390,muRqaDArin
 n_in	muRqin	165432,muRqin
 n_in	muTaSilin	165447,muTaSilin
+n_in	muni-pizwakin	165632,munipizwakin
 n_in	muni-vratin	165656,munivratin
 n_in	musalin	165986,musalin
 n_in	muhur-dIkzin	166057.1,muhurdIkzin
@@ -4199,6 +4203,7 @@ n_in	su-DA-syandin	246991,suDAsyandin
 n_in	su-DArin	246855,suDArin
 n_in	su-naya-SAlin	247055,sunayaSAlin
 n_in	su-pattrin	247341,supattrin
+n_in	su-paTin	247349,supaTin
 n_in	su-payo-vin	247363,supayovin
 n_in	su-Baga-mAnin	248001,suBagamAnin
 n_in	su-BAzin	248066,suBAzin

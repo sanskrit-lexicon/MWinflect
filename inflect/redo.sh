@@ -67,3 +67,16 @@ python3 decline_file.py ../inputs/nominals/n_ay1c.txt ../outputs/nominals/n_ay1c
 python3 decline_file.py ../inputs/nominals/card.txt ../outputs/nominals/card.txt 
 #
 python3 decline_file.py ../inputs/nominals/pron.txt ../outputs/nominals/pron.txt 
+# various nouns with 1 stem - dentals
+python3 decline_file.py ../inputs/nominals/1_t.txt ../outputs/nominals/1_t.txt 
+python3 decline_file.py ../inputs/nominals/1_t1.txt ../outputs/nominals/1_t1.txt 
+python3 decline_file.py ../inputs/nominals/1_d.txt ../outputs/nominals/1_d.txt 
+python3 decline_file.py ../inputs/nominals/1_d1.txt ../outputs/nominals/1_d1.txt 
+# taj-ja-lAn - cannot decline.
+# python3 decline_file.py ../inputs/nominals/1_n.txt ../outputs/nominals/1_n.txt 
+
+# various nouns with 1 stem - gutturals
+python3 decline_file.py ../inputs/nominals/1_k.txt ../outputs/nominals/1_k.txt 
+python3 decline_file.py ../inputs/nominals/1_k1.txt ../outputs/nominals/1_k1.txt 
+python3 decline_file.py ../inputs/nominals/1_g.txt ../outputs/nominals/1_g.txt 
+python3 decline_file.py ../inputs/nominals/1_g1.txt ../outputs/nominals/1_g1.txt 

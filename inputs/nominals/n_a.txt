@@ -12409,6 +12409,7 @@ n_a	ekIya	39971,ekIya
 n_a	ekendriya	39918,ekendriya
 n_a	ekeza	39919,ekeza
 n_a	ekezwaka	39920,ekezwaka
+n_a	ekEka	39922,ekEka
 n_a	ekEka-tara	39924,ekEkatara
 n_a	ekEkaSya	39927,ekEkaSya
 n_a	ekESvarya	39929,ekESvarya

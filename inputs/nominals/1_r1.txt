@@ -1,0 +1,9 @@
+f_1_R	parAR	116846,parAR
+m_1_R	parAR	116846,parAR
+n_1_R	parAR	116846,parAR
+f_1_R	prAR	139499,prAR
+m_1_R	prAR	139499,prAR
+n_1_R	prAR	139499,prAR
+f_1_R	su-gaR	245961,sugaR
+m_1_R	su-gaR	245961,sugaR
+n_1_R	su-gaR	245961,sugaR

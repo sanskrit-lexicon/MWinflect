@@ -815,6 +815,7 @@ ind	amRas	14388.1,amRas
 ind	amBastas	14571.1,amBastas
 ind	amyak	14604,amyak
 ind	ayA	14834,ayA
+ind	ayAs	14875.1,ayAs
 ind	ayi	14878,ayi
 ind	aye	14981,aye
 ind	araRya-vat	15103,araRyavat
@@ -2229,6 +2230,7 @@ ind	dvi-DA-BAvam	98495.40,dviDABAvam
 ind	dvi-nava-kftvas	98502,dvinavakftvas
 ind	dvi-pari	98544,dvipari
 ind	dvi-puruzam	98568,dvipuruzam
+ind	dvi-barhAs	98580,dvibarhAs
 ind	dvi-musali	98615,dvimusali
 ind	dvi-yamunam	98622,dviyamunam
 ind	dvi-viDA	98677,dviviDA
@@ -2923,6 +2925,7 @@ ind	pra-tanu-kam	131331.1,pratanukam
 ind	pra-tamAm	131384,pratamAm
 ind	pra-taram	131385,prataram
 ind	pra-tarAm	131386,pratarAm
+ind	pra-tAm	131382,pratAm
 ind	pra-dakziRam	134603,pradakziRam
 ind	pra-dakziReRa	134605.1,pradakziReRa
 ind	pra-dAna-pUrvam	134670,pradAnapUrvam
@@ -3984,12 +3987,12 @@ ind	yaTA-saKyam	170002,yaTAsaKyam
 ind	yaTA-saNgam	170007,yaTAsaNgam
 ind	yaTA-satyam	170008,yaTAsatyam
 ind	yaTA-saBakzam	170014,yaTAsaBakzam
+ind	yaTA-sam-pad	170021,yaTAsampad
 ind	yaTA-samayam	170015,yaTAsamayam
 ind	yaTA-samarTitam	170016,yaTAsamarTitam
 ind	yaTA-samAnnAtam	170017,yaTAsamAnnAtam
 ind	yaTA-samIhitam	170019,yaTAsamIhitam
 ind	yaTA-samuditam	170020,yaTAsamuditam
-ind	yaTA-sampad	170021,yaTAsampad
 ind	yaTA-samprakIrRam	170022,yaTAsamprakIrRam
 ind	yaTA-sampratyayam	170023,yaTAsampratyayam
 ind	yaTA-sampradAyam	170024,yaTAsampradAyam

@@ -10347,6 +10347,7 @@ f_A	ekendriyA	39918,ekendriya
 f_A	ekezA	39919,ekeza
 f_A	ekezwakA	39920,ekezwaka:39921,ekezwakA
 f_A	ekEka-tarA	39924,ekEkatara
+f_A	ekEkA	39922,ekEka
 f_A	ekEzikA	39930,ekEzikA
 f_A	ekottarA	39935,ekottara
 f_A	ekottarikA	39936,ekottarikA

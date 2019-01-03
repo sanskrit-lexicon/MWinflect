@@ -439,3 +439,9 @@ x7396	anuSAsat	anu-SAsat	m:f:n
 20832.1	asahat	a-sahat	m:f#antI:n
 5245.1	anarhat	an-arhat	m:f:n
 259416	svarhat	sv-arhat	m:f:n
+; 1/1/2019 additional compounds ending in a prap
+8558	anniyat	anniyat	m:f:n
+5582	anAmayat	anA-mayat	m:f:n
+3700.1	adipsat	a-dipsat	m:f:n
+179477	rerihat	rerihat	m:f:n   # participle of intensive of 'rih' (lick)
+7396	anuSAsat	anu-SAsat	m:f:n

@@ -188,24 +188,15 @@ class DeclRec(object):
    decl = decline.Decline_f_card(self.key1,self.key2)
   elif self.model == 'n_card':
    decl = decline.Decline_n_card(self.key1,self.key2)
-   """
-  elif self.model == 'm_mat':
-   decl = decline_2stem.Decline_m_matvat(self.key1,self.key2)
-  elif self.model == 'n_mat':
-   decl = decline_2stem.Decline_n_matvat(self.key1,self.key2)
-  elif self.model == 'm_vat':
-   decl = decline_2stem.Decline_m_matvat(self.key1,self.key2)
-  elif self.model == 'n_vat':
-   decl = decline_2stem.Decline_n_matvat(self.key1,self.key2)
-   """
   elif self.model == 'm_an':
    decl = decline_3stem.Decline_m_an(self.key1,self.key2)
   elif self.model == 'n_an':
    decl = decline_3stem.Decline_n_an(self.key1,self.key2)
   elif self.model == 'f_an':
    decl = decline_3stem.Decline_f_an(self.key1,self.key2)
-
-  # Do all in 1 class. Pass the gender to class constructor
+  elif re.search(r'^([mfn])_1_(.)$',self.model):
+   # Do all in 1 class. Pass the model to class constructor
+   decl = decline.Decline_1(self.model,self.key1,self.key2)
   elif self.model == 'm_1stem':
    decl = decline_1stem.Decline_1stem('m',self.key1,self.key2,)
   elif self.model == 'n_1stem':

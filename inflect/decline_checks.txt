@@ -970,3 +970,49 @@ Case 5:  sarvasmAt sarvAByAm sarveByaH
 Case 6:  sarvasya sarvayoH sarvezAm
 Case 7:  sarvasmin sarvayoH sarvezu
 Case 8:  sarva sarve sarvARi
+; Confirm Deshpande, p. 155
+;   Note that Kale may have m1s as marut/marud
+$ python decline_one.py m_1_t marut
+Declension of m_1_t marut
+Case 1:  marut marutO marutaH
+Case 2:  marutam marutO marutaH
+Case 3:  marutA marudByAm marudBiH
+Case 4:  marute marudByAm marudByaH
+Case 5:  marutaH marudByAm marudByaH
+Case 6:  marutaH marutoH marutAm
+Case 7:  maruti marutoH marutsu
+Case 8:  marut marutO marutaH
+; Confirm Deshpande, p. 156
+$ python decline_one.py f_1_t sarit
+; Kale would have sarit/sarid for 1s form
+Declension of f_1_t sarit
+Case 1:  sarit saritO saritaH
+Case 2:  saritam saritO saritaH
+Case 3:  saritA saridByAm saridBiH
+Case 4:  sarite saridByAm saridByaH
+Case 5:  saritaH saridByAm saridByaH
+Case 6:  saritaH saritoH saritAm
+Case 7:  sariti saritoH saritsu
+Case 8:  sarit saritO saritaH
+; Confirm Deshpande, p. 156
+$ python decline_one.py n_1_t jagat
+Declension of n_1_t jagat
+Case 1:  jagat jagatI jaganti
+Case 2:  jagat jagatI jaganti
+Case 3:  jagatA jagadByAm jagadBiH
+Case 4:  jagate jagadByAm jagadByaH
+Case 5:  jagataH jagadByAm jagadByaH
+Case 6:  jagataH jagatoH jagatAm
+Case 7:  jagati jagatoH jagatsu
+Case 8:  jagat jagatI jaganti
+; Confirm Deshpande, p. 157
+$ python decline_one.py f_1_c vAc
+Declension of f_1_c vAc
+Case 1:  vAk vAcO vAcaH
+Case 2:  vAcam vAcO vAcaH
+Case 3:  vAcA vAgByAm vAgBiH
+Case 4:  vAce vAgByAm vAgByaH
+Case 5:  vAcaH vAgByAm vAgByaH
+Case 6:  vAcaH vAcoH vAcAm
+Case 7:  vAci vAcoH vAkzu
+Case 8:  vAk vAcO vAcaH

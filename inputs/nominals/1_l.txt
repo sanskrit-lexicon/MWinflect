@@ -1,0 +1,6 @@
+f_1_l	anekAl	7849,anekAl
+m_1_l	anekAl	7849,anekAl
+n_1_l	anekAl	7849,anekAl
+m_1_l	SIl	218736,SIl
+m_1_l	hal	261842,hal
+n_1_l	hal	261842,hal

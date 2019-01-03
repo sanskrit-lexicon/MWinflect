@@ -1,0 +1,10 @@
+f_1_m	kzam	59035,kzam
+m_1_m	dam	90247,dam
+f_1_m	pra-tAm	131382,pratAm
+m_1_m	pra-tAm	131382,pratAm
+n_1_m	pra-tAm	131382,pratAm
+m_1_m	pra-dAm	134625,pradAm
+f_1_m	pra-SAm	137535,praSAm
+m_1_m	pra-SAm	137535,praSAm
+n_1_m	pra-SAm	137535,praSAm
+f_1_m	saM-nam	231924,saMnam

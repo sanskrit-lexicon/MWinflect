@@ -2,6 +2,7 @@ f_aYc_I	an-UcI	8730,anvaYc
 f_aYc_I	ap-AcI	9979,apAYc
 f_aYc_I	amudr-IcI	14157.12,amudryaYc
 f_aYc_I	amumu-IcI	14157.13,amumuyaYc
+f_aYc_I	arv-AcI	16423,arvAc
 f_aYc_I	av-AcI	18500,avAYc
 f_aYc_I	asmatr-AcI	21494.1,asmatrAYc
 f_aYc_I	asmadr-IcI	21506,asmadryaYc
@@ -16,8 +17,10 @@ f_aYc_I	tadr-IcI	82185,tadryaYc
 f_aYc_I	tadri-IcI	82184,tadriyaYc
 f_aYc_I	tiraScI	85178,tiryaYc:85188,tiryaYc
 f_aYc_I	tiryadr-IcI	85192,tiryadryaYc
+f_aYc_I	dakziR-AcI	89424,dakziRAc
 f_aYc_I	dakziRA-prat-IcI	89492,dakziRApratyac
 f_aYc_I	dakziRA-prAcI	89435.1,dakziRAprAYc
+f_aYc_I	dev-AcI	96184,devAc
 f_aYc_I	devadr-IcI	95745,devadryac
 f_aYc_I	n-IcI	112723,nyaYc
 f_aYc_I	nirv-AcI	110020,nirvAYc
@@ -35,6 +38,7 @@ f_aYc_I	viz-UcI	202245,vizvaYc
 f_aYc_I	vizvadr-IcI	202255,vizvadryaYc
 f_aYc_I	Svit-IcI	224504,SvityaYc
 f_aYc_I	s-UcI	258781,svaYc
+f_aYc_I	satr-AcI	230498,satrAc
 f_aYc_I	saDr-IcI	231015,saDryaYc
 f_aYc_I	sam-IcI	237298,samyaYc
 f_aYc_I	sarv-AcI	239255,sarvAYc

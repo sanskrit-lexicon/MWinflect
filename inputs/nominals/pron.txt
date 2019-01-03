@@ -106,9 +106,9 @@ n_pron	yatama	168977,yatama
 f_pron	yatara	168979,yatara
 m_pron	yatara	168979,yatara
 n_pron	yatara	168979,yatara
-f_pron	yad	170148,yad:170186,yac:170190,yat:170208,yan
-m_pron	yad	170148,yad:170186,yac:170190,yat:170208,yan
-n_pron	yad	170148,yad:170186,yac:170190,yat:170208,yan
+f_pron	yad	170148,yad:170148.1,yad:170186,yac:170190,yat:170208,yan
+m_pron	yad	170148,yad:170148.1,yad:170186,yac:170190,yat:170208,yan
+n_pron	yad	170148,yad:170148.1,yad:170186,yac:170190,yat:170208,yan
 m_pron	yuzmad	88926,tva:88928,tva:88935,tvat:172148,yuva:172212,yuzmat:172214,yuzmad:172222,yuzmA:188559,vas:190968,vAm
 f_pron	viSva	200987,viSva
 m_pron	viSva	200987,viSva

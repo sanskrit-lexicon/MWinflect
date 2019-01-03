@@ -1,0 +1,3 @@
+f_1_g	su-valg	248924,suvalg
+m_1_g	su-valg	248924,suvalg
+n_1_g	su-valg	248924,suvalg

@@ -12,7 +12,14 @@
 # Not sure where they go 
 tranfrom="aAiIuUfFxXeEoOMHkKgGNcCjJYwWqLQ|RtTdDnpPbBmyrlvSzsh"
 tranto = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxy"
-trantable = str.maketrans(tranfrom,tranto)
+import sys
+info = sys.version_info
+if sys.version_info[0] == 2:
+ import string
+ trantable = string.maketrans(tranfrom,tranto)
+else:
+ trantable = str.maketrans(tranfrom,tranto)
+
 def slp_cmp(a,b):
  a = str(a)  # required since a,b are unicode, not acceptable to translate
  b = str(b)
@@ -26,4 +33,10 @@ def slp_cmp(a,b):
  return cmp(a1,b1)
 
 def slp_cmp_key(a):
- return str.translate(a,trantable)
+ try:
+  return str.translate(str(a),trantable)
+ except Exception as e:
+  print('slp_cmp_key ERROR',e)
+  print('a=',a)
+  exit(1)
+

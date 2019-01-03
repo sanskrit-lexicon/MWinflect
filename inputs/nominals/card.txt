@@ -123,7 +123,7 @@ f_card	lakzmI-paYcASat	180591,lakzmIpaYcASat
 f_card	lokArya-paYcASat	183514,lokAryapaYcASat
 f_card	vara-da-rAja-paYcASat	186836.03,varadarAjapaYcASat
 f_card	vi-rUpAkza-paYcASat	199543,virUpAkzapaYcASat
-f_card	viMSat	193774,viMSat
+f_card	viMSat	87500,trayoviMSat:118533,pariviMSat:193774,viMSat
 f_card	viMSati	193740,viMSati
 f_card	veNkaweSa-paYcASat	205399.15,veNkaweSapaYcASat
 f_card	zaw-catvAriMSat	224978,zawcatvAriMSat
