@@ -1,0 +1,3 @@
+f_1_g	su-valg	suvalk:suvalgO:suvalgaH:suvalgam:suvalgO:suvalgaH:suvalgA:suvalgByAm:suvalgBiH:suvalge:suvalgByAm:suvalgByaH:suvalgaH:suvalgByAm:suvalgByaH:suvalgaH:suvalgoH:suvalgAm:suvalgi:suvalgoH:suvalkzu:suvalk:suvalgO:suvalgaH
+m_1_g	su-valg	suvalk:suvalgO:suvalgaH:suvalgam:suvalgO:suvalgaH:suvalgA:suvalgByAm:suvalgBiH:suvalge:suvalgByAm:suvalgByaH:suvalgaH:suvalgByAm:suvalgByaH:suvalgaH:suvalgoH:suvalgAm:suvalgi:suvalgoH:suvalkzu:suvalk:suvalgO:suvalgaH
+n_1_g	su-valg	suvalk:suvalgI:suvalN:suvalk:suvalgI:suvalN:suvalgA:suvalgByAm:suvalgBiH:suvalge:suvalgByAm:suvalgByaH:suvalgaH:suvalgByAm:suvalgByaH:suvalgaH:suvalgoH:suvalgAm:suvalgi:suvalgoH:suvalkzu:suvalk:suvalgI:suvalN

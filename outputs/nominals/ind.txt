@@ -815,6 +815,7 @@ ind	amRas	amRas
 ind	amBastas	amBastas
 ind	amyak	amyak
 ind	ayA	ayA
+ind	ayAs	ayAs
 ind	ayi	ayi
 ind	aye	aye
 ind	araRya-vat	araRyavat
@@ -2229,6 +2230,7 @@ ind	dvi-DA-BAvam	dviDABAvam
 ind	dvi-nava-kftvas	dvinavakftvas
 ind	dvi-pari	dvipari
 ind	dvi-puruzam	dvipuruzam
+ind	dvi-barhAs	dvibarhAs
 ind	dvi-musali	dvimusali
 ind	dvi-yamunam	dviyamunam
 ind	dvi-viDA	dviviDA
@@ -2923,6 +2925,7 @@ ind	pra-tanu-kam	pratanukam
 ind	pra-tamAm	pratamAm
 ind	pra-taram	prataram
 ind	pra-tarAm	pratarAm
+ind	pra-tAm	pratAm
 ind	pra-dakziRam	pradakziRam
 ind	pra-dakziReRa	pradakziReRa
 ind	pra-dAna-pUrvam	pradAnapUrvam
@@ -3984,12 +3987,12 @@ ind	yaTA-saKyam	yaTAsaKyam
 ind	yaTA-saNgam	yaTAsaNgam
 ind	yaTA-satyam	yaTAsatyam
 ind	yaTA-saBakzam	yaTAsaBakzam
+ind	yaTA-sam-pad	yaTAsampad
 ind	yaTA-samayam	yaTAsamayam
 ind	yaTA-samarTitam	yaTAsamarTitam
 ind	yaTA-samAnnAtam	yaTAsamAnnAtam
 ind	yaTA-samIhitam	yaTAsamIhitam
 ind	yaTA-samuditam	yaTAsamuditam
-ind	yaTA-sampad	yaTAsampad
 ind	yaTA-samprakIrRam	yaTAsamprakIrRam
 ind	yaTA-sampratyayam	yaTAsampratyayam
 ind	yaTA-sampradAyam	yaTAsampradAyam

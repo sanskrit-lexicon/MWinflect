@@ -1,4 +1,4 @@
-m_1_T	kapfT	kapft:kapfTO:kapfTaH:kapfTam:kapfTO:kapfTaH:kapfTA:kapfdByAm:kapfdBiH:kapfTe:kapfdByAm:kapfdByaH:kapfTaH:kapfdByAm:kapfdByaH:kapfTaH:kapfToH:kapfTAm:kapfTi:kapfToH:kapftsu:kapft:kapfTO:kapfTaH
+m_1_T	ka-pfT	kapft:kapfTO:kapfTaH:kapfTam:kapfTO:kapfTaH:kapfTA:kapfdByAm:kapfdBiH:kapfTe:kapfdByAm:kapfdByaH:kapfTaH:kapfdByAm:kapfdByaH:kapfTaH:kapfToH:kapfTAm:kapfTi:kapfToH:kapftsu:kapft:kapfTO:kapfTaH
 f_1_T	pfT	pft:pfTO:pfTaH:pfTam:pfTO:pfTaH:pfTA:pfdByAm:pfdBiH:pfTe:pfdByAm:pfdByaH:pfTaH:pfdByAm:pfdByaH:pfTaH:pfToH:pfTAm:pfTi:pfToH:pftsu:pft:pfTO:pfTaH
 f_1_T	maT	mat:maTO:maTaH:maTam:maTO:maTaH:maTA:madByAm:madBiH:maTe:madByAm:madByaH:maTaH:madByAm:madByaH:maTaH:maToH:maTAm:maTi:maToH:matsu:mat:maTO:maTaH
 m_1_T	maT	mat:maTO:maTaH:maTam:maTO:maTaH:maTA:madByAm:madBiH:maTe:madByAm:madByaH:maTaH:madByAm:madByaH:maTaH:maToH:maTAm:maTi:maToH:matsu:mat:maTO:maTaH
