@@ -233,6 +233,11 @@ class DeclRec(object):
 if __name__ == "__main__":
  filein = sys.argv[1]
  fileout = sys.argv[2]
+ try:
+  option = sys.argv[3]
+  # when option is 1, also write the refs to output
+ except:
+  option = None
  with codecs.open(filein,"r","utf-8") as f:
   nrec = 0
   with codecs.open(fileout,"w","utf-8") as fout:
@@ -240,7 +245,10 @@ if __name__ == "__main__":
     if line.startswith(';'):
      continue # skip comment
     rec = DeclRec(line)
-    out = '%s\t%s\t%s' %(rec.model,rec.key2,rec.inflection)
+    if option == '1':
+     out = '%s\t%s\t%s\t%s' %(rec.model,rec.key2,rec.refs,rec.inflection)
+    else:
+     out = '%s\t%s\t%s' %(rec.model,rec.key2,rec.inflection)
     fout.write(out+'\n')
     nrec = nrec + 1
     if nrec == 1000000:
