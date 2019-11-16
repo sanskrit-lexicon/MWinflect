@@ -1952,3 +1952,34 @@ old 130100	prakftyfc	prakftyfc	f
 new 130100	prakftyfc	prakfty-fc	f
 old 257070	smadrAtizac	smad-rAtizac	m:f:n
 new 257070	smadrAtizac	smad-rAti-zac	m:f:n
+; 1/3/2019
+old 177582	rAmAnuzwuB	rAmAnuzwuB	f
+new 177582	rAmAnuzwuB	rAmAnu-zwuB	f
+; 1/8/2019  Acc. to MW, there may be TWO forms. 
+; This change supports 2nd form L=10433.1.  
+old 10433	aptur	aptur	m
+new 10433	aptur	ap-tur	m
+old 27484	ASir	ASir	f
+new 27484	ASir	A-Sir	f
+; 1/9/2019
+old 250360	susaMSAs	su-saMSAs	m:f:n
+new 250360	susaMSAs	su-saM-SAs	m:f:n
+; 1/10/2019
+old 5145	anaBidruh	an-aBidruh	m:f:n
+new 5145	anaBidruh	an-aBi-druh	m:f:n
+old 99844	DarAturAzAh	DarA-turAzAh	m
+new 99844	DarAturAzAh	DarA-turA-zAh	m
+old 215730	SAradaBUruh	SArada-BUruh	m
+new 215730	SAradaBUruh	SArada-BU-ruh	m
+old 46125	kalpamahIruh	kalpa-mahIruh	m
+new 46125	kalpamahIruh	kalpa-mahI-ruh	m
+old 187147	varAhopAnah	varAhopAnah	f
+new 187147	varAhopAnah	varAhopA-nah	f
+old 138976	prAsaNgavAhIvAh	prA-saNga-vAhIvAh	m:f:n
+new 138976	prAsaNgavAhIvAh	prA-saNga-vAhI-vAh	m:f:n
+old 252698	sopAnah	sopAnah	m:f:n
+new 252698	sopAnah	sopA-nah	m:f:n
+; so will be declined irregularly, along with sv-anaquh
+old 4839	anaquh	anaq-uh	m
+new 4839	anaquh	anaquh	m
+

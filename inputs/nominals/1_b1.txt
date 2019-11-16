@@ -35,7 +35,7 @@ m_1_B	mahA-tri-kakuB	159693,mahAtrikakuB
 f_1_B	raTe-SuB	174720,raTeSuB
 m_1_B	raTe-SuB	174720,raTeSuB
 n_1_B	raTe-SuB	174720,raTeSuB
-f_1_B	rAmAnuzwuB	177582,rAmAnuzwuB
+f_1_B	rAmAnu-zwuB	177582,rAmAnuzwuB
 f_1_B	vfza-stuB	205037,vfzastuB
 m_1_B	vfza-stuB	205037,vfzastuB
 n_1_B	vfza-stuB	205037,vfzastuB

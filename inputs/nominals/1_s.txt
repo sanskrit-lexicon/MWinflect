@@ -77,9 +77,9 @@ n_1_s	su-dAs	246629,sudAs
 f_1_s	su-BAs	248068,suBAs
 m_1_s	su-BAs	248068,suBAs
 n_1_s	su-BAs	248068,suBAs
-f_1_s	su-saMSAs	250360,susaMSAs
-m_1_s	su-saMSAs	250360,susaMSAs
-n_1_s	su-saMSAs	250360,susaMSAs
+f_1_s	su-saM-SAs	250360,susaMSAs
+m_1_s	su-saM-SAs	250360,susaMSAs
+n_1_s	su-saM-SAs	250360,susaMSAs
 f_1_s	su-hiMs	250666,suhiMs
 m_1_s	su-hiMs	250666,suhiMs
 n_1_s	su-hiMs	250666,suhiMs

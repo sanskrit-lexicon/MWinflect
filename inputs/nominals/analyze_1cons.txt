@@ -357,7 +357,7 @@
 ; --------------------------------------------------------------
 001	klib	01	58602
 ; --------------------------------------------------------------
-; 33 entries ending in 'B' (10 distinct suffixes)
+; 33 entries ending in 'B' (9 distinct suffixes)
 ; --------------------------------------------------------------
 001	kakuB	04	~ AKaRqala- tri- mahAtri-
 002	kzuB	01	60136
@@ -365,10 +365,9 @@
 004	gfB	04	~ jIva- sute- syUma-
 005	naB	01	103700
 006	nAB	01	105652
-007	rAmAnuzwuB	01	177582
-008	SuB	02	~ raTe-
-009	zwuB	05	anu- tri- pari- sa- su-
-010	stuB	07	~ arka- fta- Garma- CandaH- vfza- saM-
+007	SuB	02	~ raTe-
+008	zwuB	06	anu- tri- pari- rAmAnu- sa- su-
+009	stuB	07	~ arka- fta- Garma- CandaH- vfza- saM-
 ; --------------------------------------------------------------
 ; 7 entries ending in 'm' (7 distinct suffixes)
 ; --------------------------------------------------------------
@@ -386,29 +385,29 @@
 ; 129 entries ending in 'r' (29 distinct suffixes)
 ; --------------------------------------------------------------
 001	aNgir	01	1690
-002	aptur	01	10433
-003	ahar	01	21710
-004	ASir	09	~ gav- try- daDy- dur- yav- ras- sam- sv-
-005	kir	03	~ pIyUzaDArA- suDA-
-006	gir	23	~ apakAra- ucca- upahAsa- kAmya- gara- grAhya- pawutara- parivAda- purARa- maYju- muhur- mfdu- yata- rAjendra- rudDa- vfzA- Sama- saM- saMdeSa- sagadgada- satya- sAma-
-007	A-gur	01	22647
-008	CidrAntar	01	75955
-009	jur	08	~ a- amA- A- fta- DiyA- ni- sanA-
-010	jUr	01	80099
-011	niz-wur	01	110914
-012	tur	11	~ Aji- pftsu- miTas- rajas- raTa- raDra- viSva- vftra- sapatna- supra-
-013	tUr	02	~ vftra-
-014	kalaSa-dir	01	45775
-015	dur	01	93614
-016	dvAr	11	a- darSita- pUr- pra- prAg- raNga- rAja- SAlA- sahasra- siMha- sOBa-
-017	Dur	11	~ akza- guru- dur- dfQa- mahA- yuga- raRa- raTa- su- sva-
-018	pur	13	~ karRa- tri- deva- ni- parA- prati- bARa- mAyA- lomapAda- vizRu- Siva- stamba-
-019	mur	03	~ aBipra- A-
-020	yantur	01	170293
-021	vaDar	01	185625
-022	vanDur	01	186248
-023	vAr	05	~ caRakAmla- dAna- netra- su-
-024	parRa-Sar	01	119528
+002	ahar	01	21710
+003	ASir	09	~ gav- try- daDy- dur- yav- ras- sam- sv-
+004	kir	03	~ pIyUzaDArA- suDA-
+005	gir	23	~ apakAra- ucca- upahAsa- kAmya- gara- grAhya- pawutara- parivAda- purARa- maYju- muhur- mfdu- yata- rAjendra- rudDa- vfzA- Sama- saM- saMdeSa- sagadgada- satya- sAma-
+006	A-gur	01	22647
+007	CidrAntar	01	75955
+008	jur	08	~ a- amA- A- fta- DiyA- ni- sanA-
+009	jUr	01	80099
+010	niz-wur	01	110914
+011	tur	12	~ ap- Aji- pftsu- miTas- rajas- raTa- raDra- viSva- vftra- sapatna- supra-
+012	tUr	02	~ vftra-
+013	kalaSa-dir	01	45775
+014	dur	01	93614
+015	dvAr	11	a- darSita- pUr- pra- prAg- raNga- rAja- SAlA- sahasra- siMha- sOBa-
+016	Dur	11	~ akza- guru- dur- dfQa- mahA- yuga- raRa- raTa- su- sva-
+017	pur	13	~ karRa- tri- deva- ni- parA- prati- bARa- mAyA- lomapAda- vizRu- Siva- stamba-
+018	mur	03	~ aBipra- A-
+019	yantur	01	170293
+020	vaDar	01	185625
+021	vanDur	01	186248
+022	vAr	05	~ caRakAmla- dAna- netra- su-
+023	parRa-Sar	01	119528
+024	A-Sir	01	27484
 025	vi-zwir	01	202379
 026	sabar	01	232855
 027	stir	02	upa- saM-
@@ -496,7 +495,7 @@
 041	ni-Sliz	01	110646
 042	susUz	02	aBi- ni-
 ; --------------------------------------------------------------
-; 56 entries ending in 's' (18 distinct suffixes)
+; 56 entries ending in 's' (17 distinct suffixes)
 ; --------------------------------------------------------------
 001	ayAs	01	14875
 002	AvayAs	01	27006
@@ -513,47 +512,38 @@
 013	mAMs	01	161770
 014	mAs	05	~ garBa- puzpa- pUrRa- sUti-
 015	yAs	01	171666
-016	SAs	01	216291
-017	su-saMSAs	01	250360
-018	hiMs	02	~ su-
+016	SAs	02	~ susaM-
+017	hiMs	02	~ su-
 ; --------------------------------------------------------------
-; 215 entries ending in 'h' (37 distinct suffixes)
+; 215 entries ending in 'h' (29 distinct suffixes)
 ; --------------------------------------------------------------
-001	sv-anaquh	01	258936
-002	an-aBidruh	01	5145
-003	uzRih	03	~ para- pura-
-004	anaq-uh	01	4839
-005	vizU-kuh	01	202203
-006	guh	01	66259
-007	gfh	01	66499
-008	parI-Rah	01	119215
-009	DarA-turAzAh	01	99844
-010	dah	03	~ uSa- sTUlakAzWa-
-011	dih	02	saM- su-
-012	duh	18	~ izwakAma- upa- kAma- go- grAmago- Garma- Gfta- divo- payo- puRya- pra- prati- bahukzIra- vrata- sabar- sarvakAma- homa-
-013	dfh	04	apAna- Kaqga- prARa- vyAna-
-014	druh	25	~ a- akzRayA- antaka- aBi- asura- asma- kratu- garBa- garBaBartf- jagad- tata- tripura- Darma- nidrA- puru- pra- prati- BUta- mitra- yajYa- vizu- vftra- suhfda- hima-
-015	nah	02	akzA- upA-
-016	nih	01	111133
-017	SArada-BUruh	01	215730
-018	mah	01	159152
-019	kalpa-mahIruh	01	46125
-020	mih	01	164577
-021	muh	03	un- mano- yajYa-
-022	an-Uza-rih	01	7774.1
-023	ruh	28	~ amBo- avani- A- upA- kziti- kzoRI- kzmA- gartA- jagatI- jala- tanu- DAnA- paNka- paNke- parRa- parva- pra- BU- BUmI- mahI- vakzo- Sirasi- Siro- sarasI- saro- sva- svA-
-024	lih	12	~ IhA- gagana- guqa- jihvA- dAma- naBo- puzpa- maDu- yajYa- rasanA- Sva-
-025	varAhopAnah	01	187147
-026	vah	29	apsu- ahavya- indra- kavya- girva- turya- dakziRA- ditya- pazWa- pArzRi- pUrva- pfzwi- pfzWa- prazWa- BAra- BU- vajra- viSva- vIra- SAli- Sveta- saha- su- suzWu- sroto- svasti- havir- havya- hotra-
-027	vAh	05	pArzRi- pUrvAgni- pfzwi- pfzWa- maDyama-
-028	prA-saNga-vAhIvAh	01	138976
-029	zah	20	aBI- ftA- ftI- fzi- jalA- DUr- niz- nI- nf- pftanA- prASu- Buri- BUri- rayi- vane- virA- viSvaturA- vfTA- SatrU- Suci-
-030	zAh	07	aBimAti- turA- DUr- nI- nf- pftanA- BUri-
-031	sah	14	~ carzaRI- jalA- dyumnA- DanvA- purAvftta- pra- prA- yajYA- raTA- viBvA- viSvA- satya- sadA-
-032	sAh	02	purAvftta- satrA-
-033	sopAnah	01	252698
-034	snih	01	256350
-035	snuh	01	256478
-036	spfh	03	ni- puru- Sata-
-037	vi-sruh	01	203092
+001	anaquh	02	~ sv-
+002	uzRih	03	~ para- pura-
+003	vizU-kuh	01	202203
+004	guh	01	66259
+005	gfh	01	66499
+006	parI-Rah	01	119215
+007	dah	03	~ uSa- sTUlakAzWa-
+008	dih	02	saM- su-
+009	duh	18	~ izwakAma- upa- kAma- go- grAmago- Garma- Gfta- divo- payo- puRya- pra- prati- bahukzIra- vrata- sabar- sarvakAma- homa-
+010	dfh	04	apAna- Kaqga- prARa- vyAna-
+011	druh	26	~ a- akzRayA- anaBi- antaka- aBi- asura- asma- kratu- garBa- garBaBartf- jagad- tata- tripura- Darma- nidrA- puru- pra- prati- BUta- mitra- yajYa- vizu- vftra- suhfda- hima-
+012	nah	04	akzA- upA- varAhopA- sopA-
+013	nih	01	111133
+014	mah	01	159152
+015	mih	01	164577
+016	muh	03	un- mano- yajYa-
+017	an-Uza-rih	01	7774.1
+018	ruh	30	~ amBo- avani- A- upA- kalpamahI- kziti- kzoRI- kzmA- gartA- jagatI- jala- tanu- DAnA- paNka- paNke- parRa- parva- pra- BU- BUmI- mahI- vakzo- SAradaBU- Sirasi- Siro- sarasI- saro- sva- svA-
+019	lih	12	~ IhA- gagana- guqa- jihvA- dAma- naBo- puzpa- maDu- yajYa- rasanA- Sva-
+020	vah	29	apsu- ahavya- indra- kavya- girva- turya- dakziRA- ditya- pazWa- pArzRi- pUrva- pfzwi- pfzWa- prazWa- BAra- BU- vajra- viSva- vIra- SAli- Sveta- saha- su- suzWu- sroto- svasti- havir- havya- hotra-
+021	vAh	06	pArzRi- pUrvAgni- pfzwi- pfzWa- prAsaNgavAhI- maDyama-
+022	zah	20	aBI- ftA- ftI- fzi- jalA- DUr- niz- nI- nf- pftanA- prASu- Buri- BUri- rayi- vane- virA- viSvaturA- vfTA- SatrU- Suci-
+023	zAh	08	aBimAti- turA- DarAturA- DUr- nI- nf- pftanA- BUri-
+024	sah	14	~ carzaRI- jalA- dyumnA- DanvA- purAvftta- pra- prA- yajYA- raTA- viBvA- viSvA- satya- sadA-
+025	sAh	02	purAvftta- satrA-
+026	snih	01	256350
+027	snuh	01	256478
+028	spfh	03	ni- puru- Sata-
+029	vi-sruh	01	203092
 ; --------------------------------------------------------------

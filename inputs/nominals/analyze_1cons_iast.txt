@@ -357,7 +357,7 @@
 ; --------------------------------------------------------------
 001	klib	01	58602
 ; --------------------------------------------------------------
-; 33 entries ending in 'bh' (10 distinct suffixes)
+; 33 entries ending in 'bh' (9 distinct suffixes)
 ; --------------------------------------------------------------
 001	kakubh	04	̃ ākhaṇḍala- tri- mahātri-
 002	kṣubh	01	60136
@@ -365,10 +365,9 @@
 004	gṛbh	04	̃ jīva- sute- syūma-
 005	nabh	01	103700
 006	nābh	01	105652
-007	rāmānuṣṭubh	01	177582
-008	śubh	02	̃ rathe-
-009	ṣṭubh	05	anu- tri- pari- sa- su-
-010	stubh	07	̃ arka- ṛta- gharma- chandaḥ- vṛṣa- saṁ-
+007	śubh	02	̃ rathe-
+008	ṣṭubh	06	anu- tri- pari- rāmānu- sa- su-
+009	stubh	07	̃ arka- ṛta- gharma- chandaḥ- vṛṣa- saṁ-
 ; --------------------------------------------------------------
 ; 7 entries ending in 'm' (7 distinct suffixes)
 ; --------------------------------------------------------------
@@ -386,29 +385,29 @@
 ; 129 entries ending in 'r' (29 distinct suffixes)
 ; --------------------------------------------------------------
 001	aṅgir	01	1690
-002	aptur	01	10433
-003	ahar	01	21710
-004	āśir	09	̃ gav- try- dadhy- dur- yav- ras- sam- sv-
-005	kir	03	̃ pīyūṣadhārā- sudhā-
-006	gir	23	̃ apakāra- ucca- upahāsa- kāmya- gara- grāhya- paṭutara- parivāda- purāṇa- mañju- muhur- mṛdu- yata- rājendra- ruddha- vṛṣā- śama- saṁ- saṁdeśa- sagadgada- satya- sāma-
-007	ā-gur	01	22647
-008	chidrāntar	01	75955
-009	jur	08	̃ a- amā- ā- ṛta- dhiyā- ni- sanā-
-010	jūr	01	80099
-011	niṣ-ṭur	01	110914
-012	tur	11	̃ āji- pṛtsu- mithas- rajas- ratha- radhra- viśva- vṛtra- sapatna- supra-
-013	tūr	02	̃ vṛtra-
-014	kalaśa-dir	01	45775
-015	dur	01	93614
-016	dvār	11	a- darśita- pūr- pra- prāg- raṅga- rāja- śālā- sahasra- siṁha- saubha-
-017	dhur	11	̃ akṣa- guru- dur- dṛḍha- mahā- yuga- raṇa- ratha- su- sva-
-018	pur	13	̃ karṇa- tri- deva- ni- parā- prati- bāṇa- māyā- lomapāda- viṣṇu- śiva- stamba-
-019	mur	03	̃ abhipra- ā-
-020	yantur	01	170293
-021	vadhar	01	185625
-022	vandhur	01	186248
-023	vār	05	̃ caṇakāmla- dāna- netra- su-
-024	parṇa-śar	01	119528
+002	ahar	01	21710
+003	āśir	09	̃ gav- try- dadhy- dur- yav- ras- sam- sv-
+004	kir	03	̃ pīyūṣadhārā- sudhā-
+005	gir	23	̃ apakāra- ucca- upahāsa- kāmya- gara- grāhya- paṭutara- parivāda- purāṇa- mañju- muhur- mṛdu- yata- rājendra- ruddha- vṛṣā- śama- saṁ- saṁdeśa- sagadgada- satya- sāma-
+006	ā-gur	01	22647
+007	chidrāntar	01	75955
+008	jur	08	̃ a- amā- ā- ṛta- dhiyā- ni- sanā-
+009	jūr	01	80099
+010	niṣ-ṭur	01	110914
+011	tur	12	̃ ap- āji- pṛtsu- mithas- rajas- ratha- radhra- viśva- vṛtra- sapatna- supra-
+012	tūr	02	̃ vṛtra-
+013	kalaśa-dir	01	45775
+014	dur	01	93614
+015	dvār	11	a- darśita- pūr- pra- prāg- raṅga- rāja- śālā- sahasra- siṁha- saubha-
+016	dhur	11	̃ akṣa- guru- dur- dṛḍha- mahā- yuga- raṇa- ratha- su- sva-
+017	pur	13	̃ karṇa- tri- deva- ni- parā- prati- bāṇa- māyā- lomapāda- viṣṇu- śiva- stamba-
+018	mur	03	̃ abhipra- ā-
+019	yantur	01	170293
+020	vadhar	01	185625
+021	vandhur	01	186248
+022	vār	05	̃ caṇakāmla- dāna- netra- su-
+023	parṇa-śar	01	119528
+024	ā-śir	01	27484
 025	vi-ṣṭir	01	202379
 026	sabar	01	232855
 027	stir	02	upa- saṁ-
@@ -496,7 +495,7 @@
 041	ni-śliṣ	01	110646
 042	susūṣ	02	abhi- ni-
 ; --------------------------------------------------------------
-; 56 entries ending in 's' (18 distinct suffixes)
+; 56 entries ending in 's' (17 distinct suffixes)
 ; --------------------------------------------------------------
 001	ayās	01	14875
 002	āvayās	01	27006
@@ -513,47 +512,38 @@
 013	māṁs	01	161770
 014	mās	05	̃ garbha- puṣpa- pūrṇa- sūti-
 015	yās	01	171666
-016	śās	01	216291
-017	su-saṁśās	01	250360
-018	hiṁs	02	̃ su-
+016	śās	02	̃ susaṁ-
+017	hiṁs	02	̃ su-
 ; --------------------------------------------------------------
-; 215 entries ending in 'h' (37 distinct suffixes)
+; 215 entries ending in 'h' (29 distinct suffixes)
 ; --------------------------------------------------------------
-001	sv-anaḍuh	01	258936
-002	an-abhidruh	01	5145
-003	uṣṇih	03	̃ para- pura-
-004	anaḍ-uh	01	4839
-005	viṣū-kuh	01	202203
-006	guh	01	66259
-007	gṛh	01	66499
-008	parī-ṇah	01	119215
-009	dharā-turāṣāh	01	99844
-010	dah	03	̃ uśa- sthūlakāṣṭha-
-011	dih	02	saṁ- su-
-012	duh	18	̃ iṣṭakāma- upa- kāma- go- grāmago- gharma- ghṛta- divo- payo- puṇya- pra- prati- bahukṣīra- vrata- sabar- sarvakāma- homa-
-013	dṛh	04	apāna- khaḍga- prāṇa- vyāna-
-014	druh	25	̃ a- akṣṇayā- antaka- abhi- asura- asma- kratu- garbha- garbhabhartṛ- jagad- tata- tripura- dharma- nidrā- puru- pra- prati- bhūta- mitra- yajña- viṣu- vṛtra- suhṛda- hima-
-015	nah	02	akṣā- upā-
-016	nih	01	111133
-017	śārada-bhūruh	01	215730
-018	mah	01	159152
-019	kalpa-mahīruh	01	46125
-020	mih	01	164577
-021	muh	03	un- mano- yajña-
-022	an-ūṣa-rih	01	7774.1
-023	ruh	28	̃ ambho- avani- ā- upā- kṣiti- kṣoṇī- kṣmā- gartā- jagatī- jala- tanu- dhānā- paṅka- paṅke- parṇa- parva- pra- bhū- bhūmī- mahī- vakṣo- śirasi- śiro- sarasī- saro- sva- svā-
-024	lih	12	̃ īhā- gagana- guḍa- jihvā- dāma- nabho- puṣpa- madhu- yajña- rasanā- śva-
-025	varāhopānah	01	187147
-026	vah	29	apsu- ahavya- indra- kavya- girva- turya- dakṣiṇā- ditya- paṣṭha- pārṣṇi- pūrva- pṛṣṭi- pṛṣṭha- praṣṭha- bhāra- bhū- vajra- viśva- vīra- śāli- śveta- saha- su- suṣṭhu- sroto- svasti- havir- havya- hotra-
-027	vāh	05	pārṣṇi- pūrvāgni- pṛṣṭi- pṛṣṭha- madhyama-
-028	prā-saṅga-vāhīvāh	01	138976
-029	ṣah	20	abhī- ṛtā- ṛtī- ṛṣi- jalā- dhūr- niṣ- nī- nṛ- pṛtanā- prāśu- bhuri- bhūri- rayi- vane- virā- viśvaturā- vṛthā- śatrū- śuci-
-030	ṣāh	07	abhimāti- turā- dhūr- nī- nṛ- pṛtanā- bhūri-
-031	sah	14	̃ carṣaṇī- jalā- dyumnā- dhanvā- purāvṛtta- pra- prā- yajñā- rathā- vibhvā- viśvā- satya- sadā-
-032	sāh	02	purāvṛtta- satrā-
-033	sopānah	01	252698
-034	snih	01	256350
-035	snuh	01	256478
-036	spṛh	03	ni- puru- śata-
-037	vi-sruh	01	203092
+001	anaḍuh	02	̃ sv-
+002	uṣṇih	03	̃ para- pura-
+003	viṣū-kuh	01	202203
+004	guh	01	66259
+005	gṛh	01	66499
+006	parī-ṇah	01	119215
+007	dah	03	̃ uśa- sthūlakāṣṭha-
+008	dih	02	saṁ- su-
+009	duh	18	̃ iṣṭakāma- upa- kāma- go- grāmago- gharma- ghṛta- divo- payo- puṇya- pra- prati- bahukṣīra- vrata- sabar- sarvakāma- homa-
+010	dṛh	04	apāna- khaḍga- prāṇa- vyāna-
+011	druh	26	̃ a- akṣṇayā- anabhi- antaka- abhi- asura- asma- kratu- garbha- garbhabhartṛ- jagad- tata- tripura- dharma- nidrā- puru- pra- prati- bhūta- mitra- yajña- viṣu- vṛtra- suhṛda- hima-
+012	nah	04	akṣā- upā- varāhopā- sopā-
+013	nih	01	111133
+014	mah	01	159152
+015	mih	01	164577
+016	muh	03	un- mano- yajña-
+017	an-ūṣa-rih	01	7774.1
+018	ruh	30	̃ ambho- avani- ā- upā- kalpamahī- kṣiti- kṣoṇī- kṣmā- gartā- jagatī- jala- tanu- dhānā- paṅka- paṅke- parṇa- parva- pra- bhū- bhūmī- mahī- vakṣo- śāradabhū- śirasi- śiro- sarasī- saro- sva- svā-
+019	lih	12	̃ īhā- gagana- guḍa- jihvā- dāma- nabho- puṣpa- madhu- yajña- rasanā- śva-
+020	vah	29	apsu- ahavya- indra- kavya- girva- turya- dakṣiṇā- ditya- paṣṭha- pārṣṇi- pūrva- pṛṣṭi- pṛṣṭha- praṣṭha- bhāra- bhū- vajra- viśva- vīra- śāli- śveta- saha- su- suṣṭhu- sroto- svasti- havir- havya- hotra-
+021	vāh	06	pārṣṇi- pūrvāgni- pṛṣṭi- pṛṣṭha- prāsaṅgavāhī- madhyama-
+022	ṣah	20	abhī- ṛtā- ṛtī- ṛṣi- jalā- dhūr- niṣ- nī- nṛ- pṛtanā- prāśu- bhuri- bhūri- rayi- vane- virā- viśvaturā- vṛthā- śatrū- śuci-
+023	ṣāh	08	abhimāti- turā- dharāturā- dhūr- nī- nṛ- pṛtanā- bhūri-
+024	sah	14	̃ carṣaṇī- jalā- dyumnā- dhanvā- purāvṛtta- pra- prā- yajñā- rathā- vibhvā- viśvā- satya- sadā-
+025	sāh	02	purāvṛtta- satrā-
+026	snih	01	256350
+027	snuh	01	256478
+028	spṛh	03	ni- puru- śata-
+029	vi-sruh	01	203092
 ; --------------------------------------------------------------
