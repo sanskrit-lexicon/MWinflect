@@ -3,6 +3,7 @@
 from declension_join_simple import declension_join_simple
 from decline_pco import Decline_m_card,Decline_f_card,Decline_n_card
 from decline_pco import Decline_m_pron,Decline_f_pron,Decline_n_pron
+from decline_1cons import Decline_1
 import sys
 class Decline_ind(object):
  """ Makes a 1-table entry for indeclineables.
@@ -1557,6 +1558,7 @@ class Decline_an(object):
   sups = self.getsups()
   head,lastpada = self.splitkey2()
   s,m,w,manvanflag = stems_an(lastpada)
+  accpl = w  # introduced 11-15-2019 to correct errors.
   if manvanflag:
    # 'ni' not part of locative singular
    sups[18] = 'ani'
@@ -1564,8 +1566,9 @@ class Decline_an(object):
     # 'nI' is not part of 1d,2d and 8d.  Note: I am uncertain of this
     for i in [1,4,22]:
      sups[i] = 'anI'
+    accpl = s
   bases = [s,s,s, 
-           s,s,w,
+           s,s,accpl,
            w,m,m,
            w,m,m,
            w,m,m,
@@ -1946,209 +1949,6 @@ class Decline_n_aYc(object):
    b.append(y)
   return b
 
-class Decline_1_helper(object):
- def __init__(self,supin,ending,base,key1):
-  """ supin is a string
-     calculate newsup (also a string), based on ending and base
-  """
-  sups = supin.split(':') 
-  self.ending = ending
-  self.base = base
-  self.key1 = key1
-  newsups = []
-  for sup in sups:
-   if sup.startswith(('O','a','A','e','o','i','I')): # sup starts with vowel
-    newsup = self.vowel(sup)
-   elif sup.startswith('B'):
-    newsup = self.B(sup)
-   elif sup == 'su':
-    newsup = self.su(sup)  # 7p only
-   elif sup == '':
-    newsup = self.empty()  
-   elif sup == '*i' : 
-    # neuter: 1p (and 2p and 8p)
-    newsup = self.neuter1p(sup)
-   else:
-    print('decline.Decline_1_helper ERROR 1',sup,ending,base)
-    exit(1)
-   if newsup == None:
-    print('decline.Decline_1_helper ERROR 2',sup,ending,base)
-    exit(1)
-   newsups.append(newsup)
-  self.newsup = ':'.join(newsups)
-
- def vowel(self,sup):
-  return self.ending + sup
-
- def B(self,sup):
-  if self.ending in ['t','T','d','D']:
-   return 'd' + sup
-  elif self.ending in ['k','K','g','G']:
-   if self.base == 'saraG':
-    return 'q' + sup # MW
-   return 'g' + sup
-  elif self.ending in ['c','C','j','J']:
-   return 'g' + sup
-  elif self.ending in ['w','W','q','Q']:
-   return 'q' + sup
-  elif self.ending in ['p','P','b','B']:
-   return 'b' + sup
-  else:
-   return None
-
- def su(self,sup):
-  # get the nominative singular ending
-  # sup == 'su'
-  end1 = self.empty()
-  if end1 in ['t','T','d','D']:
-   return 't' + sup
-  elif end1 in ['k','K','g','G']:
-   return 'kzu'  # from 'k' + 'su' (sup is assumed to be 'su')
-  #elif end1 in ['c','C','j','J']:
-  # return 'kzu' 
-  elif end1 in ['w','W','q','Q']:
-   return 'w' + sup
-  elif end1 in ['p','P','b','B']:
-   return 'p' + sup
-  else:
-   return None
-
- # class variable
- nominativeSingularEndings = {
-  'rAj':'w',  # Deshpande p.157, samrAj m. Kale sam-rAj
-  'BrAj':'w', # deva-BrAj (MW) ; vi-BrAj (Kale)
-  'vrAj':'w', # pari-vrAj (MW,Kale)
-  'drAj':'w', # MW DrAj is only example, but nom. singular not given.
-  'devej':'w', # MW, Kale
-  'viSvasfj':'w', # Kale p. 58
-  'parimfj':'w', # Kale
-  'saraG':'w', # MW 
- }
-
- def empty(self):
-  """ nominative singular only for masculine, feminine gender
-      nominative, accusative or vocative singular for neuter gender
-     According to Kale, when ending is in one of the vargas (k,c,w,t,p),
-     Then there are two optional endings, namely either of the non-aspirate
-     forms of the varga  (e.g., k or g for the k-varga).
-     Bucknell does not support this optional form version.
-     Sometimes it is rather arbitrary which is used.
-  """
-  # next two handle some irregularities
-  # first, key1 may be special - e.g. viSvasfj -> 'w' (Kale) but 
-  # 'sfj' -> 'k' (MW, and assumed so for all other compounds of 'sfj')
-  if self.key1 in Decline_1_helper.nominativeSingularEndings:
-   return Decline_1_helper.nominativeSingularEndings[self.key1]
-  if self.base in Decline_1_helper.nominativeSingularEndings:
-   return Decline_1_helper.nominativeSingularEndings[self.base]
-  elif self.ending in ['t','T','d','D']:
-   return 't' 
-  elif self.ending in ['k','K','g','G']:
-   return 'k'  # from 'k' + 'su' (sup is assumed to be 'su')
-  elif self.ending in ['c','C','j','J']:
-   return 'k' 
-  elif self.ending in ['w','W','q','Q']:
-   return 'w' 
-  elif self.ending in ['p','P','b','B']:
-   return 'p' 
-  else:
-   return None
- def neuter1p(self,sup0):
-  """Kale Section 91(c)
-   'n' is prefixed to the 'i' of N. & Acc. plural in the case of 
-   neuter nouns ending in a consonant except a nasal or 
-   a semi-vowel; but not in the case of a noun derived from the
-   frequentative base.
-   'sup0' enters as the synthetic '*i'
-  """
-  sup = self.ending + 'i'
-  # insert nasal appropriate for the ending
-  if self.ending in ['t','T','d','D']:
-   return 'n' +  sup
-  elif self.ending in ['k','K','g','G']:
-   return 'N'  
-  elif self.ending in ['c','C','j','J']:
-   return 'Y' + sup
-  elif self.ending in ['w','W','q','Q']:
-   return 'R' + sup
-  elif self.ending in ['p','P','b','B']:
-   return 'm' + sup
-  else:
-   return None
-
-import re
-class Decline_1(object):
- """ Declension of the '1-stem' consonant-ending nominals 
- """
- def __init__(self,model,key1,key2=None):
-  m = re.search(r'^([mfn])_1_(.)$',model)
-  gender = m.group(1)
-  ending = m.group(2)
-  #assert ending == 't'
-  self.key1 = key1
-  if key2 == None:
-   self.key2 = key1
-  else:
-   self.key2 = key2
-  if gender in ['m','f']:
-   # masculine, feminine declined the same
-   sup0 = ':O:aH:am:O:aH:A:ByAm:BiH:e:ByAm:ByaH:aH:ByAm:ByaH:aH:oH:Am:i:oH:su::O:aH'
-  else:
-   # gender == 'n', supposedly
-   # same as m, f except for cases 1,2,8. where endings are ':I:anti'
-   # But the plural is unique, in that the ending has form
-   #  <nasal> + <ending> + i, assuming 
-   #       <ending> is not a nasal or semi-vowel or a noun
-   #       derived from the frequentative base.
-   #  and <ending> + i, otherwise
-   sup0 = ':I:*i::I:*i:A:ByAm:BiH:e:ByAm:ByaH:aH:ByAm:ByaH:aH:oH:Am:i:oH:su::I:*i'
-  # derive actual sups from general sup ('sup' variable) and ending
-  head,base = self.splitkey2()
-  obj = Decline_1_helper(sup0,ending,base,self.key1)
-  self.sup = obj.newsup # a string
-  sups = self.getsups()
-  # We've made variations in the sups.
-  # What we combine with the sups is just the base without its final letter.
-  base1 = base[0:-1]
-  # join base and all the endings
-  base_infls = []
-  for isup,sup in enumerate(sups):
-   b = base1
-   if base in ['buD','baD','bAD']:
-    # special case of compounds of 'buD' (Whitney Section 391b)
-    # Following Huet, I apply also to baD and bAD
-    if sup.startswith(('t','dB')):
-     b = 'B' + b[1:] # replace initial 'b' with 'B'
-   if '/' not in sup:
-    # no variants for this sup
-    base_infls.append(declension_join_simple(b,sup))
-   else:
-    # join each alternate sup to b
-    infls = [declension_join_simple(b,sup1) for sup1 in sup.split('/')]
-    base_infls.append(infls)
-  self.table = self.prepend_head(head,base_infls)
-  self.status = True
-
- def getsups(self):
-  sup = self.sup
-  return sup.split(':') 
- def splitkey2(self):
-  parts = self.key2.split('-')
-  # base is last part
-  # head is joining of all prior parts.  If no '-', head is empty string
-  base = parts[-1]
-  head = ''.join(parts[0:-1])
-  return head,base
- # static method
- def prepend_head(self,head,infls):
-  b = []
-  for x in infls:
-   if isinstance(x,list):
-    y = [head + i for i in x]
-   else: # assume string
-    y = head + x
-   b.append(y)
-  return b
 
 
 # --------------------------------------
