@@ -1,8 +1,0 @@
-m_O	ati-nO	3051,atinO
-m_O	asakO	20448,asakO
-m_O	O	40792,O
-m_O	glO	69193,glO:69197,glO
-m_O	jyO	80849,jyO
-m_O	Binna-nO	150832,BinnanO
-m_O	saha-nO	240228,sahanO
-m_O	su-nO	247200,sunO

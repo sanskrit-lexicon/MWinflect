@@ -1,3 +1,0 @@
-f_1_q	Iq	29722,Iq
-f_1_q	viq	195396,viq
-m_1_q	saraq	237781,saraq
