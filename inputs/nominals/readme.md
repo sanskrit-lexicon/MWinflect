@@ -17,15 +17,12 @@ Fields:
 
 Declensions for these records require special logic; also, the
 identification of stem,models is simplified by this separation.
+Thus, the two subgroups listed next are not presently in lexnorm-all2.txt.
 
 #### lexnorm-all2-part.txt
 A list of headwords which should be declined as participles.
 These have been removed from lexnorm-all2.txt.
 This includes words already marked as LEXID=prap and LEXID=fap.
-   How to generate the declensions and to identify the model?
-
-#### lexnorm-all2-proncpd.txt
-   4 compounds with the pronoun Bavat
    How to generate the declensions and to identify the model?
 
 #### lexnorm-all2-inflectid.txt
@@ -39,37 +36,45 @@ This includes words already marked as LEXID=prap and LEXID=fap.
 These are the changes (shown as old/new pairs) made to the original
 lexnorm-all2.txt.
 
-### stem-model files
+
+## stem-model files
 ```
-python3 stem_model.py lexnorm-all2.txt 
+python3 stem_model.py lexnorm-all2.txt temp_stem_model_0.txt
+# two types of duplicates are removed.
+# First, those where the model and (un-hyphenated) stems are the same
+python3 remove_dups.py temp_stem_model_0.txt temp_stem_model_1.txt  stem_model_dup.txt >  stem_model_dup_log.txt
+# Second, feminines where the (un-hyphenated) stems are the same
+# Note the log file which identifies these cases
+python3 remove_gdups.py temp_stem_model_1.txt stem_model.txt  stem_model_gdup.txt > stem_model_gdup_log.txt
+
 ```
-Separates  the declension information into files with names of two forms:
-
-* X.txt for type 1 lexnorm, with X = pron, card, etc.
-* ind.txt for type 2 lexnorm, for indeclineables
-* X_Y.txt for type 2 lexnorm, where
-  * X is gender (m,f,n) 
-  * Y is model specification.  This varies.
-The information 
+stem_model.py also writes two 'log' files:
+* stem_model_log.txt  lists models, with counts. currently 183 models.
+* stem_model_todo.txt Lists cases where no model currently assigned (1062)
 
 
-
-# add pada information ('-') to cardinal stems when present in key2
-cp lexnorm-all2.txt lexnorm-all2-20181004.txt
-python card-stem.py lexnorm-all2-20181004.txt lexnorm-all2.txt card-stem-log.txt
-# now redo stem_model
-(197653, 'read from', 'lexnorm-all2-20181004.txt')
-(114, 'records changed')
-
-temporary program:
-python card-merge.py card.txt m_card.txt f_card.txt n_card.txt
+## nominals currently without declension models
+These are in these files
+* stem_model_todo.txt in lexnorm-all2, but stem_model.py can't handle
+* lexnorm-all2-part.txt  present and other participles
+* lexnorm-irregular.txt  3 cases
+* lexnorm-all2-inflectid.txt 61 cases
+* lexnorm-all2-pron.txt  . 90 cases. This file may be irrelevant;
+   Not sure how it relates to the 100 cases of 'LEXID=pron' in lexnorm-all2.txt
 
 note: eka appears as both a cardinal and an 'mfn' in lexnorm-all2.txt
    The lgtab1b data has both declensions.
    This needs examination.
 
-Utility program: analyze_f
- python analyze_f.py slp1 lexnorm-all2.txt analyze_f.txt 
- python analyze_f.py roman lexnorm-all2.txt analyze_f_iast.txt 
-
  
+## analysis directory
+This contains some programs and result files for analyzing subcases.
+Not of current interest.
+
+## notes directory
+This contains miscellaneous notes prepared to aid in the stem-model
+classification.
+
+## data_aYc.py and data_vas.py
+These two python code files are used indirectly by stem_model.py,
+namely by the imported 'decline' module.

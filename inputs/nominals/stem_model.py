@@ -654,9 +654,12 @@ def model_mfn_a2(recs,flog):
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_a2',d,flog)
 
-def model_mfn_a3(recs,flog,fileout):
+def model_mfn_a3(recs,flog,fileout=None):
  """ This also writes records to a temporary file for further examination"""
- fout = codecs.open(fileout,"w","utf-8")
+ if fileout == None:
+  fout = None
+ else: 
+  fout = codecs.open(fileout,"w","utf-8")
  nout = 0
  endchar = 'a'
  d = {}
@@ -708,18 +711,23 @@ def model_mfn_a3(recs,flog,fileout):
     # write record to temp file for feminine stem
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s" %(rec.toString(),part,mstem)
-    fout.write(out + '\n')
+    if fout != None:
+     fout.write(out + '\n')
     nout = nout + 1
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_a3',d,flog)
- fout.close()
- print(nout,"lexnorm records written to",fileout)
+ if fout != None:
+  fout.close()
+  print(nout,"lexnorm records written to",fileout)
 
-def model_mfn_a4(recs,flog,fileout):
+def model_mfn_a4(recs,flog,fileout=None):
  """ This also writes records to a temporary file for further examination"""
- fout = codecs.open(fileout,"w","utf-8")
+ if fileout == None:
+  fout = None
+ else:
+  fout = codecs.open(fileout,"w","utf-8")
  nout = 0
  endchar = 'a'
  d = {}
@@ -892,19 +900,24 @@ def model_mfn_a4(recs,flog,fileout):
     # write record to temp file for feminine stem
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s" %(rec.toString(),part,mstem)
-    fout.write(out + '\n')
+    if fout != None:
+     fout.write(out + '\n')
    nout = nout + 1
 
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_a4',d,flog)
- fout.close()
- print(nout,"lexnorm records written to",fileout)
+ if fout != None:
+  fout.close()
+  print(nout,"lexnorm records written to",fileout)
 
-def model_mfn_i1(recs,flog,fileout):
+def model_mfn_i1(recs,flog,fileout=None):
  """ This also writes records to a temporary file for further examination"""
- fout = codecs.open(fileout,"w","utf-8")
+ if fileout == None:
+  fout = None
+ else:
+  fout = codecs.open(fileout,"w","utf-8")
  nout = 0
  endchar = 'i'
  d = {}
@@ -976,19 +989,24 @@ def model_mfn_i1(recs,flog,fileout):
     # write record to temp file for feminine stem
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
-    fout.write(out + '\n')
+    if fout != None:
+     fout.write(out + '\n')
     nout = nout + 1
 
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_i1',d,flog)
- fout.close()
- print(nout,"lexnorm records written to",fileout)
+ if fout != None:
+  fout.close()
+  print(nout,"lexnorm records written to",fileout)
 
-def model_mfn_u1(recs,flog,fileout):
+def model_mfn_u1(recs,flog,fileout=None):
  """ This also writes records to a temporary file for further examination"""
- fout = codecs.open(fileout,"w","utf-8")
+ if fileout == None:
+  fout = None
+ else:
+  fout = codecs.open(fileout,"w","utf-8")
  nout = 0
  endchar = 'u'
  d = {}
@@ -1057,19 +1075,24 @@ def model_mfn_u1(recs,flog,fileout):
     # write record to temp file for feminine stem
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
-    fout.write(out + '\n')
+    if fout != None:
+     fout.write(out + '\n')
     nout = nout + 1
 
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_u1',d,flog)
- fout.close()
- print(nout,"lexnorm records written to",fileout)
+ if fout != None:
+  fout.close()
+  print(nout,"lexnorm records written to",fileout)
 
-def model_mfn_f1(recs,flog,fileout):
+def model_mfn_f1(recs,flog,fileout=None):
  """ This also writes records to a temporary file for further examination"""
- fout = codecs.open(fileout,"w","utf-8")
+ if fileout == None:
+  fout = None
+ else:
+  fout = codecs.open(fileout,"w","utf-8")
  nout = 0
  endchar = 'f'
  d = {}
@@ -1125,15 +1148,17 @@ def model_mfn_f1(recs,flog,fileout):
     # write record to temp file for feminine stem
     out = rec.toString() + '\t' + mstem
     out = "%s\t%s\t%s\t%s" %(rec.toString(),part,model,mstem)
-    fout.write(out + '\n')
+    if fout != None:
+     fout.write(out + '\n')
     nout = nout + 1
 
   if rec.lexnorm not in d:
    d[rec.lexnorm] = 0
   d[rec.lexnorm] = d[rec.lexnorm]+1
  log_models('model_mfn_f1',d,flog)
- fout.close()
- print(nout,"lexnorm records written to",fileout)
+ if fout != None:
+  fout.close()
+  print(nout,"lexnorm records written to",fileout)
 
 def model_mfn_o(recs,flog):
  endchar = 'o'
@@ -2203,11 +2228,14 @@ def adjust_case(x):
  y = re.sub(r'[A-Z]',f,x)
  return y
 
-def write_model_instances(modelname,instances):
- fileout = "%s.txt" % modelname
- # change uppercase letters since windows file system is case insensitive
- fileout = adjust_case(fileout)
- f = codecs.open(fileout,"w","utf-8")
+def write_model_instances(modelname,instances,fout=None):
+ if fout == None:
+  fileout = "%s.txt" % modelname
+  # change uppercase letters since windows file system is case insensitive
+  fileout = adjust_case(fileout)
+  f = codecs.open(fileout,"w","utf-8")
+ else:
+  f = fout
  # instances is array of Model records
  # group by stem
  e = {}
@@ -2234,19 +2262,20 @@ def write_model_instances(modelname,instances):
    out = model_stem_string(mrecs1)
    nout = nout + 1
    f.write(out + '\n')
- f.close()
- print(nout,"written to",fileout," (%s)"%ntot)
+ if fout == None:
+  f.close()
+  print(nout,"written to",fileout," (%s)"%ntot)
 
-def write_normal_models(special_models):
+def write_normal_models(special_models,fout=None):
  d = Model.d
  models = d.keys()
  # for 'normal' models, write model
  special_endings = tuple(['_'+x for x in special_models])
  for model in models:
   if not model.endswith(special_endings):
-   write_model_instances(model,d[model])
+   write_model_instances(model,d[model],fout=fout)
 
-def write_special_models(sfx):
+def write_special_models(sfx,fout=None):
  d = Model.d
  models = d.keys()
  instances = []  # aggregate over genders
@@ -2255,10 +2284,9 @@ def write_special_models(sfx):
    continue
   instances = instances + d[model]
    
- write_model_instances(sfx,instances)
+ write_model_instances(sfx,instances,fout=fout)
 
-def lexnorm_todo(recs,flog):
- fileout = 'temp_lexnorm_todo.txt'
+def lexnorm_todo(recs,fileout):
  f = codecs.open(fileout,"w","utf-8")
  nout = 0
  for rec in recs:
@@ -2273,6 +2301,10 @@ def lexnorm_todo(recs,flog):
 
 if __name__ == "__main__":
  filein = sys.argv[1] # lexnorm-all2
+ if len(sys.argv) > 2:
+  fileout = sys.argv[2]
+ else:
+  fileout = None
  flog = codecs.open('stem_model_log.txt',"w","utf-8")
  recs = init_lexnorm(filein)
  model_ind(recs,flog)
@@ -2300,11 +2332,11 @@ if __name__ == "__main__":
  model_card(recs,flog)
  model_mfn_a1(recs,flog)
  model_mfn_a2(recs,flog)
- model_mfn_a3(recs,flog,'model_mfn_a3.txt')  # cases written to file
- model_mfn_a4(recs,flog,'model_mfn_a4.txt')  # cases written to file
- model_mfn_i1(recs,flog,'model_mfn_i1.txt')  # cases written to file
- model_mfn_u1(recs,flog,'model_mfn_u1.txt')  # cases written to file
- model_mfn_f1(recs,flog,'model_mfn_f1.txt')  # cases written to file
+ model_mfn_a3(recs,flog) #,'model_mfn_a3.txt')  # cases written to file
+ model_mfn_a4(recs,flog) #,'model_mfn_a4.txt')  # cases written to file
+ model_mfn_i1(recs,flog) #,'model_mfn_i1.txt')  # cases written to file
+ model_mfn_u1(recs,flog) #,'model_mfn_u1.txt')  # cases written to file
+ model_mfn_f1(recs,flog) #,'model_mfn_f1.txt')  # cases written to file
  model_mfn_o(recs,flog)
  model_mfn_O(recs,flog)
  model_mfn_e(recs,flog)
@@ -2330,10 +2362,15 @@ if __name__ == "__main__":
    model_mfn_1cons(recs,flog,cons)  
    special_models.append('1_'+cons)
  # generate output to various files
- write_normal_models(special_models)
+ if fileout == None:
+  # write_instances will generate output file
+  fout = None
+ else:
+  fout = codecs.open(fileout,"w","utf-8")
+ write_normal_models(special_models,fout=fout)
  for model in special_models:
-  write_special_models(model)
- lexnorm_todo(recs,flog)
+  write_special_models(model,fout=fout)
+ lexnorm_todo(recs,'stem_model_todo.txt')
  if flag1cons:
   print("1cons models constructed")
  else:
