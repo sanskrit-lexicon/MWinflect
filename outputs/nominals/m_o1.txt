@@ -1,8 +1,0 @@
-m_O	ati-nO	atinOH:atinAvO:atinAvaH:atinAvam:atinAvO:atinAvaH:atinAvA:atinOByAm:atinOBiH:atinAve:atinOByAm:atinOByaH:atinAvaH:atinOByAm:atinOByaH:atinAvaH:atinAvoH:atinAvAm:atinAvi:atinAvoH:atinOzu:atinOH:atinAvO:atinAvaH
-m_O	asakO	asakOH:asakAvO:asakAvaH:asakAvam:asakAvO:asakAvaH:asakAvA:asakOByAm:asakOBiH:asakAve:asakOByAm:asakOByaH:asakAvaH:asakOByAm:asakOByaH:asakAvaH:asakAvoH:asakAvAm:asakAvi:asakAvoH:asakOzu:asakOH:asakAvO:asakAvaH
-m_O	O	OH:AvO:AvaH:Avam:AvO:AvaH:AvA:OByAm:OBiH:Ave:OByAm:OByaH:AvaH:OByAm:OByaH:AvaH:AvoH:AvAm:Avi:AvoH:Ozu:OH:AvO:AvaH
-m_O	glO	glOH:glAvO:glAvaH:glAvam:glAvO:glAvaH:glAvA:glOByAm:glOBiH:glAve:glOByAm:glOByaH:glAvaH:glOByAm:glOByaH:glAvaH:glAvoH:glAvAm:glAvi:glAvoH:glOzu:glOH:glAvO:glAvaH
-m_O	jyO	jyOH:jyAvO:jyAvaH:jyAvam:jyAvO:jyAvaH:jyAvA:jyOByAm:jyOBiH:jyAve:jyOByAm:jyOByaH:jyAvaH:jyOByAm:jyOByaH:jyAvaH:jyAvoH:jyAvAm:jyAvi:jyAvoH:jyOzu:jyOH:jyAvO:jyAvaH
-m_O	Binna-nO	BinnanOH:BinnanAvO:BinnanAvaH:BinnanAvam:BinnanAvO:BinnanAvaH:BinnanAvA:BinnanOByAm:BinnanOBiH:BinnanAve:BinnanOByAm:BinnanOByaH:BinnanAvaH:BinnanOByAm:BinnanOByaH:BinnanAvaH:BinnanAvoH:BinnanAvAm:BinnanAvi:BinnanAvoH:BinnanOzu:BinnanOH:BinnanAvO:BinnanAvaH
-m_O	saha-nO	sahanOH:sahanAvO:sahanAvaH:sahanAvam:sahanAvO:sahanAvaH:sahanAvA:sahanOByAm:sahanOBiH:sahanAve:sahanOByAm:sahanOByaH:sahanAvaH:sahanOByAm:sahanOByaH:sahanAvaH:sahanAvoH:sahanAvAm:sahanAvi:sahanAvoH:sahanOzu:sahanOH:sahanAvO:sahanAvaH
-m_O	su-nO	sunOH:sunAvO:sunAvaH:sunAvam:sunAvO:sunAvaH:sunAvA:sunOByAm:sunOBiH:sunAve:sunOByAm:sunOByaH:sunAvaH:sunOByAm:sunOByaH:sunAvaH:sunAvoH:sunAvAm:sunAvi:sunAvoH:sunOzu:sunOH:sunAvO:sunAvaH

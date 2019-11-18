@@ -1,4 +1,0 @@
-m_E	E	AH:AyO:AyaH:Ayam:AyO:AyaH:AyA:AByAm:ABiH:Aye:AByAm:AByaH:AyaH:AByAm:AByaH:AyaH:AyoH:AyAm:Ayi:AyoH:Asu:AH:AyO:AyaH
-m_E	bahu-rE	bahurAH:bahurAyO:bahurAyaH:bahurAyam:bahurAyO:bahurAyaH:bahurAyA:bahurAByAm:bahurABiH:bahurAye:bahurAByAm:bahurAByaH:bahurAyaH:bahurAByAm:bahurAByaH:bahurAyaH:bahurAyoH:bahurAyAm:bahurAyi:bahurAyoH:bahurAsu:bahurAH:bahurAyO:bahurAyaH
-m_E	rE	rAH:rAyO:rAyaH:rAyam:rAyO:rAyaH:rAyA:rAByAm:rABiH:rAye:rAByAm:rAByaH:rAyaH:rAByAm:rAByaH:rAyaH:rAyoH:rAyAm:rAyi:rAyoH:rAsu:rAH:rAyO:rAyaH
-m_E	su-rE	surAH:surAyO:surAyaH:surAyam:surAyO:surAyaH:surAyA:surAByAm:surABiH:surAye:surAByAm:surAByaH:surAyaH:surAByAm:surAByaH:surAyaH:surAyoH:surAyAm:surAyi:surAyoH:surAsu:surAH:surAyO:surAyaH
