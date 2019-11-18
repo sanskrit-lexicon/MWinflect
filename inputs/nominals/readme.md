@@ -1,3 +1,14 @@
+# Derivation of stem_model.txt
+
+stem_model.txt is the main input to the nominal inflections.
+The notes below describes how it is derived from another file lexnorm-all2.txt
+based on Monier-Williams dictionary.
+
+When lexnorm-all2.txt is changed, then stem_model.txt should be 
+recomputed, using the 'redo.sh' script.   
+
+stem_model.txt is then used as the main input to the decline_file.py program
+in MWinflect/inflect directory.
 
 ### lexnorm-all2.txt
 
