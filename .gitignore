@@ -6,3 +6,4 @@
 ejf*
 # temp files
 temp*
+outputs/nominals/*.txt
