@@ -8,5 +8,6 @@ ejf*
 temp*
 # computed inflection tables
 outputs/nominals/*.txt
+outputs/verbs/*.txt
 # computed sqlite database files
 *.sqlite
