@@ -15,4 +15,8 @@ When done, the results will be used to improve the underlying data of the
 
 The progress of this revision will be documented within issue comments.
 
+## Reconstruction
 
+See README-nominals.md 
+README-verbs.md
+README-sqlite.md

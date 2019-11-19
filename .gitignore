@@ -6,4 +6,7 @@
 ejf*
 # temp files
 temp*
+# computed inflection tables
 outputs/nominals/*.txt
+# computed sqlite database files
+*.sqlite

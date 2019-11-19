@@ -8,64 +8,43 @@ and to put the inflection tables into parallel locations of the
 
 python decline_file.py ../inputs/nominals/<file> ../outputs/nominals/<file>
 
-Recall #3 that the input file has three tab-delimited fields:
+The input file has three tab-delimited fields:
 1) <model>   the model name1
 2) key2  the word to inflect, with '-' to delimit padas
-3) MW source records, specified as a colon-delimited sequence of 'L,key1' pairs
+3) refs MW source records, specified as a colon-delimited sequence of 'L,key1' pairs
 
-The output file similarly has three tab-delimited fields:
+The output file has four tab-delimited fields:
 1) <model>  copied from input file
 2) key2     copied from input file
-3) inflect  inflection table
+3) refs     copied from input file
+4) inflect  inflection table
 
+The inflection table format:
 
-* model = ind
-python decline_file.py ../inputs/nominals/ind.txt ../outputs/nominals/ind.txt 
-
-* inflection table format 
 For nominals, the inflection table format in the output of decline_file is
 a csv string with ':' delimiter, with 24 fields.
    for cases 1s,1d,1p,...8s,8d,8p  (8 = vocative).
    Each of the 24 fields allows the possibility of multiple values, separated
    by '/' character.
+For indeclineables,  the stem (without '-')
 
-* model = m_a
-python decline_file.py ../inputs/nominals/m_a.txt ../outputs/nominals/m_a.txt 
+The input file is constructed from two pieces:
+1) ../inputs/nominals/stem_model.txt  [See readme therein for discussion]
+2) stem_model_todo.txt   a file constructed somehow with likely cases where
+   the declension algorithm either is not written or else is believed to
+   be incorrect.  This todo file will change over time.
+   As of 11-17-2019, it contains 2300+ stem-model cases derived by 
+   comparison of the inflection table with the previous 'lgtab1' inflections.
 
-* test of impact of 'pada' logic for m_a
-python decline_file_nopada.py ../inputs/nominals/m_a.txt temp_m_a_nopada.txt
+The redo_nominals.sh script does two things:
+a) constructs a temporary input file temp_stem_model.txt by removing
+   stem_model_todo.txt records from ../inputs/nominals/stem_model.txt.
+   python3 stem_model_diff.py ../inputs/nominals/stem_model.txt stem_model_todo.txt temp_stem_model.txt
+b) Constructs inflection table ../outputs/nominals/stem_model_tab.txt from 
+   temp_stem_model.txt.
+   python3 decline_file.py  temp_stem_model.txt ../outputs/nominals/stem_model_tab.txt
 
-* TODO comp_fflex2.py discuss
-  compare inflections with fflex2
-We can access lgtab1b declensions from the sqlite files in fflex2.
-This is available at /c/xampp/htdocs/cologne/fflex2/sqlite/lgtab1b.sqlite.
+# temp_analysis
+contains various analyses -- poorly documented.
 
-fields are
- inflinfo  (primary key).   Sample formats rAma,m_a   anu-zwuB,f_B  
- infltab   declension table, in x1:...:x24 format
-
-Since fflex2 was based on prior work, the key2 and model parameters of fflex2 will 
-sometimes differ from those used in this version.  We'll take this into account
-as instances emerge.  We'll put comparisons into compfflex2 directory.
-For convenience, we'll use a copy of the sqlite file:
- cp /c/xampp/htdocs/cologne/fflex2/sqlite/lgtab1b.sqlite compfflex2/
-
-* TODO m_a declension compare fflex2
-python comp_fflex2.py ../outputs/nominals/m_a.txt  compfflex2/lgtab1b.sqlite compfflex2/temp_m_a_ok.txt  compfflex2/m_a_notfound.txt compfflex2/m_a_diff.txt
-
-Mon, Oct 01, 2018  4:06:19 PM
-(72067, 'written to', 'compfflex2/temp_m_a_ok.txt')
-(15115, 'written to', 'compfflex2/m_a_notfound.txt')
-(182, 'written to', 'compfflex2/m_a_diff.txt')
-
-The differences probably are due to 'nR-sandhi' implementation.
-
-* model = n_a
-python decline_file.py ../inputs/nominals/n_a.txt ../outputs/nominals/n_a.txt 
-
-* model = f_A
-python decline_file.py ../inputs/nominals/f_a1.txt ../outputs/nominals/f_a1.txt 
-
-* model = f_I
-python decline_file.py ../inputs/nominals/f_i1.txt ../outputs/nominals/f_i1.txt 
 
