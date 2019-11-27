@@ -7,23 +7,22 @@ class Rec(object):
  def __init__(self,line):
   line = line.rstrip('\r\n')
   self.line = line
-  self.model,self.stem,self.refstr,self.infldata_str = line.split('\t')
-  refs = self.refstr.split(':')
+#  self.model,self.stem,self.refstr,self.infldata_str = line.split('\t')
+  self.model1,self.root,self.refstr,self.base,self.infldata_str = line.split('\t')
   self.match = False
   self.equal1 = False
-  self.Lnums = []
-  self.keys = []
-  for refstr in refs:
-   L,key1 = refstr.split(',')
-   self.Lnums.append(L)
-   self.keys.append(key1)
+  self.Lnums = self.refstr.split(',')
+  self.keys = [self.root for L in self.Lnums]
   self.Lnum0 = min([float(L) for L in self.Lnums])
-  stem1 = self.stem.replace('-','')
-  model = self.model
-  self.key =  model + '+' + stem1
+  self.theclass,self.voice,self.tense = self.model1.split(',')
+  if (self.theclass == '_') and (self.voice == 'p'):
+   self.model = '%s-%s' % (self.tense,self.voice)
+  else:
+   self.model = '%s-%s%s' %(self.tense,self.theclass,self.voice)
+  self.key =  self.model1 + '+' + self.base
   self.infltab = parse_infldata(self.infldata_str)
   if len(self.infltab) not in [9]:
-   print('Rec error: ',line)
+   print('vlgtab1 make_input.py: Rec error: ',line)
    exit(1)
 
 def parse_infldata(s):
@@ -51,7 +50,7 @@ if __name__ == "__main__":
       d[infl]=True
    inflitems = d.keys()
    for inflitem in inflitems:
-    out = "%s\t%s\t%s" %(inflitem,rec.model,rec.stem)
+    out = "%s\t%s\t%s" %(inflitem,rec.model,rec.base)
     fout.write(out + '\n')
     nout = nout + 1
  fout.close()

@@ -1,4 +1,0 @@
-92231.1	dyu	dyu	m:n
-92231.2	dyu	dyu	m
-;
-20448	asakO	asakO	m:f

@@ -5,7 +5,7 @@ CREATE TABLE vlgtab1 (
  data TEXT NOT NULL
 );
 .separator "\t"
-.import ../../outputs/verbs/stem_model_tab.txt vlgtab1
+.import temp_input.txt vlgtab1
 #create index datum on vlgtab1(key);
 pragma table_info (vlgtab1);
 select count(*) from vlgtab1;

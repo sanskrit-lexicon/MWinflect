@@ -10,23 +10,27 @@ Briefly, the sqlite files are:
   * model  the model code
   * descr  description of model
   * ref    reference to page in Kale, in form 'Kale N'
-* lgtab1.sqlite - records from the outputs/nominals/stem_model.txt.
+* lgtab1.sqlite - nominals/pysanskritv2/tables/calc_tables.txt
+  Declension tables.
   NOTE: We (probably) assume that model-stem duplicates are removed.
   * model 
   * stem
   * refs  - MW sources
-  * data  - inflection table (1 for model='ind', 24 for other models)
+  * data  - inflection table (1 item for model='ind', 24 items for other models)
 * lgtab2.sqlite 
-  * key -- an inflected form 
-  * model
-  * stem 
-* vlgtab1.sqlite - records from the outputs/verbs/stem_model.txt.
+  * key -- a declined form (one of the 24); or an indeclineable form
+           i.e. one of the items appearing in the 'data' portion of lgtab1.
+  * model  same as in lgtab1
+  * stem   same as in lgtab1
+* vlgtab1.sqlite - verbs/pysanskritv2/tables/calc_tables.txt
+  Conjugation tables
   NOTE: We (probably) assume that model-stem duplicates are removed.
   * model 
   * stem
   * refs  - MW sources
-  * data  - inflection table (9)
+  * data  - inflection table (9 items)
 * vlgtab2.sqlite 
-  * key -- an inflected form 
-  * model
-  * stem 
+  * key -- a conjugated form (one of the 9); 
+           i.e. one of the items appearing in the 'data' portion of vlgtab1.
+  * model  same as in vlgtab1
+  * stem   same as in vlgtab1

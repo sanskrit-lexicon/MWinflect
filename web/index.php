@@ -1,14 +1,13 @@
 <?php
 error_reporting( error_reporting() & ~E_NOTICE );
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE html>
 <html>
  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>inflected form lookup</title>
     <link rel="stylesheet" href="main.css" type="text/css"/>
 
-  <script type="text/javascript" src="/mwquery/ajax.js"> </script>
   <script type="text/javascript" src="main.js"> </script>
  </head>
  <body  onload='loadFcn();'>
@@ -16,12 +15,8 @@ error_reporting( error_reporting() & ~E_NOTICE );
  <table width="100%">
    <tr>
     <td>
-      <img id="unilogo" src="/images/cologne_univ_seal.gif"
+      <img id="unilogo" src="unilogo.gif"
            alt="University of Cologne" width="60" height="60" />
-    </td>
-    <td>
-      <img id="shield" src="/images/brown_seal.jpg"
-           alt="Brown University" width="40" height="60" />
     </td>
       <td>
       <span style="font-size:larger;">inflected forms</span>

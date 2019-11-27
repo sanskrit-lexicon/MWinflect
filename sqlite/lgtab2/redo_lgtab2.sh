@@ -1,6 +1,6 @@
 dbname="lgtab2"
 dbfile="$dbname.sqlite"
-smfile="../../outputs/nominals/stem_model_tab.txt"
+smfile="../../nominals/pysanskritv2/tables/calc_tables.txt"
 if [ -f "$dbfile" ]; then
  rm $dbfile
 fi

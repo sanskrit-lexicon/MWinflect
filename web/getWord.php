@@ -24,7 +24,7 @@ $keyin1 = preprocess_unicode_input($keyin,$filterin);
 $key = transcoder_processString($keyin1,$filterin,"slp1");
 $word = $key;
 $word_slp1=$word;
-$dbg=true;
+#$dbg=true;
 #$dbg=false;
 $info = process1_word($word);
 if ($dbg) {echo "\n<!-- debug info \n";}
@@ -45,15 +45,11 @@ for($i=0;$i<count($info);$i++) {
  $inflstr = $y[3]; #inflection string
 
  dbgprint($dbg,"{$table}1: $model1  $stem1  $refstr\n  $inflstr\n");
- # $stem =  $
- #dbgprint($dbg,"y=$y\n");
- #preg_match_all("/<form>([^ ]+) +$model +(.*?)<\/form>/",$y,$matches);
  
  if ($dbg) {echo "$table:$i: $xtext\n";}
  $nmatches = count($matches[0]);
-  $citation = preg_replace('/-/','',$stem); # ok for nouns. What about verbs?
+  $citation = get_citation($table,$stem,$refstr);
   $form = $inflstr;
-  #if ($dbg) {echo "   $imatch:  $citation, form=$form\n";}
   $pn = lgtab_pn($key,$model,$form);
   if ($dbg) {echo "   $pn\n";}
   # set $id to first Lnum in refstr
@@ -74,14 +70,7 @@ $ans2 = "";
 $info2 = array();
 $info2vals=array();
 foreach($info1 as $info) {
-// list($key,$model,$detail,$formin,$id,$refstr) = $info;
-// $formdata = "$key $model $formin";
-// list($stem,$model,$formlist) = preg_split('/ /',$formdata);
  list($citation,$model,$detail,$formlist,$id,$refstr) = $info;
- //$idref = getidref($id);
- //$mwkey1_slp = getMonierKey1($idref);  // in native (slp) transliteration
- // Not available currently
- //$mwkey1_slp = '??';
  $mwkey1_slp = $citation;
  $info2arr=array($citation,$model,$detail,$formlist,$mwkey1_slp);
  $info2val = join(',',$info2arr);
@@ -102,20 +91,26 @@ echo "<disp1>\n";  // separator for ajax caller
 echo "$ans2\n";
 exit; 
 
+function get_citation($table,$stem,$refstr){
+ # refstr: citation1,Lnum1:citation2,Lnum2
+ # $table = 'lgtab' or 'vlgtab'
+ if ($table =='lgtab') {
+  $citation = preg_replace('/-/','',$stem); # ok for nouns.
+ }else  {
+  $a = preg_split('/:/',$refstr);
+  list($L,$citation) = preg_split('/,/',$a[0]);
+ }
+ return $citation;
+}
 function process1_word($word) {
-    $dbg = true;
+    #$dbg = true;
     $info=array();
     $tables  = array("lgtab","vlgtab");
-    # $tables = array("lgtab");   
     for($itable=0;$itable<count($tables);$itable++) {
      $table=$tables[$itable];
      $table2=$table . "2";
      $table1=$table . "1";
      $xarr = process_word($word,$table2);
-     #if ($itable == 1) {
-      dbgprint($dbg,"process1_word. $table2. $word has " . count($xarr) . " entries\n");
-     #}
-     #dbgprint($dbg,"process_word:$word\n");
      for($i=0;$i<count($xarr);$i++) {
       $x = $xarr[$i];
       $model = $x[1];
@@ -191,7 +186,7 @@ function display_info($info,$n) {
  $x = sprintf("%03d",$n);
  $lb="#";
  $formdata = "$key $model $formin";
- dbgprint(true,"display_info: key=$key\n");
+ #dbgprint(true,"display_info: key=$key\n");
  $temp = display_lgtab1($key,$detail,$formdata,$n);
  return $temp;
 }
@@ -216,10 +211,7 @@ global $filter0,$filterin0,$filterin,$word_slp1;
 	$type = "verb";
     }
     $x = sprintf("%03d",$n);
-    #$idref = getidref($id);
-    #$mwkey1_slp = getMonierKey1($idref);  // in native (slp) transliteration
     $mwkey1_slp = $citation;
-    dbgprint(true,"display_lgtab1: citation=$citation\n");
     $mwkey1 = transcoder_processString($mwkey1_slp,"slp1",$filterin);
     $mwurl = getMonierKey1url($mwkey1,$transLit,$filter);
     $aid = 	"<a class='idinfo' " . 
@@ -360,8 +352,6 @@ function getModelurl($model) {
  $ans="";
  if (count($ansarr) > 0) {
   $line = $ansarr[0];
-  //$result=mysql_query($sql) or die('mysql query failed: ' . mysql_error());
-  #if ($line = mysql_fetch_array($result,MYSQL_NUM)) 
   $data = $line[0];
   if (preg_match('/Kale +([0-9]+)/',$data,$matches)) {
    $page = $matches[1];
@@ -392,7 +382,6 @@ function getParameters_orig() {
  $filter = $_GET['filter'];
  $filterin = $_GET['transLit']; 
  if(!$filterin) {$filterin = $_GET['translit']; }
-// if (! $filter) {$filter = 'SktDevaUnicode';}
  if (! $filterin) {$filterin = 'SLP2SLP';};
  return array($filter,$filterin);
 }

@@ -5,7 +5,7 @@ CREATE TABLE lgtab1 (
  data TEXT NOT NULL
 );
 .separator "\t"
-.import ../../outputs/nominals/stem_model_tab.txt lgtab1
+.import ../../nominals/pysanskritv2/tables/calc_tables.txt lgtab1
 #create index datum on lgtab1(key);
 pragma table_info (lgtab1);
 select count(*) from lgtab1;
