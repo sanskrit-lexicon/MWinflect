@@ -4,30 +4,43 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-**MWinflect** generated Sanskrit declension and conjugation tables for words in the Monier-Williams dictionary. **This repository is superseded by `csl-inflect`** (as of November 2019); active development continues there.
+**MWinflect** is a Sanskrit Lexicon **processing-tool** repository — part of the Cologne Digital Sanskrit Lexicon (CDSL) infrastructure.
 
-## Architecture
+## Repo Category
 
-| Directory | Purpose |
-|---|---|
-| `verbs/` | Verb conjugation generation (pysanskrit-based) |
-| `nominals/` | Nominal declension generation |
-| `web/` | Web display of inflection tables |
-| `transcode/` | Transcoding utilities for inflection output |
-| `sqlite/` | SQLite storage for inflection tables |
+`processing-tool` — see the [tooling runbook](https://github.com/sanskrit-lexicon/csl-observatory/blob/main/runbook/cologne-tooling-runbook.md) for category-specific conventions.
 
-### Pipeline overview
+## GitHub Issue Conventions
 
-1. Extract stem-model pairs from MW1899 digitization
-2. For each stem+model: generate inflected forms using pySanskrit
-3. Store in SQLite; serve via web display
+This repository uses the **Cologne tooling-repo taxonomy**. All issues must have:
+- **Exactly one type label** (9 options)
+- **Exactly one severity label** (4 levels)
+- **One milestone** (5 options)
 
-### Migration note
+### Type Labels
+- `bug` — Code defect (wrong output, broken contract)
+- `feature` — Net-new capability
+- `enhancement` — Improvement to existing capability
+- `performance` — Speed, memory, throughput optimization
+- `tech-debt` — Refactoring, cleanup, dependency updates
+- `security` — CVE, auth issue, credential exposure
+- `documentation` — Prose docs, API docs, comments
+- `infrastructure` — CI/CD, deploy, data pipelines, build tooling
+- `question` — Research, proposals, open discussions
 
-All active work has moved to the `csl-inflect` repository. This repo is archived reference material.
+### Severity Labels
+- `trivial` — Cosmetic, < 1 hour
+- `minor` — Single function/component
+- `major` — Multiple files, design decision
+- `critical` — Blocks users, data loss/security CVE
 
-## Dependencies
+### Milestones
+- **API Stability** — performance, security, regressions
+- **User Experience** — bugs, features, enhancements
+- **Data Quality** — data-pipeline issues, integrity
+- **Developer Experience** — tech-debt, infrastructure, docs
+- **Community** — questions, proposals, discussions
 
-- **Python 3**
-- **pySanskrit** — Sanskrit morphology library
-- **MW dictionary** source from `csl-orig`
+## Cross-Repo Coordination
+
+The org-level project [Tooling Roadmap](https://github.com/orgs/sanskrit-lexicon/projects/9) tracks tool work across all repositories.
