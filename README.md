@@ -1,6 +1,6 @@
 # MWinflect
 
-_Created: 16-10-2018 · Last updated: 05-07-2026_
+_Created: 16-10-2018 · Last updated: 11-07-2026_
 
 The Monier-Williams 1899 dictionary (MW1899) lists headwords, not full
 paradigms — a learner or a downstream tool that needs "what does *akasmāt*
@@ -14,18 +14,18 @@ form→lemma layer) needs to work at all.
 
 | Path | Role |
 |---|---|
-| [nominals/](nominals) | Declension pipeline — `pydecl` (rewrite of [funderburkjim/elispsanskrit](https://github.com/funderburkjim/elispsanskrit) `pysanskritv1`) + `pysanskritv2` (identifies nominals, picks stem models, computes declensions) |
-| [verbs/](verbs) | Conjugation pipeline — `pysanskritv2` (current, mines bases from `pysanskritv1/test2.py` then applies simplified algorithms), `pysanskritv1` (ported from elispsanskrit), `pysanskrit_work` (incomplete rewrite attempt, not currently used) |
-| [sqlite/](sqlite) | Builds the SQLite tables (`lgmodel`, `lgtab1/2`, `vlgtab1/2`) from the computed tables |
-| [redo.sh](redo.sh) | Top-level driver: runs nominals → verbs → sqlite in sequence |
-| [web/](web) | Web-facing display of the inflection tables |
-| [transcode/](transcode) | Transliteration helpers |
-| [licenses/](licenses) | Third-party license texts |
+| [nominals/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/nominals) | Declension pipeline — `pydecl` (rewrite of [funderburkjim/elispsanskrit](https://github.com/funderburkjim/elispsanskrit) `pysanskritv1`) + `pysanskritv2` (identifies nominals, picks stem models, computes declensions) |
+| [verbs/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/verbs) | Conjugation pipeline — `pysanskritv2` (current, mines bases from `pysanskritv1/test2.py` then applies simplified algorithms), `pysanskritv1` (ported from elispsanskrit), `pysanskrit_work` (incomplete rewrite attempt, not currently used) |
+| [sqlite/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/sqlite) | Builds the SQLite tables (`lgmodel`, `lgtab1/2`, `vlgtab1/2`) from the computed tables |
+| [redo.sh](https://github.com/sanskrit-lexicon/MWinflect/blob/main/redo.sh) | Top-level driver: runs nominals → verbs → sqlite in sequence |
+| [web/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/web) | Web-facing display of the inflection tables |
+| [transcode/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/transcode) | Transliteration helpers |
+| [licenses/](https://github.com/sanskrit-lexicon/MWinflect/tree/main/licenses) | Third-party license texts |
 
 ## Usage example — executed, real output
 
 The full pipeline is one script, read directly from
-[redo.sh](redo.sh):
+[redo.sh](https://github.com/sanskrit-lexicon/MWinflect/blob/main/redo.sh):
 
 ```bash
 sh redo.sh   # runs nominals/redo.sh, then verbs/redo.sh, then sqlite/redo.sh
@@ -70,14 +70,14 @@ Follows the [Cologne tooling-repo taxonomy](https://github.com/sanskrit-lexicon/
 - **Domain labels** scoped to processing-tool: `domain:morphology`, `domain:normalization`, `domain:lookup`
 - **Org Project**: [Tooling Roadmap](https://github.com/orgs/sanskrit-lexicon/projects/9)
 
-See [CLAUDE.md](CLAUDE.md) for full definitions.
+See [CLAUDE.md](https://github.com/sanskrit-lexicon/MWinflect/blob/main/CLAUDE.md) for full definitions.
 
 ## License
 
 This repository contains both source code and dictionary/data files, licensed separately:
 
-- **Source code** (`*.py`, `*.php`, `*.js`, `*.sh`) — GNU General Public License v3.0, see [licenses/GPL-3.0.txt](licenses/GPL-3.0.txt).
-- **Dictionary and data files** — Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0), see [LICENSE](LICENSE).
+- **Source code** (`*.py`, `*.php`, `*.js`, `*.sh`) — GNU General Public License v3.0, see [licenses/GPL-3.0.txt](https://github.com/sanskrit-lexicon/MWinflect/blob/main/licenses/GPL-3.0.txt).
+- **Dictionary and data files** — Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0), see [LICENSE](https://github.com/sanskrit-lexicon/MWinflect/blob/main/LICENSE).
 
 ---
 
