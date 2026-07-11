@@ -3,6 +3,10 @@
 CDSL **processing-tool** repository in the Sanskrit Lexicon project.
 Generates declensions and conjugations for words in the MW1899 dictionary.
 
+## Documentation
+
+- [docs/GENERATION_MANUAL.md](docs/GENERATION_MANUAL.md) — **operator manual**: the four-stage generation chain (nominals → verbs → sqlite → web), single-stage reruns, the divergence map against csl-inflect, symptom→cause→cure.
+
 ## Tech Stack
 
 - **Runtime**: Python 3
