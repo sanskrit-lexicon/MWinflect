@@ -49,6 +49,45 @@ the committed scripts.
 - Refreshing the committed MW-derived inputs (lexnorm-all2, verb_cp_orig,
   mw_genuine_roots) is upstream (MWlexnorm / csl-orig) work, out of scope.
 
+## Intended use / known misuse
+
+- **Intended use:** operator reference for rebuilding MWinflect's declension/
+  conjugation tables (the four-stage `redo.sh` chain), diagnosing a stage
+  failure via §5's symptom table, and deciding whether an engine fix also
+  belongs in [csl-inflect](https://github.com/sanskrit-lexicon/csl-inflect)
+  (§2's divergence table, §7's fix-here-or-there rule). Also the reference
+  for triaging the per-model coverage issue backlog (§7).
+- **Known misuse:** do not treat this manual as documentation of verb-tense
+  *coverage* beyond `root_model.py` modes 1–2 (present-system core) —
+  per-tense batteries (aorist, perfect, future, etc.) are csl-inflect
+  territory and are out of scope here (§2, Known limitations). Do not hand-
+  edit any `calc_*` output expecting it to persist — every stage regenerates
+  its `calc_*` files wholesale (§5, §6 glossary); fix the upstream input or
+  script instead. Do not run `sh redo.sh` unmodified for the verb stage and
+  trust the result without reading §5 row 1 — the driver's `inputs bases
+  models tables` order is a known ordering defect that can silently consume
+  stale `calc_models.txt`.
+
+## Maintenance & sunset plan
+
+- **Trigger for update:** any change to a `redo.sh` driver's stage order or
+  script set, a fix ported between MWinflect and csl-inflect (§7's
+  fix-here-or-there rule), or resolution of any of the five §7 observed
+  defects — update both the manual and this metadoc's revision history in
+  the same pass.
+- **Owner:** whoever last substantively edits `docs/GENERATION_MANUAL.md`
+  (currently the H501–H531 per-repo manuals programme); no dedicated
+  maintainer role beyond the general MWinflect issue-taxonomy triage
+  (see [CLAUDE.md](https://github.com/sanskrit-lexicon/MWinflect/blob/main/CLAUDE.md)).
+- **Sunset condition:** this manual retires only if MWinflect's engines are
+  fully absorbed into csl-inflect and the pipeline stops being run
+  standalone from this repo — not currently planned; both repos are active
+  and diverge deliberately (§2).
+
+## Deprecation status
+
+`active`
+
 ## Related documents
 
 - [README.md](https://github.com/sanskrit-lexicon/MWinflect/blob/main/README.md) — repo overview + license split (GPL-3.0 code / CC-BY-SA-4.0 data)
@@ -61,6 +100,7 @@ the committed scripts.
 | Date | Change | By |
 |---|---|---|
 | 11-07-2026 | Initial version (H511) | Fable 5 (`claude-fable-5`) |
+| 11-07-2026 | template v2 backfill (H663) | Sonnet 5 (`claude-sonnet-5`) |
 
 ---
 
