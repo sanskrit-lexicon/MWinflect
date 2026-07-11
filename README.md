@@ -10,6 +10,10 @@ which declension/conjugation model and stem each one uses, and generates the
 full inflection tables — the data an inflected-form lookup (e.g. kosha's
 form→lemma layer) needs to work at all.
 
+## Documentation
+
+- [docs/GENERATION_MANUAL.md](https://github.com/sanskrit-lexicon/MWinflect/blob/main/docs/GENERATION_MANUAL.md) — **operator manual**: the four-stage generation chain (nominals → verbs → sqlite → web), single-stage reruns, the divergence map against csl-inflect, symptom→cause→cure.
+
 ## Structure
 
 | Path | Role |
