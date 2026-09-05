@@ -1,3 +1,5 @@
+_Created: 18-11-2019 · Last updated: 05-09-2026_
+
 # csl-inflect/sqlite
 
 Scripts to construct various sqlite database files related to inflections.
@@ -34,3 +36,5 @@ Briefly, the sqlite files are:
            i.e. one of the items appearing in the 'data' portion of vlgtab1.
   * model  same as in vlgtab1
   * stem   same as in vlgtab1
+
+_Dr. Mārcis Gasūns_

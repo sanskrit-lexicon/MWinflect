@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 
 # pysanskritv2
 
@@ -73,3 +75,5 @@ The result is the table of conjugational forms.
 
 
   
+
+_Dr. Mārcis Gasūns_

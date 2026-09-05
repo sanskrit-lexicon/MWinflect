@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 
 # pysanskritv1
 
@@ -70,3 +72,4 @@ Conjugation of 1,a,pre BU
 |2p|Bavasi|BavaTaH|BavaTa|
 |1p|BavAmi|BavAvaH|BavAmaH|
 
+_Dr. Mārcis Gasūns_

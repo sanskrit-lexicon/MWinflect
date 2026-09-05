@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 # declension tables
 
 Scripts and programs to generate inflection tables and check the results.
@@ -89,3 +91,4 @@ Declension of m_a rAma
 This contain inflections (using decline_one.py) that have been checked
 and agree with various published declensions.
 
+_Dr. Mārcis Gasūns_

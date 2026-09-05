@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 
 # verbs
 The script 'redo.sh' does all the computations necessary to rebuild
@@ -23,3 +25,4 @@ pysanskrit_work is intended for a  rewrite of conjugation algorithms of
   IT IS INCOMPLETE and is not currently used elsewhere.
   Perhaps it may be continued at some future time.
 
+_Dr. Mārcis Gasūns_

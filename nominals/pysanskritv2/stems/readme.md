@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 # stems for nominals
 
 calc_stems.txt is the main input to the nominal inflections (in ../tables)
@@ -62,3 +64,4 @@ These are in these files
 This contains miscellaneous notes prepared to aid in the stem-model
 classification.
 
+_Dr. Mārcis Gasūns_

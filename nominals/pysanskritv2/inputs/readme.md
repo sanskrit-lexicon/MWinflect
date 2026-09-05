@@ -1,3 +1,5 @@
+_Created: 16-10-2018 · Last updated: 05-09-2026_
+
 # inputs for nominals
 
 
@@ -73,3 +75,5 @@ classification.
 ## data_aYc.py and data_vas.py
 These two python code files are used indirectly by stem_model.py,
 namely by the imported 'decline' module.
+
+_Dr. Mārcis Gasūns_

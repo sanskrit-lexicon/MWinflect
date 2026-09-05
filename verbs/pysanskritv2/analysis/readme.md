@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 
 # pysanskritv2/analysis
 
@@ -86,3 +88,5 @@ v1: eKat:eKatAm:eKan:eKaH:eKatam:eKata:eKam:eKAva:eKAma
 v2: EKat:EKatAm:EKan:EKaH:EKatam:EKata:EKam:EKAva:EKAma
 ```
 In this case, the v2 version looks right for the imperfect.  
+
+_Dr. Mārcis Gasūns_

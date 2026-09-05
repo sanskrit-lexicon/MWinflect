@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 # nominals/pysanskritv2
 
 The identification and declension of nominals (and indeclineables) proceeds
@@ -12,3 +14,5 @@ Each of these subdirectories has further details in `readme.md` files.
 ## redo.sh
 This script goes through all the steps needed to calculate declensions.
 The final result is tables/calc_tab.txt.
+
+_Dr. Mārcis Gasūns_

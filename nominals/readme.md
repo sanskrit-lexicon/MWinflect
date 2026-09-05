@@ -1,3 +1,5 @@
+_Created: 26-11-2019 · Last updated: 05-09-2026_
+
 # Nominals
 
 Contains code and data for declensions of nominals, and for indeclineables.
@@ -15,3 +17,4 @@ to use for declension, and computes the declensions.
 Does all necessary computations for declensions.  The result
 is file `pysanskritv2/tables/calc_tab.txt`.
 
+_Dr. Mārcis Gasūns_

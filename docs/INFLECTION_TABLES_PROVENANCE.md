@@ -50,3 +50,5 @@ well under a minute to regenerate from scratch.
 `MWinflect/…/tables/calc_tables.txt` (96 MB) → **generated, recipe
 documented, safe to exclude from any backup/dedup pass** — it reproduces
 byte-for-byte from `calc_stems.txt` via `decline_file.py` in under a minute.
+
+_Dr. Mārcis Gasūns_
