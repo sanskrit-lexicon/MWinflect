@@ -21,7 +21,7 @@ divergence map against csl-inflect (which shares and extends this skeleton).
 ## Provenance
 
 Authored 11-07-2026 by Fable 5 (`claude-fable-5`) under handoff
-[H511-Fable_MWinflect_generation_pipeline_manual_10.07.26](https://github.com/gasyoun/Uprava/blob/main/handoffs/H511-Fable_MWinflect_generation_pipeline_manual_10.07.26.md)
+[H511-Fable_MWinflect_generation_pipeline_manual_10.07.26](https://github.com/gasyoun/Uprava/blob/main/handoffs/archive/H511-Fable_MWinflect_generation_pipeline_manual_10.07.26.md)
 (the H501–H531 per-repo manuals programme, Litpam-Indexator MANUAL.md gold
 standard). Every command read from the actual `redo.sh` chain and stage
 scripts; the csl-inflect comparison drawn against its
