@@ -1,5 +1,5 @@
-cd stems
+cd stems || exit 1
 sh redo.sh
 cd ../
-cd tables
+cd tables || exit 1
 sh redo.sh
